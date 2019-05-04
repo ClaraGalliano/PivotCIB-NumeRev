@@ -50,14 +50,33 @@ with codecs.open("DonneesThese.csv", "a", 'utf8') as SavFic:
                                     resume = donnee['#text']
                                     langue =  donnee['@xml:lang'] 
                                 else:
+                                    resume = ""
+                                    langue = "fr"
                                     pass
                         Categorie = IPCCategorizer(resume, langue)
-                        Predict = IPCExtractPredictions(Categorie, Seuil)
+                        if Categorie is not None:
+                            Predict = IPCExtractPredictions(Categorie, Seuil)
+                        else:
+                            Predict= ""
                         Titre = data['rdf:RDF']['bibo:Thesis']['dc:title']
                         Date = data['rdf:RDF']['bibo:Thesis']['dc:date']
+                        if Date is None:
+                            Date =""
+                        if resume is None:
+                            resume = ""
+                        if Titre is None:
+                            Titre=""
+                        if  thz['discipline'] is None:
+                             thz['discipline'] =""
+                        if langue is None:
+                            langue =""
+                            
                         ligneCsv = thz['num'] + ';' + thz['discipline'] + ';' + Date + ';'  + langue  + ';' + Titre  + ';' +resume  +';'   
-                        for predict in Predict:
-                            ligneCsv += predict['category']+';' + predict['score'] + ';'
+                        if Predict is not None:
+                            for predict in Predict:
+                                ligneCsv += predict['category']+';' + predict['score'] + ';'
+                        else:
+                             ligneCsv += 'Néant;0;;;;;;;;;'   
                         ligneCsv += '\n'
                         SavFic.write(ligneCsv)
                         #creation d'un dico pour export Json
