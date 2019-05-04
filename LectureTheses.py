@@ -7,70 +7,112 @@ Created on Tue Feb 02 13:36:47 2016
 """
 import requests
 import time
-with open ('ScrapThese4.csv', 'r') as fichier:
-    donnees = fichier.readlines()
+import json
+import xmltodict
+from IPCCat_lib import IPCCategorizer, IPCExtractPredictions
+import codecs
+
+with open('ScrapThese.json', 'r') as ficSrc:
+    donnees = json.load(ficSrc)
   
-these = dict()
-import cPickle as pickle
-
-for thz in donnees[1:]:
-    try:    
-        decoupThz = thz.replace('"', '').split(";")
-        
-        IdThese = decoupThz[13]
-        these [IdThese] = dict()
-        these [IdThese]['Auteur'] = decoupThz[0]
-        these [IdThese]['IdAuteur'] = decoupThz[1]
-        these [IdThese]['Titre'] = decoupThz[2]
-        these [IdThese]['DirecteurThese'] = decoupThz[4].split(',')
-        these [IdThese]['Identifiant directeur'] = decoupThz[5].split(',')
-        these [IdThese]['Etablissement'] = decoupThz[6]
-        these [IdThese]['IdEtablissement'] = decoupThz[7]
-        these [IdThese]['Discipline'] = decoupThz[8]
-        these [IdThese]['Soutenue'] = decoupThz[9]
-        
-        these [IdThese]['DateS'] = decoupThz[11] 
-        these [IdThese]['LangueThese'] = decoupThz[12]
-    except:
-        pass
-        print ("Ignored :"), thz
 urlBase = 'http://www.theses.fr/'
-cpt = 0
-maxi = len(these.keys())
-DejaVu = []
-try:
-    with open("DonneesThez4.pkl", "r") as DoneFic:
-        while 1:
-            try:
-                temp = pickle.load(DoneFic)
-                DejaVu .append(temp[0])
-                
-            except EOFError:
-                break
-except:
-    pass
-with open("DonneesThez4.pkl", "a") as SavFic:
- 
-    for IdThese in these.keys():
-        if these [IdThese]['LangueThese']=='fr' and IdThese not in DejaVu:
-            cpt+=1
-            print (cpt), " sur ", str(maxi)
-            
-            urlThz = urlBase + IdThese
-            page = requests.get(urlThz)
-            try:
-                indice = page.text.index('<span property="dc:description" xml:lang="fr">')
-                indice2 = page.text[indice:].index('</span') + indice 
-                resume = page.text[indice:indice2]
-                these [IdThese]['resume'] = resume
-                time.sleep(1)
-                pickle.dump([IdThese, these[IdThese]], SavFic)
-                DejaVu .append(IdThese)
-            except:
-                pass
-    
 
-   
+cpt = 0 # nb de données de thz
+cpt2 = 0 # thz traitées
+inconsist = 0 #inconsistance des donnees bibli
+Seuil = 0
+LstTZ = []
+with codecs.open("DonneesThese.csv", "w", 'utf8') as SavFic:
+    #ecriture de l'entête du csv
+    SavFic.write('Id;Discipline;Date;Langue;Titre;Résumé;IPC1;ScoreIPC1;IPC2;ScoreIPC2;IPC3;ScoreIPC3;IPC4;ScoreIPC4;IPC5;ScoreIPC5;\n')
+with codecs.open("DonneesThese.csv", "a", 'utf8') as SavFic:
+    for thz in donnees:
+        cpt +=1
+        time.sleep(3)
+        urlThz = urlBase + thz['num']+ '.xml'
+        page = requests.get(urlThz)
+        THZ = dict()
+        if page.ok:
+            data = xmltodict.parse(page.text)
+            if  'rdf:RDF' in data.keys():
+                if 'bibo:Thesis' in data['rdf:RDF'].keys():
+                    if 'dcterms:abstract' in data['rdf:RDF']['bibo:Thesis'].keys():
+                        cpt2 +=1
+                        if isinstance(data['rdf:RDF']['bibo:Thesis']['dcterms:abstract'], dict):
+                            resume = data['rdf:RDF']['bibo:Thesis']['dcterms:abstract']['#text']
+                            langue = data['rdf:RDF']['bibo:Thesis']['dcterms:abstract']['@xml:lang']
+                        else:
+                            for donnee in data['rdf:RDF']['bibo:Thesis']['dcterms:abstract']:
+                                if donnee['@xml:lang'] =='fr': #priorité FR
+                                    resume = donnee['#text']
+                                    langue =  donnee['@xml:lang']          
+                                elif donnee['@xml:lang'] =='en':
+                                    resume = donnee['#text']
+                                    langue =  donnee['@xml:lang'] 
+                                else:
+                                    pass
+                        Categorie = IPCCategorizer(resume, langue)
+                        Predict = IPCExtractPredictions(Categorie, Seuil)
+                        Titre = data['rdf:RDF']['bibo:Thesis']['dc:title']
+                        Date = data['rdf:RDF']['bibo:Thesis']['dc:date']
+                        ligneCsv = thz['num'] + ';' + thz['discipline'] + ';' + Date + ';'  + langue  + ';' + Titre  + ';' +resume  +';'   
+                        for predict in Predict:
+                            ligneCsv += predict['category']+';' + predict['score'] + ';'
+                        ligneCsv += '\n'
+                        SavFic.write(ligneCsv)
+                        #creation d'un dico pour export Json
+                       
+#                        THZ['Id'] =thz['num']
+#                        THZ['Titre'] = Titre
+#                        THZ['Resumé'] = resume
+#                        THZ['Langue'] =langue
+#                        THZ['Date'] =  Date
+#                        THZ ['Discipline'] = thz['discipline']
+#                        for predict in Predict:
+#                            THZ[predict['category']] = predict['score']#predict['score']}
+#                            if predict['rank'] == 1:
+#                                THZ['FirstCatIPC'] = predict['category']
+#                            else: 
+#                                print(predict['rank'])
+#                        #THZ['Predict'] = [(predict['category'], predict['score']) for predict in Predict]
+#                        LstTZ.append(THZ)
+                        
+                    #   'dcterms:language', 'dcterms:abstract', 'dc:subject', 'dcterms:subject', 'marcrel:aut', 'marcrel:ths', 'marcrel:dgg'])
+                    else:
+                        inconsist +=1
+                else:
+                        inconsist +=1
+            else:
+                        inconsist +=1
+        else:
+                        inconsist +=1
+#with open("DonneesThese.json", "w") as SavJson:                        
+#    SavJson.write(json.dumps(LstTZ))
+    
+print ("nombre d'enregistrement de thèses traitées ", cpt)                 
+print ("nombre de thèses traitées ", cpt2)                 
+print ("nombre de thèses inconsistantes ", inconsist)        
+
+#    for IdThese in these.keys():
+#        if these [IdThese]['LangueThese']=='fr' and IdThese not in DejaVu:
+#            cpt+=1
+#            print (cpt), " sur ", str(maxi)
+#            
+#            urlThz = urlBase + IdThese
+#            page = requests.get(urlThz)
+#            try:
+#                indice = page.text.index('<span property="dc:description" xml:lang="fr">')
+#                indice2 = page.text[indice:].index('</span') + indice 
+#                resume = page.text[indice:indice2]
+#                these [IdThese]['resume'] = resume
+#                time.sleep(1)
+#                pickle.dump([IdThese, these[IdThese]], SavFic)
+#                DejaVu .append(IdThese)
+#            except:
+#                pass
+#    
+#
+#   
 #
 #with open("TheseIramuteq.txt", "w") as ficRes:
 #    for IdThese in these.keys():

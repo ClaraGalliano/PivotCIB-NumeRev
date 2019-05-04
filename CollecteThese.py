@@ -7,14 +7,31 @@ Created on Wed Feb 03 09:57:51 2016
 
 import requests
 import time
+import json
 
+requete='eau'
 Res = ''
-for param in range(1, 3000, 1000):
-    url='http://www.theses.fr/?q=%22Econometrie%22&start='+str(param)+'&format=csv'
-    page = requests.get(url)
-    time.sleep(4)
-    Res+= page.text.replace('\n\n', '\n')
+time.sleep(3)
+param = 0
+url = "http://theses.fr/fr/?q=&zone1=abstracts&val1=eau&op1=AND&zone2=auteurs&val2=&op2=AND&zone3=etabSoutenances&val3=&op3=AND&zone4=dateSoutenance&val4a=&val4b=&start="+str(param)+"&format=json"
+page = requests.get(url)
 
-with open('ScrapThese4.csv', 'w') as ficRes:
-    ficRes.write(Res)
-    
+if page.ok:
+    reponse = page.json()
+    if reponse['response']['numFound']>1000:
+        docs = reponse['response']['docs']
+        for param in range(10, reponse['response']['numFound'], 10):
+            url = "http://theses.fr/fr/?q=&zone1=abstracts&val1=eau&op1=AND&zone2=auteurs&val2=&op2=AND&zone3=etabSoutenances&val3=&op3=AND&zone4=dateSoutenance&val4a=&val4b=&start="+str(param)+"&format=json"
+            page = requests.get(url)
+            if page.ok:
+                reponse = page.json()
+                docs.extend(reponse['response']['docs'])
+            else:
+                print ('pas bon là')
+            time.sleep(3)
+else:
+    print ("vous devriez changer la requête")
+
+
+with open('ListeThese.json', 'w') as ficRes:
+    json.dump(docs, ficRes)
