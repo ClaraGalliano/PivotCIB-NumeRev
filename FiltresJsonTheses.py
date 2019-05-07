@@ -6,51 +6,47 @@ Created on Sat May  4 15:35:57 2019
 """
 import json
 import codecs
-with codecs.open('DonneesTheseTemp.csv', 'r', 'utf8') as ficSrc:
-    donnees = ficSrc.readlines()
-
-LstThz = []
+with open('DonneesThese2.json', 'r', encoding='utf8') as ficSrc:
+    donnees = json.load (ficSrc)
+    
+LstThz = donnees
 LstThz2 = []
-ChampsInitiaux = ['Id','Discipline','Date','Langue','Titre','Résumé','IPC1','ScoreIPC1','IPC2','ScoreIPC2','IPC3','ScoreIPC3','IPC4','ScoreIPC4','IPC5','ScoreIPC5']
-ChampsEpures = ['Discipline','Date','Langue','IPC1', 'ScoreIPC1', 'Titre']
+ChampsInitiaux = ['Id','discipline','Date','Langue','titre','Résumé','IPC1','ScoreIPC1','IPC2','ScoreIPC2','IPC3','ScoreIPC3','IPC4','ScoreIPC4','IPC5','ScoreIPC5']
+ChampsEpures = ['discipline','Date','Langue','CatIPC', 'titre']
 cpt=0
 cptFini=0
-for lig in donnees[1:]:
-    cpt+=1
-    lig= lig.split(';')
-    IndChamp = 0
-    Thz = dict()
-    for Champ in ChampsInitiaux:
-        if len(lig) > len(ChampsInitiaux):
-            Thz[Champ] = lig[IndChamp]
-            IndChamp +=1 
-    if len(lig) > len(ChampsInitiaux):
-        LstThz.append(Thz)
-        cptFini +=1
-    else:
-        print(lig)
+
 print (cpt)
 print (cptFini)
 with codecs.open('DataThese.json', 'w', 'utf8') as ficRes:
     ficRes.write(json.dumps(LstThz))
+evites = 0
 for Thz in LstThz:
     Thz2 = dict()
     
     for cle in Thz.keys():
         if cle in ChampsEpures:
-            if cle == 'IPC1':
-                Thz2['IPC3'] = Thz[cle][0:4]
-                Thz2['IPC7'] = Thz[cle][0:7]
-                Thz2['IPC11'] = Thz[cle]
+            if cle == 'CatIPC': 
+                if "1" in Thz[cle].keys(): # sélection classement le plus important
+                    #hiérarchisation
+                    Thz2['IPC3'] = Thz[cle]["1"][0:4]
+                    Thz2['IPC7'] = Thz[cle]["1"][0:7]
+                    Thz2['IPC11'] = Thz[cle]["1"]
+                else:
+                    pass
             else:
                 Thz2[cle] = Thz[cle]
-    LstThz2.append(Thz2)
+    if 'IPC3' in Thz2.keys():
+        LstThz2.append(Thz2)
+    else:
+        evites += 1
+print ('Theses ignorées', evites)
 with codecs.open('PivotThese.json', 'w', 'utf8') as ficRes:
     ficRes.write(json.dumps(LstThz2))
 
-LstIpc3 = [thz['IPC3'] for thz in LstThz2]
-LstIpc7 = [thz['IPC7'] for thz in LstThz2]
-LstIpc11 = [thz['IPC11'] for thz in LstThz2]
+LstIpc3 = [thz['IPC3'][0] for thz in LstThz2]
+LstIpc7 = [thz['IPC7'][0] for thz in LstThz2]
+LstIpc11 = [thz['IPC11'][0] for thz in LstThz2]
 
 LstIpc3 = list(set(LstIpc3))
 LstIpc7 = list(set(LstIpc7))
@@ -65,30 +61,46 @@ Hierarchie["name"] = "Eau"
 Hierarchie["children"] = []
 feuilles = dict()
 for thz in LstThz2:
-    feuilles['name'] = thz['Titre'].title().replace(' ', '')
-    feuilles['value'] = int(thz['ScoreIPC1'])
-    if thz['IPC11'] in NiveauIPC11.keys():
-        NiveauIPC11[thz['IPC11']].append(feuilles)
+    #le bout des feuilles
+    feuilles['name'] = thz['titre'].title().replace(' ', '')
+    feuilles['value'] = int(thz['IPC11'][1])
+    if thz['IPC11'][0] in NiveauIPC11.keys():
+        NiveauIPC11[thz['IPC11'][0]].append(feuilles)
     else:
-        NiveauIPC11[thz['IPC11']] =  []
-        NiveauIPC11[thz['IPC11']].append(feuilles)
-    if thz['IPC7'] in NiveauIPC7.keys():
-        NiveauIPC7[thz['IPC7']].append(thz['IPC7'])
+        NiveauIPC11[thz['IPC11'][0]] =  []
+        NiveauIPC11[thz['IPC11'][0]].append(feuilles)
+    if thz['IPC7'][0] in NiveauIPC7.keys():
+        NiveauIPC7[thz['IPC7'][0]].append(thz['IPC7'][0])
     else:
-        NiveauIPC7[thz['IPC7']] =  []
-        NiveauIPC7[thz['IPC7']].append(thz['IPC7'])
-    if thz['IPC3'] in NiveauIPC3.keys():
-        NiveauIPC3[thz['IPC3']].append(thz['IPC3'])
+        NiveauIPC7[thz['IPC7'][0]] =  []
+        NiveauIPC7[thz['IPC7'][0]].append(thz['IPC7'][0])
+    if thz['IPC3'][0] in NiveauIPC3.keys():
+        NiveauIPC3[thz['IPC3'][0]].append(thz['IPC3'][0])
     else:
-        NiveauIPC3[thz['IPC3']] =  []
-        NiveauIPC3[thz['IPC3']].append(thz['IPC3'])      
-    if thz['Discipline'] in Discipline.keys():
-        Discipline [thz['Discipline']].append(thz['IPC3'])
+        NiveauIPC3[thz['IPC3'][0]] =  []
+        NiveauIPC3[thz['IPC3'][0]].append(thz['IPC3'][0])      
+    if thz['discipline'] in Discipline.keys():
+        Discipline [thz['discipline']].append(thz['IPC3'][0])
     else:
-        Discipline [thz['Discipline']] =  []
-        Discipline [thz['Discipline']].append(thz['IPC3'])
+        Discipline [thz['discipline']] =  []
+        Discipline [thz['discipline']].append(thz['IPC3'][0])
 Niveau1 = dict()
-for ipc3 in NiveauIPC3.keys():
-    Niveau1['name'] = ipc3
-    
-    Hierarchie["children"].append(ipc3)   
+Hierarchie = dict()
+Hierarchie ['name'] = "Eau"
+Hierarchie ['children'] = []
+for dis in Discipline.keys():
+    Niveau1 = dict()
+    Niveau1['name']= dis
+    for ipc3 in NiveauIPC3.keys():
+        if ipc3 in Discipline[dis]:
+            if 'children' in Niveau1.keys():
+                Niveau1["children"].append(ipc3) 
+            else:
+                Niveau1["children"] = []
+                Niveau1["children"].append(ipc3) 
+    if 'children' in Hierarchie.keys():
+        Hierarchie['children'].append(Niveau1) 
+    else:
+        Hierarchie['children'] = []
+        Hierarchie['children'].append(Niveau1) 
+toto = json.dumps(Hierarchie, ensure_ascii=False)
