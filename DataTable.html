@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Données bibliographiques</title>
+<script charset="utf-8" type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script charset="utf-8" type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
+ 
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+<script charset="utf-8"  class="init">
+$(document).ready(function() {
+   $('#example').DataTable( {
+        ajax:  {
+			url: 'DataThese.json',
+			dataSrc: ''
+			},
+		columns: [
+		{"data":"Id"},
+		{"data":"Discipline"},
+		{"data":"Date"},
+		{"data":"Langue"},
+		{"data":"Titre"},
+		//{"data":"Résumé"},
+		{"data":"IPC1"},
+		{"data":"ScoreIPC1"},
+		{"data":"IPC2"},
+		{"data":"ScoreIPC2"},
+		{"data":"IPC3"},
+		{"data":"ScoreIPC3"},
+		{"data":"IPC4"},
+		{"data":"ScoreIPC4"},
+		{"data":"IPC5"},
+		{"data":"ScoreIPC5"}
+		]
+      } );
+} );
+</script>
+</head>
+<body class="dt-example">
+
+	<div class="container">
+			<table id="example" class="display" cellspacing="0" width="100%">
+				<thead>
+					<tr>
+						<th style="width: 2%;">Id</th>
+						<th style="width: 10%;">Discipline</th>
+						<th style="width: 8%;">Date</th>
+						<th style="width: 2%;">Langue</th>
+						<th style="width: 8%;">Titre</th>
+						
+						<th style="width: 5%;">IPC1</th>
+						<th style="width: 5%;">ScoreIPC1</th>
+						<th style="width: 5%;">IPC2</th>
+						<th style="width: 5%;">ScoreIPC2</th>
+						<th style="width: 5%;">IPC3</th>
+						<th style="width: 5%;">ScoreIPC3</th>
+						<th style="width: 5%;">IPC4</th>
+						<th style="width:5%;">ScoreIPC4</th>
+						<th style="width: 5%;">IPC5</th>
+						<th style="width: 5%;">ScoreIPC5</th>
+					</tr>
+			</thead>
+				<tfoot>
+					<tr>
+						<th style="width: 2%;">Id</th>
+						<th style="width: 10%;">Discipline</th>
+						<th style="width: 8%;">Date</th>
+						<th style="width: 2%;">Langue</th>
+						<th style="width: 8%;">Titre</th>
+						
+						<th style="width: 5%;">IPC1</th>
+						<th style="width: 5%;">ScoreIPC1</th>
+						<th style="width: 5%;">IPC2</th>
+						<th style="width: 5%;">ScoreIPC2</th>
+						<th style="width: 5%;">IPC3</th>
+						<th style="width: 5%;">ScoreIPC3</th>
+						<th style="width: 5%;">IPC4</th>
+						<th style="width:5%;">ScoreIPC4</th>
+						<th style="width: 5%;">IPC5</th>
+						<th style="width: 5%;">ScoreIPC5</th>
+					</tr>					
+				</tfoot>
+			</table>
+	</div>
+	<footer>
+		<a href="http://www.datatables.net/">Thanks!!! </a></br>
+	</footer>
+
+
+</body>
+</html>

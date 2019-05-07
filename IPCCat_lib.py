@@ -19,7 +19,7 @@ def IPCCategorizer(texte, langue):
     urlDer = "https://www.wipo.int/classifications/ipc/ipccat?&hierarchiclevel="+level.upper()+"&lang="+language +\
     "&numberofpredictions="+number+"&text="+texte.lower().replace("\n", " ")
     urlDer = requote_uri(urlDer)
-    time.sleep(3)
+    #time.sleep(3)
     try:
         req=requests.get(urlDer)
         if req.ok:

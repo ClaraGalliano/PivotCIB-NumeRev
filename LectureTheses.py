@@ -8,10 +8,12 @@ Created on Tue Feb 02 13:36:47 2016
 import requests
 import time
 import json
+
 import xmltodict
 from IPCCat_lib import IPCCategorizer, IPCExtractPredictions
 import codecs
-
+#from io import StringIO
+#io = StringIO()
 with open('ScrapThese.json', 'r') as ficSrc:
     donnees = json.load(ficSrc)
   
@@ -22,13 +24,16 @@ cpt2 = 0 # thz traitées
 inconsist = 0 #inconsistance des donnees bibli
 Seuil = 0
 LstTZ = []
-with codecs.open("DonneesThese.csv", "w", 'utf8') as SavFic:
-    #ecriture de l'entête du csv
-    SavFic.write('Id;Discipline;Date;Langue;Titre;Résumé;IPC1;ScoreIPC1;IPC2;ScoreIPC2;IPC3;ScoreIPC3;IPC4;ScoreIPC4;IPC5;ScoreIPC5;\n')
-with codecs.open("DonneesThese.csv", "a", 'utf8') as SavFic:
+#with codecs.open("DonneesThese2.csv", "w", 'utf8') as SavFic:
+#    #ecriture de l'entête du csv
+#    SavFic.write('Id;Discipline;Date;Langue;Titre;Résumé;IPC1;ScoreIPC1;IPC2;ScoreIPC2;IPC3;ScoreIPC3;IPC4;ScoreIPC4;IPC5;ScoreIPC5;\n')
+with codecs.open("DonneesThese2.json", "w", "utf8") as SavFic:
+    print()
+with codecs.open("DonneesThese2.json", "a", "utf8") as SavFic:
+    SavFic.write('[\n')
     for thz in donnees:
         cpt +=1
-        time.sleep(3)
+        time.sleep(2)
         urlThz = urlBase + thz['num']+ '.xml'
         page = requests.get(urlThz)
         THZ = dict()
@@ -40,14 +45,24 @@ with codecs.open("DonneesThese.csv", "a", 'utf8') as SavFic:
                         cpt2 +=1
                         if isinstance(data['rdf:RDF']['bibo:Thesis']['dcterms:abstract'], dict):
                             resume = data['rdf:RDF']['bibo:Thesis']['dcterms:abstract']['#text']
+                            if isinstance(resume, list):
+                                resume=" ".join(resume)
+                            resume=resume.replace(';', '!!!')
                             langue = data['rdf:RDF']['bibo:Thesis']['dcterms:abstract']['@xml:lang']
                         else:
                             for donnee in data['rdf:RDF']['bibo:Thesis']['dcterms:abstract']:
                                 if donnee['@xml:lang'] =='fr': #priorité FR
                                     resume = donnee['#text']
+                                                
+                                    if isinstance(resume, list):
+                                        resume=" ".join(resume)
+                                    resume= resume.replace(';', '!!!')
                                     langue =  donnee['@xml:lang']          
                                 elif donnee['@xml:lang'] =='en':
                                     resume = donnee['#text']
+                                    if isinstance(resume, list):
+                                        resume=" ".join(resume)
+                                    resume=resume.replace(';', '!!!')
                                     langue =  donnee['@xml:lang'] 
                                 else:
                                     resume = ""
@@ -59,6 +74,7 @@ with codecs.open("DonneesThese.csv", "a", 'utf8') as SavFic:
                         else:
                             Predict= ""
                         Titre = data['rdf:RDF']['bibo:Thesis']['dc:title']
+                        #Titre = Titre.replace(';', '!!!')
                         Date = data['rdf:RDF']['bibo:Thesis']['dc:date']
                         if Date is None:
                             Date =""
@@ -70,15 +86,25 @@ with codecs.open("DonneesThese.csv", "a", 'utf8') as SavFic:
                              thz['discipline'] =""
                         if langue is None:
                             langue =""
-                            
-                        ligneCsv = thz['num'] + ';' + thz['discipline'] + ';' + Date + ';'  + langue  + ';' + Titre  + ';' +resume  +';'   
+                        thz['abstract'] = resume
+                        thz['Date'] = Date
+                        thz['langue'] = langue
+                        thz['CatIPC']= dict()
                         if Predict is not None:
                             for predict in Predict:
-                                ligneCsv += predict['category']+';' + predict['score'] + ';'
+                                thz['CatIPC'] [predict['rank']] = [predict['category'], predict['score']]
                         else:
-                             ligneCsv += 'Néant;0;;;;;;;;;'   
-                        ligneCsv += '\n'
-                        SavFic.write(ligneCsv)
+                            for idx in range(5):
+                                thz['CatIPC'] [idx] = ['', 0]
+        
+                        #ligneCsv = thz['num'] + ';' + thz['discipline'] + ';' + Date + ';'  + langue  + ';' + Titre  + ';' +resume  +';'   
+#                        if Predict is not None:
+#                            for predict in Predict:
+#                                ligneCsv += predict['category']+';' + predict['score'] + ';'
+#                        else:
+#                             ligneCsv += 'Néant;0;;;;;;;;;'   
+#                        ligneCsv += '\n'
+#                        SavFic.write(ligneCsv)
                         #creation d'un dico pour export Json
                        
 #                        THZ['Id'] =thz['num']
@@ -105,6 +131,12 @@ with codecs.open("DonneesThese.csv", "a", 'utf8') as SavFic:
                         inconsist +=1
         else:
                         inconsist +=1
+        Data = json.dumps( thz, ensure_ascii=False)
+        if cpt == len(donnees):
+             SavFic.write( Data + '\n] \n') #dernière entrée
+        else:
+            SavFic.write( Data + ',\n')
+        
 #with open("DonneesThese.json", "w") as SavJson:                        
 #    SavJson.write(json.dumps(LstTZ))
     
