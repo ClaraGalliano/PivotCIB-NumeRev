@@ -27,13 +27,13 @@ LstTZ = []
 #with codecs.open("DonneesThese2.csv", "w", 'utf8') as SavFic:
 #    #ecriture de l'entête du csv
 #    SavFic.write('Id;Discipline;Date;Langue;Titre;Résumé;IPC1;ScoreIPC1;IPC2;ScoreIPC2;IPC3;ScoreIPC3;IPC4;ScoreIPC4;IPC5;ScoreIPC5;\n')
-with codecs.open("DonneesThese2.json", "w", "utf8") as SavFic:
+with codecs.open("DonneesThese3.json", "w", "utf8") as SavFic:
     print()
-with codecs.open("DonneesThese2.json", "a", "utf8") as SavFic:
+with codecs.open("DonneesThese3.json", "a", "utf8") as SavFic:
     SavFic.write('[\n')
     for thz in donnees:
         cpt +=1
-        time.sleep(2)
+        time.sleep(4)
         urlThz = urlBase + thz['num']+ '.xml'
         page = requests.get(urlThz)
         THZ = dict()
