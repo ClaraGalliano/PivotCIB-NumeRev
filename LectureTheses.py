@@ -33,9 +33,9 @@ with codecs.open("DonneesThese3.json", "a", "utf8") as SavFic:
     SavFic.write('[\n')
     for thz in donnees:
         cpt +=1
-        time.sleep(4)
+        time.sleep(3) # l'ABES ils sont pas très fairs sur ce plan. En dessous çà plante et là je ne suis pas sûr
         urlThz = urlBase + thz['num']+ '.xml'
-        page = requests.get(urlThz)
+        page = requests.get(urlThz)                
         THZ = dict()
         if page.ok:
             data = xmltodict.parse(page.text)

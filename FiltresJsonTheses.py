@@ -74,16 +74,16 @@ for thz in LstThz2:
     else:
         NiveauIPC7[thz['IPC7'][0]] =  []
         NiveauIPC7[thz['IPC7'][0]].append(thz['IPC7'][0])
-    if thz['IPC3'][0] in NiveauIPC3.keys():
-        NiveauIPC3[thz['IPC3'][0]].append(thz['IPC3'][0])
+    if thz['IPC3'][0][0:4] in NiveauIPC3.keys():
+        NiveauIPC3[thz['IPC3'][0][0:4]].append(thz['IPC3'][0])
     else:
-        NiveauIPC3[thz['IPC3'][0]] =  []
-        NiveauIPC3[thz['IPC3'][0]].append(thz['IPC3'][0])      
+        NiveauIPC3[thz['IPC3'][0][0:4]] =  []
+        NiveauIPC3[thz['IPC3'][0][0:4]].append(thz['IPC3'][0][0:4])      
     if thz['discipline'] in Discipline.keys():
-        Discipline [thz['discipline']].append(thz['IPC3'][0])
+        Discipline [thz['discipline']].append(thz['IPC3'][0][0:4])
     else:
         Discipline [thz['discipline']] =  []
-        Discipline [thz['discipline']].append(thz['IPC3'][0])
+        Discipline [thz['discipline']].append(thz['IPC3'][0][0:4])
 Niveau1 = dict()
 Hierarchie = dict()
 Hierarchie ['name'] = "Eau"
@@ -92,7 +92,7 @@ for dis in Discipline.keys():
     Niveau1 = dict()
     Niveau1['name']= dis
     for ipc3 in NiveauIPC3.keys():
-        if ipc3 in Discipline[dis]:
+        if ipc3[0:4] in Discipline[dis]:
             if 'children' in Niveau1.keys():
                 Niveau1["children"].append(ipc3) 
             else:
@@ -104,3 +104,5 @@ for dis in Discipline.keys():
         Hierarchie['children'] = []
         Hierarchie['children'].append(Niveau1) 
 toto = json.dumps(Hierarchie, ensure_ascii=False)
+with open('HierarchieDiscipline.json', 'wb') as ficRes:
+    ficRes.write(toto.encode('utf8'))
