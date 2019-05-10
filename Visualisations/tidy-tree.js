@@ -35,7 +35,7 @@ D3’s [tree layout](https://github.com/d3/d3-hierarchy/blob/master/README.md#tr
   
   const g = svg.append("g")
       .attr("font-family", "sans-serif")
-      .attr("font-size", 10)
+      .attr("font-size", 9)
       .attr("transform", `translate(${root.dy / 3},${root.dx - x0})`);
     
   const link = g.append("g")
@@ -64,7 +64,7 @@ D3’s [tree layout](https://github.com/d3/d3-hierarchy/blob/master/README.md#tr
 
   node.append("text")
       .attr("dy", "0.31em")
-      .attr("x", d => d.children ? -6 : 6)
+      .attr("x", d => d.children ? -4 : 4)
       .attr("text-anchor", d => d.children ? "end" : "start")
       .text(d => d.data.name)
     .clone(true).lower()
@@ -88,7 +88,7 @@ d3.json("DonneesHierarchieDiscipline.json")
 data => {
   const root = d3.hierarchy(data);
   root.dx = 10;
-  root.dy = width / (root.height + 1);
+  root.dy = width / (root.height + 10);
   return d3.tree().nodeSize([root.dx, root.dy])(root);
 }
 )})

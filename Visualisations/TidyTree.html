@@ -2,10 +2,25 @@
 <meta charset="utf-8">
 <head>
   <script src="http://d3js.org/d3.v5.js"></script>
-  <script src="http://unpkg.com/sunburst-chart"></script>
   <!--<script src="../../dist/sunburst-chart.js"></script>
 	<script src="DonneesHierarchieDiscipline.js"></script>-->
-  <style>body { margin: 0 }</style>
+  <style>body { margin: 0 }
+ .sunburst-viz text { .sunburst-viz text .text-contour {}
+ .sunburst-viz text {
+  font-family: Sans-serif;
+  font-size: 10px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  pointer-events: none;
+  fill: #222;
+}
+.sunburst-viz text .text-contour {
+  fill: none;
+  stroke: white;
+  stroke-width: 2;
+  stroke-linejoin: 'round';
+}
+  </style>
 </head>
 <body>
 
