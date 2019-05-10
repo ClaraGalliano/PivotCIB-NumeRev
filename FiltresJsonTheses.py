@@ -14,8 +14,28 @@ LstThz2 = []
 ChampsInitiaux = ['Id','discipline','Date','Langue','titre','Résumé','IPC1','ScoreIPC1','IPC2','ScoreIPC2','IPC3','ScoreIPC3','IPC4','ScoreIPC4','IPC5','ScoreIPC5']
 ChampsEpures = ['discipline','Date','Langue','CatIPC', 'titre']
 ChampsNouveau  = ['discipline','Date','score','IPC3','IPC7', 'IPC11', 'titre']
+ChampsNouveau.sort()
 cpt=0
 cptFini=0
+
+
+indesirables = ['', u'', None, False, [], ' ', "?"]
+
+def CheckList(dico, indesir):
+    if isinstance(dico, dict):
+        CleASupprimer = [k for k, v in dico.items() if any([v is i for i in indesir])]
+        if len(CleASupprimer)>0:
+            return False
+        else:
+            return dico
+    elif isinstance(dico, list):
+        tempoList =[]
+        for dic in dico:
+            tempo = CheckList(dic, indesir)
+            if tempo:
+                tempoList.append(tempo)
+        Liste = tempoList
+    return Liste
 
 print (cpt)
 print (cptFini)
@@ -51,7 +71,7 @@ with codecs.open('PivotThese.json', 'w', 'utf8') as ficRes:
 LstIpc3 = [thz['IPC3'] for thz in LstThz2]
 LstIpc7 = [thz['IPC7'] for thz in LstThz2]
 LstIpc11 = [thz['IPC11'] for thz in LstThz2]
-
+LstDiscipl = [thz['discipline'] for thz in LstThz2]
 LstIpc3 = list(set(LstIpc3))
 LstIpc7 = list(set(LstIpc7))
 LstIpc11 = list(set(LstIpc11))
@@ -65,251 +85,101 @@ Niveau2 = dict()
 Niveau3 = dict()
 Niveau4 = dict()
 feuilles = dict()
-#for thz in LstThz2:
-#    #le bout des feuilles
-#    feuilles['name'] = thz['titre'].title().replace(' ', '')
-#    feuilles['value'] = int(thz['IPC11'][1])
-##    if thz['IPC11'][0] in NiveauIPC11.keys():
-##        NiveauIPC11[thz['IPC11'][0]].append(feuilles)
-##    else:
-##        NiveauIPC11[thz['IPC11'][0]] =  []
-##        NiveauIPC11[thz['IPC11'][0]].append(feuilles)
-##    if thz['IPC7'][0] in NiveauIPC7.keys():
-##        NiveauIPC7[thz['IPC7'][0]].append(thz['IPC7'])
-##    else:
-##        NiveauIPC7[thz['IPC7'][0]] =  []
-##        NiveauIPC7[thz['IPC7'][0]].append(thz['IPC7'])
-##    if thz['IPC3'][0][0:4] in NiveauIPC3.keys():
-##        NiveauIPC3[thz['IPC3'][0][0:4]].append(thz['IPC3'][0][0:4])
-##    else:
-##        NiveauIPC3[thz['IPC3'][0][0:4]] =  []
-##        NiveauIPC3[thz['IPC3'][0][0:4]].append(thz['IPC3'][0][0:4])      
-#    if thz['discipline'] in Discipline.keys():
-#        Discipline [thz['discipline']].append(thz['IPC3'][0][0:4])
-#    else:
-#        Discipline [thz['discipline']] =  []
-#        Discipline [thz['discipline']].append(thz['IPC3'][0][0:4]) # Niveau 1
-#    if thz['discipline'] not in Niveau2.keys():
-#        Niveau2[thz['discipline']] = [thz['IPC3']]
-#    else:
-#        Niveau2[thz['discipline']].append(thz['IPC3'])
-#    if thz['discipline'] not in Niveau3.keys():
-#        Niveau3[thz['discipline']] = dict()
-#        Niveau3[thz['discipline']][thz['IPC3']] =[thz['IPC7']]
-#    else:
-#        #if thz['IPC7'] not in Niveau3[thz['discipline'][thz['IPC3']]:
-#        Niveau3[thz['discipline']][thz['IPC3']].append(['IPC7'])
-#    if thz['discipline'] not in Niveau4.keys():
-#        Niveau4[thz['discipline']] = dict()
-#        Niveau4[thz['discipline']][thz['IPC3']] =dict()
-#        Niveau4[thz['discipline']][thz['IPC3']][thz['IPC7']] = [thz['IPC11']]
-#    elif thz['IPC3'] in Niveau4[thz['discipline']].keys():
-#        if thz['IPC7'] in Niveau4[thz['discipline']][thz['IPC3']].keys():
-#            Niveau4[thz['discipline']][thz['IPC3']][thz['IPC7']].append(thz['IPC11'])
-#        else:
-#            Niveau4[thz['discipline']][thz['IPC3']][thz['IPC7']] = 
-#            Niveau4[thz['discipline']][thz['IPC3']][thz['IPC7']] 
-            
-        #if thz['IPC7'] not in Niveau3[thz['discipline'][thz['IPC3']]:
+
+LstThz2 = CheckList(LstThz2, indesirables)
+inconsistants =0
+for thz in LstThz2[:100]:
+    if len(thz.keys()) == len(ChampsNouveau):
+        #le bout des feuilles
+        feuilles = dict()
+        feuilles['name'] = thz['titre'].split('[') [0] # n'a ton pas idée de mettre des crochets dans un titre de thèse ....replace('[', '')
+        feuilles['size'] = int(thz['score'])
+        thz['discipline'] = thz['discipline'].title().replace(' ', '')
+        if thz['discipline'] not in Hierarchie.keys():
+            Hierarchie[thz['discipline']] = dict()
+            Hierarchie[thz['discipline']][thz['IPC3']] = dict()
+            Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']] = [feuilles] #dict()
+    #        Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']][thz['IPC11']] = [feuilles]
+                    #Hierarchie[thz['discipline']][thz['IPC3']] =
+        elif thz['IPC3'] not in Hierarchie[thz['discipline']].keys():
+            Hierarchie[thz['discipline']][thz['IPC3']] = dict()
+            Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']] = [feuilles]#dict()
+    #        Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']][thz['IPC11']] = [feuilles]
+    #        else:
+    #            Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']] = [feuilles]
+        elif thz['IPC7'] not in Hierarchie[thz['discipline']][thz['IPC3']].keys():
+            #Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']] = [] #dict()
+    #        if len(thz['IPC11']) > len(thz['IPC7']):
+            Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']] = [feuilles]
         
-for thz in LstThz2[0:100]:
-    #le bout des feuilles
-    feuilles = dict()
-    feuilles['name'] = thz['titre']#.title().replace(' ', '')
-    feuilles['size'] = int(thz['score'])
-    thz['discipline'] = thz['discipline'].title().replace(' ', '')
-    if thz['discipline'] not in Hierarchie.keys():
-        Hierarchie[thz['discipline']] = dict()
-        Hierarchie[thz['discipline']][thz['IPC3']] = dict()
-        Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']] = dict()
-        if len(thz['IPC11']) > len(thz['IPC7']):
-            Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']][thz['IPC11']] = [feuilles]
         else:
-            Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']] = [feuilles]
-        #Hierarchie[thz['discipline']][thz['IPC3']] =
-    elif thz['IPC3'] not in Hierarchie[thz['discipline']].keys():
-        Hierarchie[thz['discipline']][thz['IPC3']] = dict()
-        Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']] = dict()
-        if len(thz['IPC11']) > len(thz['IPC7']):
-            Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']][thz['IPC11']] = [feuilles]
-        else:
-            Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']] = [feuilles]
-    elif thz['IPC7'] not in Hierarchie[thz['discipline']][thz['IPC3']].keys():
-        Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']] = dict()
-        if len(thz['IPC11']) > len(thz['IPC7']):
-            Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']][thz['IPC11']] = [feuilles]
-        else:
-            Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']] = [feuilles]
-    elif thz['IPC11'] not in Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']].keys() and len(thz['IPC11']) > len(thz['IPC7']):    
-        Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']][thz['IPC11']] = [feuilles]
+            Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']].append(feuilles)
     else:
-        Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']][thz['IPC11']].append(feuilles)
+        inconsistants +=1
+print ("entrées supprimées", inconsistants)
 #        
-#        
-#        Hierarchie[thz['discipline']].append(thz['IPC3'])
-#    if thz['IPC3'] not in Hierarchie[thz['discipline']].keys():
-#        Hierarchie[thz['discipline']] = dict()
-#        Hierarchie[thz['discipline']][thz['IPC3']] =[thz['IPC7']]
-#    else:
-#        #if thz['IPC7'] not in Niveau3[thz['discipline'][thz['IPC3']]:
-#        Hierarchie[thz['discipline']][thz['IPC3']].append(thz['IPC7'])
-#    if thz['IPC7'] not in Hierarchie[thz['discipline']][thz['IPC3']].keys():
-#        Hierarchie[thz['discipline']][thz['IPC3']] = dict()
-#        Hierarchie[thz['discipline']][thz['IPC3']] =dict()
-#        Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']] = [thz['IPC11']]
-#    else:
-#        Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']].append[thz['IPC11']]
-#    if thz['IPC11'] not in Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']].keys():
-#        #Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']][thz['IPC11']] = [dict()]
-#        Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']][thz['IPC11']] = [feuilles]
-#      
-#    else:
-#        Hierarchie[thz['discipline']][thz['IPC3']][thz['IPC7']][thz['IPC11']].append(feuilles)
 
 HierarchieJson = dict()
 
 HierarchieJson ['children'] = []
 
-def RenvoiListeEntree(Hier):
+def HierarchiseD3 (Hier):
     if isinstance(Hier, dict):
-        Name = list(Hier.keys())
-        Child = []
-        for cle in Hier.keys():
-            if isinstance(Hier[cle], dict):
-                Child.append(RenvoiListeEntree(Hier[cle]))
-                #return {"Name": Name, "Children" : Child}
-            else:   
-                Child.append(str(Hier[cle]))
-        return {"Name": Name, "Children" : Child}
-    else:
-        return Hier
-    
-def RenvoiListeEntree3(Hier):
-    if isinstance(Hier, dict):
-        #Name = list(Hier.keys())
         if 'name' in Hier.keys():
-#            on doit être sur les feuilles
-            return Hier
+            if isinstance(Hier['name'], list):
+                Hier['name'] = Hier['name'][0]
+            return [Hier]
         else:
             Renvoi = []
             for cle in Hier.keys():
+                if cle == "F03B001":
+                    print()
                 dico = dict()
                 Child = []
-                dico["name"] = cle
+                dico["name"] = cle[0:20]
                 if isinstance(Hier[cle], dict):
+                    Child.append(HierarchiseD3(Hier[cle]))
                     
-                    Child.append(RenvoiListeEntree3(Hier[cle]))
-                    #return {"Name": Name, "Children" : Child}
                 elif isinstance(Hier[cle], list):
-                    if len(Hier[cle])>1:
-                        dico = dict()
-                        Child = []
-                        for dic in Hier[cle]:
-                            Child.append(RenvoiListeEntree3(dic))
-                        dico['children'] = Child
-#                        else:
-#                            dico['children'] = Child [0]
-                        #dico['size'] = len(Hier[cle])
-                        
-#                        dico['size'] = len(Hier[cle])
-                        Renvoi.append(dico)
-                        return Renvoi
-                    else:
-                        return Hier[cle][0]
-                if len(Child)>1:
-                    dico['children'] = Child
+                    for dic in Hier[cle]:
+                        Child.append(HierarchiseD3(dic))     
                 else:
-                    dico['children'] = Child [0]
-#                dico['children'] = Child
-#                dico['size'] = len(Hier[cle]) 
+                    print ('wtf')
+                if isinstance(Child, list):
+                    if len(Child)>1 and isinstance(Child[0], dict):
+                        dico['children'] = Child
+                    elif len(Child)>1 and not isinstance(Child[0], dict):
+                        Child = [temp[0] for temp in Child]
+                        dico['children'] = Child
+                    else:
+                        dico['children'] = Child[0]
+                    
                 Renvoi.append(dico)
+                
             return Renvoi
     elif isinstance(Hier, list):
-        if len(Hier)>1:
-            dico = dict()
-            Child = []
-            for dic in Hier:
-                Child.append(RenvoiListeEntree3(dic))
-            if len(Child)>1:
-                dico['children'] = Child
+        Renvoi = []
+        for dic in Hier:
+            if isinstance(dic, dict):
+                Child.append(HierarchiseD3(dic))
+            elif isinstance(dic, list):
+                for lstdic in dic:
+                    Child.append(lstdic)
             else:
-                dico['children'] = Child [0]
-            
-            Renvoi.append(dico)
-            return Renvoi
-        else:
-            return RenvoiListeEntree3(Hier)
+                print ('wtf')
+        Renvoi.append(Child)
+        dico['children'] = Renvoi
+        return dico
     else:
-        return Hier # on devrait jamais être là
-    
-    
-def RenvoiListeEntree4(Hier):
-    if isinstance(Hier, dict):
-        #Name = list(Hier.keys())
-        if 'name' in Hier.keys():
-#            Hier['size'] = Hier['size']
-            return Hier
-        else:
-            Renvoi = []
-            for cle in Hier.keys():
-                dico = dict()
-                Child = []
-                dico["name"] = cle
-                if isinstance(Hier[cle], dict):
-                    
-                    Child.append(RenvoiListeEntree4(Hier[cle]))
-                    #return {"Name": Name, "Children" : Child}
-                elif isinstance(Hier[cle], list):
-                    if len(Hier[cle])>1:
-                        dico = dict()
-                        Child = []
-                        for dic in Hier[cle]:
-                            Child.append(RenvoiListeEntree4(dic))
-                        if len(Child)>1:
-                            dico['children'] = Child
-                        else:
-                            dico['children'] = Child [0]
-
-                        Renvoi.append(dico)
-                        
-                    else:
-                        Child =  RenvoiListeEntree4(Hier[cle][0])
-                        if isinstance(Child, list):
-                            if len(Child)>1:
-                                dico['children'] = Child
-                            else:
-                                dico['children'] = Child [0]
-                        elif 'name' in Child.keys():
-                            dico = Child
-                        
-                else:
-                    print('?()')
-                
-#                dico['children'] = Child
-#                dico['size'] = len(Hier[cle]) 
-
-            return Renvoi
-    else:
-        return Hier # on devrait jamais être là
-    
-HierarchieJson["children"] = RenvoiListeEntree4(Hierarchie)
+        print ('wtf2')
+                                     
+                      
+HierarchieJson["children"] = HierarchiseD3(Hierarchie)
 HierarchieJson ['name'] = "Eau"
-toto = json.dumps(HierarchieJson, ensure_ascii=False, indent=2)
+toto = json.dumps(HierarchieJson, ensure_ascii=False, indent=1)
 with open('DonneesHierarchieDiscipline.js', 'wb') as ficRes:
     ficRes.write(b"function getData() {    return "
                  + toto.encode('utf8')+b" };")  
-#     
-#for dis in Hierarchie.keys():
-#    Niveau1 = dict()
-#    Niveau1['name']= dis
-#    for ipc3 in Hierarchie[dis].keys():
-#        if 'children' in Niveau1.keys():
-#            Niveau1["children"].append(ipc3) 
-#        else:
-#            Niveau1["children"] = []
-#            Niveau1["children"].append(ipc3) 
-#    if 'children' in Hierarchie.keys():
-#        HierarchieJson['children'].append(Niveau1) 
-#    else:
-#        HierarchieJson['children'] = []
-#        HierarchieJson['children'].append(Niveau1) 
+with open('DonneesHierarchieDiscipline.json', 'wb') as ficRes:
+    ficRes.write(toto.encode('utf8'))      
+
