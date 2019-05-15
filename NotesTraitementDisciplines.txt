@@ -1,0 +1,64 @@
+﻿Note
+Dico issu de Wikipédia (portail des sciences). (cf DisciplinesInit2.csv)
+Nombres de mots par catégorie
+SHS  -->  109
+TUM  -->  52
+VIE  -->  57
+Formelles  -->  27
+TSA  -->  68
+Transversaux  -->  69
+
+Etat du nombre de disciplines après nettoyaye lexical simple)(requête : "EAU";16000 thèses)
+nb de disciplines 3105
+
+Après traitement (inclusion du lexique par domaine dans la discipline indiquée après rangement par ordre inverse de taille). 
+
+Après traitement
+SHS  -->  822
+TUM  -->  2349
+VIE  -->  1217
+Formelles  -->  223
+TSA  -->  895
+Transversaux  -->  3008
+fichier résultant --> "DisciplineEtendu.csv"
+"disciplines" non identifiées : 461
+
+
+ajouts manuels dans le dico (cf DisciplinesInit2.csv)
+SHS  -->  116
+TUM  -->  87
+VIE  -->  128
+Formelles  -->  40
+TSA  -->  83
+Transversaux  -->  88
+nb de disciplines 3105
+Après traitement
+SHS  -->  982
+TUM  -->  2681
+VIE  -->  1844
+Formelles  -->  288
+TSA  -->  801
+Transversaux  -->  2815
+"disciplines" non identifiées :  177
+rajout Pathologie;Biophysiologie;toxicologie;génétique;physiologie;végétal;écotoxicologie;biodiversité;écophysiologie;génome;immunophysiologie;biotechnologie;chirurgie;toxicologie;évolution;thérapie;Environmental science;substances;odontologie;vie; naturelles;vivant;atmosphère;Aquatique ecology;Mycotoxicologie;Mycotoxicologie;Biotechnologie;Parasitologie;Écoéthologie;Ichtyologie;Enzymologie;Entomologie;Biothérapie;Virologie;Génomique;Staps;Tribologie;Pharmacotechnie;Pédologie;végétaux;parasitaire;Immunologie
+Agroressources;Agropédologie;nutrition;production animale;agroressource;ampéolologie;agricole;animal;sols;Agropédologie;Halieutique;Oenologie;hématologie
+Traitements des matières premières végétales;bâtiment;gestion et traitement;traitement des eaux;épuration;structure,ingénierie;métallurgie;Combustion;Contrôle des systèmes;Instrumentation;Topographie - Vision par ordinateur;Interface homme - nature;géomatique
+civilisation;étude;commerce international;science de l'eau et aménagement;société;art;civilisation;rural;Égyptologie;Esthetique;Marketing;Ergonomie;Cinéma;Anglais;Gestion;Sémiotique;imaginaire;Langue française;espagnol;monde arabe;théologie
+traitement du signal;traitement de l'image;traitement d'image;intelligence artificielle;mathématique;Modélisation;Stic;Technologies de l'information et des systèmes
+Océan;Terre;dynamique des fluides;géodynamique;sédimentologie;optique;télédétection;optimisation;lasers;matière;géomorphologie;océanographie;minéralogie;Géomorphologie;Volcanologie;Planétologie;Hydrosystème;Glaciologie;Aéronomie;Résonance magnétique nucléaire;surfaces;catalyse;Chim. appliquée;fluides;corrosion
+3e passe
+SHS  -->  132
+TUM  -->  140
+VIE  -->  174
+Formelles  -->  74
+TSA  -->  92
+Transversaux  -->  105
+nb de disciplines 3105
+Après traitement
+SHS  -->  988
+TUM  -->  2758
+VIE  -->  2065
+Formelles  -->  530
+TSA  -->  759
+Transversaux  -->  2745
+non vus 47
