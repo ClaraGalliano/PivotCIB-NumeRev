@@ -87,16 +87,16 @@ d3.json("DonneesHierarchieDiscipline.json")
       value: (function(d3,width){return(
 data => {
   const root = d3.hierarchy(data);
-  root.dx = 10;
-  root.dy = width / (root.height + 10);
-  return d3.tree().nodeSize([root.dx, root.dy])(root);
+  root.dx = 5;
+  root.dy = width / (root.height + 5);
+  return d3.tree().nodeSize([root.dx,root.dy])(root);
 }
 )})
     },
     {
       name: "width",
       value: (function(){return(
-932
+1000
 )})
     },
     {
