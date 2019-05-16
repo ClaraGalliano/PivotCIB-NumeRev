@@ -102,7 +102,8 @@ def InsereTermesDebut(Liste, ListeTerme):
 #Attention à ce qu'ils soient dans le dictionnaire d'initialisation
 #Mettre les termes en minuscule correctement accentués
 if FichierInitial!='disciplinesInit.csv':
-    Prefered = ['géoscience', 'écologie', 'biologie', 'écosystème', 'biologique', 'agriculture', 'agronomique', 'aliment']
+    Prefered = ['géoscience', 'écologie', 'biologie', 'écosystème', 'biologique', 'agriculture', 'agronomique', 'aliment',
+                'agroalimentaire']
 
     SousDiscisp = InsereTermesDebut(SousDiscisp, Prefered)
 
@@ -120,21 +121,49 @@ for dis in LstDisc:
             for disc in SousDiscisp:
                 if len(disc)>1:
                     if disc in dis.lower() or strip_accents(disc) in dis.lower():
+                        Others = [[].extend(Candidat[dom]) for dom in Candidat.keys() if dom !=SousDiscipline[disc]]
+                        if dis not in Others and dis.lower() not in Others and \
+                        strip_accents(dis) not in Others and strip_accents(dis.lower()) not in Others: 
                            Candidat[SousDiscipline[disc]].append(dis)
                            Candidat[SousDiscipline[disc]].append(strip_accents(dis))
                            Candidat[SousDiscipline[disc]].append(dis.lower())
                            Candidat[SousDiscipline[disc]].append(strip_accents(dis.lower()))
                            Candidat2[SousDiscipline[disc]].append(dis)
+                         
                            Match.append((dis,disc))
                            compteMatch += 1
-                           break                       
+                           break 
+                        else:
+                           print ("inconsistance")
         else:
             if dis in SousDiscipline.keys():
-                Candidat2[SousDiscipline[dis]].append(dis)
+                Candidat[SousDiscipline[dis]].append(dis)
+                Candidat[SousDiscipline[dis]].append(dis.lower())
+                Candidat[SousDiscipline[dis]].append(strip_accents(dis))
+                Candidat[SousDiscipline[dis]].append(dis.lower().strip())
+                Candidat[SousDiscipline[dis]].append(strip_accents(dis.lower()))
+                Candidat2[SousDiscipline[dis]].append(strip_accents(dis.lower()))
+                
+               
+                
             elif dis.lower() in SousDiscipline.keys():
-                Candidat2[SousDiscipline[dis.lower() ]].append(dis.lower()) 
+                Candidat2[SousDiscipline[dis.lower() ]].append(dis.lower())
+                Candidat[SousDiscipline[dis.lower()]].append(dis)
+                Candidat[SousDiscipline[dis.lower()]].append(dis.lower())
+                Candidat[SousDiscipline[dis.lower()]].append(strip_accents(dis))
+                Candidat[SousDiscipline[dis.lower()]].append(dis.lower().strip())
+                Candidat[SousDiscipline[dis.lower()]].append(strip_accents(dis.lower()))
+
+                           
             else:
-                Candidat2[SousDiscipline[dis.lower().strip() ]].append(dis.lower().strip())
+                Candidat[SousDiscipline[dis.lower().strip()]].append(strip_accents(dis))
+                Candidat[SousDiscipline[dis.lower().strip()]].append(dis)
+                Candidat[SousDiscipline[dis.lower().strip()]].append(dis.lower())
+                Candidat[SousDiscipline[dis.lower().strip()]].append(strip_accents(dis))
+                Candidat[SousDiscipline[dis.lower().strip()]].append(dis.lower().strip())
+                Candidat[SousDiscipline[dis.lower().strip()]].append(strip_accents(dis.lower()))
+                Candidat2[SousDiscipline[dis.lower().strip()]].append(dis.lower().strip())
+
             compteMatch += 1
             Ok+=1
 

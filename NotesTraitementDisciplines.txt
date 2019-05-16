@@ -1,5 +1,7 @@
 ﻿Note
 Dico issu de Wikipédia (portail des sciences). (cf DisciplinesInit2.csv)
+runfile('D:/AnacondaProjects/ProjetNumeRev/FiltresDisciplines.py', wdir='D:/AnacondaProjects/ProjetNumeRev')
+
 Nombres de mots par catégorie
 SHS  -->  109
 TUM  -->  52
@@ -40,35 +42,27 @@ Formelles  -->  288
 TSA  -->  801
 Transversaux  -->  2815
 "disciplines" non identifiées :  177
-rajout Pathologie;Biophysiologie;toxicologie;génétique;physiologie;végétal;écotoxicologie;biodiversité;écophysiologie;génome;immunophysiologie;biotechnologie;chirurgie;toxicologie;évolution;thérapie;Environmental science;substances;odontologie;vie; naturelles;vivant;atmosphère;Aquatique ecology;Mycotoxicologie;Mycotoxicologie;Biotechnologie;Parasitologie;Écoéthologie;Ichtyologie;Enzymologie;Entomologie;Biothérapie;Virologie;Génomique;Staps;Tribologie;Pharmacotechnie;Pédologie;végétaux;parasitaire;Immunologie;hématologie 
+Modif du dico d'initialisation --> DisciplineInit3.csv
+rajout science(s) du vivant;Pathologie;Biophysiologie;toxicologie;génétique;physiologie;végétal;écotoxicologie;biodiversité;écophysiologie;génome;immunophysiologie;biotechnologie;chirurgie;toxicologie;évolution;thérapie;Environmental science;substances;odontologie;vie; naturelles;vivant;atmosphère;Aquatique ecology;Mycotoxicologie;Mycotoxicologie;Biotechnologie;Parasitologie;Écoéthologie;Ichtyologie;Enzymologie;Entomologie;Biothérapie;Virologie;Génomique;Staps;Tribologie;Pharmacotechnie;Pédologie;végétaux;parasitaire;Immunologie;hématologie 
 Agroressources;Agropédologie;nutrition;production animale;agroressource;ampéolologie;agricole;animal;sols;Agropédologie;Halieutique;Oenologie
 Traitements des matières premières végétales;bâtiment;gestion et traitement;traitement des eaux;épuration;structure,ingénierie;métallurgie;Combustion;Contrôle des systèmes;Instrumentation;Topographie - Vision par ordinateur;Interface homme - nature;géomatique
 civilisation;étude;commerce international;science de l'eau et aménagement;société;art;civilisation;rural;Égyptologie;Esthetique;Marketing;Ergonomie;Cinéma;Anglais;Gestion;Sémiotique;imaginaire;Langue française;espagnol;monde arabe;théologie
 traitement du signal;traitement de l'image;traitement d'image;intelligence artificielle;mathématique;Modélisation;Stic;Technologies de l'information et des systèmes
 Océan;Terre;dynamique des fluides;géodynamique;sédimentologie;optique;télédétection;optimisation;lasers;matière;géomorphologie;océanographie;minéralogie;Géomorphologie;Volcanologie;Planétologie;Hydrosystème;Glaciologie;Aéronomie;Résonance magnétique nucléaire;surfaces;catalyse;Chim. appliquée;fluides;corrosion;micronano systèmes
 3e passe
-SHS  -->  140
-TerreUniversMatiere  -->  153
-VIE  -->  176
-FORMELLES  -->  76
-TechnoScienceAppli  -->  92
-TRANSVERSE  -->  111
-nb de disciplines 3105
-Après traitement...
-SHS  -->  919
-TerreUniversMatiere  -->  2694
-VIE  -->  1954
-FORMELLES  -->  480
-TechnoScienceAppli  -->  698
-TRANSVERSE  -->  2678
+SHS  -->  992
+TerreUniversMatiere  -->  2786
+VIE  -->  2049
+FORMELLES  -->  517
+TechnoScienceAppli  -->  738
+TRANSVERSE  -->  2751
 Autres  -->  26
---> création d'une classe à la noix : Autre
 
-sans accents ni majuscules
+sans accents ni majuscules (entrées uniques en excluant les diverses formes lexicales)
 SHS  -->  283
 TerreUniversMatiere  -->  740
 VIE  -->  575
 FORMELLES  -->  151
 TechnoScienceAppli  -->  220
 TRANSVERSE  -->  737
-Autres  -->  26
+Autres  -->  26 (Disciplines non identifiées)

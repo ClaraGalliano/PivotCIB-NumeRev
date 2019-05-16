@@ -62,35 +62,45 @@ print (cptFini)
 evites = 0
 LstThz3 = [thz for thz in LstThz if 'CatIPC' in thz.keys() and 'discipline' in thz.keys()]
 
-with codecs.open('DisciplineEtendu2.csv', 'r', 'utf8') as ficDisc:
-    disc = ficDisc.readlines()
+#with codecs.open('DisciplineEtendu3.csv', 'r', 'utf8') as ficDisc:
+#    disc = ficDisc.readlines()
 DicoDisciplines = dict()
 SousDiscipline = dict()
-for lig in disc:
-    col = lig.split(";")
-    SousDis = [dis.strip() for dis in col[1:]]
-    SousDisLow =[]
-    for soudis in SousDis:
-        SousDisLow.append(soudis.strip())
-        SousDisLow.append(soudis.strip().lower())
-        SousDisLow.append(strip_accents(soudis.strip().lower()))
-        
-    SousDis += SousDisLow
-    SousDis = list(set(SousDis))
-    if '' in SousDis:
-        SousDis.remove('')
-    DicoDisciplines[col[0]] = SousDis
-    DicoDisciplines[col[0]].sort(reverse=True)
-    for sousdis in SousDis:
-        SousDiscipline[sousdis] = col[0]
+#for lig in disc:
+#    col = lig.split(";")
+#    SousDis = [dis.strip() for dis in col[1:]]
+#    SousDisLow =[]
+#    for soudis in SousDis:
+#        SousDisLow.append(soudis.strip())
+#        SousDisLow.append(soudis.strip().lower())
+#        SousDisLow.append(strip_accents(soudis.strip().lower()))
+#        
+#    SousDis += SousDisLow
+#    SousDis = list(set(SousDis))
+#    if '' in SousDis:
+#        SousDis.remove('')
+#    DicoDisciplines[col[0]] = SousDis
+#    DicoDisciplines[col[0]].sort(reverse=True)
+#    for sousdis in SousDis:
+#        SousDiscipline[sousdis] = col[0]
+
+with open('DisciplinesEtendues.json', 'r', encoding='utf8') as ficSrc:
+    DicoDisciplines = json.load (ficSrc)
+for domaine in DicoDisciplines.keys():
+    for sousdis in DicoDisciplines[domaine]:
+        SousDiscipline[sousdis] = domaine
 
 for Thz in LstThz3:
     Thz2 = dict()
-    if Thz["discipline"].lower() in SousDiscipline.keys() or Thz["discipline"].strip().lower()  in SousDiscipline.keys():
+    if Thz["discipline"] in SousDiscipline.keys() or Thz["discipline"].lower() in SousDiscipline.keys() or Thz["discipline"].strip().lower()  in SousDiscipline.keys():
         try:
             Thz["discipline"]= SousDiscipline[Thz["discipline"].lower() ]
         except:
-            Thz["discipline"]= SousDiscipline[Thz["discipline"].strip().lower() ]
+            try:
+                Thz["discipline"]= SousDiscipline[Thz["discipline"].strip().lower() ]
+            except:
+                
+                Thz["discipline"]= SousDiscipline[Thz["discipline"]]
     else:
         print ('bug -->', Thz["discipline"].lower() )
     for cle in Thz.keys():
@@ -111,9 +121,9 @@ for Thz in LstThz3:
         LstThz2.append(Thz2)
     else:
         evites += 1
-print ('Theses ignorées', evites)
-with codecs.open('PivotThese.json', 'w', 'utf8') as ficRes:
-    ficRes.write(json.dumps(LstThz2))
+#print ('Theses ignorées', evites)
+#with codecs.open('PivotThese.json', 'w', 'utf8') as ficRes:
+#    ficRes.write(json.dumps(LstThz2))
 
 LstIpc3 = [thz['IPC3'] for thz in LstThz2]
 LstIpc7 = [thz['IPC7'] for thz in LstThz2]
@@ -135,7 +145,7 @@ feuilles = dict()
 
 LstThz2 = CheckList(LstThz2, indesirables)
 inconsistants =0
-for thz in LstThz2[:100]:
+for thz in LstThz2:
     if len(thz.keys()) == len(ChampsNouveau):
         #le bout des feuilles
         feuilles = dict()
@@ -179,8 +189,6 @@ def HierarchiseD3 (Hier):
         else:
             Renvoi = []
             for cle in Hier.keys():
-                if cle == "F03B001":
-                    print()
                 dico = dict()
                 Child = []
                 dico["name"] = cle[0:20]

@@ -6,7 +6,7 @@ Created on Sat May  4 15:35:57 2019
 """
 import json
 import codecs
-with open('DonneesThese2.json', 'r', encoding='utf8') as ficSrc:
+with open('DonneesThese3.json', 'r', encoding='utf8') as ficSrc:
     donnees = json.load (ficSrc)
     
 LstThz = donnees
@@ -98,7 +98,7 @@ for Thz in LstThz:
         
 with codecs.open('DataThese.json', 'w', 'utf8') as ficRes:
     ficRes.write(json.dumps(LstThz2))        
-        
+LstThz2 =[]        
 for Thz in LstThz3:
     Thz2 = dict()
     
