@@ -7,6 +7,7 @@ Created on Sat May  4 15:35:57 2019
 import json
 import codecs
 import copy
+
 with open('DonneesThese3.json', 'r', encoding='utf8') as ficSrc:
     donnees = json.load (ficSrc)
     
@@ -91,18 +92,18 @@ if '' in SousDiscisp:
 # tri par ordre inverse de taille (donner préférence aux unités lexicales longues)
 SousDiscisp .sort(key=lambda item: (len(item), item), reverse= True)
 LstDisc .sort(key=lambda item: (len(item), item), reverse= True)
-
+def InsereTermesDebut(Liste, ListeTerme):
+    for mot in ListeTerme:
+        Liste.insert(0, mot)
+        Liste.insert(0, strip_accents(mot))
+    return Liste
 # insertion des mots "préférentiels" au début 
 # pour éviter que par ex. Science des aliments ne se retrouve en 
 #Attention à ce qu'ils soient dans le dictionnaire d'initialisation
 #Mettre les termes en minuscule correctement accentués
 if FichierInitial!='disciplinesInit.csv':
     Prefered = ['géoscience', 'écologie', 'biologie', 'écosystème', 'biologique', 'agriculture', 'agronomique', 'aliment']
-    def InsereTermesDebut(Liste, ListeTerme):
-        for mot in ListeTerme:
-            Liste.insert(0, mot)
-            Liste.insert(0, strip_accents(mot))
-        return Liste
+
     SousDiscisp = InsereTermesDebut(SousDiscisp, Prefered)
 
 Match = []    
@@ -123,7 +124,7 @@ for dis in LstDisc:
                            Candidat[SousDiscipline[disc]].append(strip_accents(dis))
                            Candidat[SousDiscipline[disc]].append(dis.lower())
                            Candidat[SousDiscipline[disc]].append(strip_accents(dis.lower()))
-                           Candidat2[SousDiscipline[disc]].append(dis.title().replace(' ', ''))
+                           Candidat2[SousDiscipline[disc]].append(dis)
                            Match.append((dis,disc))
                            compteMatch += 1
                            break                       
@@ -139,22 +140,25 @@ for dis in LstDisc:
 
     if compteMatch==0:
         NotVus.append(dis)
-Candidat["autre"] = []
+Candidat["Autres"] = []
+Candidat2['Autres'] = []
 for dis in NotVus:
-      Candidat["autre"].append(dis)
-
+      Candidat["Autres"].append(dis)
+      Candidat2['Autres'].append(dis)
 print('Après traitement...')      
 
-with codecs.open("DisciplineEtendu3.csv", 'w', 'utf8') as ficRes:
-    for domaine in Candidat.keys():
-        lstSousDis=list(set(Candidat[domaine]))
-        lstSousDis.sort()
-        ficRes.write(domaine+';')
-        for disc in lstSousDis:
-            ficRes.write(disc+';')
-        ficRes.write('\n')
-        print (domaine, ' --> ', len(lstSousDis))
-        
+#with codecs.open("DisciplineEtendu3.csv", 'w', 'utf8') as ficRes:
+for domaine in Candidat.keys():
+    lstSousDis=list(set(Candidat[domaine]).union(set(Candidat2[domaine])))
+    lstSousDis.sort(key=lambda item: (len(item), item), reverse= True)
+    Candidat[domaine]= lstSousDis
+    print (domaine, ' --> ', len(lstSousDis))
+toto = json.dumps(Candidat, ensure_ascii=False, indent=1)
+with open('DisciplinesEtendues.json', 'wb') as ficRes:
+    ficRes.write(toto.encode('utf8')) 
+
+
+
 #creation d'un export Json
 HierarchieJson= dict()
 HierarchieJson['name'] = 'Disciplines'
@@ -163,21 +167,85 @@ HierarchieJson['children'] = []
 for dis in Candidat.keys():
     dicoTemp = dict()
     dicoTemp['name'] = dis
-    dicoTemp['children'] = list(set(Candidat[dis]))
+    dicoTemp['children'] = []
+    Candidat[dis]=list(set(Candidat[dis]).union(Candidat2[dis]))
+    Candidat[dis].sort(key=lambda item: (len(item), item), reverse= True)
+    for discip in Candidat[dis]:
+        tempo = dict()
+        tempo['name'] = discip
+        tempo['size'] = Candidat[dis].count(discip)
+        dicoTemp['children'].append(tempo)
     HierarchieJson['children'].append(dicoTemp)
 toto = json.dumps(HierarchieJson, ensure_ascii=False, indent=1)
 with open('HierarchieDiscipline.json', 'wb') as ficRes:
     ficRes.write(toto.encode('utf8')) 
 
+
 HierarchieJson2= dict()
 HierarchieJson2['name'] = 'Disciplines'
 HierarchieJson2['children'] = []
 
+print ('sans accents ni majuscules')
+
 for dis in Candidat2.keys():
     dicoTemp = dict()
     dicoTemp['name'] = dis
-    dicoTemp['children'] = list(set(Candidat2[dis]))
+    dicoTemp['children'] = []
+    Candidat2[dis]= [mot.lower() for mot in Candidat2[dis]] #elimination des casses différentes
+    Candidat2[dis]= [strip_accents(mot) for mot in Candidat2[dis]]#elimination des accents
+    Candidat2[dis]=list(set(Candidat2[dis]))
+    Candidat2[dis].sort()#(key=lambda item: (len(item), item), reverse= True)
+    print (dis, ' --> ', len(Candidat2[dis]))
+    for discip in Candidat2[dis]:
+        tempo = dict()
+        tempo['name'] = discip
+        tempo['size'] = Candidat2[dis].count(discip)
+        dicoTemp['children'].append(tempo)
     HierarchieJson2['children'].append(dicoTemp)
 toto = json.dumps(HierarchieJson2, ensure_ascii=False, indent=1)
 with open('HierarchieDiscipline2.json', 'wb') as ficRes:
+    ficRes.write(toto.encode('utf8')) 
+HierarchieJson3= dict()
+HierarchieJson3['name'] = 'Disciplines'
+HierarchieJson3['children'] = []
+for dis in Candidat2.keys():
+    dicoTemp = dict()
+    dicoTemp['name'] = dis
+    dicoTemp['children'] = []
+    Candidat2[dis]= [mot.lower() for mot in Candidat2[dis]] #elimination des casses différentes
+    Candidat2[dis]= [strip_accents(mot) for mot in Candidat2[dis]]#elimination des accents
+    Candidat2[dis]=list(set(Candidat2[dis]))
+    Candidat2[dis].sort()#(key=lambda item: (len(item), item), reverse= True)
+    print (dis, ' --> ', len(Candidat2[dis]))
+    for discip in Candidat2[dis]:
+        tempo = dict()
+        if len(discip.split())>0:
+            tempo['children'] = []
+            
+            if len(discip.split()[0])>2:
+                tempo['name'] = discip.split()[0]
+                temporar = [terme for terme in Candidat2[dis] if terme.startswith(discip.split()[0])]
+                if len(temporar)>1:
+                    dicotemp=dict()
+                    dicotemp['name']=discip.split()[0]
+                    dicotemp['children'] = []
+                    dicotemp['size']= len(temporar)
+                    for term in temporar:
+                        dicotemp2=dict()
+                        dicotemp2['name']=term
+                        dicotemp2['size']=temporar.count(term)
+                        dicotemp['children'].append(dicotemp2)
+                        Candidat2[dis].remove(term)
+                        if term != discip.split()[0]:
+                            tempo['children'].append(dicotemp2)
+                else:
+                    tempo['children'].append({'name': discip, 'size':1})
+        else:
+            tempo['name'] = discip
+        #tempo['size'] = Candidat2[dis].count(discip)
+
+        dicoTemp['children'].append(tempo)
+    HierarchieJson3['children'].append(dicoTemp)
+toto = json.dumps(HierarchieJson3, ensure_ascii=False, indent=1)
+with open('HierarchieDiscipline3.json', 'wb') as ficRes:
     ficRes.write(toto.encode('utf8')) 
