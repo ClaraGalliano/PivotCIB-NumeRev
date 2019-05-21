@@ -7,3 +7,4 @@ ListeThese2.json
 .spyproject/encoding.ini
 .spyproject/vcs.ini
 .spyproject/workspace.ini
+__pycache__/Utils.cpython-36.pyc
