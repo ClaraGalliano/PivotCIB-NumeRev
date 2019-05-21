@@ -6,6 +6,7 @@ Created on Sat May  4 15:35:57 2019
 """
 import json
 import codecs
+from Utils import strip_accents, CheckList
 with open('DonneesThese3.json', 'r', encoding='utf8') as ficSrc:
     donnees = json.load (ficSrc)
     
@@ -26,7 +27,7 @@ ChampsDataTable = ['id', 'dateInsert', 'dateMaj', 'status', 'accessible', 'titre
                     'IPC4', 'ScoreIPC4','IPC5', 'ScoreIPC5']
     
 #champs pour pivot
-ChampsEpures = ['discipline','Date','Langue','CatIPC', 'titre']
+ChampsEpures = ['discipline','Date','Langue','CatIPC', 'titre', 'Domaine']
 
 #champs conservés pour les exports visualisation hiérarchique
 ChampsNouveau  = ['discipline','Date','score','IPC3','IPC7', 'IPC11', 'titre']
@@ -34,33 +35,62 @@ ChampsNouveau.sort()
 cpt=0
 cptFini=0
 
+#integration de la hiérarchie des disciplines
+DomaineDisciplines = dict() # Dico[Domaine] = "Discipline" <-- contient toutes les variantes lexicales du jeu de données
+SousDiscipline = dict() # SousDiscipline [discipline] = Domaine, avec discipline dans DicoDisciplines.keys()
+#SousSousDiscipline = dict() 
 
+#Récuparation des hiérarchies
+with open('HierarchieDisciplineComplet.json', 'r', encoding='utf8') as ficSrc:
+    DicoDisciplines = json.load (ficSrc)
+for dico in DicoDisciplines['children']:
+#    if isinstance(dico, dict):
+        domaine = dico['name']
+        
+        for dicoN2 in dico['children']:
+            if 'children' in dicoN2.keys():
+                if 'name' in dicoN2.keys():
+                    soudis = dicoN2['name']
+                    SousDiscipline[soudis]= (domaine, soudis)
+                    for dicoN3 in dicoN2['children']:
+                        SousSousdis = dicoN3['name'] 
+                        if SousSousdis not in SousDiscipline.keys():
+                            SousDiscipline[SousSousdis] = (domaine, soudis)
+                        else:
+                            if SousDiscipline[SousSousdis] != (domaine, soudis):
+                                pass
+                                print ('arg')
+                elif len(dicoN2['children']) >0:
+                    print("arg3")
+                else:
+                    pass
+                
+            elif domaine == 'Autres':
+                SousDiscipline[dicoN2['name']] = (domaine,dicoN2['name'])
+            else:
+                print ("?")
+    #    else:
+#        print()
+        
+#
 indesirables = ['', u'', None, False, [], ' ', "?"]
 
-def CheckList(dico, indesir):
-    if isinstance(dico, dict):
-        CleASupprimer = [k for k, v in dico.items() if any([v is i for i in indesir])]
-        if len(CleASupprimer)>0:
-            return False
-        else:
-            return dico
-    elif isinstance(dico, list):
-        tempoList =[]
-        for dic in dico:
-            tempo = CheckList(dic, indesir)
-            if tempo:
-                tempoList.append(tempo)
-        Liste = tempoList
-    return Liste
 
 print (cpt)
 print (cptFini)
+lstDis = [truc['discipline'] for truc in LstThz]
+lstDis = [truc for truc in lstDis if strip_accents(truc.lower()).strip() not in SousDiscipline.keys() ]
 
 evites = 0
 LstThz3 = [thz for thz in LstThz if 'CatIPC' in thz.keys()]
 for Thz in LstThz:
     Thz2 = dict()
-    toto = Thz.keys()
+    #toto = Thz.keys()
+    try:
+        Thz2['SousDiscipline']=SousDiscipline[Thz['discipline']]
+    except:
+        Thz2['SousDiscipline']='Autres' # çà devrait jamais arriver :-/
+        
     for cle in Thz.keys():
         if cle == 'CatIPC': 
                 indx =0

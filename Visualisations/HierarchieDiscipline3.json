@@ -28,11 +28,11 @@
     {
      "children": [
       {
-       "name": "am?nagement de l'espace, urbanisme",
+       "name": "am nagement de l espace urbanisme",
        "size": 1
       }
      ],
-     "name": "am?nagement"
+     "name": "am nagement"
     },
     {
      "children": [
@@ -209,11 +209,11 @@
     {
      "children": [
       {
-       "name": "demographie. sante publique",
+       "name": "demographie sante publique",
        "size": 1
       }
      ],
-     "name": "demographie."
+     "name": "demographie"
     },
     {
      "children": [
@@ -355,11 +355,11 @@
     {
      "children": [
       {
-       "name": "energ. sciences de l'eau et amenagement",
+       "name": "energ sciences de l eau et amenagement",
        "size": 1
       }
      ],
-     "name": "energ."
+     "name": "energ"
     },
     {
      "children": [
@@ -1017,18 +1017,31 @@
       {
        "name": "prehistoire, archeologie, histoire et civilisations de l'antiquite au moyen-age",
        "size": 1
+      },
+      {
+       "name": "prehistoire. geologie du quaternaire",
+       "size": 1
       }
      ],
-     "name": "prehistoire,"
+     "name": "prehistoire"
     },
     {
      "children": [
       {
-       "name": "psychologie. chimie",
+       "name": "psychologie chimie",
        "size": 1
       }
      ],
      "name": "psychologie"
+    },
+    {
+     "children": [
+      {
+       "name": "recherches sur l imaginaire",
+       "size": 1
+      }
+     ],
+     "name": "recherches"
     },
     {
      "children": [
@@ -1123,7 +1136,7 @@
     {
      "children": [
       {
-       "name": "societes en developpement dans l'espace et le temps",
+       "name": "societes en developpement dans l espace et le temps",
        "size": 1
       }
      ],
@@ -1132,11 +1145,11 @@
     {
      "children": [
       {
-       "name": "socio-economie du developpement",
+       "name": "socio economie du developpement",
        "size": 1
       }
      ],
-     "name": "socio-economie"
+     "name": "socio economie"
     },
     {
      "children": [
@@ -1174,11 +1187,11 @@
     {
      "children": [
       {
-       "name": "territoires, societes et developpement",
+       "name": "territoires societes et developpement",
        "size": 1
       }
      ],
-     "name": "territoires,"
+     "name": "territoires"
     },
     {
      "children": [
@@ -1192,7 +1205,7 @@
     {
      "children": [
       {
-       "name": "theorie et pratique de l'archeologie",
+       "name": "theorie et pratique de l archeologie",
        "size": 1
       }
      ],
@@ -1235,6 +1248,242 @@
     },
     {
      "children": [
+      {
+       "name": "physique (hydrodynamique)",
+       "size": 1
+      },
+      {
+       "name": "physique - chimie",
+       "size": 1
+      },
+      {
+       "name": "physique - sciences des materiaux",
+       "size": 1
+      },
+      {
+       "name": "physique : sciences des materiaux",
+       "size": 1
+      },
+      {
+       "name": "physique [theorique]",
+       "size": 1
+      },
+      {
+       "name": "physique acoustique et sciences physiques",
+       "size": 1
+      },
+      {
+       "name": "physique appliquee",
+       "size": 1
+      },
+      {
+       "name": "physique atmospherique",
+       "size": 1
+      },
+      {
+       "name": "physique chimie",
+       "size": 1
+      },
+      {
+       "name": "physique corpusculaire",
+       "size": 1
+      },
+      {
+       "name": "physique de la matiere",
+       "size": 1
+      },
+      {
+       "name": "physique de la matiere condensee et du rayonnement",
+       "size": 1
+      },
+      {
+       "name": "physique de la matiere et des materiaux",
+       "size": 1
+      },
+      {
+       "name": "physique de la matiere et du rayonnement",
+       "size": 1
+      },
+      {
+       "name": "physique de la matiere molle",
+       "size": 1
+      },
+      {
+       "name": "physique des agregats",
+       "size": 1
+      },
+      {
+       "name": "physique des archeomateriaux",
+       "size": 1
+      },
+      {
+       "name": "physique des dielectriques",
+       "size": 1
+      },
+      {
+       "name": "physique des fluides",
+       "size": 1
+      },
+      {
+       "name": "physique des gaz et des plasmas",
+       "size": 1
+      },
+      {
+       "name": "physique des gaz et plasmas",
+       "size": 1
+      },
+      {
+       "name": "physique des liquides",
+       "size": 1
+      },
+      {
+       "name": "physique des materiaux",
+       "size": 1
+      },
+      {
+       "name": "physique des particules",
+       "size": 1
+      },
+      {
+       "name": "physique des particules (champs, particules, maieres)",
+       "size": 1
+      },
+      {
+       "name": "physique des particules elementaires",
+       "size": 1
+      },
+      {
+       "name": "physique des particules et astroparticules",
+       "size": 1
+      },
+      {
+       "name": "physique des plasmas",
+       "size": 1
+      },
+      {
+       "name": "physique des plasmas froids",
+       "size": 1
+      },
+      {
+       "name": "physique des plasmas. planetologie",
+       "size": 1
+      },
+      {
+       "name": "physique des reacteurs",
+       "size": 1
+      },
+      {
+       "name": "physique des reacteurs nucleaires",
+       "size": 1
+      },
+      {
+       "name": "physique des solides",
+       "size": 1
+      },
+      {
+       "name": "physique et chimie de la matiere et des materiaux",
+       "size": 1
+      },
+      {
+       "name": "physique et chimie de la matiere et des materiaux ",
+       "size": 1
+      },
+      {
+       "name": "physique et chimie de la terre",
+       "size": 1
+      },
+      {
+       "name": "physique et chimie des materiaux",
+       "size": 1
+      },
+      {
+       "name": "physique et ingenierie des decharges electriques",
+       "size": 1
+      },
+      {
+       "name": "physique et ingenierie des plasmas de decharge",
+       "size": 1
+      },
+      {
+       "name": "physique et materiaux",
+       "size": 1
+      },
+      {
+       "name": "physique et physicochimie de la matiere et des materiaux",
+       "size": 1
+      },
+      {
+       "name": "physique et science des materiaux",
+       "size": 1
+      },
+      {
+       "name": "physique et sciences des materiaux",
+       "size": 1
+      },
+      {
+       "name": "physique fondamentale",
+       "size": 1
+      },
+      {
+       "name": "physique medicale",
+       "size": 1
+      },
+      {
+       "name": "physique mention sciences des materiaux",
+       "size": 1
+      },
+      {
+       "name": "physique nucleaire",
+       "size": 1
+      },
+      {
+       "name": "physique nucleaire appliquee",
+       "size": 1
+      },
+      {
+       "name": "physique radiologique",
+       "size": 1
+      },
+      {
+       "name": "physique radiologique et medicale",
+       "size": 1
+      },
+      {
+       "name": "physique radiologique et medicale. imagerie",
+       "size": 1
+      },
+      {
+       "name": "physique radiologique. simulation",
+       "size": 1
+      },
+      {
+       "name": "physique statistique et hydrodynamique",
+       "size": 1
+      },
+      {
+       "name": "physique subatomique",
+       "size": 1
+      },
+      {
+       "name": "physique subatomique et astroparticules",
+       "size": 1
+      },
+      {
+       "name": "physique, de la particule a la matiere condensee",
+       "size": 1
+      },
+      {
+       "name": "physique, dynamique des fluides",
+       "size": 1
+      },
+      {
+       "name": "physique, matiere, rayonnement",
+       "size": 1
+      },
+      {
+       "name": "physique-chimie",
+       "size": 1
+      },
       {
        "name": "physique. acoustique",
        "size": 1
@@ -1300,7 +1549,7 @@
        "size": 1
       }
      ],
-     "name": "physique."
+     "name": "physique"
     },
     {
      "children": [
@@ -1622,20 +1871,20 @@
     {
      "children": [
       {
-       "name": "[chimie]",
+       "name": " chimie ",
        "size": 1
       }
      ],
-     "name": "[chimie]"
+     "name": "chimie"
     },
     {
      "children": [
       {
-       "name": "[surfaces, interfaces, materiaux fonctionnels]",
+       "name": " surfaces interfaces materiaux fonctionnels ",
        "size": 1
       }
      ],
-     "name": "[surfaces,"
+     "name": "surfaces"
     },
     {
      "children": [
@@ -1809,11 +2058,11 @@
     {
      "children": [
       {
-       "name": "chim. appliquee",
+       "name": "chim appliquee",
        "size": 1
       }
      ],
-     "name": "chim."
+     "name": "chim"
     },
     {
      "children": [
@@ -2347,11 +2596,11 @@
     {
      "children": [
       {
-       "name": "controle, optimisation, prospective",
+       "name": "controle optimisation prospective",
        "size": 1
       }
      ],
-     "name": "controle,"
+     "name": "controle"
     },
     {
      "children": [
@@ -2451,11 +2700,11 @@
     {
      "children": [
       {
-       "name": "eophysique-geochimie-geomecanique",
+       "name": "eophysique geochimie geomecanique",
        "size": 1
       }
      ],
-     "name": "eophysique-geochimie-geomecanique"
+     "name": "eophysique geochimie geomecanique"
     },
     {
      "children": [
@@ -2880,11 +3129,11 @@
     {
      "children": [
       {
-       "name": "hydro-geochimie",
+       "name": "hydro geochimie",
        "size": 1
       }
      ],
-     "name": "hydro-geochimie"
+     "name": "hydro geochimie"
     },
     {
      "children": [
@@ -3004,10 +3253,14 @@
        "size": 1
       }
      ],
-     "name": "laser,"
+     "name": "laser"
     },
     {
      "children": [
+      {
+       "name": "lasers intenses et applications",
+       "size": 1
+      },
       {
        "name": "lasers, matiere et nanoscience",
        "size": 1
@@ -3025,7 +3278,7 @@
        "size": 1
       }
      ],
-     "name": "lasers,"
+     "name": "lasers"
     },
     {
      "children": [
@@ -3301,7 +3554,7 @@
        "size": 1
       }
      ],
-     "name": "meteorologie,"
+     "name": "meteorologie"
     },
     {
      "children": [
@@ -3314,16 +3567,16 @@
        "size": 1
       }
      ],
-     "name": "micro-ondes"
+     "name": "micro ondes"
     },
     {
      "children": [
       {
-       "name": "microondes, electromagnetisme et optoelectronique",
+       "name": "microondes electromagnetisme et optoelectronique",
        "size": 1
       }
      ],
-     "name": "microondes,"
+     "name": "microondes"
     },
     {
      "children": [
@@ -3397,7 +3650,7 @@
     {
      "children": [
       {
-       "name": "nologie - ampelologie",
+       "name": "nologie ampelologie",
        "size": 1
       }
      ],
@@ -3572,6 +3825,10 @@
     {
      "children": [
       {
+       "name": "physico-chimie",
+       "size": 1
+      },
+      {
        "name": "physico-chimie analytique",
        "size": 1
       },
@@ -3608,7 +3865,7 @@
        "size": 1
       }
      ],
-     "name": "physico-chimie"
+     "name": "physico chimie"
     },
     {
      "children": [
@@ -3650,247 +3907,29 @@
     {
      "children": [
       {
-       "name": "physique (hydrodynamique)",
-       "size": 1
-      },
-      {
-       "name": "physique - chimie",
-       "size": 1
-      },
-      {
-       "name": "physique - sciences des materiaux",
-       "size": 1
-      },
-      {
-       "name": "physique : sciences des materiaux",
-       "size": 1
-      },
-      {
-       "name": "physique [theorique]",
-       "size": 1
-      },
-      {
-       "name": "physique acoustique et sciences physiques",
-       "size": 1
-      },
-      {
-       "name": "physique appliquee",
-       "size": 1
-      },
-      {
-       "name": "physique atmospherique",
-       "size": 1
-      },
-      {
-       "name": "physique chimie",
-       "size": 1
-      },
-      {
-       "name": "physique corpusculaire",
-       "size": 1
-      },
-      {
-       "name": "physique de la matiere",
-       "size": 1
-      },
-      {
-       "name": "physique de la matiere condensee et du rayonnement",
-       "size": 1
-      },
-      {
-       "name": "physique de la matiere et des materiaux",
-       "size": 1
-      },
-      {
-       "name": "physique de la matiere et du rayonnement",
-       "size": 1
-      },
-      {
-       "name": "physique de la matiere molle",
-       "size": 1
-      },
-      {
-       "name": "physique des agregats",
-       "size": 1
-      },
-      {
-       "name": "physique des archeomateriaux",
-       "size": 1
-      },
-      {
-       "name": "physique des dielectriques",
-       "size": 1
-      },
-      {
-       "name": "physique des fluides",
-       "size": 1
-      },
-      {
-       "name": "physique des gaz et des plasmas",
-       "size": 1
-      },
-      {
-       "name": "physique des gaz et plasmas",
-       "size": 1
-      },
-      {
-       "name": "physique des liquides",
-       "size": 1
-      },
-      {
-       "name": "physique des materiaux",
-       "size": 1
-      },
-      {
-       "name": "physique des particules",
-       "size": 1
-      },
-      {
-       "name": "physique des particules (champs, particules, maieres)",
-       "size": 1
-      },
-      {
-       "name": "physique des particules elementaires",
-       "size": 1
-      },
-      {
-       "name": "physique des particules et astroparticules",
-       "size": 1
-      },
-      {
-       "name": "physique des plasmas",
-       "size": 1
-      },
-      {
-       "name": "physique des plasmas froids",
-       "size": 1
-      },
-      {
-       "name": "physique des plasmas. planetologie",
-       "size": 1
-      },
-      {
-       "name": "physique des reacteurs",
-       "size": 1
-      },
-      {
-       "name": "physique des reacteurs nucleaires",
-       "size": 1
-      },
-      {
-       "name": "physique des solides",
-       "size": 1
-      },
-      {
-       "name": "physique et chimie de la matiere et des materiaux",
-       "size": 1
-      },
-      {
-       "name": "physique et chimie de la matiere et des materiaux ",
-       "size": 1
-      },
-      {
-       "name": "physique et chimie de la terre",
-       "size": 1
-      },
-      {
-       "name": "physique et chimie des materiaux",
-       "size": 1
-      },
-      {
-       "name": "physique et ingenierie des decharges electriques",
-       "size": 1
-      },
-      {
-       "name": "physique et ingenierie des plasmas de decharge",
-       "size": 1
-      },
-      {
-       "name": "physique et materiaux",
-       "size": 1
-      },
-      {
-       "name": "physique et physicochimie de la matiere et des materiaux",
-       "size": 1
-      },
-      {
-       "name": "physique et science des materiaux",
-       "size": 1
-      },
-      {
-       "name": "physique et sciences des materiaux",
-       "size": 1
-      },
-      {
-       "name": "physique fondamentale",
-       "size": 1
-      },
-      {
-       "name": "physique medicale",
-       "size": 1
-      },
-      {
-       "name": "physique mention sciences des materiaux",
-       "size": 1
-      },
-      {
-       "name": "physique nucleaire",
-       "size": 1
-      },
-      {
-       "name": "physique nucleaire appliquee",
-       "size": 1
-      },
-      {
-       "name": "physique radiologique",
-       "size": 1
-      },
-      {
-       "name": "physique radiologique et medicale",
-       "size": 1
-      },
-      {
-       "name": "physique radiologique et medicale. imagerie",
-       "size": 1
-      },
-      {
-       "name": "physique radiologique. simulation",
-       "size": 1
-      },
-      {
-       "name": "physique statistique et hydrodynamique",
-       "size": 1
-      },
-      {
-       "name": "physique subatomique",
-       "size": 1
-      },
-      {
-       "name": "physique subatomique et astroparticules",
-       "size": 1
-      },
-      {
-       "name": "physique, de la particule a la matiere condensee",
-       "size": 1
-      },
-      {
-       "name": "physique, dynamique des fluides",
-       "size": 1
-      },
-      {
-       "name": "physique, matiere, rayonnement",
-       "size": 1
-      },
-      {
-       "name": "physique-chimie",
-       "size": 1
-      },
-      {
-       "name": "physiques de la matiere",
+       "name": "phytochimie",
        "size": 1
       }
      ],
-     "name": "physique"
+     "name": "phytochimie"
+    },
+    {
+     "children": [
+      {
+       "name": "planetologie",
+       "size": 1
+      }
+     ],
+     "name": "planetologie"
+    },
+    {
+     "children": [
+      {
+       "name": "radio physique et imagerie medicale",
+       "size": 1
+      }
+     ],
+     "name": "radio physique"
     },
     {
      "children": [
@@ -4057,7 +4096,7 @@
        "size": 1
       }
      ],
-     "name": "spectrochimie,"
+     "name": "spectrochimie"
     },
     {
      "children": [
@@ -4239,11 +4278,11 @@
     {
      "children": [
       {
-       "name": "volcanologie. risque volcanique",
+       "name": "volcanologie risque volcanique",
        "size": 1
       }
      ],
-     "name": "volcanologie."
+     "name": "volcanologie"
     }
    ]
   },
@@ -4603,20 +4642,20 @@
     {
      "children": [
       {
-       "name": "agro-ecologie",
+       "name": "agro ecologie",
        "size": 1
       }
      ],
-     "name": "agro-ecologie"
+     "name": "agro ecologie"
     },
     {
      "children": [
       {
-       "name": "agrosystemes, ecosystemes et environnement",
+       "name": "agrosystemes ecosystemes et environnement",
        "size": 1
       }
      ],
-     "name": "agrosystemes,"
+     "name": "agrosystemes"
     },
     {
      "children": [
@@ -4648,7 +4687,7 @@
     {
      "children": [
       {
-       "name": "archeobotanique & archeoentomologie",
+       "name": "archeobotanique archeoentomologie",
        "size": 1
       }
      ],
@@ -4772,11 +4811,11 @@
     {
      "children": [
       {
-       "name": "bioinformatique. biologie structurale et genomique",
+       "name": "bioinformatique biologie structurale et genomique",
        "size": 1
       }
      ],
-     "name": "bioinformatique."
+     "name": "bioinformatique"
     },
     {
      "children": [
@@ -5300,11 +5339,11 @@
     {
      "children": [
       {
-       "name": "corrosion, materiaux et biologie",
+       "name": "corrosion materiaux et biologie",
        "size": 1
       }
      ],
-     "name": "corrosion,"
+     "name": "corrosion"
     },
     {
      "children": [
@@ -5394,11 +5433,11 @@
     {
      "children": [
       {
-       "name": "ecotoxicite, biodiversite et ecosystemes",
+       "name": "ecotoxicite biodiversite et ecosystemes",
        "size": 1
       }
      ],
-     "name": "ecotoxicite,"
+     "name": "ecotoxicite"
     },
     {
      "children": [
@@ -5583,16 +5622,16 @@
     {
      "children": [
       {
-       "name": "geosciences, ecologie, paleontologie, oceanographie",
+       "name": "geosciences ecologie paleontologie oceanographie",
        "size": 1
       }
      ],
-     "name": "geosciences,"
+     "name": "geosciences"
     },
     {
      "children": [
       {
-       "name": "gepo - geosciences, ecologie, paleontologie, oceanographie. morphodynamique littorale",
+       "name": "gepo geosciences ecologie paleontologie oceanographie morphodynamique littorale",
        "size": 1
       }
      ],
@@ -5704,7 +5743,7 @@
        "size": 1
       }
      ],
-     "name": "medecine."
+     "name": "medecine"
     },
     {
      "children": [
@@ -5798,29 +5837,15 @@
     {
      "children": [
       {
+       "name": "modeles et instruments en medecine et en biologie",
+       "size": 1
+      },
+      {
        "name": "modeles, methodes et algorithmes en biologie, sante et environnement",
        "size": 1
       }
      ],
-     "name": "modeles,"
-    },
-    {
-     "children": [
-      {
-       "name": "modelisation en ecologie",
-       "size": 1
-      }
-     ],
-     "name": "modelisation"
-    },
-    {
-     "children": [
-      {
-       "name": "myco-ecologie",
-       "size": 1
-      }
-     ],
-     "name": "myco-ecologie"
+     "name": "modeles"
     },
     {
      "children": [
@@ -5843,11 +5868,11 @@
     {
      "children": [
       {
-       "name": "nutrition, aspects cellulaires et moleculaires",
+       "name": "nutrition aspects cellulaires et moleculaires",
        "size": 1
       }
      ],
-     "name": "nutrition,"
+     "name": "nutrition"
     },
     {
      "children": [
@@ -5959,20 +5984,15 @@
     {
      "children": [
       {
+       "name": "paleontologie systematique",
+       "size": 1
+      },
+      {
        "name": "paleontologie. paleopalynologie",
        "size": 1
       }
      ],
-     "name": "paleontologie."
-    },
-    {
-     "children": [
-      {
-       "name": "parasitologie et mycologie",
-       "size": 1
-      }
-     ],
-     "name": "parasitologie"
+     "name": "paleontologie"
     },
     {
      "children": [
@@ -6002,6 +6022,15 @@
       }
      ],
      "name": "pathologie"
+    },
+    {
+     "children": [
+      {
+       "name": "pharm hematologie",
+       "size": 1
+      }
+     ],
+     "name": "pharm"
     },
     {
      "children": [
@@ -6127,7 +6156,7 @@
     {
      "children": [
       {
-       "name": "radio et hadron-therapies",
+       "name": "radio et hadron therapies",
        "size": 1
       }
      ],
@@ -6900,11 +6929,11 @@
     {
      "children": [
       {
-       "name": "image, information, hypermedia",
+       "name": "image information hypermedia",
        "size": 1
       }
      ],
-     "name": "image,"
+     "name": "image"
     },
     {
      "children": [
@@ -6957,11 +6986,11 @@
     {
      "children": [
       {
-       "name": "math?matique et automatique",
+       "name": "math matique et automatique",
        "size": 1
       }
      ],
-     "name": "math?matique"
+     "name": "math matique"
     },
     {
      "children": [
@@ -7064,7 +7093,7 @@
     {
      "children": [
       {
-       "name": "micro et nanotechnologies, acoustique et telecommunications",
+       "name": "micro et nanotechnologies acoustique et telecommunications",
        "size": 1
       }
      ],
@@ -7124,7 +7153,7 @@
     {
      "children": [
       {
-       "name": "oceanographie physique, traitement du signal, comportement animal",
+       "name": "oceanographie physique traitement du signal comportement animal",
        "size": 1
       }
      ],
@@ -7145,7 +7174,7 @@
        "size": 1
       }
      ],
-     "name": "optique,"
+     "name": "optique"
     },
     {
      "children": [
@@ -7273,6 +7302,14 @@
     {
      "children": [
       {
+       "name": "signal et images",
+       "size": 1
+      },
+      {
+       "name": "signal image parole telecoms",
+       "size": 1
+      },
+      {
        "name": "signal, image et vision",
        "size": 1
       },
@@ -7305,25 +7342,7 @@
        "size": 1
       }
      ],
-     "name": "signal,"
-    },
-    {
-     "children": [
-      {
-       "name": "statistiques",
-       "size": 1
-      }
-     ],
-     "name": "statistiques"
-    },
-    {
-     "children": [
-      {
-       "name": "stic",
-       "size": 1
-      }
-     ],
-     "name": "stic"
+     "name": "signal"
     },
     {
      "children": [
@@ -7337,7 +7356,7 @@
     {
      "children": [
       {
-       "name": "technologies de l'information et des systemes",
+       "name": "technologies de l information et des systemes",
        "size": 1
       }
      ],
@@ -7473,7 +7492,7 @@
     {
      "children": [
       {
-       "name": "biologie appliquee a la nutrition et a l'alimentation",
+       "name": "biologie appliquee a la nutrition et a l alimentation",
        "size": 1
       }
      ],
@@ -7560,7 +7579,7 @@
     {
      "children": [
       {
-       "name": "doctorat d'universite (medecine)",
+       "name": "doctorat d universite medecine ",
        "size": 1
       }
      ],
@@ -7591,7 +7610,7 @@
     {
      "children": [
       {
-       "name": "efsa - ecologie fonctionnelle et sciences agronomiques",
+       "name": "efsa ecologie fonctionnelle et sciences agronomiques",
        "size": 1
       }
      ],
@@ -7649,20 +7668,15 @@
     {
      "children": [
       {
+       "name": "esa- ecosystemes et sciences agronomiques",
+       "size": 1
+      },
+      {
        "name": "esa-ecosystemes et sciences agronomiques - supagro",
        "size": 1
       }
      ],
-     "name": "esa-ecosystemes"
-    },
-    {
-     "children": [
-      {
-       "name": "g?nie industriel",
-       "size": 1
-      }
-     ],
-     "name": "g?nie"
+     "name": "esa ecosystemes"
     },
     {
      "children": [
@@ -7712,15 +7726,6 @@
       }
      ],
      "name": "genie"
-    },
-    {
-     "children": [
-      {
-       "name": "geophysique appliquee et science du sol",
-       "size": 1
-      }
-     ],
-     "name": "geophysique"
     },
     {
      "children": [
@@ -7796,7 +7801,7 @@
        "size": 1
       }
      ],
-     "name": "mater."
+     "name": "mater"
     },
     {
      "children": [
@@ -7914,7 +7919,7 @@
        "size": 1
       }
      ],
-     "name": "optique,"
+     "name": "optique"
     },
     {
      "children": [
@@ -8012,7 +8017,7 @@
     {
      "children": [
       {
-       "name": "ressources en eau dans l'agriculture",
+       "name": "ressources en eau dans l agriculture",
        "size": 1
       }
      ],
@@ -9604,7 +9609,7 @@
     {
      "children": [
       {
-       "name": "2mge : materiaux, mecanique, genie civil, electrochimie",
+       "name": "2mge materiaux mecanique genie civil electrochimie",
        "size": 1
       }
      ],
@@ -9613,52 +9618,38 @@
     {
      "children": [
       {
-       "name": "aerodynamique, mecanique des fluides et energetique",
+       "name": "aerodynamique mecanique des fluides et energetique",
        "size": 1
       }
      ],
-     "name": "aerodynamique,"
+     "name": "aerodynamique"
+    },
+    {
+     "children": [
+      {
+       "name": "agronomie environnement",
+       "size": 1
+      }
+     ],
+     "name": "agronomie environnement"
     },
     {
      "children": [
       {
        "name": "agronomie-environnement",
        "size": 1
-      }
-     ],
-     "name": "agronomie-environnement"
-    },
-    {
-     "children": [
+      },
       {
        "name": "agronomie. teledetection",
        "size": 1
       }
      ],
-     "name": "agronomie."
+     "name": "agronomie"
     },
     {
      "children": [
       {
-       "name": "agrosystemes, ecosystemes et environnement",
-       "size": 1
-      }
-     ],
-     "name": "agrosystemes,"
-    },
-    {
-     "children": [
-      {
-       "name": "amenagement, architecture",
-       "size": 1
-      }
-     ],
-     "name": "amenagement,"
-    },
-    {
-     "children": [
-      {
-       "name": "archeologie et environnement. geophysique appliquee",
+       "name": "archeologie et environnement geophysique appliquee",
        "size": 1
       }
      ],
@@ -9697,7 +9688,7 @@
     {
      "children": [
       {
-       "name": "biogeochimie de l'environnement",
+       "name": "biogeochimie de l environnement",
        "size": 1
       }
      ],
@@ -9932,7 +9923,7 @@
     {
      "children": [
       {
-       "name": "cpi - chimie et physique de lingenieur",
+       "name": "cpi chimie et physique de lingenieur",
        "size": 1
       }
      ],
@@ -9972,20 +9963,20 @@
     {
      "children": [
       {
-       "name": "eau, sol, environnement",
+       "name": "eau sol environnement",
        "size": 1
       }
      ],
-     "name": "eau,"
+     "name": "eau"
     },
     {
      "children": [
       {
-       "name": "eco-hydrologie",
+       "name": "eco hydrologie",
        "size": 1
       }
      ],
-     "name": "eco-hydrologie"
+     "name": "eco hydrologie"
     },
     {
      "children": [
@@ -9999,7 +9990,7 @@
     {
      "children": [
       {
-       "name": "economie de l'environnement",
+       "name": "economie de l environnement",
        "size": 1
       }
      ],
@@ -10177,16 +10168,17 @@
      "name": "environnement"
     },
     {
-     "children": []
+     "children": [],
+     "name": "es"
     },
     {
      "children": [
       {
-       "name": "esthetique, sciences et technologies des arts",
+       "name": "esthetique sciences et technologies des arts",
        "size": 1
       }
      ],
-     "name": "esthetique,"
+     "name": "esthetique"
     },
     {
      "children": [
@@ -10200,11 +10192,11 @@
     {
      "children": [
       {
-       "name": "g?osciences et g?oing?nierie",
+       "name": "g osciences et g oing nierie",
        "size": 1
       }
      ],
-     "name": "g?osciences"
+     "name": "g osciences"
     },
     {
      "children": [
@@ -11001,20 +10993,24 @@
     {
      "children": [
       {
+       "name": "metabolisme energetique et regulations nutritionnelles",
+       "size": 1
+      },
+      {
        "name": "metabolisme, energetique et regulations nutritionnelles",
        "size": 1
       }
      ],
-     "name": "metabolisme,"
+     "name": "metabolisme"
     },
     {
      "children": [
       {
-       "name": "metallurgie-corrosion",
+       "name": "meteorologie hydrologie et teledetection",
        "size": 1
       }
      ],
-     "name": "metallurgie"
+     "name": "meteorologie"
     },
     {
      "children": [
@@ -11115,6 +11111,10 @@
     {
      "children": [
       {
+       "name": "pharmacie : sciences pour l'environnement",
+       "size": 1
+      },
+      {
        "name": "pharmacie. hydrologie",
        "size": 1
       },
@@ -11127,7 +11127,7 @@
        "size": 1
       }
      ],
-     "name": "pharmacie."
+     "name": "pharmacie"
     },
     {
      "children": [
@@ -11148,16 +11148,7 @@
        "size": 1
       }
      ],
-     "name": "physico-chimie"
-    },
-    {
-     "children": [
-      {
-       "name": "physiologie integree en environnements extremes",
-       "size": 1
-      }
-     ],
-     "name": "physiologie"
+     "name": "physico chimie"
     },
     {
      "children": [
@@ -11184,11 +11175,11 @@
     {
      "children": [
       {
-       "name": "sante-environnement",
+       "name": "sante environnement",
        "size": 1
       }
      ],
-     "name": "sante-environnement"
+     "name": "sante environnement"
     },
     {
      "children": [
@@ -11279,7 +11270,7 @@
     {
      "children": [
       {
-       "name": "ste - sciences de la terre et de l'eau",
+       "name": "ste sciences de la terre et de l eau",
        "size": 1
       }
      ],
@@ -11396,7 +11387,7 @@
        "size": 1
       }
      ],
-     "name": "terre,"
+     "name": "terre"
     },
     {
      "children": [
@@ -11460,12 +11451,13 @@
    "name": "Autres",
    "children": [
     {
-     "children": []
+     "children": [],
+     "name": "?"
     },
     {
      "children": [
       {
-       "name": "?nerg?tique et proc?d?s",
+       "name": " nerg tique et proc d s",
        "size": 1
       }
      ],
@@ -11483,7 +11475,7 @@
     {
      "children": [
       {
-       "name": "biol. cell. mol.",
+       "name": "biol cell mol ",
        "size": 1
       }
      ],
@@ -11532,7 +11524,7 @@
     {
      "children": [
       {
-       "name": "g?otechnique",
+       "name": "g otechnique",
        "size": 1
       }
      ],
@@ -11550,7 +11542,7 @@
     {
      "children": [
       {
-       "name": "geol. appl.",
+       "name": "geol appl ",
        "size": 1
       }
      ],
@@ -11586,6 +11578,10 @@
     {
      "children": [
       {
+       "name": "m?canique",
+       "size": 1
+      },
+      {
        "name": "m?canique num?rique et mat?riaux",
        "size": 1
       }
@@ -11604,7 +11600,7 @@
     {
      "children": [
       {
-       "name": "sacre, design",
+       "name": "sacre design",
        "size": 1
       }
      ],

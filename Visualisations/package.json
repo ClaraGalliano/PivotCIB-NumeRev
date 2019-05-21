@@ -1,0 +1,14 @@
+{
+  "name": "@mbostock/sankey-diagram",
+  "main": "@d3/sankey-diagram.js",
+  "version": "229.0.0",
+  "homepage": "https://observablehq.com/@mbostock/sankey-diagram",
+  "author": {
+    "name": "Mike Bostock",
+    "url": "https://observablehq.com/@mbostock"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

@@ -47,3 +47,23 @@ def IPCExtractPredictions(Predic, seuil):
     else:
         return None
     return Predict
+
+def IPCDescription(IPC, langue):
+    import requests
+    import xmltodict
+    from requests.utils import requote_uri
+    import time
+
+    url ='https://www.wipo.int/ipcpub?xml2html=definition&lang='+langue+'&symbol='+IPC
+    url = requote_uri(url)
+    #time.sleep(3)
+    try:
+        req=requests.get(url)
+        if req.ok:
+            Reponse= xmltodict.parse(req.text)
+            print()
+        else:
+            pass
+    except:
+        print("pb")
+    return None

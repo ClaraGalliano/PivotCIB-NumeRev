@@ -7,6 +7,8 @@ Created on Sat May  4 15:35:57 2019
 import json
 import codecs
 import copy
+from Utils import Nettoie
+from fuzzywuzzy import fuzz
 
 with open('DonneesThese3.json', 'r', encoding='utf8') as ficSrc:
     donnees = json.load (ficSrc)
@@ -98,12 +100,12 @@ def InsereTermesDebut(Liste, ListeTerme):
         Liste.insert(0, strip_accents(mot))
     return Liste
 # insertion des mots "préférentiels" au début 
-# pour éviter que par ex. Science des aliments ne se retrouve en 
+# pour éviter que par ex. Science des aliments ne se retrouve en sciences
 #Attention à ce qu'ils soient dans le dictionnaire d'initialisation
 #Mettre les termes en minuscule correctement accentués
 if FichierInitial!='disciplinesInit.csv':
-    Prefered = ['géoscience', 'écologie', 'biologie', 'écosystème', 'biologique', 'agriculture', 'agronomique', 'aliment',
-                'agroalimentaire']
+    Prefered = ['géoscience', "biosciences", 'écologie', 'biologie', 'écosystème', 'biologique', 'agriculture', 'agronomique', 'agronomie', 'aliment',
+                'agroalimentaire', "Science du vivant", "Sciences du vivant", "arts et sciences"]
 
     SousDiscisp = InsereTermesDebut(SousDiscisp, Prefered)
 
@@ -177,15 +179,15 @@ for dis in NotVus:
 print('Après traitement...')      
 
 #with codecs.open("DisciplineEtendu3.csv", 'w', 'utf8') as ficRes:
-for domaine in Candidat.keys():
-    lstSousDis=list(set(Candidat[domaine]).union(set(Candidat2[domaine])))
-    lstSousDis.sort(key=lambda item: (len(item), item), reverse= True)
-    Candidat[domaine]= lstSousDis
-    print (domaine, ' --> ', len(lstSousDis))
-toto = json.dumps(Candidat, ensure_ascii=False, indent=1)
-with open('DisciplinesEtendues.json', 'wb') as ficRes:
-    ficRes.write(toto.encode('utf8')) 
-
+#for domaine in Candidat.keys():
+#    lstSousDis=list(set(Candidat[domaine]).union(set(Candidat2[domaine])))
+#    lstSousDis.sort(key=lambda item: (len(item), item), reverse= True)
+#    Candidat[domaine]= lstSousDis
+#    print (domaine, ' --> ', len(lstSousDis))
+#toto = json.dumps(Candidat, ensure_ascii=False, indent=1)
+#with open('DisciplinesEtendues.json', 'wb') as ficRes:
+#    ficRes.write(toto.encode('utf8')) 
+#
 
 
 #creation d'un export Json
@@ -193,51 +195,52 @@ HierarchieJson= dict()
 HierarchieJson['name'] = 'Disciplines'
 HierarchieJson['children'] = []
 
-for dis in Candidat.keys():
-    dicoTemp = dict()
-    dicoTemp['name'] = dis
-    dicoTemp['children'] = []
-    Candidat[dis]=list(set(Candidat[dis]).union(Candidat2[dis]))
-    Candidat[dis].sort(key=lambda item: (len(item), item), reverse= True)
-    for discip in Candidat[dis]:
-        tempo = dict()
-        tempo['name'] = discip
-        tempo['size'] = Candidat[dis].count(discip)
-        dicoTemp['children'].append(tempo)
-    HierarchieJson['children'].append(dicoTemp)
-toto = json.dumps(HierarchieJson, ensure_ascii=False, indent=1)
-with open('HierarchieDiscipline.json', 'wb') as ficRes:
-    ficRes.write(toto.encode('utf8')) 
-
-
-HierarchieJson2= dict()
-HierarchieJson2['name'] = 'Disciplines'
-HierarchieJson2['children'] = []
-
-print ('sans accents ni majuscules')
-
-for dis in Candidat2.keys():
-    dicoTemp = dict()
-    dicoTemp['name'] = dis
-    dicoTemp['children'] = []
-    Candidat2[dis]= [mot.lower() for mot in Candidat2[dis]] #elimination des casses différentes
-    Candidat2[dis]= [strip_accents(mot) for mot in Candidat2[dis]]#elimination des accents
-    Candidat2[dis]=list(set(Candidat2[dis]))
-    Candidat2[dis].sort()#(key=lambda item: (len(item), item), reverse= True)
-    print (dis, ' --> ', len(Candidat2[dis]))
-    for discip in Candidat2[dis]:
-        tempo = dict()
-        tempo['name'] = discip
-        tempo['size'] = Candidat2[dis].count(discip)
-        dicoTemp['children'].append(tempo)
-    HierarchieJson2['children'].append(dicoTemp)
-toto = json.dumps(HierarchieJson2, ensure_ascii=False, indent=1)
-with open('HierarchieDiscipline2.json', 'wb') as ficRes:
-    ficRes.write(toto.encode('utf8')) 
+#for dis in Candidat.keys():
+#    dicoTemp = dict()
+#    dicoTemp['name'] = dis
+#    dicoTemp['children'] = []
+#    Candidat[dis]=list(set(Candidat[dis]).union(Candidat2[dis]))
+#    Candidat[dis].sort(key=lambda item: (len(item), item), reverse= True)
+#    for discip in Candidat[dis]:
+#        tempo = dict()
+#        tempo['name'] = discip
+#        tempo['size'] = Candidat[dis].count(discip)
+#        dicoTemp['children'].append(tempo)
+#    HierarchieJson['children'].append(dicoTemp)
+#toto = json.dumps(HierarchieJson, ensure_ascii=False, indent=1)
+#with open('HierarchieDiscipline.json', 'wb') as ficRes:
+#    ficRes.write(toto.encode('utf8')) 
+#
+#
+#HierarchieJson2= dict()
+#HierarchieJson2['name'] = 'Disciplines'
+#HierarchieJson2['children'] = []
+#
+#print ('sans accents ni majuscules')
+#
+#for dis in Candidat2.keys():
+#    dicoTemp = dict()
+#    dicoTemp['name'] = dis
+#    dicoTemp['children'] = []
+#    Candidat2[dis]= [mot.lower() for mot in Candidat2[dis]] #elimination des casses différentes
+#    Candidat2[dis]= [strip_accents(mot) for mot in Candidat2[dis]]#elimination des accents
+#    Candidat2[dis]=list(set(Candidat2[dis]))
+#    Candidat2[dis].sort()#(key=lambda item: (len(item), item), reverse= True)
+#    print (dis, ' --> ', len(Candidat2[dis]))
+#    for discip in Candidat2[dis]:
+#        tempo = dict()
+#        tempo['name'] = discip
+#        tempo['size'] = Candidat2[dis].count(discip)
+#        dicoTemp['children'].append(tempo)
+#    HierarchieJson2['children'].append(dicoTemp)
+#toto = json.dumps(HierarchieJson2, ensure_ascii=False, indent=1)
+#with open('HierarchieDiscipline2.json', 'wb') as ficRes:
+#    ficRes.write(toto.encode('utf8')) 
 HierarchieJson3= dict()
+SousDiscipline = dict()
 HierarchieJson3['name'] = 'Disciplines'
 HierarchieJson3['children'] = []
-for dis in Candidat2.keys():
+for dis in [ 'VIE','TerreUniversMatiere', 'SHS', 'TechnoScienceAppli', 'FORMELLES', 'TRANSVERSE', 'Autres']:
     dicoTemp = dict()
     dicoTemp['name'] = dis
     dicoTemp['children'] = []
@@ -250,13 +253,19 @@ for dis in Candidat2.keys():
         tempo = dict()
         if len(discip.split())>0:
             tempo['children'] = []
-            
+            if dis != 'Autres':
+                    tempo['name'] = Nettoie(discip.split()[0], False).strip()
+            else:
+                    tempo['name'] = discip.split()[0].strip()
             if len(discip.split()[0])>2:
-                tempo['name'] = discip.split()[0]
-                temporar = [terme for terme in Candidat2[dis] if terme.startswith(discip.split()[0])]
+                if dis != 'Autres':
+                    tempo['name'] = Nettoie(discip.split()[0], False).strip()
+                else:
+                    tempo['name'] = discip.split()[0].strip()
+                temporar = [terme for terme in Candidat2[dis] if Nettoie(terme, False).startswith(Nettoie(discip.split()[0], False))]
                 if len(temporar)>1:
                     dicotemp=dict()
-                    dicotemp['name']=discip.split()[0]
+                    dicotemp['name']=Nettoie(discip.split()[0], False)
                     dicotemp['children'] = []
                     dicotemp['size']= len(temporar)
                     for term in temporar:
@@ -265,16 +274,112 @@ for dis in Candidat2.keys():
                         dicotemp2['size']=temporar.count(term)
                         dicotemp['children'].append(dicotemp2)
                         Candidat2[dis].remove(term)
-                        if term != discip.split()[0]:
+                        if term != Nettoie(discip.split()[0], False):
                             tempo['children'].append(dicotemp2)
+                            SousDiscipline [term] = (dis, dicotemp['name'])#, tempo['name'] )
+                            
                 else:
-                    tempo['children'].append({'name': discip, 'size':1})
+                    tempo['children'].append({'name': Nettoie(discip, False), 'size':1})
+                    SousDiscipline [Nettoie(discip, False)] = (dis, tempo['name'])#tempo['name'] )
         else:
-            tempo['name'] = discip
+            tempo['name'] = Nettoie(discip, False)
         #tempo['size'] = Candidat2[dis].count(discip)
-
+            SousDiscipline [discip] = (dis, tempo['name'])
         dicoTemp['children'].append(tempo)
+        
+        
     HierarchieJson3['children'].append(dicoTemp)
 toto = json.dumps(HierarchieJson3, ensure_ascii=False, indent=1)
 with open('HierarchieDiscipline3.json', 'wb') as ficRes:
     ficRes.write(toto.encode('utf8')) 
+    
+HierarchieJson = dict()
+HierarchieJsonSimple = dict()
+for discip in SousDiscipline.keys():
+    if len(discip)>2:
+        dicipNettoyee= Nettoie(discip, False)
+    else:
+        dicipNettoyee=discip
+    domaine = SousDiscipline [discip] [0]
+    sousdomaine = SousDiscipline [discip] [1]
+    if domaine in HierarchieJsonSimple.keys():
+        if sousdomaine in HierarchieJsonSimple [domaine].keys():
+            if dicipNettoyee not in HierarchieJsonSimple [domaine] [sousdomaine]:
+                    HierarchieJsonSimple [domaine] [sousdomaine].append(dicipNettoyee)
+            else:
+                    pass                
+        else:
+            
+            HierarchieJsonSimple [domaine] [sousdomaine] = []
+            HierarchieJsonSimple [domaine] [sousdomaine].append(dicipNettoyee)
+    else:
+        HierarchieJsonSimple [domaine] = dict()
+        HierarchieJsonSimple [domaine] [sousdomaine] = []
+        HierarchieJsonSimple [domaine] [sousdomaine].append(dicipNettoyee)
+    if domaine in HierarchieJson.keys():
+        if sousdomaine in HierarchieJson [domaine].keys():
+            HierarchieJson [domaine] [sousdomaine].append(discip)
+        else:
+            HierarchieJson [domaine] [sousdomaine] = []
+            HierarchieJson [domaine] [sousdomaine].append(discip)
+    else:
+        HierarchieJson [domaine] = dict()
+        HierarchieJson [domaine] [sousdomaine] = []
+        HierarchieJson [domaine] [sousdomaine].append(discip)
+        
+
+toto = json.dumps(HierarchieJson)
+with open('HierarchieDisciplineCompletbis3.json', 'wb') as ficRes:
+    ficRes.write(toto.encode('utf8'))
+
+toto = json.dumps(HierarchieJsonSimple)
+with open('HierarchieDisciplineSimplifie23.json', 'wb') as ficRes:
+    ficRes.write(toto.encode('utf8'))
+
+#Check et insertion dans liste de thèses
+ChDisciplines= SousDiscipline.keys()
+SousDom = [souDom for dom in HierarchieJson.keys() for souDom in HierarchieJson [dom]]
+xdist = lambda x: { val: fuzz.token_set_ratio( x, val ) for val in ChDisciplines if val != x}
+with open('DonneesThese3.json', 'r', encoding='utf8') as ficSrc:
+    donnees = json.load (ficSrc)
+cpt = 0
+LstThz = donnees
+for thz in LstThz:
+    if thz['discipline'] not in SousDiscipline.keys() or Nettoie(thz['discipline'], False).strip() not in SousDiscipline.keys():
+        cpt +=1
+        if Nettoie(thz['discipline'], False) not in SousDom:
+            
+            if Nettoie(thz['discipline'], True).strip() not in SousDiscipline.keys():
+                Check = xdist(Nettoie(thz['discipline'], True).strip())
+                Candidat1 = [truc for truc in Check.keys() if Check[truc] == max(Check.values()) ]
+                Candidat1.sort(key=len, reverse = True)
+                Check2 = xdist(thz['discipline'])
+                Candidat2 = [truc for truc in Check2.keys() if Check2[truc] == max(Check2.values()) ]
+                Candidat2.sort(key=len, reverse = True)
+                CandidatFinal = [Candidat1[0], Candidat2[0]]
+                CandidatFinal.sort(key=len, reverse = True)
+                thz['Domaine'] = SousDiscipline [CandidatFinal[0]][0]
+                thz['SousDomaine'] = SousDiscipline [CandidatFinal[0]][1]
+            else:
+                thz['Domaine'] = SousDiscipline [Nettoie(thz['discipline'], True).strip()][0]
+                thz['SousDomaine'] = SousDiscipline [Nettoie(thz['discipline'], True).strip()][1]
+
+        else:
+            thz['Domaine'] = [dom for dom in HierarchieJson.keys() if Nettoie(thz['discipline'], False) in HierarchieJson[dom]][0]
+            thz['SousDomaine'] = Nettoie(thz['discipline'], False)
+           # thz['SousSousDomaine'] = Nettoie(thz['discipline'], False)
+    elif thz['discipline'] in SousDiscipline.keys():
+         thz['Domaine'] = SousDiscipline [thz['discipline']][0]
+         thz['SousDomaine'] = SousDiscipline [thz['discipline']][1]
+
+    else:
+         thz['Domaine'] = SousDiscipline [Nettoie(thz['discipline'], True).strip()][0]
+         thz['SousDomaine'] = SousDiscipline [Nettoie(thz['discipline'], True).strip()][1]
+            
+    print (cpt)
+for thz in LstThz:
+    if 'domaine' not in thz.keys():
+        print ("ARG", thz)
+with open('DonneesTheseEtendues.json', 'w', encoding='utf8') as ficSrc:
+    donnees = json.write (LstThz)
+        
