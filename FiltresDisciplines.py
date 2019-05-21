@@ -376,10 +376,10 @@ for thz in LstThz:
          thz['Domaine'] = SousDiscipline [Nettoie(thz['discipline'], True).strip()][0]
          thz['SousDomaine'] = SousDiscipline [Nettoie(thz['discipline'], True).strip()][1]
             
-    print (cpt)
+    #print (cpt)
 for thz in LstThz:
-    if 'domaine' not in thz.keys():
-        print ("ARG", thz)
-with open('DonneesTheseEtendues.json', 'w', encoding='utf8') as ficSrc:
-    donnees = json.write (LstThz)
+    if 'Domaine' not in thz.keys():
+        print ("ARG")
+with open('DonneesTheseEtendues.json', 'wb') as ficSrc:
+    donnees = ficSrc.write (LstThz)
         

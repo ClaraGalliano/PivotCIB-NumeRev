@@ -5,14 +5,14 @@ Created on Sat May  4 15:35:57 2019
 @author: dreymond
 """
 import json
-import codecs
-with open('DonneesThese3.json', 'r', encoding='utf8') as ficSrc:
+
+with open('DonneesThese3.json', 'r') as ficSrc:
     donnees = json.load (ficSrc)
     
 LstThz = donnees
 LstThz2 = []
 ChampsInitiaux = ['Id','discipline','Date','Langue','titre','Résumé','IPC1','ScoreIPC1','IPC2','ScoreIPC2','IPC3','ScoreIPC3','IPC4','ScoreIPC4','IPC5','ScoreIPC5']
-ChampsEpures = ['discipline','Date','Langue','CatIPC', 'titre']
+ChampsEpures = ['discipline','Date','Langue','CatIPC', 'titre', 'Domaine', 'SousDomaine']
 ChampsNouveau  = ['discipline','Date','score','IPC3','IPC7', 'IPC11', 'titre']
 ChampsNouveau.sort()
 cpt=0
@@ -84,25 +84,21 @@ SousDiscipline = dict()
 #    for sousdis in SousDis:
 #        SousDiscipline[sousdis] = col[0]
 
-with open('DisciplinesEtendues.json', 'r', encoding='utf8') as ficSrc:
-    DicoDisciplines = json.load (ficSrc)
-for domaine in DicoDisciplines.keys():
-    for sousdis in DicoDisciplines[domaine]:
-        SousDiscipline[sousdis] = domaine
+
 
 for Thz in LstThz3:
     Thz2 = dict()
-    if Thz["discipline"] in SousDiscipline.keys() or Thz["discipline"].lower() in SousDiscipline.keys() or Thz["discipline"].strip().lower()  in SousDiscipline.keys():
-        try:
-            Thz["discipline"]= SousDiscipline[Thz["discipline"].lower() ]
-        except:
-            try:
-                Thz["discipline"]= SousDiscipline[Thz["discipline"].strip().lower() ]
-            except:
-                
-                Thz["discipline"]= SousDiscipline[Thz["discipline"]]
-    else:
-        print ('bug -->', Thz["discipline"].lower() )
+#    if Thz["discipline"] in SousDiscipline.keys() or Thz["discipline"].lower() in SousDiscipline.keys() or Thz["discipline"].strip().lower()  in SousDiscipline.keys():
+#        try:
+#            Thz["discipline"]= SousDiscipline[Thz["discipline"].lower() ]
+#        except:
+#            try:
+#                Thz["discipline"]= SousDiscipline[Thz["discipline"].strip().lower() ]
+#            except:
+#                
+#                Thz["discipline"]= SousDiscipline[Thz["discipline"]]
+#    else:
+#        print ('bug -->', Thz["discipline"].lower() )
     for cle in Thz.keys():
         if cle in ChampsEpures:
             if cle == 'CatIPC': 
@@ -151,7 +147,7 @@ for thz in LstThz2:
         feuilles = dict()
         feuilles['name'] = thz['titre'].split('[') [0] # n'a ton pas idée de mettre des crochets dans un titre de thèse ....replace('[', '')
         feuilles['size'] = int(thz['score'])
-        thz['discipline'] = thz['discipline'].title().replace(' ', '')
+        #thz['discipline'] = thz['discipline'].title().replace(' ', '')
         if thz['discipline'] not in Hierarchie.keys():
             Hierarchie[thz['discipline']] = dict()
             Hierarchie[thz['discipline']][thz['IPC3']] = dict()
@@ -176,9 +172,115 @@ for thz in LstThz2:
 print ("entrées supprimées", inconsistants)
 #        
 
+HierarchieJsonFin = dict()
+HierarchieJsonFin['name'] ="Eau"
+
+
+HierarchieJsonFin ['children'] = []
+Domaines= list(set([thz['Domaine'] for thz in LstThz3]))
+SousDomaines = dict()
+for dom in Domaines:
+    SousDomaines[dom] = list(set([thz['SousDomaine'] for thz in LstThz3 if thz['Domaine']==dom]))
+
+IPC7IPC3SousDomDom = dict()
+for thz in LstThz3:
+    if thz['Domaine'] in IPC7IPC3SousDomDom.keys():
+        if thz['SousDomaine'] in IPC7IPC3SousDomDom[thz['Domaine']].keys():
+            if thz['IPC3'] in IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']].keys():
+                if thz['IPC7'] in IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']].keys():
+                    IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']].append(thz['titre'])
+                else:
+                    IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=[thz['titre']]
+            else:
+                 IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=dict()
+                 IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=[thz['titre']]
+        else:
+            IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']]= dict()
+            IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=dict()
+            IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=[thz['titre']]
+    else:
+        IPC7IPC3SousDomDom[thz['Domaine']]= dict()
+        IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']]= dict()
+        IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=dict()
+        IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=[thz['titre']]
+
+for dom in IPC7IPC3SousDomDom.keys():
+    HierarchieJsonFin['name'] = dom
+    for sousDom in IPC7IPC3SousDomDom[dom].keys():
+        tempoDict=dict()
+        tempoDict['name'] = sousDom
+        tempoDict['children'] = []
+        for IPC7 in IPC7IPC3SousDomDom[dom][sousDom].keys():
+            tempotempoDict=dict()
+            tempotempoDict['name'] = IPC7
+            tempotempoDict['children'] = []
+            for IPC3 in IPC7IPC3SousDomDom[dom][sousDom][IPC7].keys():
+                tempotempotempoDict=dict()
+                tempotempotempoDict['name'] = IPC3
+                tempotempotempoDict['children'] = [titre for titre in IPC7IPC3SousDomDom[dom][sousDom][IPC7]['IPC3']]
+            tempotempoDict['children'].append(tempotempotempoDict)
+        tempoDict['children'].append(tempotempoDict)
+    HierarchieJsonFin['children'].append(tempoDict)
+
+toto = json.dumps(HierarchieJsonFin, ensure_ascii=False, indent=1)
+with open('HierarchieDisciplineCIB.js', 'wb') as ficRes:
+    ficRes.write(b"function getData() {    return "
+                 + toto.encode('utf8')+b" };")  
+with open('HierarchieDisciplineCIB.json', 'wb') as ficRes:
+    ficRes.write(toto.encode('utf8'))      
+             
+
 HierarchieJson = dict()
 
 HierarchieJson ['children'] = []
+def HierarchiseD3bis (Hier, cle1, cle2, cle3):
+    
+    if isinstance(Hier, dict):
+        if 'name' in Hier.keys():
+            if isinstance(Hier['name'], list):
+                Hier['name'] = Hier['name'][0]
+            return [Hier]
+        else:
+            Renvoi = []
+            for cle in Hier.keys():
+                dico = dict()
+                Child = []
+                dico["name"] = cle[0:20]
+                if isinstance(Hier[cle], dict):
+                    Child.append(HierarchiseD3(Hier[cle]))
+                    
+                elif isinstance(Hier[cle], list):
+                    for dic in Hier[cle]:
+                        Child.append(HierarchiseD3(dic))     
+                else:
+                    print ('wtf')
+                if isinstance(Child, list):
+                    if len(Child)>1 and isinstance(Child[0], dict):
+                        dico['children'] = Child
+                    elif len(Child)>1 and not isinstance(Child[0], dict):
+                        Child = [temp[0] for temp in Child]
+                        dico['children'] = Child
+                    else:
+                        dico['children'] = Child[0]
+                    
+                Renvoi.append(dico)
+                
+            return Renvoi
+    elif isinstance(Hier, list):
+        Renvoi = []
+        for dic in Hier:
+            if isinstance(dic, dict):
+                Child.append(HierarchiseD3(dic))
+            elif isinstance(dic, list):
+                for lstdic in dic:
+                    Child.append(lstdic)
+            else:
+                print ('wtf')
+        Renvoi.append(Child)
+        dico['children'] = Renvoi
+        return dico
+    else:
+        print ('wtf2')
 
 def HierarchiseD3 (Hier):
     if isinstance(Hier, dict):
