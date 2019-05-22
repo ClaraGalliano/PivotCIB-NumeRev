@@ -18,8 +18,8 @@ ChampsEpures = ['discipline','Date','Langue','CatIPC', 'titre', 'Domaine', 'Sous
 ChampsNouveau  = ['discipline','Date','score','IPC3','IPC7', 'IPC11', 'titre']
 ChampsNouveau.sort()
 evites = 0
-seuilScore = 900
-SeuilNoeud = 2
+seuilScore = 1200
+SeuilNoeud = 3
 IPCDef = GetIPCDefinition()
 
 for Thz in LstThz:
@@ -143,7 +143,7 @@ for dom in IPC7IPC3SousDomDom.keys():
 #                    tempotempoDict['children'].append(tempotempotempoDict)
 # Les titres sont longs le diagrame est illisible                    
                 tempotempotempoDict['children'] = [titre for titre in IPC7IPC3SousDomDom[dom][sousDom][IPC3][IPC7]]
-                if isinstance(IPC7IPC3SousDomDom[dom][sousDom][IPC3][IPC7], list) and len(IPC7IPC3SousDomDom[dom][sousDom][IPC3][IPC7])>1:
+                if isinstance(IPC7IPC3SousDomDom[dom][sousDom][IPC3][IPC7], list) and len(IPC7IPC3SousDomDom[dom][sousDom][IPC3][IPC7])>0:
                     for titre in IPC7IPC3SousDomDom[dom][sousDom][IPC3][IPC7]:
                         if titre not in DejaVu:
                             Nodes [titre] = compteNoeud
@@ -165,23 +165,29 @@ for thz in LstThz2:
             if cle in Links.keys():
                  Links [cle] +=1
             else:
-                Links [cle] =1
+                Links [cle] =SeuilNoeud
             cle = (Nodes[thz['SousDomaine']], Nodes[thz['IPC3']])
             if cle in Links.keys():
                  Links [cle] +=1
             else:
-                Links [cle] =1
+                Links [cle] =SeuilNoeud
             cle = (Nodes[thz['IPC3']], Nodes[thz['IPC7']])
             if thz['IPC7'] != thz['IPC3']:
                 if cle in Links.keys():
                      Links [cle] +=1
                 else:
+                    Links [cle] =SeuilNoeud
+                cle = (Nodes[thz['IPC7']], Nodes[thz['titre']])
+                if cle in Links.keys():
+                     Links [cle] +=1
+                else:
                     Links [cle] =1
-            cle = (Nodes[thz['IPC3']], Nodes[thz['titre']])
-            if cle in Links.keys():
-                 Links [cle] +=1
             else:
-                Links [cle] =1
+                cle = (Nodes[thz['IPC3']], Nodes[thz['titre']])
+                if cle in Links.keys():
+                     Links [cle] +=1
+                else:
+                     Links [cle] =1
 IdxNoeuds = dict()
 for noeud in Nodes.keys():
     IdxNoeuds[Nodes[noeud]] = noeud 
@@ -227,25 +233,26 @@ for ind1, ind2 in ExtractLinks:
     if not ind2 in ReIndex.keys():
         ReIndex [ind2] = cpt
         cpt+=1
-
+NouveauxNoeuds = {ReIndex [ind] :IdxNoeuds[ind] for ind in ReIndex.keys()}
+NouveauxLiens = {(ReIndex [ind1], ReIndex [ind2]) : Links[(ind1, ind2)] for ind1, ind2 in ExtractLinks}
 #For link in ExtractLinks:
 DejaVu = []    
-for ind1, ind2 in ExtractLinks:
+for ind1, ind2 in NouveauxLiens:
     if ind1 not in DejaVu:
         dicoTemp =dict()
-        dicoTemp ['name'] = IdxNoeuds[ind1]
+        dicoTemp ['name'] = NouveauxNoeuds[ind1]
         Graphdico2 ['nodes'].append( dicoTemp)
         DejaVu.append(ind1)
     if ind2 not in DejaVu:
         dicoTemp =dict()
-        dicoTemp ['name'] = IdxNoeuds[ind2]
+        dicoTemp ['name'] = NouveauxNoeuds[ind2]
         Graphdico2 ['nodes'].append( dicoTemp)
         DejaVu.append(ind2)
     if ind1 in DejaVu and ind2 in DejaVu:
         dicoTemp =dict()
-        dicoTemp ['source'] = ReIndex[ind1]
-        dicoTemp ['target'] = ReIndex[ind2]
-        dicoTemp ['value'] = Links [(ind1, ind2)]
+        dicoTemp ['source'] = ind1
+        dicoTemp ['target'] = ind2
+        dicoTemp ['value'] = NouveauxLiens [(ind1, ind2)]
         Graphdico2 ['links'].append(dicoTemp)
 
 
