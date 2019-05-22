@@ -127,7 +127,7 @@ Object.assign(html`<select>
 }
 );
   main.variable(observer("data")).define("data", ["d3"], function(d3){return(
-d3.json("https://gist.githubusercontent.com/mbostock/ca9a0bb7ba204d12974bca90acc507c0/raw/398136b7db83d7d7fd89181b080924eb76041692/energy.json")
+d3.json("GraphDisciplineCIB.json")
 )});
   main.variable(observer("width")).define("width", function(){return(
 975

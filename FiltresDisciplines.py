@@ -14,7 +14,7 @@ with open('DonneesThese3.json', 'r', encoding='utf8') as ficSrc:
     donnees = json.load (ficSrc)
     
 LstThz = donnees
-LstThz2 = []
+
 ChampsInitiaux = ['Id','discipline','Date','Langue','titre','Résumé','IPC1','ScoreIPC1','IPC2','ScoreIPC2','IPC3','ScoreIPC3','IPC4','ScoreIPC4','IPC5','ScoreIPC5']
 ChampsEpures = ['discipline','Date','Langue','CatIPC', 'titre']
 ChampsNouveau  = ['discipline','Date','score','IPC3','IPC7', 'IPC11', 'titre']
@@ -380,6 +380,11 @@ for thz in LstThz:
 for thz in LstThz:
     if 'Domaine' not in thz.keys():
         print ("ARG")
+toto = json.dumps( LstThz )      
 with open('DonneesTheseEtendues.json', 'wb') as ficSrc:
-    donnees = ficSrc.write (LstThz)
-        
+    donnees = ficSrc.write (toto.encode('utf8'))
+
+LstThz2 = [thz for thz in LstThz if len(thz['titre'])!=0 and len(thz['discipline'])!=0]
+toto = json.dumps( LstThz2 )      
+with open('DonneesTheseEtenduesFiltrees.json', 'wb') as ficSrc:
+    donnees = ficSrc.write (toto.encode('utf8'))        
