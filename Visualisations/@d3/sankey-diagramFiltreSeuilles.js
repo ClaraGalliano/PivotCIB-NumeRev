@@ -25,9 +25,9 @@ Object.assign(html`<select>
   <option value=left>Left-aligned
   <option value=right>Right-aligned
   <option value=center>Centered
-  <option value=justify selected>Justified
+  <option value=left>Left-aligned
 </select>`, {
-  value: new URLSearchParams(html`<a href>`.search).get("align") || "justify"
+  value: new URLSearchParams(html`<a href>`.search).get("align") || "left"
 })
 )});
   main.variable(observer("align")).define("align", ["Generators", "viewof align"], (G, _) => G.input(_));
@@ -46,8 +46,8 @@ Object.assign(html`<select>
     .join("rect")
       .attr("x", d => d.x0)
       .attr("y", d => d.y0)
-      .attr("height", d => d.y1 - d.y0)
-      .attr("width", d => d.x1 +120 - d.x0) 
+      .attr("height", d => d.y1 - d.y0)// d.y1 - d.y0
+      .attr("width", d => d.x1 - d.x0) //
       .attr("fill", d => color(d.name))
     .append("title")
       .text(d => `${d.name}\n${format(d.value)}`);
@@ -92,9 +92,9 @@ Object.assign(html`<select>
     .selectAll("text")
     .data(nodes)
     .join("text")
-      .attr("x", d => d.x0 < width / 2 ? d.x1 + 3: d.x0 - 3)
+      .attr("x", d => d.x0 < width / 2 ? d.x1 + 6: d.x0 - 6)
       .attr("y", d => (d.y1 + d.y0) / 2)
-      .attr("dy", "0.15em") //descendre le texte / à la position du noeud
+      .attr("dy", "0.35em") //descendre le texte / à la position du noeud
       .attr("text-anchor", d => d.x0 < width / 2 ? "start" : "end")
       .text(d => d.name);
 
@@ -117,7 +117,7 @@ Object.assign(html`<select>
   main.variable(observer("format")).define("format", ["d3"], function(d3)
 {
   const f = d3.format(",.0f");
-  return d => `${f(d)} TWh`;
+  return d => `${f(d)} Theses`;
 }
 );
   main.variable(observer("color")).define("color", ["d3"], function(d3)
@@ -127,13 +127,13 @@ Object.assign(html`<select>
 }
 );
   main.variable(observer("data")).define("data", ["d3"], function(d3){return(
-d3.json("GraphDisciplineCIBFiltres.json")
+d3.json("GraphDisciplineCIBFiltresSeuilles3.json")
 )});
   main.variable(observer("width")).define("width", function(){return(
 975
 )});
   main.variable(observer("height")).define("height", function(){return(
-2600
+800
 )});
   main.variable(observer("d3")).define("d3", ["require"], function(require){return(
 require("d3@5", "d3-sankey@0.12")

@@ -1853,21 +1853,6 @@
   },
   {
    "name": "image"
-  },
-  {
-   "name": "Autres"
-  },
-  {
-   "name": "ingenia"
-  },
-  {
-   "name": "biol."
-  },
-  {
-   "name": "geochime"
-  },
-  {
-   "name": "m canique"
   }
  ],
  "links": [
@@ -2019,7 +2004,7 @@
   {
    "source": 32,
    "target": 33,
-   "value": 192
+   "value": 191
   },
   {
    "source": 523,
@@ -2044,7 +2029,7 @@
   {
    "source": 4,
    "target": 5,
-   "value": 48
+   "value": 47
   },
   {
    "source": 1,
@@ -2159,7 +2144,7 @@
   {
    "source": 41,
    "target": 42,
-   "value": 121
+   "value": 120
   },
   {
    "source": 294,
@@ -2219,7 +2204,7 @@
   {
    "source": 4,
    "target": 6,
-   "value": 45
+   "value": 44
   },
   {
    "source": 582,
@@ -4624,7 +4609,7 @@
   {
    "source": 347,
    "target": 7,
-   "value": 3
+   "value": 2
   },
   {
    "source": 213,
@@ -4819,7 +4804,7 @@
   {
    "source": 7,
    "target": 9,
-   "value": 15
+   "value": 14
   },
   {
    "source": 294,
@@ -4970,16 +4955,6 @@
    "source": 371,
    "target": 4,
    "value": 3
-  },
-  {
-   "source": 618,
-   "target": 619,
-   "value": 1
-  },
-  {
-   "source": 619,
-   "target": 4,
-   "value": 1
   },
   {
    "source": 194,
@@ -6367,16 +6342,6 @@
    "value": 2
   },
   {
-   "source": 618,
-   "target": 620,
-   "value": 1
-  },
-  {
-   "source": 620,
-   "target": 4,
-   "value": 1
-  },
-  {
    "source": 194,
    "target": 170,
    "value": 1
@@ -6724,16 +6689,6 @@
   {
    "source": 213,
    "target": 330,
-   "value": 1
-  },
-  {
-   "source": 618,
-   "target": 621,
-   "value": 1
-  },
-  {
-   "source": 621,
-   "target": 32,
    "value": 1
   },
   {
@@ -7322,16 +7277,6 @@
    "value": 1
   },
   {
-   "source": 618,
-   "target": 622,
-   "value": 1
-  },
-  {
-   "source": 622,
-   "target": 41,
-   "value": 1
-  },
-  {
    "source": 316,
    "target": 65,
    "value": 1
@@ -7694,11 +7639,6 @@
   {
    "source": 525,
    "target": 153,
-   "value": 1
-  },
-  {
-   "source": 618,
-   "target": 347,
    "value": 1
   },
   {

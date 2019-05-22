@@ -1,5 +1,5 @@
 {
- "name": "Autres",
+ "name": "FORMELLES",
  "children": [
   {
    "name": "architecture",
@@ -8,7 +8,10 @@
      "name": "F03D",
      "children": [
       {
-       "name": "F03D000"
+       "name": "F03D000",
+       "children": [
+        "Morphogenèse des moulins à vent d’Iran, techniques de gestion du vent de manière architectonique"
+       ]
       }
      ]
     }
@@ -21,7 +24,10 @@
      "name": "G09B",
      "children": [
       {
-       "name": "G09B001"
+       "name": "G09B001",
+       "children": [
+        "Diagnostic sur la variabilité des modes de conduite d'une culture et de leurs conséquences agronomiques dans une agriculture fortement soumise aux incertitudes : cas de la tomate de plein champ à Mayotte"
+       ]
       }
      ]
     }
@@ -34,7 +40,10 @@
      "name": "C12Q",
      "children": [
       {
-       "name": "C12Q000"
+       "name": "C12Q000",
+       "children": [
+        "De l’usage du polymorphisme de répétitions en tandem pour l’étude des populations bactériennes : mise au point et validation d’un système de génotypage automatisé utilisant la technique de MLVA"
+       ]
       }
      ]
     }
@@ -47,7 +56,10 @@
      "name": "A61K",
      "children": [
       {
-       "name": "A61K003"
+       "name": "A61K003",
+       "children": [
+        "Paleoclimatic and Paleoceanographic reconstruction of the Pleistocene­‐ Holocene through the study of planktonic foraminifera of two sedimentary cores collected in North Atlantic Ocean, southwest of the Azores Islands"
+       ]
       }
      ]
     }
@@ -60,7 +72,10 @@
      "name": "A61N",
      "children": [
       {
-       "name": "A61N000"
+       "name": "A61N000",
+       "children": [
+        "Development of new dosimetric standards for low energy X-rays (≤ 50 keV) used in contact radiotherapy"
+       ]
       }
      ]
     }
@@ -73,20 +88,10 @@
      "name": "G01R",
      "children": [
       {
-       "name": "G01R003"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "electronique",
-   "children": [
-    {
-     "name": "H01L",
-     "children": [
-      {
-       "name": "H01L005"
+       "name": "G01R003",
+       "children": [
+        "Fiber tracking and fiber architecture description in cardiac DT-MRI"
+       ]
       }
      ]
     }

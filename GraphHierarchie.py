@@ -19,7 +19,7 @@ ChampsNouveau  = ['discipline','Date','score','IPC3','IPC7', 'IPC11', 'titre']
 ChampsNouveau.sort()
 evites = 0
 seuilScore = 900
-
+SeuilNoeud = 2
 IPCDef = GetIPCDefinition()
 
 for Thz in LstThz:
@@ -61,7 +61,7 @@ for Thz in LstThz:
     if 'score' not in Thz2.keys():
         Thz2["score"] = 0
     # and Thz2['discipline'] != '?':
-    if int(Thz2["score"]) > seuilScore:
+    if int(Thz2["score"]) > seuilScore and Thz2['Domaine'] != 'Autres':
             LstThz2.append(Thz2)
     else:
             evites += 1
@@ -142,19 +142,19 @@ for dom in IPC7IPC3SousDomDom.keys():
 #                    DejaVu.append(Thz2['DefIPC'])
 #                    tempotempoDict['children'].append(tempotempotempoDict)
 # Les titres sont longs le diagrame est illisible                    
-#                tempotempotempoDict['children'] = [titre for titre in IPC7IPC3SousDomDom[dom][sousDom][IPC7][IPC3]]
-#                if isinstance(IPC7IPC3SousDomDom[dom][sousDom][IPC7][IPC3], list) and len(IPC7IPC3SousDomDom[dom][sousDom][IPC7][IPC3])>1:
-#                    for titre in IPC7IPC3SousDomDom[dom][sousDom][IPC7][IPC3]:
-#                        if titre not in DejaVu:
-#                            Nodes [titre] = compteNoeud
-#                            compteNoeud +=1
-#                            DejaVu.append(titre)
-#                else:
-#                    titre = IPC7IPC3SousDomDom[dom][sousDom][IPC7][IPC3][0]
-#                    if titre not in DejaVu:
-#                            Nodes [titre] = compteNoeud
-#                            compteNoeud +=1
-#                            DejaVu.append(titre)
+                tempotempotempoDict['children'] = [titre for titre in IPC7IPC3SousDomDom[dom][sousDom][IPC3][IPC7]]
+                if isinstance(IPC7IPC3SousDomDom[dom][sousDom][IPC3][IPC7], list) and len(IPC7IPC3SousDomDom[dom][sousDom][IPC3][IPC7])>1:
+                    for titre in IPC7IPC3SousDomDom[dom][sousDom][IPC3][IPC7]:
+                        if titre not in DejaVu:
+                            Nodes [titre] = compteNoeud
+                            compteNoeud +=1
+                            DejaVu.append(titre)
+                else:
+                    titre = IPC7IPC3SousDomDom[dom][sousDom][IPC3][IPC7][0]
+                    if titre not in DejaVu:
+                            Nodes [titre] = compteNoeud
+                            compteNoeud +=1
+                            DejaVu.append(titre)
             tempotempoDict['children'].append(tempotempotempoDict)
         tempoDict['children'].append(tempotempoDict)
     HierarchieJsonFin['children'].append(tempoDict)
@@ -172,15 +172,16 @@ for thz in LstThz2:
             else:
                 Links [cle] =1
             cle = (Nodes[thz['IPC3']], Nodes[thz['IPC7']])
+            if thz['IPC7'] != thz['IPC3']:
+                if cle in Links.keys():
+                     Links [cle] +=1
+                else:
+                    Links [cle] =1
+            cle = (Nodes[thz['IPC3']], Nodes[thz['titre']])
             if cle in Links.keys():
                  Links [cle] +=1
             else:
                 Links [cle] =1
-#            cle = (Nodes[thz['IPC3']], Nodes[thz['titre']])
-#            if cle in Links.keys():
-#                 Links [cle] +=1
-#            else:
-#                Links [cle] =1
 IdxNoeuds = dict()
 for noeud in Nodes.keys():
     IdxNoeuds[Nodes[noeud]] = noeud 
@@ -204,8 +205,51 @@ with open('GraphDisciplineCIBFiltres.json', 'wb') as ficRes:
     ficRes.write(toto.encode('utf8')) 
 
 toto = json.dumps(HierarchieJsonFin, ensure_ascii=False, indent=1)
-with open('HierarchieDisciplineCIBFiltres.js', 'wb') as ficRes:
-    ficRes.write(b"function getData() {    return "
-                 + toto.encode('utf8')+b" };")  
+#with open('HierarchieDisciplineCIBFiltres.js', 'wb') as ficRes:
+#    ficRes.write(b"function getData() {    return "
+#                 + toto.encode('utf8')+b" };")  
 with open('HierarchieDisciplineCIBFiltres.json', 'wb') as ficRes:
     ficRes.write(toto.encode('utf8'))      
+
+#La version sélectionnnant les noeuds les + représentés 
+    # SeuilNoeud
+Graphdico2 = dict()
+
+Graphdico2 ['nodes'] = []
+Graphdico2 ['links'] = []
+ExtractLinks = [link for link in Links.keys() if Links[link] >= SeuilNoeud]
+ReIndex = dict()
+cpt = 0
+for ind1, ind2 in ExtractLinks:
+    if not ind1 in ReIndex.keys():
+        ReIndex [ind1] = cpt
+        cpt+=1
+    if not ind2 in ReIndex.keys():
+        ReIndex [ind2] = cpt
+        cpt+=1
+
+#For link in ExtractLinks:
+DejaVu = []    
+for ind1, ind2 in ExtractLinks:
+    if ind1 not in DejaVu:
+        dicoTemp =dict()
+        dicoTemp ['name'] = IdxNoeuds[ind1]
+        Graphdico2 ['nodes'].append( dicoTemp)
+        DejaVu.append(ind1)
+    if ind2 not in DejaVu:
+        dicoTemp =dict()
+        dicoTemp ['name'] = IdxNoeuds[ind2]
+        Graphdico2 ['nodes'].append( dicoTemp)
+        DejaVu.append(ind2)
+    if ind1 in DejaVu and ind2 in DejaVu:
+        dicoTemp =dict()
+        dicoTemp ['source'] = ReIndex[ind1]
+        dicoTemp ['target'] = ReIndex[ind2]
+        dicoTemp ['value'] = Links [(ind1, ind2)]
+        Graphdico2 ['links'].append(dicoTemp)
+
+
+toto = json.dumps(Graphdico2, ensure_ascii=False, indent=1)
+with open('GraphDisciplineCIBFiltresSeuilles'+str(SeuilNoeud)+'.json', 'wb') as ficRes:
+    ficRes.write(toto.encode('utf8')) 
+    
