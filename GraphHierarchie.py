@@ -60,88 +60,108 @@ for dom in Domaines:
     SousDomaines[dom] = list(set([thz['SousDomaine'] for thz in LstThz2 if thz['Domaine']==dom]))
 
 IPC7IPC3SousDomDom = dict()
+
 for thz in LstThz2:
     if thz['Domaine'] in IPC7IPC3SousDomDom.keys():
         if thz['SousDomaine'] in IPC7IPC3SousDomDom[thz['Domaine']].keys():
             if thz['IPC3'] in IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']].keys():
                 if thz['IPC7'] in IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']].keys():
-                    IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']].append(thz['titre'])
+                    IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']][thz['IPC7']].append(thz['titre'])
                 else:
-                    IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=[thz['titre']]
+                    IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']][thz['IPC7']]=[thz['titre']]
             else:
                  IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=dict()
-                 IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=[thz['titre']]
+                 IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']][thz['IPC7']]=[thz['titre']]
         else:
             IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']]= dict()
             IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=dict()
-            IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=[thz['titre']]
+            IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']][thz['IPC7']]=[thz['titre']]
     else:
         IPC7IPC3SousDomDom[thz['Domaine']]= dict()
         IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']]= dict()
         IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=dict()
-        IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']]=[thz['titre']]
+        IPC7IPC3SousDomDom[thz['Domaine']][thz['SousDomaine']][thz['IPC3']][thz['IPC7']]=[thz['titre']]
 
 Nodes = dict()
 Links = dict()
+DejaVu = []
 compteNoeud = 0
 for dom in IPC7IPC3SousDomDom.keys():
     HierarchieJsonFin['name'] = dom
-    Nodes [dom] = compteNoeud
-    compteNoeud +=1 
+    if dom not in DejaVu:
+        Nodes [dom] = compteNoeud
+        compteNoeud +=1 
+        DejaVu.append(dom)
     for sousDom in IPC7IPC3SousDomDom[dom].keys():
         tempoDict=dict()
         tempoDict['name'] = sousDom
-        Nodes [sousDom] = compteNoeud
-        compteNoeud +=1
+        if sousDom not in DejaVu:
+            Nodes [sousDom] = compteNoeud
+            compteNoeud +=1
+            DejaVu.append(sousDom)
         tempoDict['children'] = []
         for IPC7 in IPC7IPC3SousDomDom[dom][sousDom].keys():
             tempotempoDict=dict()
             tempotempoDict['name'] = IPC7
-            
-            Nodes [IPC7] = compteNoeud
-            compteNoeud +=1
+            if IPC7 not in DejaVu:
+                Nodes [IPC7] = compteNoeud
+                compteNoeud +=1
+                DejaVu.append(IPC7)
             tempotempoDict['children'] = []
             for IPC3 in IPC7IPC3SousDomDom[dom][sousDom][IPC7].keys():
                 tempotempotempoDict=dict()
                 tempotempotempoDict['name'] = IPC3
-                Nodes [IPC3] = compteNoeud
-                compteNoeud +=1
-                tempotempotempoDict['children'] = [titre for titre in IPC7IPC3SousDomDom[dom][sousDom][IPC7]['IPC3']]
-                for titre in IPC7IPC3SousDomDom[dom][sousDom][IPC7]['IPC3']:
-                     Nodes [titre] = compteNoeud
-                     compteNoeud +=1
+                if IPC3 not in DejaVu:
+                    Nodes [IPC3] = compteNoeud
+                    DejaVu.append(IPC3)
+                    compteNoeud +=1
+                tempotempotempoDict['children'] = [titre for titre in IPC7IPC3SousDomDom[dom][sousDom][IPC7][IPC3]]
+                if isinstance(IPC7IPC3SousDomDom[dom][sousDom][IPC7][IPC3], list) and len(IPC7IPC3SousDomDom[dom][sousDom][IPC7][IPC3])>1:
+                    for titre in IPC7IPC3SousDomDom[dom][sousDom][IPC7][IPC3]:
+                        if titre not in DejaVu:
+                            Nodes [titre] = compteNoeud
+                            compteNoeud +=1
+                            DejaVu.append(titre)
+                else:
+                    titre = IPC7IPC3SousDomDom[dom][sousDom][IPC7][IPC3][0]
+                    if titre not in DejaVu:
+                            Nodes [titre] = compteNoeud
+                            compteNoeud +=1
+                            DejaVu.append(titre)
             tempotempoDict['children'].append(tempotempotempoDict)
         tempoDict['children'].append(tempotempoDict)
     HierarchieJsonFin['children'].append(tempoDict)
 
-for thz in LstThz:
-    cle = (Nodes[thz['Domaine']],Nodes[thz['SousDomaine']])
-    if cle in Links.keys():
-         Links [cle] +=1
-    else:
-        Links [cle] =1
-    cle = (Nodes[thz['SousDomaine']],Nodes[thz['IPC7']])
-    if cle in Links.keys():
-         Links [cle] +=1
-    else:
-        Links [cle] =1
-    cle = (Nodes[thz['IPC7']],Nodes[thz['IPC3']])
-    if cle in Links.keys():
-         Links [cle] +=1
-    else:
-        Links [cle] =1
-    cle = (Nodes[thz['IPC3']],Nodes[thz['titre']])
-    if cle in Links.keys():
-         Links [cle] +=1
-    else:
-        Links [cle] =1
+for thz in LstThz2:
+    if "ScoreIPC1" in thz.keys():
+        if thz["ScoreIPC1"]>900:
+            cle = (Nodes[thz['Domaine']], Nodes[thz['SousDomaine']])
+            if cle in Links.keys():
+                 Links [cle] +=1
+            else:
+                Links [cle] =1
+            cle = (Nodes[thz['SousDomaine']], Nodes[thz['IPC7']])
+            if cle in Links.keys():
+                 Links [cle] +=1
+            else:
+                Links [cle] =1
+            cle = (Nodes[thz['IPC7']], Nodes[thz['IPC3']])
+            if cle in Links.keys():
+                 Links [cle] +=1
+            else:
+                Links [cle] =1
+            cle = (Nodes[thz['IPC3']], Nodes[thz['titre']])
+            if cle in Links.keys():
+                 Links [cle] +=1
+            else:
+                Links [cle] =1
 IdxNoeuds = dict()
 for noeud in Nodes.keys():
     IdxNoeuds[Nodes[noeud]] = noeud 
 Graphdico = dict()
 
 Graphdico ['nodes'] = []
-for ind in range(max(IdxNoeuds.keys())):
+for ind in range(max(IdxNoeuds.keys())+1):
     dicoTemp =dict()
     dicoTemp ['name'] = IdxNoeuds[ind]
     Graphdico ['nodes'].append( dicoTemp)
@@ -150,15 +170,16 @@ for link in Links.keys():
     dicoTemp =dict()
     dicoTemp ['source'] = link [0]
     dicoTemp ['target'] = link [1]
-    dicoTemp ['value'] = Links ['link']
-
+    dicoTemp ['value'] = Links [link]
+    Graphdico ['links'].append(dicoTemp)
+    
 toto = json.dumps(Graphdico, ensure_ascii=False, indent=1)
-with open('GraphDisciplineCIB.json', 'wb') as ficRes:
+with open('GraphDisciplineCIBFiltres.json', 'wb') as ficRes:
     ficRes.write(toto.encode('utf8')) 
 
 toto = json.dumps(HierarchieJsonFin, ensure_ascii=False, indent=1)
-with open('HierarchieDisciplineCIB.js', 'wb') as ficRes:
+with open('HierarchieDisciplineCIBFiltres.js', 'wb') as ficRes:
     ficRes.write(b"function getData() {    return "
                  + toto.encode('utf8')+b" };")  
-with open('HierarchieDisciplineCIB.json', 'wb') as ficRes:
+with open('HierarchieDisciplineCIBFiltres.json', 'wb') as ficRes:
     ficRes.write(toto.encode('utf8'))      
