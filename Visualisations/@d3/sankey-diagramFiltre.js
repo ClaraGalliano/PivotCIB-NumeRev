@@ -46,8 +46,8 @@ Object.assign(html`<select>
     .join("rect")
       .attr("x", d => d.x0)
       .attr("y", d => d.y0)
-      .attr("height", d => d.y1 - d.y0)
-      .attr("width", d => d.x1 - d.x0)
+      .attr("height", d => d.y0 - d.y1)// d.y1 - d.y0
+      .attr("width", d => d.x0 - d.x1) //d.x1 - d.x0)
       .attr("fill", d => color(d.name))
     .append("title")
       .text(d => `${d.name}\n${format(d.value)}`);
@@ -88,7 +88,7 @@ Object.assign(html`<select>
       .text(d => `${d.source.name} → ${d.target.name}\n${format(d.value)}`);
 
   svg.append("g")
-      .style("font", "10px sans-serif")
+      .style("font", "6px sans-serif")
     .selectAll("text")
     .data(nodes)
     .join("text")
@@ -106,7 +106,7 @@ Object.assign(html`<select>
   const sankey = d3.sankey()
       .nodeAlign(d3[`sankey${align[0].toUpperCase()}${align.slice(1)}`])
       .nodeWidth(15)
-      .nodePadding(10)
+      .nodePadding(5)
       .extent([[1, 5], [width - 1, height - 5]]);
   return ({nodes, links}) => sankey({
     nodes: nodes.map(d => Object.assign({}, d)),
@@ -133,7 +133,7 @@ d3.json("GraphDisciplineCIBFiltres.json")
 975
 )});
   main.variable(observer("height")).define("height", function(){return(
-600
+2600
 )});
   main.variable(observer("d3")).define("d3", ["require"], function(require){return(
 require("d3@5", "d3-sankey@0.12")
