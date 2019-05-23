@@ -176,7 +176,7 @@ for thz in LstThz2:
                 if cle in Links.keys():
                      Links [cle] +=1
                 else:
-                    Links [cle] =SeuilNoeud
+                    Links [cle] = 1
                 cle = (Nodes[thz['IPC7']], Nodes[thz['titre']])
                 if cle in Links.keys():
                      Links [cle] +=1

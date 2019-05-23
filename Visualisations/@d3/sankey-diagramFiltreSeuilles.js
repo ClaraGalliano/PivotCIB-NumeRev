@@ -21,14 +21,11 @@ Object.assign(html`<select>
 )});
   main.variable(observer("edgeColor")).define("edgeColor", ["Generators", "viewof edgeColor"], (G, _) => G.input(_));
   main.variable(observer("viewof align")).define("viewof align", ["html","URLSearchParams"], function(html,URLSearchParams){return(
-Object.assign(html`<select>
-  <option value=left>Left-aligned
-  <option value=right>Right-aligned
-  <option value=center>Centered
-  <option value=left>Left-aligned
+Object.assign(html`<select>   <option value=left>Left-aligned   <option value=right>Right-aligned    <option value=center>Centered   <option value=left>Left-aligned
 </select>`, {
   value: new URLSearchParams(html`<a href>`.search).get("align") || "left"
 })
+
 )});
   main.variable(observer("align")).define("align", ["Generators", "viewof align"], (G, _) => G.input(_));
   main.variable(observer("chart")).define("chart", ["d3","DOM","width","height","sankey","data","color","format","edgeColor"], function(d3,DOM,width,height,sankey,data,color,format,edgeColor)
@@ -82,7 +79,7 @@ Object.assign(html`<select>
           : edgeColor === "path" ? d.uid 
           : edgeColor === "input" ? color(d.source.name) 
           : color(d.target.name))
-      .attr("stroke-width", d => Math.max(1, d.width));
+      .attr("stroke-width", d => Math.max(1, d.width)-2); // soustraire ici le niveau de seuillage
 
   link.append("title")
       .text(d => `${d.source.name} → ${d.target.name}\n${format(d.value)}`);
@@ -105,9 +102,9 @@ Object.assign(html`<select>
 {
   const sankey = d3.sankey()
       .nodeAlign(d3[`sankey${align[0].toUpperCase()}${align.slice(1)}`])
-      .nodeWidth(5)
+      .nodeWidth(18)
       .nodePadding(5)
-      .extent([[1, 0], [width - 1, height -15]]);
+      .extent([[1, 0], [width - 1, height]]);
   return ({nodes, links}) => sankey({
     nodes: nodes.map(d => Object.assign({}, d)),
     links: links.map(d => Object.assign({}, d))
@@ -127,16 +124,33 @@ Object.assign(html`<select>
 }
 );
   main.variable(observer("data")).define("data", ["d3"], function(d3){return(
-d3.json("GraphDisciplineCIBFiltresSeuilles2.json")
+d3.json("GraphDisciplineCIBFiltresSeuilles3.json")
 )});
   main.variable(observer("width")).define("width", function(){return(
-975
+805
 )});
   main.variable(observer("height")).define("height", function(){return(
-1800
+700
 )});
   main.variable(observer("d3")).define("d3", ["require"], function(require){return(
 require("d3@5", "d3-sankey@0.12")
 )});
+ main.variable(observer("rasterize")).define("rasterize", ["DOM","serialize"], function(DOM,serialize){return(
+function rasterize(svg) {
+  let resolve, reject;
+  const promise = new Promise((y, n) => (resolve = y, reject = n));
+  const image = new Image;
+  image.onerror = reject;
+  image.onload = () => {
+    const rect = svg.getBoundingClientRect();
+    const context = DOM.context2d(rect.width, rect.height);
+    context.drawImage(image, 0, 0, rect.width, rect.height);
+    context.canvas.toBlob(resolve);
+  };
+  image.src = URL.createObjectURL(serialize(svg));
+  return promise;
+}
+)});
+
   return main;
 }
