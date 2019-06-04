@@ -11,7 +11,42 @@ from gensim.utils import simple_preprocess
 
 stopwords = nltk.corpus.stopwords.words('french')
 
-def GetIPCDefinition():
+def FiltreChamps(LstTHZ, LstChamps, SeuilScore):
+    """Renvoi la liste de Thz extraitre de LstTHZ dont les champs biblio correspondent 
+    à la LstChamps (contrainte d'intégrité mais quelle que soit la valeur)
+    ET dont le score de IPCCat du résumé est supérieur à SeuilScore """
+    LstTHZ2 = []
+    for Thz in LstTHZ:
+        Thz2 = dict()
+        for cle in Thz.keys():
+              if cle in LstChamps:
+                if cle == 'CatIPC': 
+                    if "1" in Thz[cle].keys(): # sélection classement le plus important
+                        #hiérarchisation
+                        
+                        Thz2['IPC3'] = Thz[cle]["1"][0][0:4]
+                        Thz2['IPC7'] = Thz[cle]["1"][0][0:7]
+                        Thz2['IPC11'] = Thz[cle]["1"][0]
+                        Thz2['score'] = Thz[cle]["1"][1]
+
+                        pass
+                else:
+                    Thz2[cle] = Thz[cle]
+        if 'score' not in Thz2.keys():
+            Thz2["score"] = 0
+        # and Thz2['discipline'] != '?':
+        if int(Thz2["score"]) > SeuilScore:
+                LstTHZ2.append(Thz2)
+        else:
+            pass
+#    else:
+#        evites += 1
+    return LstTHZ2
+
+
+
+
+def GetIPCDefinition(): #buggy
     """renvoi un dictionnaire dont les étiquettes sont les CIB et les valeurs
     leur description en Fr. On devrait pouvoir facilement paramétrer la langue puisque
     l'OEB fournit l'XMl pour toutes les versions (depuis 2016) en fr et en en
