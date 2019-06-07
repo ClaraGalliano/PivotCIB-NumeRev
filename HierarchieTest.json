@@ -324,16 +324,7 @@
       },
       {
        "name": "Histoire Contemporaine",
-       "children": [
-        {
-         "name": "Microstructure et comportement mécanqiue",
-         "size": 1
-        },
-        {
-         "name": "Topographie - Vision par ordinateur",
-         "size": 1
-        }
-       ]
+       "children": []
       },
       {
        "name": "Histoire",
@@ -600,12 +591,7 @@
       },
       {
        "name": "Droit De L'Environnement",
-       "children": [
-        {
-         "name": "Rayonnement et plasmas",
-         "size": 1
-        }
-       ]
+       "children": []
       },
       {
        "name": "Droit International De L'Environnement",
@@ -5423,10 +5409,6 @@
          "size": 1
         },
         {
-         "name": "Physique",
-         "size": 1
-        },
-        {
          "name": "Biophysique moléculaire",
          "size": 1
         },
@@ -5793,6 +5775,15 @@
        ]
       },
       {
+       "name": "rayonnement et plasma",
+       "children": [
+        {
+         "name": "Rayonnement et plasmas",
+         "size": 1
+        }
+       ]
+      },
+      {
        "name": "Acoustique",
        "children": [
         {
@@ -5999,6 +5990,15 @@
         },
         {
          "name": "Micro et nanosystèmes",
+         "size": 1
+        }
+       ]
+      },
+      {
+       "name": "Nano-physique",
+       "children": [
+        {
+         "name": "Physique",
          "size": 1
         }
        ]
@@ -11465,6 +11465,15 @@
        ]
       },
       {
+       "name": "Topographie",
+       "children": [
+        {
+         "name": "Topographie - Vision par ordinateur",
+         "size": 1
+        }
+       ]
+      },
+      {
        "name": "Télédétection",
        "children": [
         {
@@ -12122,6 +12131,19 @@
        "children": [
         {
          "name": "Aéronomie",
+         "size": 1
+        }
+       ]
+      },
+      {
+       "name": "Comportements mécaniques",
+       "children": [
+        {
+         "name": "Microstructure et comportement mécanqiue",
+         "size": 1
+        },
+        {
+         "name": "M?canique",
          "size": 1
         }
        ]

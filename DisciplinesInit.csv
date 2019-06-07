@@ -94,11 +94,13 @@ TerreUniversMatiere;Géoscience;Géomatériaux
 TerreUniversMatiere;Physique;Mécanique;
 TerreUniversMatiere;Chimie;Chimie Des Matériaux;
 TerreUniversMatiere;Chimie;Catalyse
+TerreUniversMatiere;Physique;rayonnement et plasma;
 TerreUniversMatiere;Hydroscience;Hydrogéologie;
 TerreUniversMatiere;Hydroscience;Hydrosystème
 TerreUniversMatiere;Physique;Acoustique;
 TerreUniversMatiere;Physique;Laser
 TerreUniversMatiere;Physique;Micro et nanosystèmes
+TerreUniversMatiere;Physique;Nano-physique
 TerreUniversMatiere;Physique;Electromagnétisme
 TerreUniversMatiere;Géoscience;Géophysique;
 TerreUniversMatiere;Géoscience;Palaeontology
@@ -251,6 +253,7 @@ TechnoScienceAppli;Mesure;Spectrochimie
 TechnoScienceAppli;Mesure;Optoélectronique
 TechnoScienceAppli;Mesure;Instrumentation
 TechnoScienceAppli;Mesure;Spectrométrie;
+TechnoScienceAppli;Mesure;Topographie
 TechnoScienceAppli;Mesure;Télédétection
 TechnoScienceAppli;Mesure;Radiochimie
 TRANSVERSE;Énergie;Énergie;
@@ -261,7 +264,7 @@ TRANSVERSE;Sciences;Monde Maritime;
 TRANSVERSE;Sciences;Montagne;
 TRANSVERSE;Sciences;Aéronomie
 TRANSVERSE;Énergie;Corrosion
-
+TRANSVERSE;Sciences;Comportements mécaniques
 TRANSVERSE;Sciences;Milieu Forestier;
 TRANSVERSE;Sciences;Sciences Et Techniques;
 TRANSVERSE;Ingéniérie;Ingénieur;
