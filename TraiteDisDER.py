@@ -59,27 +59,36 @@ with open('DonneesTheseEtendues.json', 'r') as ficSrc:
     LstThz = json.load (ficSrc)
 
 def MatchSection(ch):
-   #                           sum([fuzz.ratio( Nettoie(x, True), Nettoie(mot, True)) for mot in Section[cle]])/len( Section[cle]) for cle in Section.keys()
-#                           sum([fuzz.token_set_ratio( x, mot) for mot in Section[cle]])/len( Section[cle])+\
-#                           sum([fuzz.token_set_ratio( Nettoie(x, True), Nettoie(mot, True)) for mot in Section[cle]])/len( Section[cle])+\
-#                           
-    distFonct = lambda x: { cle: sum([fuzz.partial_ratio( Nettoie(x, True), Nettoie(mot, True)) for mot in Section[cle]]) for cle in Section.keys()}
+    distFonct = lambda x: { cle: max([fuzz.ratio( x, mot) for mot in Section[cle]])+\
+                           max([fuzz.ratio( Nettoie(x, True), Nettoie(mot, True)) for mot in Section[cle]])+
+                           max([fuzz.token_set_ratio( Nettoie(x, True), Nettoie(mot, True)) for mot in Section[cle]])+\
+                           max([fuzz.partial_ratio( Nettoie(x, True), Nettoie(mot, True)) for mot in Section[cle]]) for cle in Section.keys()
+                           }
     distRef = distFonct(ch)
     LstCandidat = [cle for cle, val in distRef.items() if val == max(distRef .values())]
     if len(LstCandidat) ==1:
         if isinstance(Section[LstCandidat[0]], list):
             disc = Discip [ Section[LstCandidat[0]][0]]
+            return (disc[0], disc[1], Section[LstCandidat[0]][0])
         else:
             disc = Discip [ Section[LstCandidat[0]]]
-        return (disc[0], disc[1], LstCandidat[0])
+            return (disc[0], disc[1], Section[LstCandidat[0]])
     elif len(LstCandidat) ==0:
         print ('aille ', ch)
     else:
+        tempoCand = [candi for candi in LstCandidat if int(candi.split('-')[0])<100]
+        if len(set(tempoCand)) ==1:
+            if isinstance(Section[tempoCand[0]], list):
+                disc = Discip [ Section[tempoCand[0]][0]]
+                return (disc[0], disc[1], Section[tempoCand[0]][0])
+            else:
+                disc = Discip [ Section[tempoCand[0]]]
+                return (disc[0], disc[1], Section[tempoCand[0]])
         return ('Autres', '1000', ch)
 #        print (LstCandidat[0] + '--> ', ch)
 
-        return LstCandidat[0]
-for thz in LstThz:
+
+for thz in LstThz[0:100]:
     Classe = MatchSection(thz['discipline'])
     print (thz['discipline'] + ' --> '+ str(Classe))
     thz['Domaine'] = Classe[0]
