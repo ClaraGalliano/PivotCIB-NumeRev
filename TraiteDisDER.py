@@ -59,14 +59,23 @@ with open('DonneesTheseEtendues.json', 'r') as ficSrc:
     LstThz = json.load (ficSrc)
 
 def MatchSection(ch):
+    #la fonction principale pour le rangement des disciplines
+    if len(ch) <3: # si c'est tout petit hop dans la case je sais pas
+        return ('Autres', '1000', ch)
+    #une jolie fonction de distance lexicale : addition de distance de Leveinshtein caractère par caractère,puis l
+    # même sur la chaine nettoyée de tout sauf lettre ANSI puis la 
+    # même indépendante de la position de mots et la même partielle
+    # çà matche bien sur le jeu de de données... plus c'est grand plus c'est proche... dist (X, X) = 400
+    # biais potentiel : la chaine nettooyée qui est vide ou guère mieux...
     distFonct = lambda x: { cle: max([fuzz.ratio( x, mot) for mot in Section[cle]])+\
                            max([fuzz.ratio( Nettoie(x, True), Nettoie(mot, True)) for mot in Section[cle]])+
                            max([fuzz.token_set_ratio( Nettoie(x, True), Nettoie(mot, True)) for mot in Section[cle]])+\
                            max([fuzz.partial_ratio( Nettoie(x, True), Nettoie(mot, True)) for mot in Section[cle]]) for cle in Section.keys()
                            }
     distRef = distFonct(ch)
+    # on prend le résultat qu maximise la fonction
     LstCandidat = [cle for cle, val in distRef.items() if val == max(distRef .values())]
-    if len(LstCandidat) ==1:
+    if len(LstCandidat) ==1: # un seul candidat
         if isinstance(Section[LstCandidat[0]], list):
             disc = Discip [ Section[LstCandidat[0]][0]]
             return (disc[0], disc[1], Section[LstCandidat[0]][0])
@@ -76,15 +85,36 @@ def MatchSection(ch):
     elif len(LstCandidat) ==0:
         print ('aille ', ch)
     else:
-        tempoCand = [candi for candi in LstCandidat if int(candi.split('-')[0])<100]
-        if len(set(tempoCand)) ==1:
-            if isinstance(Section[tempoCand[0]], list):
-                disc = Discip [ Section[tempoCand[0]][0]]
-                return (disc[0], disc[1], Section[tempoCand[0]][0])
+#        distFonct2 = lambda x: { cle: 100*x.count(mot) for mot in Section[cle] for cle in Section.keys()} 
+
+        distFonct2 = lambda x: { cle: distRef [cle] + sum([x.count(mot) for mot in Section[cle]]) for cle in Section.keys()}
+        distRef2 = distFonct2(ch)
+        LstCandidat2 = [cle for cle, val in distRef2.items() if val == max(distRef2 .values())]
+        if len(LstCandidat2) ==1:
+            if isinstance(Section[LstCandidat2[0]], list):
+                disc = Discip [ Section[LstCandidat2[0]][0]]
+                return (disc[0], disc[1], Section[LstCandidat2[0]][0])
             else:
-                disc = Discip [ Section[tempoCand[0]]]
-                return (disc[0], disc[1], Section[tempoCand[0]])
-        return ('Autres', '1000', ch)
+                disc = Discip [ Section[LstCandidat2[0]]]
+                return (disc[0], disc[1], Section[LstCandidat2[0]])
+        elif len(LstCandidat) ==0:
+            print ('aille2 ', ch)
+        else:
+            print ('autres -->', ch)
+            return ('Autres', '1000', ch)
+        
+        
+# =============================================================================
+#             tempoCand = [candi for candi in LstCandidat if int(candi.split('-')[0])<100]
+#             if len(set(tempoCand)) ==1:
+#                 if isinstance(Section[tempoCand[0]], list):
+#                     disc = Discip [ Section[tempoCand[0]][0]]
+#                     return (disc[0], disc[1], Section[tempoCand[0]][0])
+#                 else:
+#                     disc = Discip [ Section[tempoCand[0]]]
+#                     return (disc[0], disc[1], Section[tempoCand[0]])
+# =============================================================================
+        
 #        print (LstCandidat[0] + '--> ', ch)
 
 

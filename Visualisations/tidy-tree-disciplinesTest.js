@@ -25,11 +25,11 @@ D3’s [tree layout](https://github.com/d3/d3-hierarchy/blob/master/README.md#tr
   let x0 = Infinity;
   let x1 = -x0;
   root.each(d => {
-    if (d.x > x1) x1 = d.x;
-    if (d.x < x0) x0 = d.x;
+    if (d.x > x1) x1 = d.x+20;
+    if (d.x < x0) x0 = d.x+20;
   });
 
-  const svg = d3.select(DOM.svg(width, x1 - x0 + root.dx * 2))
+  const svg = d3.select(DOM.svg(width, x1 - x0 + root.dx * 3))
       .style("width", "100%")
       .style("height", "auto");
   
@@ -60,11 +60,11 @@ D3’s [tree layout](https://github.com/d3/d3-hierarchy/blob/master/README.md#tr
 
   node.append("circle")
       .attr("fill", d => d.children ? "#555" : "#999")
-      .attr("r", 2.5);
+      .attr("r", 3.5);
 
   node.append("text")
       .attr("dy", "0.31em")
-      .attr("x", d => d.children ? -4 : 4)
+      .attr("x", d => d.children ? -2: 18)
       .attr("text-anchor", d => d.children ? "end" : "start")
       .text(d => d.data.name)
     .clone(true).lower()
@@ -78,7 +78,7 @@ D3’s [tree layout](https://github.com/d3/d3-hierarchy/blob/master/README.md#tr
       name: "data",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json("HierarchieTest.json")
+d3.json("HierarchieDicipline.json")
 )})
     },
     {
@@ -87,8 +87,8 @@ d3.json("HierarchieTest.json")
       value: (function(d3,width){return(
 data => {
   const root = d3.hierarchy(data);
-  root.dx = 8;
-  root.dy = width / (root.height + 10);
+  root.dx = 10;
+  root.dy = width / (root.height + 5);
   return d3.tree().nodeSize([root.dx,root.dy])(root);
 }
 )})
