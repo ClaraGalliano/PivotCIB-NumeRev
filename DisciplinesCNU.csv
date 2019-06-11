@@ -20,27 +20,27 @@ LSH-1;19;Sociologie;démographie;Anthropologie;Ethnologie;tribologie;;
 LSH-1;20;Anthropologie biologique;ethnologie;préhistoire;;;
 LSH-1;21;Histoire et civilisations anciennes;histoire et archéologie des mondes anciens et des mondes médiévaux;Histoire de l'art;Égyptologie;
 LSH-1;22;Histoire et civilisations;histoire des mondes modernes;histoire du monde contemporain; Histoire de la musique;Mondes Arabe;;Sociétés;
-LSH-1;23;Géographie physique;humaine;économique et régionale;;;
+LSH-1;23;Géographie physique;humaine;économique et régionale;Géographie;;
 LSH-1;24;Aménagement de l'espace;urbanisme;;;
 Sciences;25;Mathématiques;;;
 Sciences;26;Mathématiques appliquées et applications des mathématiques;;;
 Sciences;27;Informatique;;;
-Sciences;28;Milieux denses et matériaux;;;
+Sciences;28;Milieux denses et matériaux;Matières premières minérales;
 Sciences;29;Constituants élémentaires;;;
 Sciences;30;Milieux dilués et optique;;;
-Sciences;31;Chimie théorique;Chimie physique;Chimie analytique;;;
+Sciences;31;Chimie théorique;Chimie physique;Chimie analytique;Chimie;;
 Sciences;32;Chimie organique;Chimie inorganique;Chimie industrielle;;;
 Sciences;33;Chimie des matériaux;;;
 Sciences;34;Astronomie;astrophysique;;;
 Sciences;35;Structure et évolution de la Terre et des autres planètes;;;
 Sciences;36;Terre solide;géodynamique des enveloppes supérieures;paléobiosphère;;
-Sciences;37;Météorologie;océanographie physique et physique de l'environnement;;;
+Sciences;37;Météorologie;océanographie physique et physique de l'environnement;Océanographie;climat;climatologie;Océanographie physique
 Sciences;60;Mécanique;génie mécanique;génie civil;;;
 Sciences;61;Génie informatique;automatique et traitement du signal;;;
 Sciences;62;Énergétique;génie des procédés;Énergie;;
 Sciences;63;Électronique;optronique et systèmes;;;
 Sciences;64;Biochimie et biologie moléculaire;;;
-Sciences;65;Biologie cellulaire;;;
+Sciences;65;Biologie cellulaire;Biologie;;
 Sciences;66;Physiologie;;;
 Sciences;67;Biologie des populations et écologie;;;
 Sciences;68;Biologie des organismes;;;
@@ -127,8 +127,8 @@ LSH-2;73;Cultures et langues régionales;;;
 LSH-2;74;Sciences et techniques des activités physiques et sportives;;;
 LSH-2;76;Théologie catholique;;;
 LSH-2;77;Théologie protestante;;;
-TRANSVERSE;100;Science;Sciences;Sciences appliquées 
+TRANSVERSE;100;Science;Sciences;Sciences appliquées;Physique
 TRANSVERSE;102;Géoscience;Géologie;Minéraux Et Roches;Volcanisme;Hydrodynamique;Volcanologie;Hydroclimatologie;Glaciologie;Sédimentologie;Atmosphère
 TRANSVERSE;101;Sciences Agronomiques;Agrosystèmes;Du Sol;Agronomie;Oenologie;Production Végétale;De L'Alimentation;Agroressources;;Agroressource;Des Aliments;Agroalimentaire;du sol;de la Terre;hydrogéologie;Du Bois;Génie;Pétrologie
 TRANSVERSE;103;Ingéniérie;Ingénieur;Transfert thermique;Génie Civil;Instrumentation Et Analyses Avancées;Physiques Et De L'Ingénieur;Modélisation;Physicochimie;Geol. appl.Biomatériaux;Bioingénierie;De L'Antipollution;Géologie De L'Ingénieur;
-TRANSVERSE;104;Traitement;géomatique;Bioinformatique;Spectroscopie;Bioimagerie;bioscience;biostatistique;biomathématique;biophysique;biomécanique;géochimie;Géotechnique;Biophysicochimie;Hydrogéophysique
+TRANSVERSE;104;Traitement;géomatique;Bioinformatique;Spectroscopie;Bioimagerie;bioscience;biostatistique;biomathématique;biomécanique;géochimie;Géotechnique;Biophysicochimie;Hydrogéophysique

@@ -1,0 +1,101 @@
+{
+ "name": "LSH-1",
+ "children": [
+  {
+   "name": "35",
+   "children": [
+    {
+     "name": "B44B",
+     "children": [
+      {
+       "name": "B44B000",
+       "children": [
+        "Reconstitution du flux d'impact et des variations paléoclimatiques martiennes par la datation des cratères à éjecta lobés"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "102",
+   "children": [
+    {
+     "name": "H01M",
+     "children": [
+      {
+       "name": "H01M000",
+       "children": [
+        "Stabilité et érosion du manteau lithosphérique subcontinental : Relations entre déformation, hydratation et percolation de fluides et magmas sous le craton du Kaapvaal et le Rift Est-Africain"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "06",
+   "children": [
+    {
+     "name": "A63F",
+     "children": [
+      {
+       "name": "A63F000",
+       "children": [
+        "De l'art martial au management stratégique des organisations : énoncé de principes de management stratégique selon le Gorin-no-Sho et étude de leurs applicabilités par les dirigeants d'organisations au Liban"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "47-02",
+   "children": [
+    {
+     "name": "A61N",
+     "children": [
+      {
+       "name": "A61N000",
+       "children": [
+        "Development of new dosimetric standards for low energy X-rays (≤ 50 keV) used in contact radiotherapy"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "77",
+   "children": [
+    {
+     "name": "G06F",
+     "children": [
+      {
+       "name": "G06F001",
+       "children": [
+        "Biological invasion risk assessment, considering adaptation at multiple scales : the case of topmouth gudgeon Pseudorasbora parva"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "15",
+   "children": [
+    {
+     "name": "D04H",
+     "children": [
+      {
+       "name": "D04H000",
+       "children": [
+        "John Barth : approche du personnage romanesque"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

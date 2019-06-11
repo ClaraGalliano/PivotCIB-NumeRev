@@ -53,7 +53,7 @@ for dom in Domaines:
             if terme not in Discip.keys():
                 Discip[terme] = (dom, sec)
             else:
-                print ("wtf") # si on passe là on n'a pas une correspondance unique pour un terme
+                print ("wtf  ", terme) # si on passe là on n'a pas une correspondance unique pour un terme
                 
 with open('DonneesTheseEtendues.json', 'r') as ficSrc:
     LstThz = json.load (ficSrc)
@@ -88,9 +88,72 @@ def MatchSection(ch):
 #        print (LstCandidat[0] + '--> ', ch)
 
 
-for thz in LstThz[0:100]:
+for thz in LstThz:
     Classe = MatchSection(thz['discipline'])
-    print (thz['discipline'] + ' --> '+ str(Classe))
+#    print (thz['discipline'] + ' --> '+ str(Classe))
     thz['Domaine'] = Classe[0]
     thz['Section'] = Classe[1]
     thz['DiscipNorm'] = Classe[2]
+
+toto = json.dumps(LstThz, ensure_ascii=False, indent=1)
+#with open('HierarchieDisciplineCIBFiltres.js', 'wb') as ficRes:
+#    ficRes.write(b"function getData() {    return "
+#                 + toto.encode('utf8')+b" };")  
+with open('DonneeThzEtendues.json', 'wb') as ficRes:
+    ficRes.write(toto.encode('utf8'))  
+
+DomaineDis = dict()
+for thz in LstThz:
+    if thz['Domaine'] in DomaineDis.keys():
+        if thz['Section'] in DomaineDis[thz['Domaine']].keys():
+            if thz['DiscipNorm'] in DomaineDis[thz['Domaine']][thz['Section']].keys():
+                DomaineDis[thz['Domaine']][thz['Section']][thz['DiscipNorm']].append(thz['discipline'])
+            else:
+                DomaineDis[thz['Domaine']][thz['Section']][thz['DiscipNorm']] = dict()
+                DomaineDis[thz['Domaine']][thz['Section']][thz['DiscipNorm']] = [thz['discipline']]
+        else:
+            DomaineDis[thz['Domaine']][thz['Section']]= dict()
+            DomaineDis[thz['Domaine']][thz['Section']][thz['DiscipNorm']] = dict()
+            DomaineDis[thz['Domaine']][thz['Section']][thz['DiscipNorm']].append(thz['discipline'])
+    else:
+        DomaineDis[thz['Domaine']] = dict()
+        DomaineDis[thz['Domaine']][thz['Section']]= dict()
+        DomaineDis[thz['Domaine']][thz['Section']][thz['DiscipNorm']] = dict()
+        DomaineDis[thz['Domaine']][thz['Section']][thz['DiscipNorm']].append(thz['discipline'])
+#export pour tidyTreeDiscipline
+hier = dict()
+hier ['name'] = "Disciplines et sous-disciplines"
+hier ['children'] = [] 
+for dom in DomaineDis.keys():
+    tempoDict = dict()
+    tempoDict ["name"] = dom
+    tempoDict ["children"] = []
+    for dis in DomaineDis[dom].keys():
+        tempoDictDis = dict()
+        tempoDictDis ["name"] = dis
+        tempoDictDis ["children"] = []
+        for sousdis in DomaineDis[dom][dis].keys():
+            tempoDictsousDis = dict()
+            tempoDictsousDis ["name"] = sousdis
+            tempoDictsousDis ["children"] = []
+            if isinstance(DomaineDis[dom][dis][sousdis], dict):
+                for soussousdis in DomaineDis[dom][dis][sousdis].keys():
+                    tempoDictsoussousDis = dict()
+                    tempoDictsoussousDis ["name"] = soussousdis
+                    tempoDictsoussousDis ["children"] = DomaineDis[dom][dis][sousdis][soussousdis]
+                    tempoDictsousDis ["children"].append(tempoDictsoussousDis)
+            else:
+                for soussousdis in set(DomaineDis[dom][dis][sousdis]):
+                    tempoDictsoussousDis = dict()
+                    tempoDictsoussousDis ["name"] =soussousdis
+                    tempoDictsoussousDis ["size"] = DomaineDis[dom][dis][sousdis].count(soussousdis)
+                    tempoDictsousDis ["children"].append(tempoDictsoussousDis)
+                
+            tempoDictDis ["children"] .append(tempoDictsousDis)
+        tempoDict ["children"].append(tempoDictDis)
+    hier ['children'].append(tempoDict)
+ 
+tutu = json.dumps(hier, ensure_ascii=False, indent=1)     
+with open('HierarchieDicipline.json', 'wb') as ficRes:
+    ficRes.write(tutu.encode('utf8'))
+    
