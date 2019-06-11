@@ -114,12 +114,12 @@ for thz in LstThz:
         else:
             DomaineDis[thz['Domaine']][thz['Section']]= dict()
             DomaineDis[thz['Domaine']][thz['Section']][thz['DiscipNorm']] = dict()
-            DomaineDis[thz['Domaine']][thz['Section']][thz['DiscipNorm']].append(thz['discipline'])
+            DomaineDis[thz['Domaine']][thz['Section']][thz['DiscipNorm']] = [thz['discipline']]
     else:
         DomaineDis[thz['Domaine']] = dict()
         DomaineDis[thz['Domaine']][thz['Section']]= dict()
         DomaineDis[thz['Domaine']][thz['Section']][thz['DiscipNorm']] = dict()
-        DomaineDis[thz['Domaine']][thz['Section']][thz['DiscipNorm']].append(thz['discipline'])
+        DomaineDis[thz['Domaine']][thz['Section']][thz['DiscipNorm']] = [thz['discipline']]
 #export pour tidyTreeDiscipline
 hier = dict()
 hier ['name'] = "Disciplines et sous-disciplines"
