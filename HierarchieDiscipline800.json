@@ -1,0 +1,104 @@
+{
+ "name": "LSH-1",
+ "children": [
+  {
+   "name": "61",
+   "children": [
+    {
+     "name": "G06K",
+     "children": [
+      "G06K000",
+      {
+       "name": "D04H000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "105",
+   "children": [
+    {
+     "name": "C22C",
+     "children": [
+      "C22C003",
+      {
+       "name": "D04H000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "03",
+   "children": [
+    {
+     "name": "G06Q",
+     "children": [
+      "G06Q001",
+      "G06Q004",
+      {
+       "name": "D04H000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "47-02",
+   "children": [
+    {
+     "name": "A61N",
+     "children": [
+      "A61N000",
+      {
+       "name": "D04H000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "1000",
+   "children": [
+    {
+     "name": "F03B",
+     "children": [
+      "F03B001",
+      {
+       "name": "D04H000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "74",
+   "children": [
+    {
+     "name": "A63B",
+     "children": [
+      "A63B006",
+      {
+       "name": "D04H000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "18",
+   "children": [
+    {
+     "name": "F03D",
+     "children": [
+      "F03D000",
+      {
+       "name": "D04H000"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

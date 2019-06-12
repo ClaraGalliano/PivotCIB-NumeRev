@@ -30,7 +30,7 @@ ChampsDataTable = ['id', 'dateInsert', 'dateMaj', 'status', 'accessible', 'titre
 ChampsEpures = ['discipline','Date','Langue','CatIPC', 'titre', 'Domaine']
 
 #champs conservés pour les exports visualisation hiérarchique
-ChampsNouveau  = ['discipline','Date','score','IPC3','IPC7', 'IPC11', 'titre']
+ChampsNouveau  = ['DiscipNorm', 'Domaine', 'Section','Date','score','IPC3','IPC7', 'IPC11', 'titre']
 ChampsNouveau.sort()
 cpt=0
 cptFini=0
