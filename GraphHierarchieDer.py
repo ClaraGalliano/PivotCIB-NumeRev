@@ -18,9 +18,9 @@ ChampsEpures = ['discipline','Date','Langue','CatIPC', 'titre', 'Domaine', 'Sect
 ChampsNouveau  = ['discipline','Date','score','IPC3','IPC7', 'IPC11', 'titre']
 ChampsNouveau.sort()
 evites = 0
-seuilScore = 1200
+seuilScore = 0
 
-Titres = False #présence des titres dans les graphes (à n'utiliser qu'après avoir beaucoup seuillé ^_^)
+Titres = True #présence des titres dans les graphes (à n'utiliser qu'après avoir beaucoup seuillé ^_^)
 IPCDef = GetIPCDefinition()
 FichierJsonGrapheSeuille = 'GraphDisciplineCIB-' + str(seuilScore)
 FichierJsonHierarchie = "HierarchieDiscipline" + str(seuilScore)
@@ -49,12 +49,8 @@ for Thz in LstThz:
             LstThz2.append(Thz2)
     else:
             evites += 1
-#    else:
-#        evites += 1
-print ("Nombre d'entrées évitéées: ", evites)
 
-
-# 
+print ("Nombre d'entrées ignorées: ", evites)
 
 
 
@@ -103,7 +99,9 @@ HierarchieJsonFin['name'] ="Eau"
 HierarchieJsonFin ['children'] = []
 
 for dom in IPC7IPC3DiscipSectionDom.keys():
-    HierarchieJsonFin['name'] = dom
+    HierarchieJsonFinDom = dict()
+    HierarchieJsonFinDom['name'] = dom
+    HierarchieJsonFinDom['children'] = []
     for section in IPC7IPC3DiscipSectionDom[dom].keys():
         tempoDict=dict()
         tempoDict['name'] = section
@@ -121,12 +119,15 @@ for dom in IPC7IPC3DiscipSectionDom.keys():
                         tempotempotempoDict=dict()
                         tempotempotempoDict['name'] = IPC7 
                         tempotempotempoDict['children'] = [titre for titre in IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3][IPC7]]
+                        tempotempoDict['children'].append(tempotempotempoDict)
                 else:
-                    tempotempoDict['children'] = [IPC7 for IPC7 in IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3].keys()]
-                tempotempoDict['children'].append(tempotempotempoDict)
-            tempoDiscipDict['children'].append(tempotempoDict)
-        tempoDict['children'].append(tempotempoDict)
-    HierarchieJsonFin['children'].append(tempoDict)
+                    tempotempoDict['size'] = len([IPC7 for IPC7 in IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3].keys()])
+                
+                tempoDiscipDict['children'].append(tempotempoDict)
+            tempoDict['children'].append(tempoDiscipDict)
+        HierarchieJsonFinDom['children'].append(tempoDict)
+        
+    HierarchieJsonFin['children'].append(HierarchieJsonFinDom)
 DumpHierarchie = json.dumps(HierarchieJsonFin, ensure_ascii=False, indent=1)
 with open(FichierJsonHierarchie +'.json', 'wb') as ficRes:
     ficRes.write(DumpHierarchie.encode('utf8'))                         

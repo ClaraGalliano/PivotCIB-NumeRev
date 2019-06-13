@@ -1,0 +1,1575 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "Sciences",
+   "children": [
+    {
+     "name": "31",
+     "children": [
+      {
+       "name": "A01K",
+       "children": [
+        {
+         "name": "A01K006",
+         "children": [
+          "Biologie des populations du corail rouge Corallium rubrum (L. 1758) de Méditerranée nord-occidentale"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "60",
+     "children": [
+      {
+       "name": "F02K",
+       "children": [
+        {
+         "name": "F02K000",
+         "children": [
+          "Instabilité de flapping : origine et effets sur la structure et le spray d'un jet atomisé"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "28",
+     "children": [
+      {
+       "name": "D01D",
+       "children": [
+        {
+         "name": "D01D000",
+         "children": [
+          "Elaboration et caractérisation de membranes nanofibreuses electrospinnées : influence de la rhéologie des polymères, de la structuration du réseau de fibres et de ses propriétés mécaniques"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "33",
+     "children": [
+      {
+       "name": "F28D",
+       "children": [
+        {
+         "name": "F28D002",
+         "children": [
+          "SYSTÈME COMPOSITES ET ANALYSE THERMODYNAMIQUE POUR LE STOCKAGE THERMOCHIMIQUE DE LÉNERGIE PAR SORPTION"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "62",
+     "children": [
+      {
+       "name": "B05B",
+       "children": [
+        {
+         "name": "B05B000",
+         "children": [
+          "Étude expérimentale de l'atomisation assistée de jets diphasiques gaz-liquide"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "65",
+     "children": [
+      {
+       "name": "H01M",
+       "children": [
+        {
+         "name": "H01M000",
+         "children": [
+          "Enzymes et catalyseurs bio-inspirés immobilisés sur électrodes nanostructurées pour l'élaboration de piles H2/air sans métaux nobles"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "63",
+     "children": [
+      {
+       "name": "H01H",
+       "children": [
+        {
+         "name": "H01H005",
+         "children": [
+          "Nanoscale and macroscale characterization of the dielectric charging phenomenon and stiction mechanisms for electrostatic MEMS/NEMS reliability"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "37",
+     "children": [
+      {
+       "name": "F03G",
+       "children": [
+        {
+         "name": "F03G000",
+         "children": [
+          "Hausse du niveau de la mer et impact du changement climatique global"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "67",
+     "children": [
+      {
+       "name": "G09B",
+       "children": [
+        {
+         "name": "G09B001",
+         "children": [
+          "Caractérisation de l'adaptation comportementale des téléostéens en élevage : plasticité et effets de la domestication"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "66",
+     "children": [
+      {
+       "name": "C05D",
+       "children": [
+        {
+         "name": "C05D000",
+         "children": [
+          "Evaluation des caractéristiques chimiques et agronomiques de cinq composts de déchets et étude de leurs effets sur les propriétés chimiques  du sol, la physiologie et le rendement du maïs ( Zea mays L. Var. Ikenne)  et de la tomate ( Lycop ersicum esculentum L. Var. Tropimech) sous deux  régimes hydriques au Togo"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "30",
+     "children": [
+      {
+       "name": "A61L",
+       "children": [
+        {
+         "name": "A61L000",
+         "children": [
+          "Physique des décharges nanosecondes diffuses génerées sous champs electriques extrêmes"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "25",
+     "children": [
+      {
+       "name": "G06N",
+       "children": [
+        {
+         "name": "G06N000",
+         "children": [
+          "Identification de paramètres et analyses de sensibilité pour un modèle d'usinage par jet d'eau abrasif"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "32",
+     "children": [
+      {
+       "name": "C09B",
+       "children": [
+        {
+         "name": "C09B001",
+         "children": [
+          "Synthèse de nouveaux outils moléculaires pour l’imagerie in vivo d’oligo- et polysaccharides à la surface cellulaire"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "68",
+     "children": [
+      {
+       "name": "G01W",
+       "children": [
+        {
+         "name": "G01W000",
+         "children": [
+          "Approche écologique et écophysiologique de l’effet des variations saisonnières sur la croissance des arbres dans les forêts côtières inondables des Antilles"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "35",
+     "children": [
+      {
+       "name": "B44B",
+       "children": [
+        {
+         "name": "B44B000",
+         "children": [
+          "Reconstitution du flux d'impact et des variations paléoclimatiques martiennes par la datation des cratères à éjecta lobés"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "26",
+     "children": [
+      {
+       "name": "F03B",
+       "children": [
+        {
+         "name": "F03B001",
+         "children": [
+          "Interaction houle-courant et houle-structures"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "36",
+     "children": [
+      {
+       "name": "G09F",
+       "children": [
+        {
+         "name": "G09F001",
+         "children": [
+          "Le videographique, espace de la disparition : le blockhaus en tuiles romaines"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "29",
+     "children": [
+      {
+       "name": "C08L",
+       "children": [
+        {
+         "name": "C08L009",
+         "children": [
+          "Etude des procédés de stabilisation/solidification (des déchets solides poreux) à base de liants hydrauliques ou de liants bitumineux"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "69",
+     "children": [
+      {
+       "name": "G01W",
+       "children": [
+        {
+         "name": "G01W000",
+         "children": [
+          "Etudes fonctionnelles des peptides dérivés de la Chromogranine A : Inflammation, nociception et motricité colique"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "27",
+     "children": [
+      {
+       "name": "A61N",
+       "children": [
+        {
+         "name": "A61N000",
+         "children": [
+          "Méthodes physiques et études radiobiologiques en radiothérapie anticancéreuse par faisceaux de photons de très haut débit de dose."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "64",
+     "children": [
+      {
+       "name": "A61K",
+       "children": [
+        {
+         "name": "A61K003",
+         "children": [
+          "Flavonoid glucodiversification with engineered sucrose-active enzymes",
+          "Mécanismes moléculaires de la signalisation et du trafic des récepteurs V1b et V2 de la vasopressine",
+          "Conséquences d'un stress chronique sur la barrière de mucus intestinal chez le rat : effet du probiotique Lactobacillus farciminis"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "34",
+     "children": [
+      {
+       "name": "G21K",
+       "children": [
+        {
+         "name": "G21K000",
+         "children": [
+          "Évolution des glaces et des composés organiques interstellaires et cométaires : étude expérimentale et analyse des données VIRTIS/ROSETTA"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "61",
+     "children": [
+      {
+       "name": "G05D",
+       "children": [
+        {
+         "name": "G05D000",
+         "children": [
+          "Conception de commande tolérante aux défauts pour les systèmes multi-agents : application au vol en formation d'une  flotte de véhicules autonomes aériens"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TRANSVERSE",
+   "children": [
+    {
+     "name": "100",
+     "children": [
+      {
+       "name": "C08H",
+       "children": [
+        {
+         "name": "C08H000",
+         "children": [
+          "PENTONITRONE - Fonctionnalisations de nitrones dérivées de pentoses issus de co-produits agricoles."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "101",
+     "children": [
+      {
+       "name": "G05D",
+       "children": [
+        {
+         "name": "G05D000",
+         "children": [
+          "Contribution à la commande de robot mobile poly-articulé à roues sur sol naturel : application à la conduite autonome des engins agricoles"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "103",
+     "children": [
+      {
+       "name": "E04G",
+       "children": [
+        {
+         "name": "E04G002",
+         "children": [
+          "Réhabilitation des ouvrages d'assainissement par matériaux composites : étude expérimentale et dimensionnement par calculs numériques"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "104",
+     "children": [
+      {
+       "name": "G06K",
+       "children": [
+        {
+         "name": "G06K000",
+         "children": [
+          "Identification de situations de conduite dégradées par analyse d'image de la chaussée."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "102",
+     "children": [
+      {
+       "name": "H01M",
+       "children": [
+        {
+         "name": "H01M000",
+         "children": [
+          "Stabilité et érosion du manteau lithosphérique subcontinental : Relations entre déformation, hydratation et percolation de fluides et magmas sous le craton du Kaapvaal et le Rift Est-Africain"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "106",
+     "children": [
+      {
+       "name": "H01J",
+       "children": [
+        {
+         "name": "H01J004",
+         "children": [
+          "Du bassin au paramètre : jusqu'où peut-on régionaliser un modèle hydrologique conceptuel ?"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "105",
+     "children": [
+      {
+       "name": "C10G",
+       "children": [
+        {
+         "name": "C10G003",
+         "children": [
+          "Serpentinites, vecteurs des circulations fluides et des transferts chimiques de l'océanisation à la subduction : exemple dans les Alpes occidentales"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "DEG",
+   "children": [
+    {
+     "name": "05",
+     "children": [
+      {
+       "name": "A61B",
+       "children": [
+        {
+         "name": "A61B000",
+         "children": [
+          "Etude méthodologique et structurale du développement cérébral en IRM : applications aux aires du langage dans une population de nourrissons"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "02",
+     "children": [
+      {
+       "name": "H01R",
+       "children": [
+        {
+         "name": "H01R003",
+         "children": [
+          "Droit international et développement durable en Afrique : le bilan mitigé des OMD et des partenariats pour le développement"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "01",
+     "children": [
+      {
+       "name": "B63G",
+       "children": [
+        {
+         "name": "B63G000",
+         "children": [
+          "A cooperative architecture for target localization using underwater vehicles"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "04",
+     "children": [
+      {
+       "name": "B64D",
+       "children": [
+        {
+         "name": "B64D004",
+         "children": [
+          "appropriation du développement durable dans les politiques publiques: cas de quelgues politiques publiques du maghréb central(Algérie, Maroc et Tunisie)"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "03",
+     "children": [
+      {
+       "name": "A61H",
+       "children": [
+        {
+         "name": "A61H000",
+         "children": [
+          "La protection de l'eau dans les États en transition : l'action des organisations internationales"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "06",
+     "children": [
+      {
+       "name": "A63F",
+       "children": [
+        {
+         "name": "A63F000",
+         "children": [
+          "De l'art martial au management stratégique des organisations : énoncé de principes de management stratégique selon le Gorin-no-Sho et étude de leurs applicabilités par les dirigeants d'organisations au Liban"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Pharmacie",
+   "children": [
+    {
+     "name": "41",
+     "children": [
+      {
+       "name": "A23K",
+       "children": [
+        {
+         "name": "A23K005",
+         "children": [
+          "Effets de l'acacia cyanophylla lindl. Sur l'ingestion et la digestion des regimes destines aux ovins. Roles des tanins et perspectives d'amelioration de sa valeur alimentaire"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "58-03",
+     "children": [
+      {
+       "name": "G11C",
+       "children": [
+        {
+         "name": "G11C001",
+         "children": [
+          "Photo-isomerization and photo-induced NO release in ruthenium nitrosyl compounds"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "45-02",
+     "children": [
+      {
+       "name": "C10J",
+       "children": [
+        {
+         "name": "C10J000",
+         "children": [
+          "Etude d’un procédé de gazéification de biomasse en ambiance plasma sur bain de verre"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "56-03",
+     "children": [
+      {
+       "name": "G16H",
+       "children": [
+        {
+         "name": "G16H005",
+         "children": [
+          "Réservoir environnemental, persistance et succès épidémiologique des populations de Pseudomonas aeruginosa dans un hôpital"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "49-05",
+     "children": [
+      {
+       "name": "F28C",
+       "children": [
+        {
+         "name": "F28C000",
+         "children": [
+          "Modélisation radiative et caractérisation des panaches d'aérosols en imagerie hyperspectrale"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "40",
+     "children": [
+      {
+       "name": "A61J",
+       "children": [
+        {
+         "name": "A61J000",
+         "children": [
+          "Étude des interactions physico-chimiques entre les préparations parentérales et un nouveau conditionnement primaire utilisable en unité de préparation centralisée, le flacon Crystal®"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "46-01",
+     "children": [
+      {
+       "name": "A61H",
+       "children": [
+        {
+         "name": "A61H003",
+         "children": [
+          "Pratiques thermales : parcours thérapeutiques et plénitude physique"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "44-04",
+     "children": [
+      {
+       "name": "G06Q",
+       "children": [
+        {
+         "name": "G06Q005",
+         "children": [
+          "Étude de l'influence du contexte social sur l'acceptabilité d'une proposition alimentaire"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "57-03",
+     "children": [
+      {
+       "name": "A23J",
+       "children": [
+        {
+         "name": "A23J000",
+         "children": [
+          "Propriétés techno-fonctionnelles du lait de dromadaire"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "48-03",
+     "children": [
+      {
+       "name": "G06T",
+       "children": [
+        {
+         "name": "G06T000",
+         "children": [
+          "Unsupervised Models for White Matter Fiber-Bundles Analysis in Multiple Sclerosis"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "57-01",
+     "children": [
+      {
+       "name": "A01K",
+       "children": [
+        {
+         "name": "A01K006",
+         "children": [
+          "Taxonomy of Permian ostracods from central northeastern, and western Thailand : implication for paleoenvironment and paleobiogeography",
+          "Le Lagerstätte de La Voulte-sur-Rhône (France, Callovien) : paléoenvironnement, biodiversité et taphonomie"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "53-01",
+     "children": [
+      {
+       "name": "A01K",
+       "children": [
+        {
+         "name": "A01K006",
+         "children": [
+          "Colonisation ichtyologique des platiers de La Réunion et biologie des post-larves de poissons coralliens"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "45-03",
+     "children": [
+      {
+       "name": "A01N",
+       "children": [
+        {
+         "name": "A01N006",
+         "children": [
+          "Epidémiologie de Tropheryma whipplei"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "39",
+     "children": [
+      {
+       "name": "A61Q",
+       "children": [
+        {
+         "name": "A61Q001",
+         "children": [
+          "L'absorption cutanée : stratégies de formulation et influence de l'irradiation solaire",
+          "Mise au point et étude de l’activité thérapeutique d’une préparation cicatrisante"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "43-02",
+     "children": [
+      {
+       "name": "G06F",
+       "children": [
+        {
+         "name": "G06F001",
+         "children": [
+          "Modélisation du transport des électrons de basse énergie avec des modèles physiques alternatifs dans Geant4-DNA et application à la radioimmunothérapie"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "43-01",
+     "children": [
+      {
+       "name": "G01R",
+       "children": [
+        {
+         "name": "G01R003",
+         "children": [
+          "Caractérisation tissulaire par relaxométrie et spectroscopie de résonance magnétique nucléaire du proton : étude \"ex vivo\" et \"in vivo\" contrôle de qualité des spectro-imageurs"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "54-03",
+     "children": [
+      {
+       "name": "A61L",
+       "children": [
+        {
+         "name": "A61L000",
+         "children": [
+          "Évolution de la réglementation en stérilisation et conséquences"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "53-03",
+     "children": [
+      {
+       "name": "A61B",
+       "children": [
+        {
+         "name": "A61B000",
+         "children": [
+          "Apport de l'IRM bas champ pour l'évaluation des mécanismes d'affinage des fromages pâtes molles et croûtes fleuries"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "47-03",
+     "children": [
+      {
+       "name": "A01K",
+       "children": [
+        {
+         "name": "A01K006",
+         "children": [
+          "Etudes des effets du zinc et du cuivre sur la fonction immune du poisson Zèbre (Brachydanio rero) (activité cytotoxique, phagocytose, résistance à Listeria monocytogènes : avantages et limites de ce modèle animal en immunotoxicologie aquatique"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "50-04",
+     "children": [
+      {
+       "name": "G01N",
+       "children": [
+        {
+         "name": "G01N002",
+         "children": [
+          "Etude d'un matériau composite verre-époxyde et de son endommagement : mesures mécaniques, acoustiques et physiques"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "54-05",
+     "children": [
+      {
+       "name": "G06Q",
+       "children": [
+        {
+         "name": "G06Q001",
+         "children": [
+          "Développement d'un outil d'auto-évaluation de la durabilité pour les acteurs de l'agriculture urbaine"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "50-03",
+     "children": [
+      {
+       "name": "C12Q",
+       "children": [
+        {
+         "name": "C12Q000",
+         "children": [
+          "Détection moléculaire du parasite Cryptosporidium dans des échantillons d'eau"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "49-03",
+     "children": [
+      {
+       "name": "C07C",
+       "children": [
+        {
+         "name": "C07C004",
+         "children": [
+          "Recherche de complexes dinucléaires du ruthénium et du rhodium en phase homogène ou sur supports polymères pour l'hydroformylation sélective des alcènes"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "46-04",
+     "children": [
+      {
+       "name": "A61B",
+       "children": [
+        {
+         "name": "A61B000",
+         "children": [
+          "Prédiction de la composition corporelle par modélisation locale et les réseaux bayésiens"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "47-04",
+     "children": [
+      {
+       "name": "G06N",
+       "children": [
+        {
+         "name": "G06N000",
+         "children": [
+          "Bases génétiques et génomique évolutive de lasexualité chez Daphnia."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "48-04",
+     "children": [
+      {
+       "name": "G06Q",
+       "children": [
+        {
+         "name": "G06Q001",
+         "children": [
+          "Optimisation biotechnique de la pisciculture en étang dans le cadre du développement durable des Exploitations Familiales Agricoles au Cameroun"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "42-01",
+     "children": [
+      {
+       "name": "G09B",
+       "children": [
+        {
+         "name": "G09B002",
+         "children": [
+          "Contrôle géodynamique des transferts de masses entre une chaîne et son piémont : exemples du mégacône du Napo-Pastaza (Equateur-Pérou)"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "57-02",
+     "children": [
+      {
+       "name": "G01N",
+       "children": [
+        {
+         "name": "G01N003",
+         "children": [
+          "Arles et Lyon, ports fluviaux de l'Empire romain : le commerce sur l'axe rhodanien du Ier s. av. J.-C. au VIIe s. ap. J.-C."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "47-01",
+     "children": [
+      {
+       "name": "C12Q",
+       "children": [
+        {
+         "name": "C12Q000",
+         "children": [
+          "Etude des mécanismes de résistance aux alcaloi͏̈des de Catharanthus roseus (G Don) pervenche de Madagascar"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "52-01",
+     "children": [
+      {
+       "name": "B01J",
+       "children": [
+        {
+         "name": "B01J003",
+         "children": [
+          "Direct dimethyl ether synthesis from CO2/H2"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "46-03",
+     "children": [
+      {
+       "name": "A23L",
+       "children": [
+        {
+         "name": "A23L003",
+         "children": [
+          "Les stratégies sanitaires dans les pays tiers-mondistes"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "52-02",
+     "children": [
+      {
+       "name": "A61Q",
+       "children": [
+        {
+         "name": "A61Q001",
+         "children": [
+          "Préparations cavitaires au laser Er:YAG et collage d'une réside composite"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "58-01",
+     "children": [
+      {
+       "name": "A61K",
+       "children": [
+        {
+         "name": "A61K000",
+         "children": [
+          "Élaboration d’un système de libération contrôlée des facteurs de croissance FGF-2 et TGF-β1 en vue de leur utilisation en odontologie conservatrice et endodontie"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "54-04",
+     "children": [
+      {
+       "name": "C07K",
+       "children": [
+        {
+         "name": "C07K001",
+         "children": [
+          "Effets de la surcharge en sel sur la distribution rénale en sous-type de récepteurs α(2) adrénergiques chez le rat Sabra : rôle de la testostérone"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "45-01",
+     "children": [
+      {
+       "name": "C12N",
+       "children": [
+        {
+         "name": "C12N001",
+         "children": [
+          "Identification des déterminants moléculaires impliqués dans la stabilité des virus grippaux de type A dans l'environnement"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "54-02",
+     "children": [
+      {
+       "name": "A61K",
+       "children": [
+        {
+         "name": "A61K003",
+         "children": [
+          "Nouvelles approches thérapeutiques de la pathologie pulmonaire par les suppléments alimentaires en période périnatale"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "47-02",
+     "children": [
+      {
+       "name": "A61N",
+       "children": [
+        {
+         "name": "A61N000",
+         "children": [
+          "Development of new dosimetric standards for low energy X-rays (≤ 50 keV) used in contact radiotherapy"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Autres",
+   "children": [
+    {
+     "name": "1000",
+     "children": [
+      {
+       "name": "A01B",
+       "children": [
+        {
+         "name": "A01B007",
+         "children": [
+          "Analyses descriptives et fonctionnelles comparees de zones humides riveraines de lac et d'estuaire"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "G21F",
+       "children": [
+        {
+         "name": "G21F000",
+         "children": [
+          "Origine et devenir du tritium au sein des hydrosystèmes continentaux méditerranéens français."
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "LSH-2",
+   "children": [
+    {
+     "name": "72",
+     "children": [
+      {
+       "name": "F03G",
+       "children": [
+        {
+         "name": "F03G000",
+         "children": [
+          "Histoire de la recherche sur les piles à combustible en France des années soixante aux années quatre-vingt"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "71",
+     "children": [
+      {
+       "name": "H04W",
+       "children": [
+        {
+         "name": "H04W005",
+         "children": [
+          "Caractérisation des performances limites des jeux non-coopératifs avec observation imparfaite : application à la téléphonie mobile 5G"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "74",
+     "children": [
+      {
+       "name": "C25D",
+       "children": [
+        {
+         "name": "C25D000",
+         "children": [
+          "Nano et microstructuration électrochimique de couches organiques commutables"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "70",
+     "children": [
+      {
+       "name": "G06Q",
+       "children": [
+        {
+         "name": "G06Q005",
+         "children": [
+          "Les ressources numériques comme support aux fonctions d'étayage de l'élève tuteur\r\nCas d'un dispositif mis en place à l'école élémentaire en sciences"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "76",
+     "children": [
+      {
+       "name": "A47G",
+       "children": [
+        {
+         "name": "A47G003",
+         "children": [
+          "Les prières pour le baptême dans l'Euchologe Barberini grec 336 : analyse théologique et rituelle"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "LSH-1",
+   "children": [
+    {
+     "name": "19",
+     "children": [
+      {
+       "name": "B28B",
+       "children": [
+        {
+         "name": "B28B000",
+         "children": [
+          "La poterie au Cambodge : histoire et développement : essai d'ethno-technologie"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "20",
+     "children": [
+      {
+       "name": "G06K",
+       "children": [
+        {
+         "name": "G06K000",
+         "children": [
+          "Intégration du lien consommateur-ressource dans l'étude de l'influence des activités humaines sur l'hivernage des bernaches cravant dans un écosystème littoral fortement anthropisé"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "10",
+     "children": [
+      {
+       "name": "B44C",
+       "children": [
+        {
+         "name": "B44C000",
+         "children": [
+          "Philippe Jaccottet : une transaction intime : l'image de la femme au service de l'esthétisme poétique"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "24",
+     "children": [
+      {
+       "name": "G06K",
+       "children": [
+        {
+         "name": "G06K000",
+         "children": [
+          "Urban public spaces’ role and repercussions in urban transformational interventions case of Guayaquil, Ecuador"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "23",
+     "children": [
+      {
+       "name": "C09K",
+       "children": [
+        {
+         "name": "C09K010",
+         "children": [
+          "Désertification dans le sud-est tunisien : l'impact des croûtes biologiques sur l'érosion hydrique"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "22",
+     "children": [
+      {
+       "name": "G01V",
+       "children": [
+        {
+         "name": "G01V000",
+         "children": [
+          "Modélisation hydrologique distribuée des écoulements surface-souterrain à l’échelle d’un bassin versant bananier en milieu tropical volcanique (Guadeloupe, France)"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "14",
+     "children": [
+      {
+       "name": "A01K",
+       "children": [
+        {
+         "name": "A01K006",
+         "children": [
+          "Le développement des pôles industriels halieutiques en Amérique latine : approche générale et étude de cas"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "21",
+     "children": [
+      {
+       "name": "E21C",
+       "children": [
+        {
+         "name": "E21C004",
+         "children": [
+          "Les carrières de meules du sud de la péninsule ibérique, de la protohistoire à l'époque moderne"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "09",
+     "children": [
+      {
+       "name": "A47G",
+       "children": [
+        {
+         "name": "A47G003",
+         "children": [
+          "La paix gagnée ou la recherche de l'amour chez Marie-Noël"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "11",
+     "children": [
+      {
+       "name": "H03M",
+       "children": [
+        {
+         "name": "H03M001",
+         "children": [
+          "Goddesses in Celtic Religion : cult and mythology : a comparative study of ancient Ireland, Britain and Gaul"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "18",
+     "children": [
+      {
+       "name": "G09B",
+       "children": [
+        {
+         "name": "G09B001",
+         "children": [
+          "Une archéologie de la peau et du miroir"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "16",
+     "children": [
+      {
+       "name": "C12N",
+       "children": [
+        {
+         "name": "C12N000",
+         "children": [
+          "La deshydratation des aldoximes : une activite non-classique des cytochromes p450 et des porphyrines de fer modeles"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "17",
+     "children": [
+      {
+       "name": "G09B",
+       "children": [
+        {
+         "name": "G09B001",
+         "children": [
+          "En remontant la muga karnali (essai sur la musique des spheres)"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "07",
+     "children": [
+      {
+       "name": "G08B",
+       "children": [
+        {
+         "name": "G08B003",
+         "children": [
+          "La région autonome du Val d'Aoste : question linguistique et question régionaliste"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "08",
+     "children": [
+      {
+       "name": "G09B",
+       "children": [
+        {
+         "name": "G09B002",
+         "children": [
+          "L'eau dans la ville en Afrique romaine à travers le cas d'Uthina"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "15",
+     "children": [
+      {
+       "name": "D04H",
+       "children": [
+        {
+         "name": "D04H000",
+         "children": [
+          "John Barth : approche du personnage romanesque"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

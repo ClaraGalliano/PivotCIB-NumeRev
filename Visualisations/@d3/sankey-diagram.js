@@ -117,7 +117,7 @@ Object.assign(html`<select>
   main.variable(observer("format")).define("format", ["d3"], function(d3)
 {
   const f = d3.format(",.0f");
-  return d => `${f(d)} TWh`;
+  return d => `${f(d)} thèses`;
 }
 );
   main.variable(observer("color")).define("color", ["d3"], function(d3)

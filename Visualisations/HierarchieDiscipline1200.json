@@ -1,71 +1,422 @@
 {
- "name": "LSH-1",
+ "name": "Eau",
  "children": [
   {
-   "name": "36",
+   "name": "Sciences",
    "children": [
     {
-     "name": "G03F",
+     "name": "31",
      "children": [
-      "G03F000",
       {
-       "name": "D04H000"
+       "name": "C09D",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "28",
+     "children": [
+      {
+       "name": "B01J",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "60",
+     "children": [
+      {
+       "name": "C12M",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "67",
+     "children": [
+      {
+       "name": "C12N",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "32",
+     "children": [
+      {
+       "name": "A61Q",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "65",
+     "children": [
+      {
+       "name": "A61N",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "62",
+     "children": [
+      {
+       "name": "C10M",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "34",
+     "children": [
+      {
+       "name": "A47J",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "29",
+     "children": [
+      {
+       "name": "B29C",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "35",
+     "children": [
+      {
+       "name": "G01V",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "64",
+     "children": [
+      {
+       "name": "C07K",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "30",
+     "children": [
+      {
+       "name": "G01S",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "33",
+     "children": [
+      {
+       "name": "B01D",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "63",
+     "children": [
+      {
+       "name": "H01L",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "27",
+     "children": [
+      {
+       "name": "G06F",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "61",
+     "children": [
+      {
+       "name": "A61B",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "37",
+     "children": [
+      {
+       "name": "C02F",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "68",
+     "children": [
+      {
+       "name": "A01N",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "36",
+     "children": [
+      {
+       "name": "G03F",
+       "size": 1
       }
      ]
     }
    ]
   },
   {
-   "name": "106",
+   "name": "TRANSVERSE",
    "children": [
     {
-     "name": "G06T",
+     "name": "101",
      "children": [
-      "G06T000",
       {
-       "name": "D04H000"
+       "name": "A01K",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "102",
+     "children": [
+      {
+       "name": "A61K",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "100",
+     "children": [
+      {
+       "name": "H04N",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "103",
+     "children": [
+      {
+       "name": "G01R",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "104",
+     "children": [
+      {
+       "name": "A61Q",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "106",
+     "children": [
+      {
+       "name": "G06T",
+       "size": 1
       }
      ]
     }
    ]
   },
   {
-   "name": "47-02",
+   "name": "Pharmacie",
    "children": [
     {
-     "name": "A61N",
+     "name": "41",
      "children": [
-      "A61N000",
       {
-       "name": "D04H000"
+       "name": "C12M",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "40",
+     "children": [
+      {
+       "name": "G01N",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "58-03",
+     "children": [
+      {
+       "name": "G09B",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "45-02",
+     "children": [
+      {
+       "name": "A21D",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "43-01",
+     "children": [
+      {
+       "name": "G01T",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "57-03",
+     "children": [
+      {
+       "name": "C22B",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "49-03",
+     "children": [
+      {
+       "name": "C07C",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "43-02",
+     "children": [
+      {
+       "name": "A61N",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "53-01",
+     "children": [
+      {
+       "name": "G01R",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "47-02",
+     "children": [
+      {
+       "name": "A61N",
+       "size": 1
       }
      ]
     }
    ]
   },
   {
-   "name": "05",
+   "name": "DEG",
    "children": [
     {
-     "name": "H04N",
+     "name": "02",
      "children": [
-      "H04N001",
       {
-       "name": "D04H000"
+       "name": "G06Q",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "04",
+     "children": [
+      {
+       "name": "G06F",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "05",
+     "children": [
+      {
+       "name": "H04N",
+       "size": 1
       }
      ]
     }
    ]
   },
   {
-   "name": "16",
+   "name": "LSH-1",
    "children": [
     {
-     "name": "C07K",
+     "name": "23",
      "children": [
-      "C07K001",
       {
-       "name": "D04H000"
+       "name": "G06Q",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "22",
+     "children": [
+      {
+       "name": "B60L",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "10",
+     "children": [
+      {
+       "name": "A61K",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "07",
+     "children": [
+      {
+       "name": "G06F",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "21",
+     "children": [
+      {
+       "name": "G06F",
+       "size": 1
+      }
+     ]
+    },
+    {
+     "name": "16",
+     "children": [
+      {
+       "name": "C07K",
+       "size": 1
       }
      ]
     }
