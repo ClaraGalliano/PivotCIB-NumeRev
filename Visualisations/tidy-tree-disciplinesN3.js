@@ -35,7 +35,7 @@ D3’s [tree layout](https://github.com/d3/d3-hierarchy/blob/master/README.md#tr
   
   const g = svg.append("g")
       .attr("font-family", "sans-serif")
-      .attr("font-size", 10)
+      .attr("font-size", 9)
       .attr("transform", `translate(${root.dy / 3},${root.dx - x0})`);
     
   const link = g.append("g")
@@ -88,7 +88,7 @@ d3.json("HierarchieDiscipline0-Titres.json")
 data => {
   const root = d3.hierarchy(data);
   root.dx = 8;
-  root.dy = width / (root.height +5);
+  root.dy = width / (root.height + 10);
   return d3.tree().nodeSize([root.dx,root.dy])(root);
 }
 )})
@@ -96,7 +96,7 @@ data => {
     {
       name: "width",
       value: (function(){return(
-1400
+1000
 )})
     },
     {

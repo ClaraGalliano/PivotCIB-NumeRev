@@ -8,8 +8,241 @@
      "name": "100",
      "children": [
       {
-       "name": "H04N",
-       "size": 1
+       "name": "Science",
+       "children": [
+        {
+         "name": "B23K",
+         "size": 1
+        },
+        {
+         "name": "H01L",
+         "size": 2
+        },
+        {
+         "name": "E21B",
+         "size": 1
+        },
+        {
+         "name": "C08J",
+         "size": 1
+        },
+        {
+         "name": "E21C",
+         "size": 1
+        },
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "F03B",
+         "size": 1
+        },
+        {
+         "name": "G03G",
+         "size": 2
+        },
+        {
+         "name": "C22C",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 3
+        },
+        {
+         "name": "C25D",
+         "size": 1
+        },
+        {
+         "name": "F04D",
+         "size": 1
+        },
+        {
+         "name": "C08F",
+         "size": 2
+        },
+        {
+         "name": "A61K",
+         "size": 4
+        },
+        {
+         "name": "F24D",
+         "size": 1
+        },
+        {
+         "name": "B60R",
+         "size": 2
+        },
+        {
+         "name": "A61N",
+         "size": 1
+        },
+        {
+         "name": "C04B",
+         "size": 2
+        },
+        {
+         "name": "B01J",
+         "size": 3
+        },
+        {
+         "name": "C03C",
+         "size": 2
+        },
+        {
+         "name": "A61B",
+         "size": 2
+        },
+        {
+         "name": "E02B",
+         "size": 1
+        },
+        {
+         "name": "B01D",
+         "size": 2
+        },
+        {
+         "name": "F28G",
+         "size": 1
+        },
+        {
+         "name": "H01F",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "C07K",
+         "size": 1
+        },
+        {
+         "name": "F02B",
+         "size": 1
+        },
+        {
+         "name": "H01J",
+         "size": 2
+        },
+        {
+         "name": "C08G",
+         "size": 2
+        },
+        {
+         "name": "G01V",
+         "size": 1
+        },
+        {
+         "name": "C07C",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 3
+        },
+        {
+         "name": "F01N",
+         "size": 1
+        },
+        {
+         "name": "C07F",
+         "size": 2
+        },
+        {
+         "name": "H01M",
+         "size": 1
+        },
+        {
+         "name": "G07F",
+         "size": 1
+        },
+        {
+         "name": "B63B",
+         "size": 1
+        },
+        {
+         "name": "G01R",
+         "size": 2
+        },
+        {
+         "name": "C01B",
+         "size": 1
+        },
+        {
+         "name": "C07D",
+         "size": 1
+        },
+        {
+         "name": "E06B",
+         "size": 1
+        },
+        {
+         "name": "C12Q",
+         "size": 1
+        },
+        {
+         "name": "H04L",
+         "size": 1
+        },
+        {
+         "name": "A01K",
+         "size": 1
+        },
+        {
+         "name": "B01L",
+         "size": 1
+        },
+        {
+         "name": "A61Q",
+         "size": 1
+        },
+        {
+         "name": "G21C",
+         "size": 2
+        },
+        {
+         "name": "H01Q",
+         "size": 1
+        },
+        {
+         "name": "C22B",
+         "size": 1
+        },
+        {
+         "name": "B09C",
+         "size": 1
+        },
+        {
+         "name": "H02J",
+         "size": 1
+        },
+        {
+         "name": "C12M",
+         "size": 1
+        },
+        {
+         "name": "G02F",
+         "size": 1
+        },
+        {
+         "name": "H04B",
+         "size": 1
+        },
+        {
+         "name": "E04H",
+         "size": 1
+        },
+        {
+         "name": "C12N",
+         "size": 1
+        },
+        {
+         "name": "H04N",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -17,8 +250,137 @@
      "name": "101",
      "children": [
       {
-       "name": "H01J",
-       "size": 1
+       "name": "Sciences Agronomiques",
+       "children": [
+        {
+         "name": "A01H",
+         "size": 1
+        },
+        {
+         "name": "H04N",
+         "size": 1
+        },
+        {
+         "name": "G10L",
+         "size": 1
+        },
+        {
+         "name": "E03F",
+         "size": 1
+        },
+        {
+         "name": "A01K",
+         "size": 2
+        },
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "B09C",
+         "size": 1
+        },
+        {
+         "name": "B60R",
+         "size": 1
+        },
+        {
+         "name": "E04D",
+         "size": 1
+        },
+        {
+         "name": "C07K",
+         "size": 1
+        },
+        {
+         "name": "A61K",
+         "size": 3
+        },
+        {
+         "name": "E21B",
+         "size": 1
+        },
+        {
+         "name": "C22B",
+         "size": 1
+        },
+        {
+         "name": "C12N",
+         "size": 2
+        },
+        {
+         "name": "G01N",
+         "size": 2
+        },
+        {
+         "name": "G03F",
+         "size": 1
+        },
+        {
+         "name": "H01M",
+         "size": 1
+        },
+        {
+         "name": "F03B",
+         "size": 1
+        },
+        {
+         "name": "G16H",
+         "size": 1
+        },
+        {
+         "name": "E02B",
+         "size": 1
+        },
+        {
+         "name": "C09K",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 2
+        },
+        {
+         "name": "C12P",
+         "size": 1
+        },
+        {
+         "name": "C12Q",
+         "size": 1
+        },
+        {
+         "name": "A01G",
+         "size": 1
+        },
+        {
+         "name": "A61M",
+         "size": 1
+        },
+        {
+         "name": "C11D",
+         "size": 1
+        },
+        {
+         "name": "A23L",
+         "size": 1
+        },
+        {
+         "name": "G09B",
+         "size": 1
+        },
+        {
+         "name": "H04W",
+         "size": 1
+        },
+        {
+         "name": "G01V",
+         "size": 1
+        },
+        {
+         "name": "H01J",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -26,8 +388,97 @@
      "name": "103",
      "children": [
       {
-       "name": "E02B",
-       "size": 1
+       "name": "Ingéniérie",
+       "children": [
+        {
+         "name": "C09K",
+         "size": 1
+        },
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "F24D",
+         "size": 1
+        },
+        {
+         "name": "H04N",
+         "size": 1
+        },
+        {
+         "name": "F28D",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "B60T",
+         "size": 1
+        },
+        {
+         "name": "C04B",
+         "size": 1
+        },
+        {
+         "name": "C08L",
+         "size": 1
+        },
+        {
+         "name": "H01L",
+         "size": 1
+        },
+        {
+         "name": "A61B",
+         "size": 1
+        },
+        {
+         "name": "A61K",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 2
+        },
+        {
+         "name": "C07K",
+         "size": 1
+        },
+        {
+         "name": "F25B",
+         "size": 1
+        },
+        {
+         "name": "B01D",
+         "size": 1
+        },
+        {
+         "name": "H01M",
+         "size": 1
+        },
+        {
+         "name": "C12Q",
+         "size": 1
+        },
+        {
+         "name": "E02F",
+         "size": 1
+        },
+        {
+         "name": "H04W",
+         "size": 1
+        },
+        {
+         "name": "G01R",
+         "size": 1
+        },
+        {
+         "name": "E02B",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -35,8 +486,65 @@
      "name": "102",
      "children": [
       {
-       "name": "F03B",
-       "size": 1
+       "name": "Géoscience",
+       "children": [
+        {
+         "name": "H04W",
+         "size": 1
+        },
+        {
+         "name": "E21B",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 1
+        },
+        {
+         "name": "C07C",
+         "size": 1
+        },
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "C07K",
+         "size": 1
+        },
+        {
+         "name": "G01V",
+         "size": 1
+        },
+        {
+         "name": "B60R",
+         "size": 1
+        },
+        {
+         "name": "C08J",
+         "size": 1
+        },
+        {
+         "name": "G08G",
+         "size": 1
+        },
+        {
+         "name": "A61K",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 1
+        },
+        {
+         "name": "F03B",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -44,8 +552,81 @@
      "name": "104",
      "children": [
       {
-       "name": "C12Q",
-       "size": 1
+       "name": "Traitement",
+       "children": [
+        {
+         "name": "G06Q",
+         "size": 2
+        },
+        {
+         "name": "H01M",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 1
+        },
+        {
+         "name": "G02F",
+         "size": 1
+        },
+        {
+         "name": "B60R",
+         "size": 1
+        },
+        {
+         "name": "A01K",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "E01F",
+         "size": 1
+        },
+        {
+         "name": "C12N",
+         "size": 1
+        },
+        {
+         "name": "G01S",
+         "size": 1
+        },
+        {
+         "name": "C01B",
+         "size": 1
+        },
+        {
+         "name": "C08J",
+         "size": 1
+        },
+        {
+         "name": "G01R",
+         "size": 1
+        },
+        {
+         "name": "A61N",
+         "size": 1
+        },
+        {
+         "name": "A61Q",
+         "size": 1
+        },
+        {
+         "name": "E04H",
+         "size": 1
+        },
+        {
+         "name": "A61B",
+         "size": 1
+        },
+        {
+         "name": "C12Q",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -53,8 +634,29 @@
      "name": "106",
      "children": [
       {
-       "name": "F03B",
-       "size": 1
+       "name": "Hydrologie",
+       "children": [
+        {
+         "name": "H04B",
+         "size": 1
+        },
+        {
+         "name": "H04W",
+         "size": 1
+        },
+        {
+         "name": "G06T",
+         "size": 1
+        },
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "F03B",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -62,8 +664,13 @@
      "name": "105",
      "children": [
       {
-       "name": "H01M",
-       "size": 1
+       "name": "Pétrologie",
+       "children": [
+        {
+         "name": "H01M",
+         "size": 1
+        }
+       ]
       }
      ]
     }
@@ -76,8 +683,233 @@
      "name": "31",
      "children": [
       {
-       "name": "C08J",
-       "size": 1
+       "name": "Chimie théorique",
+       "children": [
+        {
+         "name": "A61K",
+         "size": 3
+        },
+        {
+         "name": "B01J",
+         "size": 3
+        },
+        {
+         "name": "G02B",
+         "size": 1
+        },
+        {
+         "name": "H01J",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 3
+        },
+        {
+         "name": "G06Q",
+         "size": 2
+        },
+        {
+         "name": "A61Q",
+         "size": 1
+        },
+        {
+         "name": "H01L",
+         "size": 3
+        },
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "B05D",
+         "size": 1
+        },
+        {
+         "name": "C07F",
+         "size": 2
+        },
+        {
+         "name": "C07C",
+         "size": 5
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "B01D",
+         "size": 3
+        },
+        {
+         "name": "A61N",
+         "size": 1
+        },
+        {
+         "name": "C07D",
+         "size": 3
+        },
+        {
+         "name": "F25B",
+         "size": 1
+        },
+        {
+         "name": "C22B",
+         "size": 1
+        },
+        {
+         "name": "B41M",
+         "size": 1
+        },
+        {
+         "name": "G01R",
+         "size": 1
+        },
+        {
+         "name": "C12Q",
+         "size": 1
+        },
+        {
+         "name": "G21F",
+         "size": 1
+        },
+        {
+         "name": "A62D",
+         "size": 1
+        },
+        {
+         "name": "H01M",
+         "size": 2
+        },
+        {
+         "name": "B82Y",
+         "size": 1
+        },
+        {
+         "name": "C08B",
+         "size": 1
+        },
+        {
+         "name": "C22C",
+         "size": 2
+        },
+        {
+         "name": "G10K",
+         "size": 1
+        },
+        {
+         "name": "C07K",
+         "size": 1
+        },
+        {
+         "name": "C01G",
+         "size": 2
+        },
+        {
+         "name": "B32B",
+         "size": 2
+        },
+        {
+         "name": "G02F",
+         "size": 1
+        },
+        {
+         "name": "C23C",
+         "size": 1
+        },
+        {
+         "name": "C12N",
+         "size": 1
+        },
+        {
+         "name": "G03F",
+         "size": 1
+        },
+        {
+         "name": "C25C",
+         "size": 1
+        },
+        {
+         "name": "C09K",
+         "size": 1
+        },
+        {
+         "name": "C08F",
+         "size": 2
+        },
+        {
+         "name": "C25B",
+         "size": 1
+        },
+        {
+         "name": "C01B",
+         "size": 2
+        },
+        {
+         "name": "C11D",
+         "size": 2
+        },
+        {
+         "name": "C21B",
+         "size": 1
+        },
+        {
+         "name": "F42B",
+         "size": 1
+        },
+        {
+         "name": "C08G",
+         "size": 1
+        },
+        {
+         "name": "B29C",
+         "size": 1
+        },
+        {
+         "name": "H01S",
+         "size": 1
+        },
+        {
+         "name": "C10G",
+         "size": 1
+        },
+        {
+         "name": "A61F",
+         "size": 1
+        },
+        {
+         "name": "A61B",
+         "size": 2
+        },
+        {
+         "name": "C04B",
+         "size": 1
+        },
+        {
+         "name": "G06T",
+         "size": 1
+        },
+        {
+         "name": "H01G",
+         "size": 1
+        },
+        {
+         "name": "C09D",
+         "size": 1
+        },
+        {
+         "name": "C10B",
+         "size": 1
+        },
+        {
+         "name": "G09B",
+         "size": 1
+        },
+        {
+         "name": "C08J",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -85,8 +917,61 @@
      "name": "60",
      "children": [
       {
-       "name": "H01M",
-       "size": 1
+       "name": "Mécanique",
+       "children": [
+        {
+         "name": "A61B",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 2
+        },
+        {
+         "name": "G01N",
+         "size": 1
+        },
+        {
+         "name": "H01F",
+         "size": 1
+        },
+        {
+         "name": "G01V",
+         "size": 1
+        },
+        {
+         "name": "F03B",
+         "size": 1
+        },
+        {
+         "name": "H01L",
+         "size": 1
+        },
+        {
+         "name": "B29C",
+         "size": 1
+        },
+        {
+         "name": "H01S",
+         "size": 1
+        },
+        {
+         "name": "C12M",
+         "size": 1
+        },
+        {
+         "name": "H01J",
+         "size": 1
+        },
+        {
+         "name": "H01M",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -94,8 +979,113 @@
      "name": "28",
      "children": [
       {
-       "name": "C23C",
-       "size": 1
+       "name": "Milieux denses et matériaux",
+       "children": [
+        {
+         "name": "C09K",
+         "size": 1
+        },
+        {
+         "name": "C30B",
+         "size": 1
+        },
+        {
+         "name": "A61K",
+         "size": 2
+        },
+        {
+         "name": "C10L",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 2
+        },
+        {
+         "name": "H01M",
+         "size": 2
+        },
+        {
+         "name": "C08G",
+         "size": 1
+        },
+        {
+         "name": "C01G",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 3
+        },
+        {
+         "name": "H04J",
+         "size": 1
+        },
+        {
+         "name": "B01J",
+         "size": 1
+        },
+        {
+         "name": "C04B",
+         "size": 1
+        },
+        {
+         "name": "C07D",
+         "size": 1
+        },
+        {
+         "name": "G09B",
+         "size": 1
+        },
+        {
+         "name": "C22B",
+         "size": 1
+        },
+        {
+         "name": "B82Y",
+         "size": 1
+        },
+        {
+         "name": "A61N",
+         "size": 1
+        },
+        {
+         "name": "C22F",
+         "size": 1
+        },
+        {
+         "name": "C12N",
+         "size": 1
+        },
+        {
+         "name": "H01S",
+         "size": 1
+        },
+        {
+         "name": "H01G",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "H01L",
+         "size": 1
+        },
+        {
+         "name": "C22C",
+         "size": 1
+        },
+        {
+         "name": "B01L",
+         "size": 1
+        },
+        {
+         "name": "C23C",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -103,8 +1093,33 @@
      "name": "67",
      "children": [
       {
-       "name": "C12N",
-       "size": 2
+       "name": "Biologie des populations et écologie",
+       "children": [
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "F03B",
+         "size": 1
+        },
+        {
+         "name": "A01G",
+         "size": 1
+        },
+        {
+         "name": "A01K",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "C12N",
+         "size": 2
+        }
+       ]
       }
      ]
     },
@@ -112,8 +1127,25 @@
      "name": "25",
      "children": [
       {
-       "name": "G01R",
-       "size": 1
+       "name": "Mathématiques",
+       "children": [
+        {
+         "name": "F01M",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "E21B",
+         "size": 1
+        },
+        {
+         "name": "G01R",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -121,8 +1153,53 @@
      "name": "32",
      "children": [
       {
-       "name": "H04L",
-       "size": 1
+       "name": "Chimie organique",
+       "children": [
+        {
+         "name": "A61K",
+         "size": 2
+        },
+        {
+         "name": "B01J",
+         "size": 1
+        },
+        {
+         "name": "C25B",
+         "size": 1
+        },
+        {
+         "name": "C08B",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 1
+        },
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "C08K",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 1
+        },
+        {
+         "name": "A61Q",
+         "size": 1
+        },
+        {
+         "name": "F01N",
+         "size": 1
+        },
+        {
+         "name": "H04L",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -130,8 +1207,33 @@
      "name": "37",
      "children": [
       {
-       "name": "A61K",
-       "size": 1
+       "name": "Météorologie",
+       "children": [
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "H01J",
+         "size": 1
+        },
+        {
+         "name": "B01D",
+         "size": 1
+        },
+        {
+         "name": "E02B",
+         "size": 1
+        },
+        {
+         "name": "C01F",
+         "size": 1
+        },
+        {
+         "name": "A61K",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -139,8 +1241,133 @@
      "name": "62",
      "children": [
       {
-       "name": "F01M",
-       "size": 1
+       "name": "Énergétique",
+       "children": [
+        {
+         "name": "B01D",
+         "size": 3
+        },
+        {
+         "name": "G06F",
+         "size": 2
+        },
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "H01M",
+         "size": 1
+        },
+        {
+         "name": "G21C",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 1
+        },
+        {
+         "name": "D21C",
+         "size": 1
+        },
+        {
+         "name": "C09K",
+         "size": 1
+        },
+        {
+         "name": "F25B",
+         "size": 1
+        },
+        {
+         "name": "F03G",
+         "size": 1
+        },
+        {
+         "name": "G01V",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 1
+        },
+        {
+         "name": "G03F",
+         "size": 1
+        },
+        {
+         "name": "H01S",
+         "size": 1
+        },
+        {
+         "name": "C12M",
+         "size": 1
+        },
+        {
+         "name": "C10G",
+         "size": 2
+        },
+        {
+         "name": "H02J",
+         "size": 1
+        },
+        {
+         "name": "F01N",
+         "size": 1
+        },
+        {
+         "name": "B01F",
+         "size": 1
+        },
+        {
+         "name": "C22B",
+         "size": 1
+        },
+        {
+         "name": "B09C",
+         "size": 1
+        },
+        {
+         "name": "G11B",
+         "size": 1
+        },
+        {
+         "name": "C07C",
+         "size": 1
+        },
+        {
+         "name": "C07D",
+         "size": 1
+        },
+        {
+         "name": "C10L",
+         "size": 1
+        },
+        {
+         "name": "A61K",
+         "size": 1
+        },
+        {
+         "name": "C01B",
+         "size": 1
+        },
+        {
+         "name": "G02B",
+         "size": 1
+        },
+        {
+         "name": "D01D",
+         "size": 1
+        },
+        {
+         "name": "C10M",
+         "size": 1
+        },
+        {
+         "name": "F01M",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -148,8 +1375,53 @@
      "name": "30",
      "children": [
       {
-       "name": "A61B",
-       "size": 1
+       "name": "Milieux dilués et optique",
+       "children": [
+        {
+         "name": "C01B",
+         "size": 1
+        },
+        {
+         "name": "A61F",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 1
+        },
+        {
+         "name": "F04C",
+         "size": 1
+        },
+        {
+         "name": "H01J",
+         "size": 1
+        },
+        {
+         "name": "F22B",
+         "size": 1
+        },
+        {
+         "name": "G01V",
+         "size": 1
+        },
+        {
+         "name": "F42B",
+         "size": 1
+        },
+        {
+         "name": "G01S",
+         "size": 1
+        },
+        {
+         "name": "A61B",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -157,8 +1429,61 @@
      "name": "65",
      "children": [
       {
-       "name": "A61N",
-       "size": 1
+       "name": "Biologie cellulaire",
+       "children": [
+        {
+         "name": "G01N",
+         "size": 2
+        },
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "C12N",
+         "size": 2
+        },
+        {
+         "name": "A01H",
+         "size": 1
+        },
+        {
+         "name": "A01N",
+         "size": 1
+        },
+        {
+         "name": "C07D",
+         "size": 1
+        },
+        {
+         "name": "A61B",
+         "size": 1
+        },
+        {
+         "name": "C12P",
+         "size": 1
+        },
+        {
+         "name": "C07K",
+         "size": 1
+        },
+        {
+         "name": "G01R",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "A01K",
+         "size": 1
+        },
+        {
+         "name": "A61N",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -166,8 +1491,33 @@
      "name": "68",
      "children": [
       {
-       "name": "C12N",
-       "size": 1
+       "name": "Biologie des organismes",
+       "children": [
+        {
+         "name": "A61K",
+         "size": 2
+        },
+        {
+         "name": "C07K",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 1
+        },
+        {
+         "name": "A01N",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "C12N",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -175,8 +1525,41 @@
      "name": "29",
      "children": [
       {
-       "name": "B82Y",
-       "size": 1
+       "name": "Constituants élémentaires",
+       "children": [
+        {
+         "name": "A61N",
+         "size": 1
+        },
+        {
+         "name": "B29C",
+         "size": 1
+        },
+        {
+         "name": "C10G",
+         "size": 1
+        },
+        {
+         "name": "H01G",
+         "size": 1
+        },
+        {
+         "name": "H01M",
+         "size": 1
+        },
+        {
+         "name": "A23L",
+         "size": 1
+        },
+        {
+         "name": "B01J",
+         "size": 1
+        },
+        {
+         "name": "B82Y",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -184,8 +1567,21 @@
      "name": "34",
      "children": [
       {
-       "name": "B64G",
-       "size": 1
+       "name": "Astronomie",
+       "children": [
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "A47J",
+         "size": 1
+        },
+        {
+         "name": "B64G",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -193,8 +1589,41 @@
      "name": "63",
      "children": [
       {
-       "name": "H01Q",
-       "size": 1
+       "name": "Électronique",
+       "children": [
+        {
+         "name": "H01L",
+         "size": 2
+        },
+        {
+         "name": "F04B",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 1
+        },
+        {
+         "name": "B06B",
+         "size": 1
+        },
+        {
+         "name": "G01S",
+         "size": 1
+        },
+        {
+         "name": "A61B",
+         "size": 1
+        },
+        {
+         "name": "C09K",
+         "size": 1
+        },
+        {
+         "name": "H01Q",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -202,8 +1631,17 @@
      "name": "35",
      "children": [
       {
-       "name": "C02F",
-       "size": 1
+       "name": "Structure et évolution de la Terre et des autres planètes",
+       "children": [
+        {
+         "name": "G01V",
+         "size": 1
+        },
+        {
+         "name": "C02F",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -211,8 +1649,33 @@
      "name": "33",
      "children": [
       {
-       "name": "H01M",
-       "size": 1
+       "name": "Chimie des matériaux",
+       "children": [
+        {
+         "name": "B01D",
+         "size": 2
+        },
+        {
+         "name": "C08K",
+         "size": 1
+        },
+        {
+         "name": "A61K",
+         "size": 1
+        },
+        {
+         "name": "A61H",
+         "size": 1
+        },
+        {
+         "name": "C25B",
+         "size": 1
+        },
+        {
+         "name": "H01M",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -220,8 +1683,13 @@
      "name": "64",
      "children": [
       {
-       "name": "C07K",
-       "size": 1
+       "name": "Biochimie et biologie moléculaire",
+       "children": [
+        {
+         "name": "C07K",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -229,8 +1697,21 @@
      "name": "61",
      "children": [
       {
-       "name": "A61B",
-       "size": 1
+       "name": "Génie informatique",
+       "children": [
+        {
+         "name": "G01R",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 1
+        },
+        {
+         "name": "A61B",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -238,8 +1719,13 @@
      "name": "66",
      "children": [
       {
-       "name": "G06Q",
-       "size": 1
+       "name": "Physiologie",
+       "children": [
+        {
+         "name": "G06Q",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -247,8 +1733,33 @@
      "name": "36",
      "children": [
       {
-       "name": "F03B",
-       "size": 1
+       "name": "Terre solide",
+       "children": [
+        {
+         "name": "G06Q",
+         "size": 1
+        },
+        {
+         "name": "B09C",
+         "size": 1
+        },
+        {
+         "name": "E02B",
+         "size": 1
+        },
+        {
+         "name": "G01V",
+         "size": 1
+        },
+        {
+         "name": "G03F",
+         "size": 1
+        },
+        {
+         "name": "F03B",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -256,8 +1767,29 @@
      "name": "27",
      "children": [
       {
-       "name": "H04W",
-       "size": 1
+       "name": "Informatique",
+       "children": [
+        {
+         "name": "C09K",
+         "size": 1
+        },
+        {
+         "name": "G01S",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "B01L",
+         "size": 1
+        },
+        {
+         "name": "H04W",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -265,8 +1797,17 @@
      "name": "69",
      "children": [
       {
-       "name": "G01R",
-       "size": 1
+       "name": "Neurosciences",
+       "children": [
+        {
+         "name": "A61K",
+         "size": 1
+        },
+        {
+         "name": "G01R",
+         "size": 1
+        }
+       ]
       }
      ]
     }
@@ -279,8 +1820,13 @@
      "name": "1000",
      "children": [
       {
-       "name": "C02F",
-       "size": 1
+       "name": "?",
+       "children": [
+        {
+         "name": "C02F",
+         "size": 1
+        }
+       ]
       }
      ]
     }
@@ -293,8 +1839,113 @@
      "name": "41",
      "children": [
       {
-       "name": "B01J",
-       "size": 1
+       "name": "Sciences biologiques",
+       "children": [
+        {
+         "name": "C30B",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 3
+        },
+        {
+         "name": "F03B",
+         "size": 1
+        },
+        {
+         "name": "C12N",
+         "size": 2
+        },
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "C12M",
+         "size": 1
+        },
+        {
+         "name": "A01K",
+         "size": 2
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "A01G",
+         "size": 1
+        },
+        {
+         "name": "C05F",
+         "size": 1
+        },
+        {
+         "name": "A01N",
+         "size": 1
+        },
+        {
+         "name": "C07K",
+         "size": 1
+        },
+        {
+         "name": "A01H",
+         "size": 1
+        },
+        {
+         "name": "E02B",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 1
+        },
+        {
+         "name": "B61L",
+         "size": 1
+        },
+        {
+         "name": "A61Q",
+         "size": 1
+        },
+        {
+         "name": "C07C",
+         "size": 2
+        },
+        {
+         "name": "A23L",
+         "size": 1
+        },
+        {
+         "name": "A61K",
+         "size": 2
+        },
+        {
+         "name": "H05B",
+         "size": 1
+        },
+        {
+         "name": "C12P",
+         "size": 1
+        },
+        {
+         "name": "A61B",
+         "size": 2
+        },
+        {
+         "name": "H01L",
+         "size": 1
+        },
+        {
+         "name": "A61D",
+         "size": 1
+        },
+        {
+         "name": "B01J",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -302,8 +1953,45 @@
      "name": "45-02",
      "children": [
       {
-       "name": "A21D",
-       "size": 1
+       "name": "Parasitologie et mycologie",
+       "children": [
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "C12M",
+         "size": 1
+        },
+        {
+         "name": "C12Q",
+         "size": 1
+        },
+        {
+         "name": "A01N",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 1
+        },
+        {
+         "name": "C12N",
+         "size": 1
+        },
+        {
+         "name": "A61K",
+         "size": 1
+        },
+        {
+         "name": "C09D",
+         "size": 1
+        },
+        {
+         "name": "A21D",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -311,8 +1999,33 @@
      "name": "40",
      "children": [
       {
-       "name": "G01N",
-       "size": 1
+       "name": "Sciences du médicament",
+       "children": [
+        {
+         "name": "A61K",
+         "size": 2
+        },
+        {
+         "name": "A01N",
+         "size": 1
+        },
+        {
+         "name": "A61N",
+         "size": 1
+        },
+        {
+         "name": "C08B",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -320,8 +2033,117 @@
      "name": "58-03",
      "children": [
       {
-       "name": "G09B",
-       "size": 1
+       "name": "Sciences anatomiques et physiologiques",
+       "children": [
+        {
+         "name": "C10L",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "H01J",
+         "size": 2
+        },
+        {
+         "name": "C09K",
+         "size": 1
+        },
+        {
+         "name": "B81C",
+         "size": 1
+        },
+        {
+         "name": "B82Y",
+         "size": 1
+        },
+        {
+         "name": "A61K",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 2
+        },
+        {
+         "name": "A61N",
+         "size": 1
+        },
+        {
+         "name": "H01L",
+         "size": 3
+        },
+        {
+         "name": "C08K",
+         "size": 1
+        },
+        {
+         "name": "G01F",
+         "size": 1
+        },
+        {
+         "name": "G21C",
+         "size": 1
+        },
+        {
+         "name": "B01L",
+         "size": 1
+        },
+        {
+         "name": "H01S",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 1
+        },
+        {
+         "name": "A47J",
+         "size": 1
+        },
+        {
+         "name": "C30B",
+         "size": 1
+        },
+        {
+         "name": "G06T",
+         "size": 1
+        },
+        {
+         "name": "A61B",
+         "size": 1
+        },
+        {
+         "name": "H01M",
+         "size": 1
+        },
+        {
+         "name": "G01T",
+         "size": 1
+        },
+        {
+         "name": "C01F",
+         "size": 1
+        },
+        {
+         "name": "G21K",
+         "size": 1
+        },
+        {
+         "name": "G01B",
+         "size": 1
+        },
+        {
+         "name": "G01R",
+         "size": 1
+        },
+        {
+         "name": "G09B",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -329,8 +2151,21 @@
      "name": "46-01",
      "children": [
       {
-       "name": "A61B",
-       "size": 1
+       "name": "Épidémiologie",
+       "children": [
+        {
+         "name": "C02F",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 1
+        },
+        {
+         "name": "A61B",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -338,8 +2173,17 @@
      "name": "48-03",
      "children": [
       {
-       "name": "A61K",
-       "size": 1
+       "name": "Pharmacologie fondamentale",
+       "children": [
+        {
+         "name": "A61Q",
+         "size": 1
+        },
+        {
+         "name": "A61K",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -347,8 +2191,13 @@
      "name": "39",
      "children": [
       {
-       "name": "G01N",
-       "size": 1
+       "name": "Sciences physico-chimiques et technologies pharmaceutiques",
+       "children": [
+        {
+         "name": "G01N",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -356,8 +2205,17 @@
      "name": "43-02",
      "children": [
       {
-       "name": "G01R",
-       "size": 1
+       "name": "Radiologie et imagerie médicale",
+       "children": [
+        {
+         "name": "A61N",
+         "size": 1
+        },
+        {
+         "name": "G01R",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -365,8 +2223,13 @@
      "name": "54-03",
      "children": [
       {
-       "name": "G01R",
-       "size": 1
+       "name": "Gynécologie-obstétrique",
+       "children": [
+        {
+         "name": "G01R",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -374,8 +2237,13 @@
      "name": "43-01",
      "children": [
       {
-       "name": "G01T",
-       "size": 1
+       "name": "Biophysique et médecine nucléaire",
+       "children": [
+        {
+         "name": "G01T",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -383,8 +2251,25 @@
      "name": "57-03",
      "children": [
       {
-       "name": "C12Q",
-       "size": 1
+       "name": "biochimie",
+       "children": [
+        {
+         "name": "C12N",
+         "size": 2
+        },
+        {
+         "name": "A61K",
+         "size": 3
+        },
+        {
+         "name": "C22B",
+         "size": 1
+        },
+        {
+         "name": "C12Q",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -392,8 +2277,17 @@
      "name": "49-03",
      "children": [
       {
-       "name": "C07C",
-       "size": 1
+       "name": "Psychiatrie d'adultes",
+       "children": [
+        {
+         "name": "C08F",
+         "size": 1
+        },
+        {
+         "name": "C07C",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -401,8 +2295,13 @@
      "name": "57-02",
      "children": [
       {
-       "name": "G06F",
-       "size": 1
+       "name": "Chirurgie buccale",
+       "children": [
+        {
+         "name": "G06F",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -410,8 +2309,17 @@
      "name": "53-01",
      "children": [
       {
-       "name": "A61N",
-       "size": 1
+       "name": "Médecine interne",
+       "children": [
+        {
+         "name": "G01R",
+         "size": 1
+        },
+        {
+         "name": "A61N",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -419,8 +2327,13 @@
      "name": "45-03",
      "children": [
       {
-       "name": "A01N",
-       "size": 1
+       "name": "Maladies infectieuses",
+       "children": [
+        {
+         "name": "A01N",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -428,8 +2341,13 @@
      "name": "47-02",
      "children": [
       {
-       "name": "A61N",
-       "size": 1
+       "name": "Cancérologie",
+       "children": [
+        {
+         "name": "A61N",
+         "size": 1
+        }
+       ]
       }
      ]
     }
@@ -442,8 +2360,17 @@
      "name": "02",
      "children": [
       {
-       "name": "C07K",
-       "size": 1
+       "name": "Droit public",
+       "children": [
+        {
+         "name": "G06Q",
+         "size": 1
+        },
+        {
+         "name": "C07K",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -451,8 +2378,21 @@
      "name": "05",
      "children": [
       {
-       "name": "H04N",
-       "size": 1
+       "name": "Sciences économiques",
+       "children": [
+        {
+         "name": "H04W",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 2
+        },
+        {
+         "name": "H04N",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -460,8 +2400,13 @@
      "name": "06",
      "children": [
       {
-       "name": "G06Q",
-       "size": 1
+       "name": "Sciences de gestion",
+       "children": [
+        {
+         "name": "G06Q",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -469,8 +2414,13 @@
      "name": "01",
      "children": [
       {
-       "name": "G06Q",
-       "size": 1
+       "name": "Droit privé et sciences criminelles",
+       "children": [
+        {
+         "name": "G06Q",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -478,8 +2428,13 @@
      "name": "04",
      "children": [
       {
-       "name": "G06F",
-       "size": 1
+       "name": "Science politique",
+       "children": [
+        {
+         "name": "G06F",
+         "size": 1
+        }
+       ]
       }
      ]
     }
@@ -492,8 +2447,17 @@
      "name": "14",
      "children": [
       {
-       "name": "H04N",
-       "size": 1
+       "name": "Langues et littératures romanes",
+       "children": [
+        {
+         "name": "A61H",
+         "size": 1
+        },
+        {
+         "name": "H04N",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -501,8 +2465,49 @@
      "name": "23",
      "children": [
       {
-       "name": "A47J",
-       "size": 1
+       "name": "Géographie physique",
+       "children": [
+        {
+         "name": "G06T",
+         "size": 1
+        },
+        {
+         "name": "G01N",
+         "size": 1
+        },
+        {
+         "name": "F03B",
+         "size": 1
+        },
+        {
+         "name": "F25C",
+         "size": 1
+        },
+        {
+         "name": "C12R",
+         "size": 1
+        },
+        {
+         "name": "G06N",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 2
+        },
+        {
+         "name": "E02B",
+         "size": 1
+        },
+        {
+         "name": "H04L",
+         "size": 2
+        },
+        {
+         "name": "A47J",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -510,8 +2515,25 @@
      "name": "21",
      "children": [
       {
-       "name": "G06F",
-       "size": 1
+       "name": "Histoire et civilisations anciennes",
+       "children": [
+        {
+         "name": "F03B",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 1
+        },
+        {
+         "name": "B62D",
+         "size": 1
+        },
+        {
+         "name": "G06F",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -519,8 +2541,13 @@
      "name": "17",
      "children": [
       {
-       "name": "C08G",
-       "size": 1
+       "name": "Philosophie",
+       "children": [
+        {
+         "name": "C08G",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -528,8 +2555,17 @@
      "name": "22",
      "children": [
       {
-       "name": "F03B",
-       "size": 1
+       "name": "Histoire et civilisations",
+       "children": [
+        {
+         "name": "B60L",
+         "size": 1
+        },
+        {
+         "name": "F03B",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -537,8 +2573,17 @@
      "name": "10",
      "children": [
       {
-       "name": "A61K",
-       "size": 1
+       "name": "Littératures comparées",
+       "children": [
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "A61K",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -546,8 +2591,17 @@
      "name": "07",
      "children": [
       {
-       "name": "G09B",
-       "size": 2
+       "name": "Sciences du langage",
+       "children": [
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "G09B",
+         "size": 2
+        }
+       ]
       }
      ]
     },
@@ -555,8 +2609,17 @@
      "name": "19",
      "children": [
       {
-       "name": "G06Q",
-       "size": 1
+       "name": "Sociologie",
+       "children": [
+        {
+         "name": "C40B",
+         "size": 1
+        },
+        {
+         "name": "G06Q",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -564,8 +2627,13 @@
      "name": "18",
      "children": [
       {
-       "name": "H04L",
-       "size": 1
+       "name": "Architecture et Arts",
+       "children": [
+        {
+         "name": "H04L",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -573,8 +2641,21 @@
      "name": "20",
      "children": [
       {
-       "name": "A01K",
-       "size": 1
+       "name": "Anthropologie biologique",
+       "children": [
+        {
+         "name": "G06F",
+         "size": 1
+        },
+        {
+         "name": "A23L",
+         "size": 1
+        },
+        {
+         "name": "A01K",
+         "size": 1
+        }
+       ]
       }
      ]
     },
@@ -582,8 +2663,13 @@
      "name": "16",
      "children": [
       {
-       "name": "C07K",
-       "size": 1
+       "name": "Psychologie",
+       "children": [
+        {
+         "name": "C07K",
+         "size": 1
+        }
+       ]
       }
      ]
     }
@@ -596,8 +2682,13 @@
      "name": "72",
      "children": [
       {
-       "name": "C22C",
-       "size": 1
+       "name": "Épistémologie",
+       "children": [
+        {
+         "name": "C22C",
+         "size": 1
+        }
+       ]
       }
      ]
     }

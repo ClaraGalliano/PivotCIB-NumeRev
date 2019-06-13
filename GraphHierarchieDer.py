@@ -18,12 +18,13 @@ ChampsEpures = ['discipline','Date','Langue','CatIPC', 'titre', 'Domaine', 'Sect
 ChampsNouveau  = ['discipline','Date','score','IPC3','IPC7', 'IPC11', 'titre']
 ChampsNouveau.sort()
 evites = 0
-seuilScore = 0
+seuilScore = 1200
 
-Titres = True #présence des titres dans les graphes (à n'utiliser qu'après avoir beaucoup seuillé ^_^)
+Titres = False #présence des titres dans les graphes (à n'utiliser qu'après avoir beaucoup seuillé ^_^)
+
 IPCDef = GetIPCDefinition()
-FichierJsonGrapheSeuille = 'GraphDisciplineCIB-' + str(seuilScore)
-FichierJsonHierarchie = "HierarchieDiscipline" + str(seuilScore)
+FichierJsonGrapheSeuille = 'GraphDisciplineCIB-' + str(seuilScore)+Titres*'Titre'
+FichierJsonHierarchie = "HierarchieDiscipline" + str(seuilScore)+Titres*'Titre'
 for Thz in LstThz:
     Thz2 = dict()
     for cle in Thz.keys():

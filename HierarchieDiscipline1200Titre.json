@@ -1,0 +1,3378 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "Sciences",
+   "children": [
+    {
+     "name": "31",
+     "children": [
+      {
+       "name": "Chimie théorique",
+       "children": [
+        {
+         "name": "A61K",
+         "children": [
+          {
+           "name": "A61K000",
+           "children": [
+            "Contribution à l'étude des solutions micellaires et microémulsionnées : corrélation entre les propriétés dérivées de méthodes électrochimiques et spectrofluorimétriques",
+            "Proprietes structurales de systemes mixtes non ioniques lipide-tensioactif : - elaboration de vesicules stabilisees steriquement - contribution a l'etude de la transition micelles vesicules",
+            "Influence du manganèse (II) et du cuivre (II) sur la transformation de la vatérite en calcite en solution aqueuse",
+            "Formation d'une emulsion et son role lors de l'extraction synergique de cadmium, zinc ou cobalt par des acylpyrazolols en presence de dodecylamine"
+           ]
+          },
+          {
+           "name": "A61K003",
+           "children": [
+            "Hydroformulation des alcènes lourds catalysée par des complexes dinucléaires du rhodium maintenus en phase aqueuse supportée"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B01J",
+         "children": [
+          {
+           "name": "B01J002",
+           "children": [
+            "Etude par spectrométrie de masse d'ions secondaires de l'hydroxylation de tiO:(2) (100)",
+            "Etude d'oxydes mixtes a base de cobalt : preparation, caracterisation et activite catalytique pour les reactions de depollution des gaz d'echappement automobiles",
+            "Synthèse et caractérisation physicochimique de tamis moléculaires de type aluminophosphate",
+            "Préparation et caractérisation d'oxydes mixtes TiO2-SiO2 hydrophobes pour l'oxydation en phase liquide",
+            "Synthese et caracterisations physico-chimiques du silicoaluminophosphate zeolithique sapo-34",
+            "Nouveaux systemes catalytiques : des precurseurs a base de vanadium pour l'oxydation selective en milieu homogene, des chloro-alcoxydes de rhenium greffes pour la metathese des olefines"
+           ]
+          },
+          {
+           "name": "B01J001",
+           "children": [
+            "Synthese, caracterisation, proprietes photophysiques et photochimiques de nanocristallites synthetises in situ en micelles inverses"
+           ]
+          },
+          {
+           "name": "B01J003",
+           "children": [
+            "Photodeshydrogénation des alcools en phase gazeuse en présence de catalyseurs au platine déposé sur le bioxyde de titane en relation avec la photodécomposition de l'eau liquide",
+            "Synthese et caracterisation de clusters oxo-alcoxydes de titane (iv) et de niobium (v)"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "children": [
+          {
+           "name": "G06Q003",
+           "children": [
+            "Polymérisation de l'acrylamide sous rayonnement : réactivité de photoamorceurs solubles dans l'eau sous excitation UV",
+            "Etude du vieillissement en regime transitoire des catalyseurs trois voies pour la depollution automobile",
+            "Synthèses et caractérisations des nouveaux complexes du ruthénium avec l'hydrogène moléculaire",
+            "Preparation, structure cristalline et proprietes des hexacyanoferrates de cuivre. Applications a la sorption du cesium"
+           ]
+          },
+          {
+           "name": "G06Q001",
+           "children": [
+            "Optimisation de catalyseurs à base de lanthane en couplage oxydant du méthane par modification chimique et par mise en oeuvre d'un réacteur à membrane"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01L",
+         "children": [
+          {
+           "name": "H01L003",
+           "children": [
+            "Réactions d'altération dans les cuprates supraconducteurs au bismuth sous l'action des agents atmosphériques"
+           ]
+          },
+          {
+           "name": "H01L005",
+           "children": [
+            "Mecanismes et cinetique de dissolution de materiaux phosphates cristallises et amorphes en milieux acides chlorhydrique et citrique"
+           ]
+          },
+          {
+           "name": "H01L002",
+           "children": [
+            "Realisation d'electrodes membranaires indicatrices d'anions amphiphiles - application a la determination de grandeurs thermodynamiques et aux dosages d'agents tensioactifs"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B01D",
+         "children": [
+          {
+           "name": "B01D005",
+           "children": [
+            "Conductivite protonique dans les hydrates"
+           ]
+          },
+          {
+           "name": "B01D001",
+           "children": [
+            "Simulation par ordinateur de l'extraction liquide-liquide des cations alcalins par des ionophores de type calixarene-couronne et valinomycine"
+           ]
+          },
+          {
+           "name": "B01D006",
+           "children": [
+            "Elimination des nitrates des eaux polluées par les procédés à membranes échangeuses d'ions"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01J",
+         "children": [
+          {
+           "name": "H01J004",
+           "children": [
+            "Propriétés physico-chimiques de systèmes aqueux de tensioactifs non ioniques fluorés"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F001",
+           "children": [
+            "Simulation par dynamique moleculaire d'ions libres et complexes par des recepteurs macrocycliques en solution. Influence du solvant sur la conformation des recepteurs, la selectivite de complexation et la nature des paires d'ions",
+            "Simulations de dynamique moléculaire ab initio at metadinamique pour la réactivité électrochimique dinterfaces oxydes/eau liquide dintérêt pour la décomposition de l'eau",
+            "Complexation du cuivre(II) avec les acides salicylique, anthranilique et 3,5-diisopropylsalicylique dans les conditions physiologiques et implications pour le rôle anti-inflammatoire du cuivre dans les associations correspondantes",
+            "Property-enriched fragment descriptors for adaptive QSAR"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C07D",
+         "children": [
+          {
+           "name": "C07D047",
+           "children": [
+            "Synthèse de pyridines à noyaux condensés : application à des modèles de NADH chiraux"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B41M",
+         "children": [
+          {
+           "name": "B41M000",
+           "children": [
+            "Application des effets de stereochimie a la comparaison des reactions ion/molecule en haute et basse pressions : cas de molecules bifonctionnelles"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12Q",
+         "children": [
+          {
+           "name": "C12Q000",
+           "children": [
+            "Simulations par dynamiques moleculaires de systemes auto-assembles construits a partir du digeranylphosphate de sodium"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "children": [
+          {
+           "name": "H01M000",
+           "children": [
+            "Développement d'une pile à combustible hydrogène/oxygène à électrolyte polymère solide de 100 cm2 à hydratation interne"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B82Y",
+         "children": [
+          {
+           "name": "B82Y003",
+           "children": [
+            "Synthèse et étude de méthanofullerènes à caractère amphiphile ou mésomorphe"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C22C",
+         "children": [
+          {
+           "name": "C22C000",
+           "children": [
+            "Caractérisation de catalyseurs bimétalliques PtRh/Al2O3 et PtRh/CeO2-Al2O3 de post-combustion automobile"
+           ]
+          },
+          {
+           "name": "C22C003",
+           "children": [
+            "Etude de l'hydrolyse de l'hydrure de lithium"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C01G",
+         "children": [
+          {
+           "name": "C01G003",
+           "children": [
+            "Reactivite catalytique et caracterisation de catalyseurs a base d'oxycarbure de molybdene supporte sur sic pour la reaction de deshydro-isomerisation du n-butane"
+           ]
+          },
+          {
+           "name": "C01G004",
+           "children": [
+            "Etude de l'oxydation electrochimique de l'americium en presence d'heteropolyanions lacunaires et de nitrate d'argent en milieu aqueux acide"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "children": [
+          {
+           "name": "G01N002",
+           "children": [
+            "Modélisation moléculaire de l'hydratation, de la structure, et de la mobilité des ions et de l'eau dans l'espace interfoliaire et à la surface d'une argile smectitique",
+            "Etude de l'acidite des solides (principalement des zeolithes), par rmn du proton large-bande a 4k et haute resolution mas a 300k",
+            "Développement des biocapteurs électrochimiques à base de tyrosinase pour la détection des polluants organiques en phase aqueuse",
+            "Separation et identification d'acides alkylphosphoniques par electrophorese capillaire et chromatographie en phase liquide couplees a la spectrometrie de masse : dosages dans des milieux naturels aqueux"
+           ]
+          },
+          {
+           "name": "G01N003",
+           "children": [
+            "Dégradation photocatalytique dans des suspensions aqueuses de TiO2 de polluants aliphatiques et aromatiques chlorés ou azotés : produits intermédiaires, voies de dégradation, effets de l'ajout d'ozone"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C23C",
+         "children": [
+          {
+           "name": "C23C002",
+           "children": [
+            "Conversion du methane en presence de gaz carbonique et de vapeur d'eau dans un arc electrique et une decharge glissante"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "children": [
+          {
+           "name": "C12N000",
+           "children": [
+            "Synthese, caracterisation et echange acido-basique de perovskites feuilletees : a#2ln#2ti#3o#1#0, (a: na, k, ln: y, la, nd)",
+            "Activation de l'oxygène moléculaire par la NAD(P)H : flavine oxydoréductase de Escherichia coli : applications à l'étude du stress oxydant"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C25C",
+         "children": [
+          {
+           "name": "C25C000",
+           "children": [
+            "Caracterisations thermodynamique et electrocinetique des melanges nh#4hf#2, purs et en presence d'eau et de sels de nickel"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C09K",
+         "children": [
+          {
+           "name": "C09K000",
+           "children": [
+            "Caracterisation, stabilite thermique de l'acide 1-vanado-11 molybdophosphorique et des sels de pyridinium : etude de l'adsorption de l'acide isobutyrique par spectroscopies r.p.e. et i.r"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C07C",
+         "children": [
+          {
+           "name": "C07C001",
+           "children": [
+            "Fluoration catalytique en phase gazeuse du 1,1,1-Trifluoro-2-Chloroéthane (F133a) sur oxydes de chrome"
+           ]
+          },
+          {
+           "name": "C07C005",
+           "children": [
+            "Contribution à l'étude de la fonction de transfert air-neige pour les gaz acides (acides organiques, HNO#3, HCL)",
+            "Les (perfluoroalkyl)alcanes et alcenes : etude du comportement amphiphile dans les systemes disperses et applications aux vecteurs d'agents therapeutiques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C08F",
+         "children": [
+          {
+           "name": "C08F000",
+           "children": [
+            "Régénération des catalyseurs modèles de vaporéformage à base de nickel désactivés par dépôt de carbone filamentaire"
+           ]
+          },
+          {
+           "name": "C08F021",
+           "children": [
+            "Preparation et etude de la reactivite des 4-allylazetidine-2-ones : acces aux carbacephames et carbacephemes"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C01B",
+         "children": [
+          {
+           "name": "C01B001",
+           "children": [
+            "Catalyse de reactions d'oxydation : utilisation du percarbonate de sodium et regeneration d'especes palladiees actives par le 1,2-dichloroethane"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C11D",
+         "children": [
+          {
+           "name": "C11D001",
+           "children": [
+            "Dissolution des gaz dans des solutions aqueuses d'agents tensioactifs ioniques : aspects cinétique et thermodynamique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C21B",
+         "children": [
+          {
+           "name": "C21B001",
+           "children": [
+            "Synthese et etude des proprietes magnetiques et structurales de complexes du fer (ii) avec des ligands a noyaux imidazole et du manganese (ii) avec des bases de schiff tridentees"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "F42B",
+         "children": [
+          {
+           "name": "F42B001",
+           "children": [
+            "Etude dynamique du systeme i#/i##3/h#2o#2 en solution aqueuse a divers ph"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C08G",
+         "children": [
+          {
+           "name": "C08G007",
+           "children": [
+            "Synthèse et caractérisation de nouvelles membranes polyimides sulfoniques pour pile à combustible H²/O²"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61Q",
+         "children": [
+          {
+           "name": "A61Q001",
+           "children": [
+            "Structure et topologie de phases fluides de bicouches. Mesures d'autodiffusion de marqueurs et de diffraction de rayons x"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61F",
+         "children": [
+          {
+           "name": "A61F001",
+           "children": [
+            "Étude de l'effet de la radiolyse de l'eau sur la livixation de la zirconolite"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "children": [
+          {
+           "name": "A61B000",
+           "children": [
+            "Simulation par dynamique moleculaire de l'ion uranyle libre, et complexe par des ionophores en solution : ether-couronne 18c6, cmpo et calixarenes"
+           ]
+          },
+          {
+           "name": "A61B001",
+           "children": [
+            "Synthèse, étude structurale et propriétés de phases nouvelles dans les systèmes A(2)O-Sb(2)O(5)-XO(2) (A=alcalin, X=Si, Ge)"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C07F",
+         "children": [
+          {
+           "name": "C07F000",
+           "children": [
+            "Corrosion du dioxyde d'etain fortement dope en milieu aqueux chlorure, etudiee par electrogravimetrie et spectroscopie d'impedance",
+            "Synthèse de nanomatériaux hybrides à base de fer et de bismuth & études des propriétés physiques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C04B",
+         "children": [
+          {
+           "name": "C04B003",
+           "children": [
+            "Agregation de colloides de zircone : caracterisation et modelisation"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06T",
+         "children": [
+          {
+           "name": "G06T000",
+           "children": [
+            "Préparation, caractérisation et activité en décomposition de l'hydrazine de catalyseurs supportés Ir/Al2 O3: contrôle de la taille des particules métalliques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G09B",
+         "children": [
+          {
+           "name": "G09B001",
+           "children": [
+            "Mise au point de méthodes d’analyse de substances critiques potentiellement présentes dans les produits et procédés de la filière cuir"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C09D",
+         "children": [
+          {
+           "name": "C09D000",
+           "children": [
+            "Synthèse de copolymères diblocs par le procédé RAFT : Application pour revêtements anti-salissures marines hybrides FRC/SPC"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "28",
+     "children": [
+      {
+       "name": "Milieux denses et matériaux",
+       "children": [
+        {
+         "name": "C30B",
+         "children": [
+          {
+           "name": "C30B002",
+           "children": [
+            "Etude par microscopie électronique en transmission et spectroscopie infrarouge des défauts de réseau dans la berlinite AlPO4"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C10L",
+         "children": [
+          {
+           "name": "C10L000",
+           "children": [
+            "Mélanges charbon eau : effet des propriétés physicochimiques des particules de charbon et du mode de broyage sur la rhéologie des suspensions"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "children": [
+          {
+           "name": "G06Q003",
+           "children": [
+            "Comportements critiques de la phase éponge des systèmes amphiphiles dans le régime très dilué"
+           ]
+          },
+          {
+           "name": "G06Q001",
+           "children": [
+            "Interaction de l'acétylène C2H2 et de l'eau H2O avec la surface (001) de l'oxyde de magnésium MgO : étude expérimentale et théorique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "children": [
+          {
+           "name": "H01M000",
+           "children": [
+            "Caractérisations physico-chimiques et électrochimiques de nouveaux hydroxydes de nickel substitués au cobalt",
+            "Contribution de la chimie douce à l'étude des hydroxydes et oxyhydroxydes de nickel substitués au cobalt",
+            "Conception, mise en oeuvre et optimisation d'électrodes composites à bas coût pour accumulateurs Li-ion",
+            "Synthèse, étude et optimisation de matériaux d'électrode positive pour batteries au lithium Li1+[alpha]V3O8, Li4VO(PO4)2 : des précurseurs au matériau actif"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C08G",
+         "children": [
+          {
+           "name": "C08G007",
+           "children": [
+            "Synthèse et caractérisation de films diélectriques polyimides cardo",
+            "Corrélations structure-propriétés dans les polyimides pour la perméation gazeuse"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C01G",
+         "children": [
+          {
+           "name": "C01G004",
+           "children": [
+            "Pigments rouges préhistoriques : goethite chauffée ou hématite nanocristalline naturelle ?"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H04J",
+         "children": [
+          {
+           "name": "H04J001",
+           "children": [
+            "Élaboration, caractérisation et résistance à l'usure de composites céramiques sic/tib#2"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "children": [
+          {
+           "name": "A61K003",
+           "children": [
+            "Contribution à l'élaboration de couches minces d'YBa2Cu3O7-x par MOCVD sur aciers : les couches de conversion comme couches intermédiaires"
+           ]
+          },
+          {
+           "name": "A61K000",
+           "children": [
+            "Formation spontanée de vésicules dans un système amphiphile chargé"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G09B",
+         "children": [
+          {
+           "name": "G09B001",
+           "children": [
+            "Contribution à l'homogénéisation de matériaux hétérogènes viscoélastiques : milieux aléatoires et périodiques et prise en compte des interfaces",
+            "Comportement et rupture d’un acier au C-Mn en présence de vieillissement sous déformation"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61N",
+         "children": [
+          {
+           "name": "A61N000",
+           "children": [
+            "Élaboration et caractérisation mécanique des nanocomposites alumine-carbure de silicium"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C04B",
+         "children": [
+          {
+           "name": "C04B003",
+           "children": [
+            "Spectroscopie de sondes luminescentes et simulation de verres poreux par dynamique moléculaire dans l'étude de la densification de gels de silice"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "children": [
+          {
+           "name": "C12N000",
+           "children": [
+            "Incorporation du cycle furanique dans de nouvelles structures analogues des antithromboxanes"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F000",
+           "children": [
+            "Optimisation des interfaces fibre-matrice de composites à renfort naturel"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C22C",
+         "children": [
+          {
+           "name": "C22C003",
+           "children": [
+            "Étude de la relation microstructure/ténacité d'aciers maraging inoxydables"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B01J",
+         "children": [
+          {
+           "name": "B01J002",
+           "children": [
+            "Elaboration, caractérisations et modélisation des mécanismes de conduction de matériaux céramiques conducteurs anioniques et protoniques"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "60",
+     "children": [
+      {
+       "name": "Mécanique",
+       "children": [
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F001",
+           "children": [
+            "Étude de l'écoulement vertical ascendant à trois fluides en conduite vertical",
+            "Modélisation de lentraînement dair dans la méthode SPH"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01F",
+         "children": [
+          {
+           "name": "H01F000",
+           "children": [
+            "Etude du phénomène de \"shadow corrosion\" des alliages de zirconium dans les réacteurs à eau bouillante (REB)"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "children": [
+          {
+           "name": "G06Q001",
+           "children": [
+            "Rhéologie et stabilité des pâtes de ciment utilisées dans la formulation des bétons fluides"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01L",
+         "children": [
+          {
+           "name": "H01L002",
+           "children": [
+            "Dépôts par ESD et ALD et caractérisations physico-chimiques de couches d'oxydes à l'échelle nanométrique pour la microélectronique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01S",
+         "children": [
+          {
+           "name": "H01S000",
+           "children": [
+            "Modélisation d'écoulements diphasiques gaz-liquide dans une fissure tortueuse avec prise en compte de la condensation de vapeur"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12M",
+         "children": [
+          {
+           "name": "C12M000",
+           "children": [
+            "Etude du méthane atmosphérique au cours du dernier cycle climatique à partir de l'analyse de l'air piégé dans la glace antarctique"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "67",
+     "children": [
+      {
+       "name": "Biologie des populations et écologie",
+       "children": [
+        {
+         "name": "C02F",
+         "children": [
+          {
+           "name": "C02F000",
+           "children": [
+            "Typologie et vegetation de l'hydrosysteme rhenan dans le secteur central de la plaine d'alsace : interpretation et fonctionnement ecologique. i. unites fonctionnelles connectees au rhin [presentee par fabienne robach]. ii. unites fonctionnelles deconnectees du rhin [presentee par isabelle eglin]",
+            "Les Characées (macroalgues) du Maroc : biotypologie dans les eaux continentales et production dans les Dayas (mares temporaires)",
+            "Communautés de diatomées épilithiques et de macrophytes de cours d'eau soumis à des multiples perturbations d'une plaine aride libanaise : évaluation comparative de la qualité de l'eau à l'aide des indices (SEQ-Eau, I.B.D., I.P.S., I.B.M.R.)",
+            "Phytoremédiation en zones humides construites d'eaux contaminées au cuivre",
+            "Conséquences de l'introduction de deux espèces végétales aquatiques exotiques (Elodea nuttallii et Elodea canadensis) sur les interactions plantes-macroinvertébrés"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "children": [
+          {
+           "name": "F03B001",
+           "children": [
+            "Hydrobiologie du massif du Vercors (Préalpes calcaires) et d'une rivière type : le Furon : Ecologie des diptères Chironomidae du Furon et de quelques cours d'eau pollués"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A01G",
+         "children": [
+          {
+           "name": "A01G002",
+           "children": [
+            "Oxydation biologique du manganèse par les bactéries libres ou fixées, des eaux souterraines"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F000",
+           "children": [
+            "Production primaire et fonctionnement écologique en milieu estuarien turbide : cas de l’estuaire de la Gironde (France)",
+            "Analyse comparative des tactiques déployées lors de la migration de colonisation des bassins versants par les poissons migrateurs amphihalins thalassotoques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "children": [
+          {
+           "name": "C12N000",
+           "children": [
+            "Modulation des activités (phospho)lipasiques : mise en oeuvre de la technique des fimls monomoléculaires pour l'étude d'inhibiteurs spécifiques et la détermination de la stéréo-sélectivité des enzymes lipolytiques"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "32",
+     "children": [
+      {
+       "name": "Chimie organique",
+       "children": [
+        {
+         "name": "A61K",
+         "children": [
+          {
+           "name": "A61K000",
+           "children": [
+            "Catalyse par complexes organométalliques du palladium immobilisés en phase aqueuse supportée : application à la réaction de substitution allylique"
+           ]
+          },
+          {
+           "name": "A61K003",
+           "children": [
+            "Polymérisation et copolymérisation de monomères vinylil-aromatiques par le système BF3-H2O : approche cinétique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B01J",
+         "children": [
+          {
+           "name": "B01J003",
+           "children": [
+            "Phosphines sulfonées : étude de la réaction de sulfonation et de l'hydrogénation asymétrique en système biphasique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "children": [
+          {
+           "name": "C02F000",
+           "children": [
+            "Mise au point d'une filière complète de traitement des eaux usées urbaines de régions tropicales : digesteur à biomasse fixée, lagunages à Microphytes et à Macrophytes, production piscicole"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61Q",
+         "children": [
+          {
+           "name": "A61Q001",
+           "children": [
+            "Valorisation de matières premières végétales et animales pour l'industrie des cosmétiques : Pentadesma butyracea, Equus caballus, Bombyx mori"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "65",
+     "children": [
+      {
+       "name": "Biologie cellulaire",
+       "children": [
+        {
+         "name": "G01N",
+         "children": [
+          {
+           "name": "G01N002",
+           "children": [
+            "Etude par fluorescence de colorants xanthéniques en milieux homogènes ou organisés",
+            "Stimulation du pancréas de rat par la céruléine : analyse par RMN de l'évolution des métabolites phosphorés"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "children": [
+          {
+           "name": "C02F000",
+           "children": [
+            "Réponse numérique et fonctionnelle d'un prédateur aux contraintes spatio-temporelles d'utilisation de la ressource alimentaire : le cas du Grand Cormoran et du peuplment ichtyologique du lac de Grand-Lieu",
+            "Hydration of swelling clay and bacteria interaction : An experimental in situ reaction study"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "children": [
+          {
+           "name": "C12N001",
+           "children": [
+            "Diversité, distribution spatiale et dynamique temporelle des petits eucaryotes dans des écosystèmes d'eau douce peu profond",
+            "Caracterisation physiologique et fonctionnelle du transporteur anionique ATCLC-C chez Arabidopsis Thaliana",
+            "Analyse des processus associés au chargement des sucres dans le phloème et participant à l'adaptation aux stress abiotiques chez l'espèce Arabidopsis. thaliana",
+            "Le couplage nitrate/proton au sein de l’échangeur AtClCa est essentiel à la physiologie de la plante en réponse aux fluctuations environnementales",
+            "Recherche de gènes intervenant dans la tolérance au stress salin dans le phloème de céleri (Apium graveolens L. )"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A01N",
+         "children": [
+          {
+           "name": "A01N000",
+           "children": [
+            "Optimisation de la cryoconservation d'apex de solanum phureja par enrobage-deshydratation, en presence de saccharose. Etude sur l'effet de differentes substances cryoprotectrices"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12P",
+         "children": [
+          {
+           "name": "C12P001",
+           "children": [
+            "Production par fermentation et structures chimiques d'une famille de biosurfactants : les sophorolipides de \"Candida bombicola\""
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F001",
+           "children": [
+            "Les structures différenciées des cellules cancéreuses pancréatiques humaines Capan-1 et leurs relations avec le échanges ioniques : [Thèse en partie soutenue sur un ensemble de travaux]"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61N",
+         "children": [
+          {
+           "name": "A61N000",
+           "children": [
+            "Considération de la dosimétrie Monte-Carlo et de l'oedème dans la planification inverse en curiethérapie prostate"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "62",
+     "children": [
+      {
+       "name": "Énergétique",
+       "children": [
+        {
+         "name": "C02F",
+         "children": [
+          {
+           "name": "C02F000",
+           "children": [
+            "Etude des mécanismes d'élimination de la matière organique des eaux de surface par coagulation à l'aide de sels d'aluminium ou de fer",
+            "Contribution a l etude du comportement hydrodynamique des contacteurs d ozonation : influence de la geometrie et des parametres operatoires",
+            "Transfert de polluants au sein d'un ouvrage de traitement des eaux issues du ruissellement urbain - Mise au point d'un procédé de traitement complémentaire",
+            "Elements theoriques et experimentaux en vue de l'amelioration des installations de flottation a air dissous. Developpement de nouveaux flottateurs",
+            "Bioréacteur à membranes immergées pour le traitement des eaux résiduaires urbaines : spécificités physico-chimiques du milieu biologique et colmatage",
+            "Effets des ondes électromagnétiques de très basses fréquences sur des systèmes biologiques complexes : les procédés aérobies de traitement biologique des eaux usées et la formation de biofilm"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "D21C",
+         "children": [
+          {
+           "name": "D21C000",
+           "children": [
+            "Délignification des pâtes cellulosiques et des végétaux par l'oxygène : milieux aqueux, alcalins et solvants organiques-eau",
+            "Contribution à l'étude de la délignification et du blanchiment des pâtes cellulosiques par le bioxyde de chlore ou l'eau oxygénée dans un réacteur agité à alimentation programmée"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "F25B",
+         "children": [
+          {
+           "name": "F25B002",
+           "children": [
+            "Pompe à chaleur a compression-absorption : étude et réalisation expérimentale"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F000",
+           "children": [
+            "Étude climatologique, hydrogéologique et géophysique du Sahel Côtier des Doukkala (Maroc). Apport de l'analyse statistique et de l'inversion des données géoélectriques à l'étude du biseau salé de la lagune de Sidi Moussa"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G03F",
+         "children": [
+          {
+           "name": "G03F000",
+           "children": [
+            "Modélisation de l'équilibre de sorption et du transfert de matière dans des membranes à base de polydiméthylsiloxane : application à l'extraction d'alcanols de solutions aqueuses par pervaporation"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01S",
+         "children": [
+          {
+           "name": "H01S000",
+           "children": [
+            "Comportement viscoplastique du dioxyde d'uranium à haute température"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H02J",
+         "children": [
+          {
+           "name": "H02J005",
+           "children": [
+            "Contribution à l'étude de la diffusion d'un électrolyte fort à travers une membrane échangeuse d'ions : application à la caractérisation de ces membranes"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C07D",
+         "children": [
+          {
+           "name": "C07D048",
+           "children": [
+            "Experimental and numerical study of flow distribution in compact plate heat exchangers"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "children": [
+          {
+           "name": "A61K000",
+           "children": [
+            "Formation de liposomes par un procédé innovant utilisant les fluides supercritiques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C10M",
+         "children": [
+          {
+           "name": "C10M016",
+           "children": [
+            "Écotoxicologie des métaux chez les pectinidés : bioaccumulation, variabilité zoogéographique et évaluation des risques sanitaires"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "34",
+     "children": [
+      {
+       "name": "Astronomie",
+       "children": [
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F000",
+           "children": [
+            "Nano-structuration de matériaux optiques par lasers ultra-brefs"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A47J",
+         "children": [
+          {
+           "name": "A47J003",
+           "children": [
+            "Etude de la surface et de la subsurface de Mars : traitement et exploitation scientifique des données des radars MARSIS et SHARAD"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "29",
+     "children": [
+      {
+       "name": "Constituants élémentaires",
+       "children": [
+        {
+         "name": "B29C",
+         "children": [
+          {
+           "name": "B29C004",
+           "children": [
+            "Stabilisation contrôlée d'émulsions par des particules déformables"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "35",
+     "children": [
+      {
+       "name": "Structure et évolution de la Terre et des autres planètes",
+       "children": [
+        {
+         "name": "G01V",
+         "children": [
+          {
+           "name": "G01V009",
+           "children": [
+            "Nature et contrôle des systèmes fluviatiles du domaine Ouest Péri-Téthysien au trias inférieur : sédimentologie de faciès, reconstitutions paléoenvironnementales et simulations climatiques"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "64",
+     "children": [
+      {
+       "name": "Biochimie et biologie moléculaire",
+       "children": [
+        {
+         "name": "C07K",
+         "children": [
+          {
+           "name": "C07K001",
+           "children": [
+            "Expression de l'aquaporine tonoplastique Bob TIP1 ;1 de chou-fleur chez la levure Saccharomyces cerevisiae : rôle dans la réponse cellulaire au stress hypo-osmotique"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "30",
+     "children": [
+      {
+       "name": "Milieux dilués et optique",
+       "children": [
+        {
+         "name": "A61F",
+         "children": [
+          {
+           "name": "A61F000",
+           "children": [
+            "Etude numérique et expérimentale de l’influence de l’humidité de l'air sur la combustion. Application aux stratégies de réduction d’émissions polluantes  et de consommation des moteurs à pistons"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "children": [
+          {
+           "name": "G01N002",
+           "children": [
+            "Spectrométrie infrarouge atmosphérique : Applications à la mesure in situ par diodes laser de H2O, CO2 et leurs isotopes dans la basse atmosphère de mars (TDLAS) et à la mesure du CO2 terrestre par le spectromètre à réseau SOIR"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "F42B",
+         "children": [
+          {
+           "name": "F42B001",
+           "children": [
+            "Modélisation de la cinétique chimique d'un plasma d'arc d'hexafluorure de soufre (SF6) en présence d'impuretés"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01S",
+         "children": [
+          {
+           "name": "G01S001",
+           "children": [
+            "Imagerie pour le sonar à ouverture synthétique multistatique"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "33",
+     "children": [
+      {
+       "name": "Chimie des matériaux",
+       "children": [
+        {
+         "name": "C08K",
+         "children": [
+          {
+           "name": "C08K000",
+           "children": [
+            "Masquage de charges cationiques d'une polybase globulaire bifonctionnelle en vue de minimiser sa toxicité vis-à-vis du sang"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C25B",
+         "children": [
+          {
+           "name": "C25B001",
+           "children": [
+            "Développement de catalyseurs pour un électrolyseur alcalin H2/O2"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B01D",
+         "children": [
+          {
+           "name": "B01D007",
+           "children": [
+            "Réacteur catalytique membranaire pour le traitement de l'eau par ozonation"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "63",
+     "children": [
+      {
+       "name": "Électronique",
+       "children": [
+        {
+         "name": "G01N",
+         "children": [
+          {
+           "name": "G01N002",
+           "children": [
+            "Adaptation de techniques analytiques au contrôle de la fabrication de couches iono-sensibles : Application aux capteurs chimiques de type ISFET et insertion de ces capteurs dans la techniques FIA (Flow-Injection-Analysis)"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01L",
+         "children": [
+          {
+           "name": "H01L005",
+           "children": [
+            "Optimisation des matériaux des électrodes dans les diodes électroluminescentes organiques et les cellules solaires organiques"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "27",
+     "children": [
+      {
+       "name": "Informatique",
+       "children": [
+        {
+         "name": "C09K",
+         "children": [
+          {
+           "name": "C09K000",
+           "children": [
+            "Etude expérimentale des interactions Huile brute/Saumure/Roche sur la récupération d'hydrocarbures par injection d'eau de faible salinité"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01S",
+         "children": [
+          {
+           "name": "G01S001",
+           "children": [
+            "Assimilation de données radar satellitaires dans un modèle de métamorphisme de la neige"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F001",
+           "children": [
+            "Enrichissement de requêtes et visualisation sémantique dans une coopération de systèmes d'information : méthodes et outils d'aide à la recherche d'information",
+            "Filtrage, stockage et raisonnement sur de grands volumes de triplets RDF ordonnancés"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "61",
+     "children": [
+      {
+       "name": "Génie informatique",
+       "children": [
+        {
+         "name": "A61B",
+         "children": [
+          {
+           "name": "A61B000",
+           "children": [
+            "Tractographie de la matière blanche orientée par a priori anatomiques et microstructurels"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "37",
+     "children": [
+      {
+       "name": "Météorologie",
+       "children": [
+        {
+         "name": "C02F",
+         "children": [
+          {
+           "name": "C02F000",
+           "children": [
+            "Cycle de l'azote à l'interface eau-sédiment dans le bassin d'Arcachon : rôle des bactéries dans les processus de perte en azote (nitrification-dénitrification)",
+            "Impact des fluctuations de salinité sur le cycle de l'azote dans les sédiments de l'étang de berre"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "68",
+     "children": [
+      {
+       "name": "Biologie des organismes",
+       "children": [
+        {
+         "name": "A01N",
+         "children": [
+          {
+           "name": "A01N006",
+           "children": [
+            "Etude comparative de deux statégies de lutte contre \"Culex quinquefasciatus Say 1823\" par \"Bacillus sphaericus Neide, 1904\" dans la ville de Maroua (Nord-Cameroun)"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "36",
+     "children": [
+      {
+       "name": "Terre solide",
+       "children": [
+        {
+         "name": "G03F",
+         "children": [
+          {
+           "name": "G03F000",
+           "children": [
+            "Approche paléoécologique des paysages anciens au cours de l'Holocène. L'apport de la carpologie"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TRANSVERSE",
+   "children": [
+    {
+     "name": "101",
+     "children": [
+      {
+       "name": "Sciences Agronomiques",
+       "children": [
+        {
+         "name": "A01H",
+         "children": [
+          {
+           "name": "A01H000",
+           "children": [
+            "Analyse de la qualité de la tomate en réponse à une limitation en eau."
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H04N",
+         "children": [
+          {
+           "name": "H04N001",
+           "children": [
+            "Etude hydrogéologique, modélisation et gestion des aquifères du campo de Dalias (province d'Almeria, Espagne)"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G10L",
+         "children": [
+          {
+           "name": "G10L002",
+           "children": [
+            "Elaboration d'une méthodologie d'évaluation de la qualité de l'eau : application au problème de l'acidification des eaux lacustres du Québec"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C07K",
+         "children": [
+          {
+           "name": "C07K001",
+           "children": [
+            "Les chlorofluoromethanes, traceurs des eaux profondes dans les zones de fracture romanche et chain en atlantique equatorial",
+            "Transport des isotopes de l'uranium, du thorium, du radium et du plomb dans les bassins orientaux du massif tibetain ; comparaison avec l'amazone. Implications sur les regimes de l'erosion chimique et physique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "E21B",
+         "children": [
+          {
+           "name": "E21B004",
+           "children": [
+            "Evaluation isotopique de l'evaporation en zone non saturee sous climat sahelien et evolution geochimique des solutions du sol (vallee du moyen niger)"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "children": [
+          {
+           "name": "C12N000",
+           "children": [
+            "Utilisation des satellites meteorologiques pour le suivi du bilan hydrique a l'echelle regionale : application a la france"
+           ]
+          },
+          {
+           "name": "C12N001",
+           "children": [
+            "Comportement hydromecanique d'un massif fracture : apport de la microsismicite induite. application au site geothermique de soultz-sous-forets"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "children": [
+          {
+           "name": "A61K000",
+           "children": [
+            "Synthèse de tensioactifs à double chaîne et étude des phénomènes d'agrégation dans le formamide"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "children": [
+          {
+           "name": "C02F000",
+           "children": [
+            "L'utilité des végétaux aquatiques pour le traitement des eaux usées sous climat tropical",
+            "Etude analytique et expérimentale d'une optode pour la mesure de la pression partielle de CO2 dans l'eau de mer"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "children": [
+          {
+           "name": "H01M001",
+           "children": [
+            "Nucleides radioactifs naturels dans quelques systemes hydrothermaux carbo-gazeux du massif central. Application a la datation des depots anciens et a l'etude de la mobilite des radioelements"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "children": [
+          {
+           "name": "F03B001",
+           "children": [
+            "Cartographie de l'evolution du delta du bengawan solo (ile de java, indonesie) a l'aide d'images spot"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G16H",
+         "children": [
+          {
+           "name": "G16H001",
+           "children": [
+            "Origine et comportement geochimique de l'uranium dans les sediments marins - utilisation du rapport (#2#3#4u/#2#3#8u) en geochimie marine -"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "E02B",
+         "children": [
+          {
+           "name": "E02B000",
+           "children": [
+            "Diagenese des carbonates de plates-formes, recifs et mangroves, en atlantique et pacifique. Controle de la diagenese par les variationsthermo-glacio-eustatiques d'emersion-submersion. Aragonite, calcite, dolomite, phosphate"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C09K",
+         "children": [
+          {
+           "name": "C09K000",
+           "children": [
+            "Conditions de fusion partielle et mecanismes d'incorporation de h#2 et h#2o dans les magmas haplogranitiques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12Q",
+         "children": [
+          {
+           "name": "C12Q000",
+           "children": [
+            "Distribution des bactéries microaérophiles dans les sédiments de langues côtières méditerranéennes : comparaison avec la distribution des bactéries aérobies et anaérobies. Etude des potentialités métaboliques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G09B",
+         "children": [
+          {
+           "name": "G09B001",
+           "children": [
+            "Aptitude du Douglas (Pseudotsuga menziesii) à l'embryogenèse somatique : approches de physiologie cellulaire et moléculaire via l'analyse du protéome et du transcriptome",
+            "Propriétés interfaciales des bactériophages ARN F-spécifiques : Implications lors des processus d’adhésion – agrégation",
+            "Diagnostic sur la variabilité des modes de conduite d'une culture et de leurs conséquences agronomiques dans une agriculture fortement soumise aux incertitudes : cas de la tomate de plein champ à Mayotte"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A01K",
+         "children": [
+          {
+           "name": "A01K003",
+           "children": [
+            "Profil et métabolisme des acides gras dans les tissus de la perche comme Perca fluviatilis L"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "102",
+     "children": [
+      {
+       "name": "Géoscience",
+       "children": [
+        {
+         "name": "H04W",
+         "children": [
+          {
+           "name": "H04W001",
+           "children": [
+            "La surveillance du stockage de l'eau change avec un nouveau gravimètre quantique portable absolu"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C07C",
+         "children": [
+          {
+           "name": "C07C004",
+           "children": [
+            "Le phosphore et l'azote dans les sédiments du fleuve Charente (France) : variations saisonnières et mobilité potentielle"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C07K",
+         "children": [
+          {
+           "name": "C07K001",
+           "children": [
+            "Evolution and dynamics of the 3. 6 Ka Bp Pucon eruption of Villarica volcano, Chile"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G08G",
+         "children": [
+          {
+           "name": "G08G000",
+           "children": [
+            "Etude hydrogéologique environnementale de la nappe phréatique de la région nord-est de Lesparre-Médoc (Gironde) dans le but d'une utilisation du sol pour des épandages"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "children": [
+          {
+           "name": "A61K003",
+           "children": [
+            "Volcanisme alcalin associé à l'initiation de la rupture continentale : Rift Est Africain, Tanzanie, bassin de Manyara"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "100",
+     "children": [
+      {
+       "name": "Science",
+       "children": [
+        {
+         "name": "C08J",
+         "children": [
+          {
+           "name": "C08J000",
+           "children": [
+            "Comportement a long terme de materiaux composites immerges a grande profondeur"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "children": [
+          {
+           "name": "C02F000",
+           "children": [
+            "Les éléments nutritifs du Rhône : leur devenir dans les canaux d'irrigation et les marais en Camargue",
+            "Ozonation de solutions aqueuses : role de l'eau oxygenee",
+            "Énergétique de la floculation et floculateurs fluidisés",
+            "Déterminisme spatio-temporel des peuplements macrophytiques en grands cours d'eau : application à la Garonne et à la Dordogne",
+            "Filiere de potabilisation d'eau. Cas d'une station compacte",
+            "Elimination des micropolluants dans les filieres d'ozonation du traitement de l'eau potable",
+            "Influence des nitrates sur la photolyse et le traitement d'oxydation avancee h2o2/uv de matieres organiques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "children": [
+          {
+           "name": "F03B001",
+           "children": [
+            "Relations sol-nappe dans les bois riverains de la Garonne : étude de dénitrification",
+            "Le peuplement piscicole du bas-Rhône : occupation d'un espace fluvial aménagé et typologie des sites de nursery et de refuge"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C22C",
+         "children": [
+          {
+           "name": "C22C003",
+           "children": [
+            "Quelques méthodes pour l'optimisation de la coulée continue de l'acier dans le cas non stationnaire"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C25D",
+         "children": [
+          {
+           "name": "C25D000",
+           "children": [
+            "Etude des procedes utilisables en vue du recyclage de l'eau ultrapure usee dans une usine de micro-electronique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "F04D",
+         "children": [
+          {
+           "name": "F04D002",
+           "children": [
+            "Effets de la radiolyse de l'air humide et de l'eau sur la corrosion de la couche d'oxyde du Zircaloy-4 oxydé",
+            "Étude quantitative et qualitative des eaux thermales du Nord-Est algérien"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C08F",
+         "children": [
+          {
+           "name": "C08F000",
+           "children": [
+            "Polymerisation d'un monomere cationique, le chlorure de methacryloxyethyltrimethylammonium, en microemulsion inverse : formulation, caracterisation et comportement rheologique des microlatex formes"
+           ]
+          },
+          {
+           "name": "C08F001",
+           "children": [
+            "Combustion du n-butane sur des catalyseurs à base de platine : application haute température"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "children": [
+          {
+           "name": "A61K000",
+           "children": [
+            "Phototransfert d'electron en micelles directes : polymerisation de tensioactifs, carcterisation de vesicules mixtes",
+            "Mecanismes d'interaction entre les mineraux solubles et les polyelectrolytes anioniques",
+            "Propriétés associatives en solution aqueuse de dérivés alkylés de carboxyméthylpullulanes"
+           ]
+          },
+          {
+           "name": "A61K005",
+           "children": [
+            "Etude de la speciation du #6#0co dans les effluents de l'usine de retraitement de combustibles irradies de la hague et de son devenir apres rejet dans les eaux de la manche"
+           ]
+          },
+          {
+           "name": "A61K003",
+           "children": [
+            "Déterminations structurales de terpénoi͏̈des de Croton levatii Guill. ; mise en évidence de leurs activités",
+            "Evodia fatraina (Rutaceae) : analyse phytochimique et activité antimalariale"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B60R",
+         "children": [
+          {
+           "name": "B60R001",
+           "children": [
+            "Etude experimentale de la conductivite thermique de materiaux argileux hautement compactes : contribution a l'etude du stockage de dechets radioactifs"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "children": [
+          {
+           "name": "G06Q004",
+           "children": [
+            "Etude expérimentale des équilibres isotopiques entre CO#2, CO, CH#4, H#2, H#2O : applications à la géothermométrie des aquifères profonds"
+           ]
+          },
+          {
+           "name": "G06Q003",
+           "children": [
+            "Etude de la recuperation dielectrique de l'hexafluorure de soufre (sf#6), apres l'extinction d'un arc electrique de puissance"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "children": [
+          {
+           "name": "A61B001",
+           "children": [
+            "Dynamique de l'occupation de l'espace saharien par les vertébrés aquatiques et terrestres"
+           ]
+          },
+          {
+           "name": "A61B000",
+           "children": [
+            "Influences des sources non protéiques d'énergie et des facteurs environnementaux sur les métabolismes énergétique et lipidique de la truite arc-en-ciel, Oncorhynchus mykiss"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B01D",
+         "children": [
+          {
+           "name": "B01D006",
+           "children": [
+            "Pervaporation de jus alimentaires et industriels avec rétention de volatils"
+           ]
+          },
+          {
+           "name": "B01D005",
+           "children": [
+            "Elimination catalytique de polluants sulfures (h#2s, cos, cs#2) des effluents gazeux. Effet et modelisation de la sulfatation"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "F28G",
+         "children": [
+          {
+           "name": "F28G000",
+           "children": [
+            "Absorption de gaz acides par des solutions aqueuses de mdea. Acquisition de donnees et de parametres cinetiques et thermodynamiques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01F",
+         "children": [
+          {
+           "name": "H01F000",
+           "children": [
+            "Etude par spectrométrie Mössbauer de la corrosion d'alliages métalliques : aimants permanents Nd-Fe-B ; acier faiblement allié en eau de mer naturelle"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01J",
+         "children": [
+          {
+           "name": "H01J004",
+           "children": [
+            "Recherches en vue de la compatibilisation de melanges de polyamide et de polysulfure de phenylene"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C07C",
+         "children": [
+          {
+           "name": "C07C005",
+           "children": [
+            "Oxydation ménagée de l'éthane en acide acétique par catalyse hétérogène"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B01J",
+         "children": [
+          {
+           "name": "B01J002",
+           "children": [
+            "Etude des états métastables et hors d'équilibre des électrolytes aqueux LiCl, RD2O et BeCl2, RD2O par une caractérisation structurale"
+           ]
+          },
+          {
+           "name": "B01J003",
+           "children": [
+            "Etude de l'oxydation ménagée de l'isobutane en acide méthacrylique sur des catalyseurs à base d'hétéropolyanions : influence des contre-ions césium, fer et cuivre"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "children": [
+          {
+           "name": "G01N001",
+           "children": [
+            "Etude de revetements protecteurs destines a une utilisation en eau de mer"
+           ]
+          },
+          {
+           "name": "G01N002",
+           "children": [
+            "Hydratation de la surface de Mars à partir des données du rover Curiosity"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "F01N",
+         "children": [
+          {
+           "name": "F01N000",
+           "children": [
+            "Etude d'un reacteur non-thermique fonde sur une decharge electrique d'arc entrave, pour l'application au traitement des polluants atmospheriques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C07F",
+         "children": [
+          {
+           "name": "C07F000",
+           "children": [
+            "Polycondenstion du tetramethyldisiloxane-1,3 diol seul, ou en presence d'hexamethylcyclotrisiloxane ou d'octamethylcyclotetrasiloxane"
+           ]
+          },
+          {
+           "name": "C07F001",
+           "children": [
+            "Préparation et caractérisation de clusters hydrosolubles du ruthénium, de l'osmium et de l'iridium : hydrogénation du citral en phase aqueuse"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01L",
+         "children": [
+          {
+           "name": "H01L002",
+           "children": [
+            "Etude du depot de cuivre par mocvd pour les interconnexions des circuits a tres haute densite d'integration",
+            "Polymerisation cationique du tetramethylcyclotetrasiloxane en emulsion aqueuse"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C04B",
+         "children": [
+          {
+           "name": "C04B002",
+           "children": [
+            "Etude de l'evolution de la microtexture de pates de silicate tricalcique hydrate",
+            "Approche par rmn multinucleaire haute resolution solide et haute temperature de la reaction de clinkerisation"
+           ]
+          },
+          {
+           "name": "C04B003",
+           "children": [
+            "Etude des proprietes tribologiques de ceramiques thermo-mecaniques en fonction de la temperature et pour differents environnements"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C08G",
+         "children": [
+          {
+           "name": "C08G006",
+           "children": [
+            "Synthese et etude structurale par rmn de poly et copolycarbonates aliphatiques derivant du carbonate de rimethylene cyclique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C07D",
+         "children": [
+          {
+           "name": "C07D040",
+           "children": [
+            "Synthese et reactivite de nouveaux complexes heterodiene-fer-carbonyle"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F001",
+           "children": [
+            "Cinétiques de transfert le long d'une chaîne trophique d'eau douce des principaux radionucléides rejetés par les centrales nucléaires en fonctionnement normal (137 Cs, 60 Co, 110M Ag, 54 Mn). Application au site de Civaux sur la Vienne"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C03C",
+         "children": [
+          {
+           "name": "C03C000",
+           "children": [
+            "Physico-chimie des phosphates de fer, catalyseurs de déshydrogénation oxydante de l'acide isobutyrique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61Q",
+         "children": [
+          {
+           "name": "A61Q001",
+           "children": [
+            "Contribution à l'étude des peaux sensibles et réactives : aspects épidémiologiques, cliniques et physiopathologiques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G21C",
+         "children": [
+          {
+           "name": "G21C001",
+           "children": [
+            "Etude de l'ebullition dans un canal rectangulaire, inclinable de grand diametre hydraulique"
+           ]
+          },
+          {
+           "name": "G21C000",
+           "children": [
+            "Etude du broyage de poudres d'oxydes nucleaires"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01Q",
+         "children": [
+          {
+           "name": "H01Q002",
+           "children": [
+            "Caract?risation des sources de polluants atmosph?riques et de leurs d?p?ts sur les bassins versants urbains"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G03G",
+         "children": [
+          {
+           "name": "G03G000",
+           "children": [
+            "les défis de planification des mégalopoles en matière de mise en uvre de stratégies de renforcement de la résilience afin de maximiser les avantages futurs pour la gestion durable de l'énergie et des ressources en eau."
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H02J",
+         "children": [
+          {
+           "name": "H02J000",
+           "children": [
+            "Contribution à la commande des systèmes photovoltaiques : application aux systèmes de pompages."
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12M",
+         "children": [
+          {
+           "name": "C12M000",
+           "children": [
+            "Bio-séquestration de CO2 dans les photo-bioréacteurs algues"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G02F",
+         "children": [
+          {
+           "name": "G02F000",
+           "children": [
+            "Etude d'une pile metal/gel/halogene application a l'affichage electrochrome"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H04N",
+         "children": [
+          {
+           "name": "H04N002",
+           "children": [
+            "Spéciation des métaux traces (Cd., Cu, Pb, Zn) dans les eaux d'un Planosol non pollué (Massif Central, France)"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "103",
+     "children": [
+      {
+       "name": "Ingéniérie",
+       "children": [
+        {
+         "name": "C02F",
+         "children": [
+          {
+           "name": "C02F000",
+           "children": [
+            "Influence de la qualite d'une eau sur l'efficacite de la coagulation par le sulfate d'aluminium",
+            "Contribution à l'étude des colonnes à pulvérisations : application au dégazage du CO2 dissous dans l'eau"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "F28D",
+         "children": [
+          {
+           "name": "F28D001",
+           "children": [
+            "Contribution à l'étude d'un caloduc à conductance variable",
+            "Analyse expérimentale du comportement thermo-hydraulique de caloduc oscillant (Pulsating Heat Pipe (PHP) en environnement sévère : Application aux systèmes embarqués",
+            "Contribution à l'analyse du comportement de caloducs oscillants à finalité spatiale par voies expérimentale et numérique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C04B",
+         "children": [
+          {
+           "name": "C04B002",
+           "children": [
+            "Rhéologie des matrices hybrides composées de ciment et de géopolymère"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "children": [
+          {
+           "name": "G01N002",
+           "children": [
+            "Elaboration de nouvelles nanostructures d'Argent, obtenues par abblation laser, pour caractériser des macro- et biomolécules par spectroscopie Raman exaltée par effet de surface"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12Q",
+         "children": [
+          {
+           "name": "C12Q000",
+           "children": [
+            "Modélisation du comportement et des couplages HMC des milieux poreux"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "E02F",
+         "children": [
+          {
+           "name": "E02F000",
+           "children": [
+            "Prétraitement et traitement des sédiments de dragage en vue d'une valorisation dans le génie civil"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H04W",
+         "children": [
+          {
+           "name": "H04W007",
+           "children": [
+            "Modélisation du transport réactif dans les milieux fracturés de verre nucléaire dintérêt industriel"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01R",
+         "children": [
+          {
+           "name": "G01R003",
+           "children": [
+            "Imagerie de Diffusion par RMN : optimisation des Paramètres et Applications Cliniques pour les Explorations Hépatiques"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "104",
+     "children": [
+      {
+       "name": "Traitement",
+       "children": [
+        {
+         "name": "H01M",
+         "children": [
+          {
+           "name": "H01M000",
+           "children": [
+            "Etude et développement d'une pile à combustible hydrogène/oxygène en technologie électrolyte polymère solide"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G02F",
+         "children": [
+          {
+           "name": "G02F000",
+           "children": [
+            "Etude de la faisabilité d'un système à transmission variable sous film plastique : Kx WO3/électrolyte polymère/bleu de Prusse"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "children": [
+          {
+           "name": "G06Q003",
+           "children": [
+            "Etude du 210Pb d'origine atmosphérique dans l'air, la neige, les sols et les sédiments : mesures, inventaires et interprétation à l'échelle globale"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B60R",
+         "children": [
+          {
+           "name": "B60R001",
+           "children": [
+            "Géochimie des séries volcano-sédimentaires et des eaux interstitielles du sud-ouest Pacifique : exemple de la marge active Tonga"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A01K",
+         "children": [
+          {
+           "name": "A01K006",
+           "children": [
+            "Etude de la sensibilité des juvéniles de moule perlière (Margaritifera margaritifera) aux facteurs environnementaux et de contamination"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F000",
+           "children": [
+            "Présence et sources des hydrocarbures aromatiques polycycliques dans le Bassin d'Arcachon"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01R",
+         "children": [
+          {
+           "name": "G01R003",
+           "children": [
+            "Etude cinétique de la réduction du dioxyde de manganèse en milieu non-aqueux"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C08J",
+         "children": [
+          {
+           "name": "C08J000",
+           "children": [
+            "Synthèse et caractérisation de polymères conducteurs protoniques basiques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61Q",
+         "children": [
+          {
+           "name": "A61Q001",
+           "children": [
+            "Évolution de modèles tridimensionnels de peau reconstruite pour approfondir la connaissance des mécanismes du vieillissement cutané et validation de l’efficacité « anti-âge » du sélénium",
+            "Tooth cleaning : abrasive particles but no abrasion"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "106",
+     "children": [
+      {
+       "name": "Hydrologie",
+       "children": [
+        {
+         "name": "G06T",
+         "children": [
+          {
+           "name": "G06T000",
+           "children": [
+            "Evolution du fonctionnement sédimentologique et biogéochimique d'un bief de rivière suite à l'effacement d'ouvrages hydrauliques"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Pharmacie",
+   "children": [
+    {
+     "name": "41",
+     "children": [
+      {
+       "name": "Sciences biologiques",
+       "children": [
+        {
+         "name": "C30B",
+         "children": [
+          {
+           "name": "C30B002",
+           "children": [
+            "Contribution a l'etude de la croissance cristalline des proteines : approches physicochimiques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "children": [
+          {
+           "name": "F03B001",
+           "children": [
+            "Analyse simple et en acpn des structures abiotiques et biotiques ayant une influence sur la densite moyenne des peuplements de l'ecrevisse austropotamobius pallipes le. , 1858, saine et parasitee, de la bordure ouest du massif central"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "children": [
+          {
+           "name": "G01N002",
+           "children": [
+            "Etude par rmn et diffusion des neutrons de la dynamique de l'eau dans le collagene natif et denature"
+           ]
+          },
+          {
+           "name": "G01N001",
+           "children": [
+            "Immuno-cytometrie : detection des enterobacteries dans l'eau et les aliments"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "children": [
+          {
+           "name": "C02F000",
+           "children": [
+            "Ecologie microbienne de la retenue hydroelectrique de petit saut (guyane). Mise en place de communautes bacteriennes oxydantes - consequences sur les emissions de gaz polluants et sur la desoxygenation de l'eau, dans le lac et dans le fleuve en aval",
+            "Les communautes de macrophytes submergees des marais temporaires oligo-halins de camargue. Etude experimentale des causes de la distribution des especes",
+            "Expression de l'activité des bactéries nitrosantes issues de stations d'épuration en milieu Seine : étude en réacteurs",
+            "Approche ecophysiologique du role de l'azote ammoniacal dans la repartition de deux macrophytes aquatiques. Elodea canadensis michx. , elodea nuttallii st john. Impact sur l'activite nitrate reductase et l'activite photosynthetique",
+            "Recherche experimentale de descripteurs biochimiques et physiologiques des effets subletaux de pesticides sur les microphytes et macrophytes aquatiques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "children": [
+          {
+           "name": "C12N001",
+           "children": [
+            "Proteines membranaires en rapport avec un transit d'eau : etude biochimique de membranes specialisees de la chambre filtrante de cicadella viridis"
+           ]
+          },
+          {
+           "name": "C12N000",
+           "children": [
+            "Analyse des mecanismes moleculaires controlant le couplage des cytochromes p450 humains",
+            "Etude structurale du complexe aspartyl-arnt synthetase d'e. Coli - arnt#a#s#p d'e. Coli",
+            "Etudes cristallographiques du site actif des hydrogènases à nickel de Desulfovibrio gigas et Desulfomicrobium baculatum"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A01H",
+         "children": [
+          {
+           "name": "A01H000",
+           "children": [
+            "Incidence des parametres hydriques et hormonaux sur l'induction et l'ontogenese des embryons somatiques d'hevea brasiliensis (mull. Arg. ) en reference au modele zygotique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "E02B",
+         "children": [
+          {
+           "name": "E02B000",
+           "children": [
+            "Effets de NaCl sur la germination, la croissance et l'équilibre hydro-minéral de légumineuses herbacées du cameroun : comparaison entre especes sauvages et variétés cultivées"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B61L",
+         "children": [
+          {
+           "name": "B61L002",
+           "children": [
+            "Variations spatiales de l'impact des changements climatiques sur le fonctionnement d'un ecosysteme mediterraneen"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61Q",
+         "children": [
+          {
+           "name": "A61Q001",
+           "children": [
+            "Proprietes physiologiques de l'acide usnique et applications a la regulation de la transpiration vegetale"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "children": [
+          {
+           "name": "A61K000",
+           "children": [
+            "Fixation de cations metalliques divalents par les pectines et la puple de betterave. Potentialites d'utilisation en traitement d'effluents charges en metaux lourds"
+           ]
+          },
+          {
+           "name": "A61K003",
+           "children": [
+            "Clonage et mecanisme catalytique de l'ecto-nad#+ glycohydrolase de rate bovine : mise en evidence des analogies avec un marqueur lymphocytaire humain, le cd38"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H05B",
+         "children": [
+          {
+           "name": "H05B003",
+           "children": [
+            "Etude par diffraction R. X.  : microscope optique et microsonde électronique des transitions conformationnelles du poly d(a-t)#2 et de l'intercalation de composes dans l'ADN en fibres"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A01N",
+         "children": [
+          {
+           "name": "A01N000",
+           "children": [
+            "Etude des conditions de vitrification de solutions cryoprotectrices a base de 2,3-butanediol et suivi par r. M. N. De leur diffusion dans un rein de lapin",
+            "Cryoconservation d'apex d'eucalyptus gunnii (hook f. ) par enrobage-deshydratation. Effets du pretraitement et evolution des glucides solubles en relation avec la tolerance a la deshydratation et a la congelation"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C07K",
+         "children": [
+          {
+           "name": "C07K001",
+           "children": [
+            "Generation d'un modele murin d'anxiete par elimination du gene codant pour le recepteur 5-ht1a de la serotonine",
+            "Etude de la secretion et des effets physiologiques du peptide natriuretique auriculaire (pna) chez le veau au cours de la periode perinatale",
+            "Mecanismes de transports ioniques et d'eau a travers la peau de rana esculenta : role des protons",
+            "Etude par rmn : d'un intermediaire precoce du repliement proteique: le fragment c-terminal (f2) de la chaine de la tryptophane synthase d'e. coli de l'interaction d'un undecapeptide et d'un anticorps monoclonal specifique de la sous-unite #2 de la tryptophane synthase d'e. coli de la structure chimique de la microcine c7, un heptapeptide modifie possedant une activite antibiotique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C07C",
+         "children": [
+          {
+           "name": "C07C000",
+           "children": [
+            "Role de l'histidine 373, base catalytique du flavocytochrome b#2 : changement de son pk#a dans l'enzyme reduit. passage d'un mecanisme par formation d'un carbanion a un mecanisme par transfert d'hydrure"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B01J",
+         "children": [
+          {
+           "name": "B01J002",
+           "children": [
+            "Etude cristallographique des deux cytochromes C3 tétrahémiques de Desulfovibrio africanus : structure des formes oxydées et réduites du cytochrome C3 acide, et études cristallographiques préliminaires du cytochrome C3 basique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12M",
+         "children": [
+          {
+           "name": "C12M000",
+           "children": [
+            "Culture juxtaposee de jacinthes et de microalgues ; utilisation en pisciculture"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "40",
+     "children": [
+      {
+       "name": "Sciences du médicament",
+       "children": [
+        {
+         "name": "A61K",
+         "children": [
+          {
+           "name": "A61K000",
+           "children": [
+            "Emulsions inverses eau-dans-fluorocarbure pour le transport de medicaments par la voie pulmonaire. Stabilisation par des tensioactifs fluores : synthese et physico-chimie des dimorpholinophosphates de (f-alkyl)alkyle"
+           ]
+          },
+          {
+           "name": "A61K004",
+           "children": [
+            "Synthese et etude de nouveaux photosensibilisateurs pour la biologie moleculaire et la phototherapie"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61N",
+         "children": [
+          {
+           "name": "A61N000",
+           "children": [
+            "Les heterogeneites dans les faisceaux de photons de haute energie employes en radiotherapie : recherches experimentales et theoriques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "children": [
+          {
+           "name": "G01N003",
+           "children": [
+            "Dosage de vitamines du groupe b (niacine, acide pantothenique, biotine et folates) dans les aliments apres isolement chromatographique"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "58-03",
+     "children": [
+      {
+       "name": "Sciences anatomiques et physiologiques",
+       "children": [
+        {
+         "name": "C10L",
+         "children": [
+          {
+           "name": "C10L001",
+           "children": [
+            "Mesure de la cinétique de formation du dimère de l'eau à basses températures"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01J",
+         "children": [
+          {
+           "name": "H01J004",
+           "children": [
+            "Cristallochimie et etude du comportement thermique des oxalates hydrates d'yttrium"
+           ]
+          },
+          {
+           "name": "H01J003",
+           "children": [
+            "Ionisation et dissociation de la molecule de monoxyde de carbone par impact d'ion lourd rapide multicharge"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C09K",
+         "children": [
+          {
+           "name": "C09K001",
+           "children": [
+            "Mobilite protonique au sein de materiaux granulaires : etude de composites a base de phosphate de calcium"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "B81C",
+         "children": [
+          {
+           "name": "B81C000",
+           "children": [
+            "Convection thermosolutale en presence de fusion : analyse experimentale"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61N",
+         "children": [
+          {
+           "name": "A61N000",
+           "children": [
+            "Étude des performances d'un système d'imageur proton dans le cadre de l'approche faisceau à faisceau",
+            "Dosimétrie des faisceaux de photons de petites dimensions utilisés en radiothérapie stéréotaxique : détermination des données dosimétriques de base et évaluation des systèmes de planification de traitement",
+            "Développement et validation d’un modèle de sources virtuelles adapté à la prédiction d’images EPID pour le contrôle qualité des traitements de RCMI",
+            "Étude de références dosimétriques nationales en radiothérapie externe : application aux irradiations conformationnelles"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01L",
+         "children": [
+          {
+           "name": "H01L003",
+           "children": [
+            "Etude et mise en forme par serigraphie de conducteurs protoniques lamellaires. Realisation d'un capteur d'humidite"
+           ]
+          },
+          {
+           "name": "H01L002",
+           "children": [
+            "Structure locale et composition chimique de films minces d'oxyde formes sur nickel monocristallin. Effet de la vapeur d'eau"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C08K",
+         "children": [
+          {
+           "name": "C08K000",
+           "children": [
+            "Etude et caracterisation des premiers stades d'hydratation d'une nontronite"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01F",
+         "children": [
+          {
+           "name": "G01F000",
+           "children": [
+            "Contrôle de l'instabilité de Benard-Von Karman en aval d'un obstacle chauffé à faible nombre de Reynolds"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C30B",
+         "children": [
+          {
+           "name": "C30B000",
+           "children": [
+            "Interactions en solution et solubilite : etude de deux macromolecules modeles pour l'etude de la cristallogenese, le footballene c#6#0 et le lysozyme"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "children": [
+          {
+           "name": "G01N002",
+           "children": [
+            "Etude de couches minces dielectriques par ellipsometrie spectroscopique visible et infrarouge",
+            "Mise en oeuvre de biocapteurs en vue de la détection de pesticides dans l'eau par diffusion Raman exaltée",
+            "Etude et contrôle de la charge de surface dans les dispositifs micro/nanofluidiques : nouveaux outils pour les sciences séparatives"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "children": [
+          {
+           "name": "A61B000",
+           "children": [
+            "Tomographie optique diffuse : une approche résolue en temps pour les mesures en réflectance à courtes distances entre sources et détecteurs"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "children": [
+          {
+           "name": "H01M000",
+           "children": [
+            "Etude des interactions moléculaires polymère-eau lors de l'hydratation de la membrane Nafion, électrolyte de référence de la pile à combustible"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C01F",
+         "children": [
+          {
+           "name": "C01F000",
+           "children": [
+            "Etude par diffraction x et absorption x de la structure d'hydroxydes doubles lamellaires a base zinc-chrome et zinc-aluminium : evolution structurale avec la temperature"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01R",
+         "children": [
+          {
+           "name": "G01R003",
+           "children": [
+            "Imagerie fonctionnelle et microscopiques du petit animal orientée vers la cancérologie"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G09B",
+         "children": [
+          {
+           "name": "G09B001",
+           "children": [
+            "Contribution à la modélisation du couplage mécanique-chimique de l'évolution de l'interface pastille-gaine sous irradiation"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "45-02",
+     "children": [
+      {
+       "name": "Parasitologie et mycologie",
+       "children": [
+        {
+         "name": "C02F",
+         "children": [
+          {
+           "name": "C02F000",
+           "children": [
+            "Transfert de matière organique entre phase aqueuse et agrégats biologiques au cours du traitement des eaux usées urbaines par boues activées",
+            "Etude des performances d'une association plantes-bactéries dans un écosystème reconstitué (marais artificiels) pour l'épuration d'effluents industriels (hydrocarbures et solvants)"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "children": [
+          {
+           "name": "G01N002",
+           "children": [
+            "Développement de techniques analytiques pour la spéciation du sélénium dans des échantillons biologiques"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12Q",
+         "children": [
+          {
+           "name": "C12Q000",
+           "children": [
+            "Contribution à l'étude de la symbiose fixatrice d'azote entre Acacia albida et bradyrhizobium SP"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C09D",
+         "children": [
+          {
+           "name": "C09D000",
+           "children": [
+            "Répartition et évolution du tributylétain dans les sédiments marins"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A21D",
+         "children": [
+          {
+           "name": "A21D000",
+           "children": [
+            "Dispersion, sélection et rôle des espèces microbiennes des levains en boulangerie française à faible intrant"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "43-01",
+     "children": [
+      {
+       "name": "Biophysique et médecine nucléaire",
+       "children": [
+        {
+         "name": "G01T",
+         "children": [
+          {
+           "name": "G01T000",
+           "children": [
+            "Mesure du débit sanguin rénal par tomographie par émission de positons"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "57-03",
+     "children": [
+      {
+       "name": "biochimie",
+       "children": [
+        {
+         "name": "A61K",
+         "children": [
+          {
+           "name": "A61K003",
+           "children": [
+            "Effets de Crataegus oxyacantha L. Sur la biosynthèse in vitro et ex vivo de la thromboxane A2 et de la prostacycline. Relations avec les activités anti-agrégante plaquettaire et coronarodilatatrice de la plante",
+            "Administration orale d'insuline : validation in vitro et in vivo d'un système basé sur une double encapsulation de l'insuline"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C22B",
+         "children": [
+          {
+           "name": "C22B002",
+           "children": [
+            "Pharmacologie des micronutriments du genre Musa et maladies métaboliques."
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "49-03",
+     "children": [
+      {
+       "name": "Psychiatrie d'adultes",
+       "children": [
+        {
+         "name": "C08F",
+         "children": [
+          {
+           "name": "C08F001",
+           "children": [
+            "Carbonylation de l'oct-1-ène et du bromobenzène catalysée par des complexes hydrosolubles du palladium ou du rhodium"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C07C",
+         "children": [
+          {
+           "name": "C07C004",
+           "children": [
+            "Recherche de complexes dinucléaires du ruthénium et du rhodium en phase homogène ou sur supports polymères pour l'hydroformylation sélective des alcènes"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "43-02",
+     "children": [
+      {
+       "name": "Radiologie et imagerie médicale",
+       "children": [
+        {
+         "name": "A61N",
+         "children": [
+          {
+           "name": "A61N000",
+           "children": [
+            "Dosimétrie in vivo des traitements de radiothérapie conformationnelle avec modulation d'intensité par imageur portal haute énergie au silicium amorphe"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "53-01",
+     "children": [
+      {
+       "name": "Médecine interne",
+       "children": [
+        {
+         "name": "G01R",
+         "children": [
+          {
+           "name": "G01R003",
+           "children": [
+            "Etude de la substance blanche cérébrale de l'enfant par imagerie en tenseur de diffusion"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "47-02",
+     "children": [
+      {
+       "name": "Cancérologie",
+       "children": [
+        {
+         "name": "A61N",
+         "children": [
+          {
+           "name": "A61N000",
+           "children": [
+            "Development of new dosimetric standards for low energy X-rays (≤ 50 keV) used in contact radiotherapy"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "DEG",
+   "children": [
+    {
+     "name": "02",
+     "children": [
+      {
+       "name": "Droit public",
+       "children": [
+        {
+         "name": "G06Q",
+         "children": [
+          {
+           "name": "G06Q005",
+           "children": [
+            "Du droit de l'eau à un droit à l'eau : Etude comparée sur le statut juridique de l'eau",
+            "L'enquête préalable et l'exercice des poursuites : essai d'analyse et redéfinition du rôle des administrations dans l'action judiciaire"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "04",
+     "children": [
+      {
+       "name": "Science politique",
+       "children": [
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F002",
+           "children": [
+            "La politique de la Russie en Asie Centrale sous le président Vladimir Poutine (2000-2008)"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "05",
+     "children": [
+      {
+       "name": "Sciences économiques",
+       "children": [
+        {
+         "name": "H04N",
+         "children": [
+          {
+           "name": "H04N001",
+           "children": [
+            "Le rôle de la coopération internationale publique dans la protection de l'environnement en Tunisie : efficacité et  limites"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "LSH-1",
+   "children": [
+    {
+     "name": "23",
+     "children": [
+      {
+       "name": "Géographie physique",
+       "children": [
+        {
+         "name": "G06T",
+         "children": [
+          {
+           "name": "G06T000",
+           "children": [
+            "A la croisée d'un massif et de ses bassins versants : développement d'un Système d'Observation Participative pour la Gestion Intégrée des Ressources en Eau en Chartreuse-Guiers."
+           ]
+          }
+         ]
+        },
+        {
+         "name": "C12R",
+         "children": [
+          {
+           "name": "C12R000",
+           "children": [
+            "Contribution à l'hydrologie profonde et superficielle du bassin de Souss (Maroc) : climatologie, hydrogéologie, crues et bilans hydrologiques en milieu subaride"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06N",
+         "children": [
+          {
+           "name": "G06N000",
+           "children": [
+            "Développement d'un système expert dans le processus de planification des ressources en eau au Burkina Faso"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "H04L",
+         "children": [
+          {
+           "name": "H04L001",
+           "children": [
+            "L'assainissement et la ville : le cas de l'agglomération parisienne ou la ville dessus - dessous"
+           ]
+          },
+          {
+           "name": "H04L000",
+           "children": [
+            "Variabilité interannuelle des précipitations en Afrique orientale (Kenya, Ouganda, Tanzanie) et relations avec la dynamique de l'atmosphère"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "children": [
+          {
+           "name": "G06Q001",
+           "children": [
+            "Les Palmeraies du pays des Id Brahim et des Aït Herbil : un espace en crise du sud ouest marocain"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "22",
+     "children": [
+      {
+       "name": "Histoire et civilisations",
+       "children": [
+        {
+         "name": "B60L",
+         "children": [
+          {
+           "name": "B60L001",
+           "children": [
+            "Lois et règlements concernant l'eau en Grèce ancienne"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "10",
+     "children": [
+      {
+       "name": "Littératures comparées",
+       "children": [
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F000",
+           "children": [
+            "Nouveaux traitements de surface respectueux de l’environnement par des gels polymères réticulables : application à la préparation des surfaces d’usage dans le secteur aéronautique"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "children": [
+          {
+           "name": "A61K000",
+           "children": [
+            "DEVELOPPEMENT DE STRUCTURES VESICULAIRES HYBRIDES POLYMERE/LIPIDE COMME MODELES DE MEMBRANE CELLULAIRE ET NANO-MICROREACTEURS BIO-INSPIRES"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "07",
+     "children": [
+      {
+       "name": "Sciences du langage",
+       "children": [
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F001",
+           "children": [
+            "L'interprétation sémiographique des phonogrammes : les voyelles du français : ai, ain, au, eau, ei, ein"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "21",
+     "children": [
+      {
+       "name": "Histoire et civilisations anciennes",
+       "children": [
+        {
+         "name": "B62D",
+         "children": [
+          {
+           "name": "B62D005",
+           "children": [
+            "Les stratégies de développement de la \"compagnie des compteurs\" de sa création à sa fusion au sein de la multinationale pétrolière \"Schlumberger Limited\" (1872-1987)"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "children": [
+          {
+           "name": "G06F002",
+           "children": [
+            "Des dommages et des hommes : les économies du malheur dans les Alpes (XVIIIe-XIXe siècles)"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "16",
+     "children": [
+      {
+       "name": "Psychologie",
+       "children": [
+        {
+         "name": "C07K",
+         "children": [
+          {
+           "name": "C07K001",
+           "children": [
+            "Interaction d'un adjuvant lipopeptidique, le pam#3cysser(lys)#4 avec de membranes modeles"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

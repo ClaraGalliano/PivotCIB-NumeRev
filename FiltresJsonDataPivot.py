@@ -20,7 +20,7 @@ ChampsInitiaux = ['id', 'dateInsert', 'dateMaj', 'status', 'accessible', 'titre'
                   'directeurThese', 'etablissement', 'abstract', 'Date', 'langue', 'CatIPC']
 ChampsDataTable = ['id', 'dateInsert', 'dateMaj', 'status', 'accessible', 'titre', 
                    'auteurPpn', 'auteur', 'etabSoutenance', 'etabSoutenancePpn', 
-                   'dateSoutenance', 'discipline', 'num', 'langueThese', 'personne', 
+                   'dateSoutenance', 'Domaine', 'discipline', "Section", "DiscipNorm",  'num', 'langueThese', 'personne', 
                    'ppn', 'oaiSetSpec', 'directeurThesePpn', 'directeurTheseNP', 
                    'directeurThese', 'etablissement', 'abstract', 'Date', 'langue', 
                    'IPC1', 'ScoreIPC1','IPC2', 'ScoreIPC2','IPC3', 'ScoreIPC3',
@@ -41,7 +41,7 @@ SousDiscipline = dict() # SousDiscipline [discipline] = Domaine, avec discipline
 #SousSousDiscipline = dict() 
 
 #Récuparation des hiérarchies
-with open('HierarchieDisciplineComplet.json', 'r', encoding='utf8') as ficSrc:
+with open('HierarchieDiscipline.json', 'r', encoding='utf8') as ficSrc:
     DicoDisciplines = json.load (ficSrc)
 for dico in DicoDisciplines['children']:
 #    if isinstance(dico, dict):

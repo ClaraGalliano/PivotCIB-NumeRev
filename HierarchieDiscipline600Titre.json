@@ -12106,18 +12106,6 @@
          ]
         },
         {
-         "name": "G01B",
-         "children": [
-          {
-           "name": "G01B000",
-           "children": [
-            "Appariements par plongement fractal dans des scènes dynamiques complexes",
-            "L' empreinte écologique : proposition d'un modèle synthétique de représentation des empreintes à l'échelle \"micro\" d'une organisation ou d'un projet"
-           ]
-          }
-         ]
-        },
-        {
          "name": "F03D",
          "children": [
           {
@@ -13028,17 +13016,6 @@
          ]
         },
         {
-         "name": "B63B",
-         "children": [
-          {
-           "name": "B63B000",
-           "children": [
-            "Caractéristiques cellulaires du régime à poches en écoulement gaz-liquide co-courant vertical, transition vers le régime déstructuré"
-           ]
-          }
-         ]
-        },
-        {
          "name": "B65G",
          "children": [
           {
@@ -13067,6 +13044,17 @@
            "name": "H01S000",
            "children": [
             "Comportement viscoplastique du dioxyde d'uranium à haute température"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "G01B",
+         "children": [
+          {
+           "name": "G01B000",
+           "children": [
+            "L' empreinte écologique : proposition d'un modèle synthétique de représentation des empreintes à l'échelle \"micro\" d'une organisation ou d'un projet"
            ]
           }
          ]
@@ -13516,8 +13504,7 @@
           {
            "name": "A21D000",
            "children": [
-            "Mécanismes d'alvéolation de la pâte et la mie de pain français",
-            "Etude de la cuisson du pain en moule : modélisation des transferts couplés four-moule-produit"
+            "Mécanismes d'alvéolation de la pâte et la mie de pain français"
            ]
           },
           {
@@ -17096,7 +17083,6 @@
             "L'intégration spatiale et temporelle du partage des ressources dans un système agroforestiers noyers-céréales, une clef pour en comprendre la productivité ?",
             "Structure et fonctionnement des ripisylves de la rivière Milo (affluent du haut Niger) en Guinée",
             "Étude des effets et du rôle des herbiers à Zostera noltii sur la biogéochimie des sédiments intertidaux",
-            "Etude de la variabilité ontogénique du profil ligneux chez quelques espèces forestières tropicales de Guyane Française",
             "Développement de tests embryonnaires prédictifs d’effets toxiques précoces et tardifs pour des molécules hydrophobes",
             "Causes fonctionnelles du dépérissement et de la mortalité du sapin pectiné en Provence",
             "La Sénescence en milieu naturel : une étude pluridisciplinaire chez deux oiseaux marins longétifs, le grand Albatros et le Pétrel des neiges"
@@ -26671,7 +26657,6 @@
             "Compréhension et modélisation des relations entre les caractéristiques biologiques et écologiques et la sensibilité aux contaminants des communautés d'invertébrés benthiques : perspectives pour l'évaluation des effets des substances chimiques",
             "Plasticité phénotypique et compétitivité chez les hydrophytes : étude expérimentale et de modélisation de Ranunculus peltatus Schrank",
             "MÉtabolisme ENergétique : synthèse et gestion de lénergie cellulaire chez la moule deau douce DREissena polymorpha",
-            "Bioguidage du procédé d'extraction des extraits de bananes endémiques de Guinée à effet de santé pour lutter contre le syndrome métabolique",
             "De l'origine moléculaire de la discrimination chirale à l'état solide",
             "Modélisation de la culture de la canne à sucre avec un modèle d'agroécosystème terrestre : paramétrisation et propagation de l'incertitude",
             "Contraintes thermiques dans les dépôts de couches minces pour les optiques rayons-X sous forte charge thermique",
@@ -52787,8 +52772,7 @@
             "Une région du rif : (La plaine d'Al-Hoceima) en cours de Transformation (Centre Nord du Maroc)",
             "Caractérisation des particules dans les lits à galets : expérimentation, développements, méthodologiques et applications in situ",
             "La gestion des inondations dans un contexte d’urbanisation croissante : l’exemple des \"points noirs\" à Hà Nội (Việt Nam)",
-            "Dynamique socio-spatiale de la ville de Bamako et environs",
-            "Géopatrimoine des trois Chablais : identification et valorisation des témoins glaciaires"
+            "Dynamique socio-spatiale de la ville de Bamako et environs"
            ]
           },
           {
