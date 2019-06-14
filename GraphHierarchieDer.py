@@ -18,7 +18,7 @@ ChampsEpures = ['discipline','Date','Langue','CatIPC', 'titre', 'Domaine', 'Sect
 ChampsNouveau  = ['discipline','Date','score','IPC3','IPC7', 'IPC11', 'titre']
 ChampsNouveau.sort()
 evites = 0
-seuilScore = 1200
+seuilScore = 000
 
 Titres = False #présence des titres dans les graphes (à n'utiliser qu'après avoir beaucoup seuillé ^_^)
 
@@ -99,31 +99,49 @@ HierarchieJsonFin['name'] ="Eau"
 
 HierarchieJsonFin ['children'] = []
 
+HierarchieJsonFin ['size'] = len(IPC7IPC3DiscipSectionDom.keys())
 for dom in IPC7IPC3DiscipSectionDom.keys():
     HierarchieJsonFinDom = dict()
     HierarchieJsonFinDom['name'] = dom
     HierarchieJsonFinDom['children'] = []
+    HierarchieJsonFinDom['size'] = len(IPC7IPC3DiscipSectionDom[dom].keys())
     for section in IPC7IPC3DiscipSectionDom[dom].keys():
         tempoDict=dict()
         tempoDict['name'] = section
         tempoDict['children'] = []
+        tempoDict['size'] = len(IPC7IPC3DiscipSectionDom[dom][section].keys())
         for discip in IPC7IPC3DiscipSectionDom[dom][section].keys():
             tempoDiscipDict=dict()
             tempoDiscipDict['name'] = discip
             tempoDiscipDict['children'] = []
+            tempoDiscipDict['size'] = len(IPC7IPC3DiscipSectionDom[dom][section][discip].keys())
             for IPC3 in IPC7IPC3DiscipSectionDom[dom][section][discip].keys():
                 tempotempoDict=dict()
-                tempotempoDict['name'] = IPC3               
+                tempotempoDict['name'] = IPC3             
+                tempotempoDict['size'] = len(IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3].keys())
+                tempotempoDict['children'] = []  
                 if Titres:
-                    tempotempoDict['children'] = []            
+                    
+                    
                     for IPC7 in IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3].keys():
                         tempotempotempoDict=dict()
                         tempotempotempoDict['name'] = IPC7 
-                        tempotempotempoDict['children'] = [titre for titre in IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3][IPC7]]
+                        tempotempotempoDict['children'] = []
+                        for titre in IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3][IPC7]:
+                            TitretempotempotempoDict =dict()
+                            TitretempotempotempoDict['name'] = titre
+                            TitretempotempotempoDict['size'] = 1
+                            tempotempotempoDict['children'].append(TitretempotempotempoDict)
                         tempotempoDict['children'].append(tempotempotempoDict)
                 else:
+                    for IPC7 in IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3].keys():
+                        tempotempotempoDict=dict()
+                        tempotempotempoDict['name'] = IPC7 
+                        tempotempotempoDict['size'] = len(IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3][IPC7])
+                        tempotempoDict['children'].append(tempotempotempoDict)
                     tempotempoDict['size'] = len([IPC7 for IPC7 in IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3].keys()])
-                
+                if len(tempotempoDict['children']) ==0:
+                        tempotempoDict.pop('children')
                 tempoDiscipDict['children'].append(tempotempoDict)
             tempoDict['children'].append(tempoDiscipDict)
         HierarchieJsonFinDom['children'].append(tempoDict)

@@ -26481,6 +26481,25 @@
          ]
         },
         {
+         "name": "G01B",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01B000",
+           "children": [
+            {
+             "name": "Appariements par plongement fractal dans des scènes dynamiques complexes",
+             "size": 1
+            },
+            {
+             "name": "L' empreinte écologique : proposition d'un modèle synthétique de représentation des empreintes à l'échelle \"micro\" d'une organisation ou d'un projet",
+             "size": 1
+            }
+           ]
+          }
+         ]
+        },
+        {
          "name": "F03D",
          "size": 2,
          "children": [
@@ -28023,6 +28042,21 @@
          ]
         },
         {
+         "name": "B63B",
+         "size": 1,
+         "children": [
+          {
+           "name": "B63B000",
+           "children": [
+            {
+             "name": "Caractéristiques cellulaires du régime à poches en écoulement gaz-liquide co-courant vertical, transition vers le régime déstructuré",
+             "size": 1
+            }
+           ]
+          }
+         ]
+        },
+        {
          "name": "B65G",
          "size": 1,
          "children": [
@@ -28061,21 +28095,6 @@
            "children": [
             {
              "name": "Comportement viscoplastique du dioxyde d'uranium à haute température",
-             "size": 1
-            }
-           ]
-          }
-         ]
-        },
-        {
-         "name": "G01B",
-         "size": 1,
-         "children": [
-          {
-           "name": "G01B000",
-           "children": [
-            {
-             "name": "L' empreinte écologique : proposition d'un modèle synthétique de représentation des empreintes à l'échelle \"micro\" d'une organisation ou d'un projet",
              "size": 1
             }
            ]
@@ -28757,6 +28776,10 @@
             {
              "name": "Mécanismes d'alvéolation de la pâte et la mie de pain français",
              "size": 1
+            },
+            {
+             "name": "Etude de la cuisson du pain en moule : modélisation des transferts couplés four-moule-produit",
+             "size": 1
             }
            ]
           },
@@ -29082,7 +29105,7 @@
          ]
         }
        ],
-       "size": 185
+       "size": 186
       }
      ],
      "size": 1
@@ -35948,6 +35971,10 @@
             },
             {
              "name": "Étude des effets et du rôle des herbiers à Zostera noltii sur la biogéochimie des sédiments intertidaux",
+             "size": 1
+            },
+            {
+             "name": "Etude de la variabilité ontogénique du profil ligneux chez quelques espèces forestières tropicales de Guyane Française",
              "size": 1
             },
             {
@@ -53492,6 +53519,10 @@
             },
             {
              "name": "MÉtabolisme ENergétique : synthèse et gestion de lénergie cellulaire chez la moule deau douce DREissena polymorpha",
+             "size": 1
+            },
+            {
+             "name": "Bioguidage du procédé d'extraction des extraits de bananes endémiques de Guinée à effet de santé pour lutter contre le syndrome métabolique",
              "size": 1
             },
             {
@@ -102832,6 +102863,10 @@
             },
             {
              "name": "Dynamique socio-spatiale de la ville de Bamako et environs",
+             "size": 1
+            },
+            {
+             "name": "Géopatrimoine des trois Chablais : identification et valorisation des témoins glaciaires",
              "size": 1
             }
            ]

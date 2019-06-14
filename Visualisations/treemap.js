@@ -83,7 +83,7 @@ html`<select>
       name: "data",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json("./DonneesHierarchieDiscipline.json")
+d3.json("./HierarchieDiscipline800.json")
 )})
     },
     {

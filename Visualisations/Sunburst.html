@@ -12,7 +12,7 @@
 
   <script>
     const color = d3.scaleOrdinal(d3.schemePaired);
-    d3.json('DonneesHierarchieDiscipline.json').then(data => {
+    d3.json('HierarchieDiscipline800.json').then(data => {
       Sunburst()
 	  .data(data)
         .label('name')

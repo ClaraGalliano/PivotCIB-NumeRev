@@ -127,7 +127,7 @@ Object.assign(html`<select>
 }
 );
   main.variable(observer("data")).define("data", ["d3"], function(d3){return(
-d3.json("GraphDisciplineCIB.json")
+d3.json("GraphDisciplineCIB-1000.json")
 )});
   main.variable(observer("width")).define("width", function(){return(
 975

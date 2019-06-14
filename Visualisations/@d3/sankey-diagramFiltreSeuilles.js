@@ -124,7 +124,7 @@ Object.assign(html`<select>   <option value=left>Left-aligned   <option value=ri
 }
 );
   main.variable(observer("data")).define("data", ["d3"], function(d3){return(
-d3.json("GraphDisciplineCIBFiltresSeuilles3.json")
+d3.json("GraphDisciplineCIB-800.json")
 )});
   main.variable(observer("width")).define("width", function(){return(
 805

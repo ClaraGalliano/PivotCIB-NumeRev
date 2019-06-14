@@ -12,143 +12,405 @@
        "children": [
         {
          "name": "A61K",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 4
+          },
+          {
+           "name": "A61K003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "B01J",
-         "size": 3
+         "size": 3,
+         "children": [
+          {
+           "name": "B01J002",
+           "size": 6
+          },
+          {
+           "name": "B01J001",
+           "size": 1
+          },
+          {
+           "name": "B01J003",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "G06Q",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "G06Q003",
+           "size": 4
+          },
+          {
+           "name": "G06Q001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01L",
-         "size": 3
+         "size": 3,
+         "children": [
+          {
+           "name": "H01L003",
+           "size": 1
+          },
+          {
+           "name": "H01L005",
+           "size": 1
+          },
+          {
+           "name": "H01L002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "B01D",
-         "size": 3
+         "size": 3,
+         "children": [
+          {
+           "name": "B01D005",
+           "size": 1
+          },
+          {
+           "name": "B01D001",
+           "size": 1
+          },
+          {
+           "name": "B01D006",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01J",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01J004",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 4
+          }
+         ]
         },
         {
          "name": "C07D",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C07D047",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "B41M",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "B41M000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C12Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C12Q000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01M",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "B82Y",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "B82Y003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C22C",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "C22C000",
+           "size": 1
+          },
+          {
+           "name": "C22C003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C01G",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "C01G003",
+           "size": 1
+          },
+          {
+           "name": "C01G004",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G01N",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 4
+          },
+          {
+           "name": "G01N003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C23C",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C23C002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C12N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C12N000",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "C25C",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C25C000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C09K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C07C",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "C07C001",
+           "size": 1
+          },
+          {
+           "name": "C07C005",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "C08F",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "C08F000",
+           "size": 1
+          },
+          {
+           "name": "C08F021",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C01B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C01B001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C11D",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C11D001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C21B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C21B001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "F42B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "F42B001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C08G",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C08G007",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61Q001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61F001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61B",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 1
+          },
+          {
+           "name": "A61B001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C07F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C07F000",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "C04B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C04B003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06T",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06T000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G09B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G09B001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C09D",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C09D000",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 34
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "28",
@@ -158,67 +420,167 @@
        "children": [
         {
          "name": "C30B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C30B002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C10L",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C10L000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06Q",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "G06Q003",
+           "size": 1
+          },
+          {
+           "name": "G06Q001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01M",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 4
+          }
+         ]
         },
         {
          "name": "C08G",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C08G007",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "C01G",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C01G004",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H04J",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H04J001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61K",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "A61K003",
+           "size": 1
+          },
+          {
+           "name": "A61K000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G09B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G09B001",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "A61N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C04B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C04B003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C12N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C12N000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C22C",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C22C003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "B01J",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "B01J002",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 15
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "60",
@@ -228,31 +590,69 @@
        "children": [
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "H01F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01L",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01L002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01S",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01S000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C12M",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C12M000",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 6
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "67",
@@ -262,27 +662,59 @@
        "children": [
         {
          "name": "C02F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 5
+          }
+         ]
         },
         {
          "name": "F03B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A01G",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A01G002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F000",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "C12N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C12N000",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 5
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "32",
@@ -292,23 +724,53 @@
        "children": [
         {
          "name": "A61K",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 1
+          },
+          {
+           "name": "A61K003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "B01J",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "B01J003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C02F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61Q001",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 4
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "65",
@@ -318,35 +780,79 @@
        "children": [
         {
          "name": "G01N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "C02F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "C12N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C12N001",
+           "size": 5
+          }
+         ]
         },
         {
          "name": "A01N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A01N000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C12P",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C12P001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 7
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "62",
@@ -356,47 +862,109 @@
        "children": [
         {
          "name": "C02F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 6
+          }
+         ]
         },
         {
          "name": "D21C",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "D21C000",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "F25B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "F25B002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G03F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G03F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01S",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01S000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H02J",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H02J005",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C07D",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C07D048",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C10M",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C10M016",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 10
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "34",
@@ -406,15 +974,29 @@
        "children": [
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A47J",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A47J003",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 2
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "29",
@@ -424,11 +1006,19 @@
        "children": [
         {
          "name": "B29C",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "B29C004",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "35",
@@ -438,11 +1028,19 @@
        "children": [
         {
          "name": "G01V",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01V009",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "64",
@@ -452,11 +1050,19 @@
        "children": [
         {
          "name": "C07K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "30",
@@ -466,23 +1072,49 @@
        "children": [
         {
          "name": "A61F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G01N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "F42B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "F42B001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G01S",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01S001",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 4
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "33",
@@ -492,19 +1124,39 @@
        "children": [
         {
          "name": "C08K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C08K000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C25B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C25B001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "B01D",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "B01D007",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 3
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "63",
@@ -514,15 +1166,29 @@
        "children": [
         {
          "name": "G01N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01L",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01L005",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 2
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "27",
@@ -532,19 +1198,39 @@
        "children": [
         {
          "name": "C09K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G01S",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01S001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 2
+          }
+         ]
         }
-       ]
+       ],
+       "size": 3
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "61",
@@ -554,11 +1240,19 @@
        "children": [
         {
          "name": "A61B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "37",
@@ -568,11 +1262,19 @@
        "children": [
         {
          "name": "C02F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 2
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "68",
@@ -582,11 +1284,19 @@
        "children": [
         {
          "name": "A01N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A01N006",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "36",
@@ -596,13 +1306,22 @@
        "children": [
         {
          "name": "G03F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G03F000",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     }
-   ]
+   ],
+   "size": 19
   },
   {
    "name": "TRANSVERSE",
@@ -615,71 +1334,173 @@
        "children": [
         {
          "name": "A01H",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A01H000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H04N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H04N001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G10L",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G10L002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C07K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "E21B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "E21B004",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C12N",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "C12N000",
+           "size": 1
+          },
+          {
+           "name": "C12N001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C02F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "H01M",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "F03B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G16H",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G16H001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "E02B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "E02B000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C09K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C12Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C12Q000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G09B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G09B001",
+           "size": 3
+          }
+         ]
         },
         {
          "name": "A01K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A01K003",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 16
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "102",
@@ -689,27 +1510,59 @@
        "children": [
         {
          "name": "H04W",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H04W001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C07C",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C07C004",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C07K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G08G",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G08G000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K003",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 5
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "100",
@@ -719,143 +1572,393 @@
        "children": [
         {
          "name": "C08J",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C08J000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C02F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 7
+          }
+         ]
         },
         {
          "name": "F03B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "C22C",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C22C003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C25D",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C25D000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "F04D",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "F04D002",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "C08F",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "C08F000",
+           "size": 1
+          },
+          {
+           "name": "C08F001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61K",
-         "size": 3
+         "size": 3,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 3
+          },
+          {
+           "name": "A61K005",
+           "size": 1
+          },
+          {
+           "name": "A61K003",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "B60R",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "B60R001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06Q",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "G06Q004",
+           "size": 1
+          },
+          {
+           "name": "G06Q003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61B",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "A61B001",
+           "size": 1
+          },
+          {
+           "name": "A61B000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "B01D",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "B01D006",
+           "size": 1
+          },
+          {
+           "name": "B01D005",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "F28G",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "F28G000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01J",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01J004",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C07C",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C07C005",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "B01J",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "B01J002",
+           "size": 1
+          },
+          {
+           "name": "B01J003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G01N",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "G01N001",
+           "size": 1
+          },
+          {
+           "name": "G01N002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "F01N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "F01N000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C07F",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "C07F000",
+           "size": 1
+          },
+          {
+           "name": "C07F001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01L",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01L002",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "C04B",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "C04B002",
+           "size": 2
+          },
+          {
+           "name": "C04B003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C08G",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C08G006",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C07D",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C07D040",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C03C",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C03C000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61Q001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G21C",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "G21C001",
+           "size": 1
+          },
+          {
+           "name": "G21C000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01Q002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G03G",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G03G000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H02J",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H02J000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C12M",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C12M000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G02F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G02F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H04N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H04N002",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 34
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "103",
@@ -865,39 +1968,89 @@
        "children": [
         {
          "name": "C02F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "F28D",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "F28D001",
+           "size": 3
+          }
+         ]
         },
         {
          "name": "C04B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C04B002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G01N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C12Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C12Q000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "E02F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "E02F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H04W",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H04W007",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G01R",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 8
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "104",
@@ -907,43 +2060,99 @@
        "children": [
         {
          "name": "H01M",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G02F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G02F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "B60R",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "B60R001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A01K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A01K006",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G01R",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C08J",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C08J000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61Q001",
+           "size": 2
+          }
+         ]
         }
-       ]
+       ],
+       "size": 9
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "106",
@@ -953,13 +2162,22 @@
        "children": [
         {
          "name": "G06T",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06T000",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     }
-   ]
+   ],
+   "size": 6
   },
   {
    "name": "Pharmacie",
@@ -972,71 +2190,181 @@
        "children": [
         {
          "name": "C30B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C30B002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "F03B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G01N",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 1
+          },
+          {
+           "name": "G01N001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C02F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 5
+          }
+         ]
         },
         {
          "name": "C12N",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "C12N001",
+           "size": 1
+          },
+          {
+           "name": "C12N000",
+           "size": 3
+          }
+         ]
         },
         {
          "name": "A01H",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A01H000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "E02B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "E02B000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "B61L",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "B61L002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61Q001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61K",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 1
+          },
+          {
+           "name": "A61K003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H05B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H05B003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A01N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A01N000",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "C07K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 4
+          }
+         ]
         },
         {
          "name": "C07C",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C07C000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "B01J",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "B01J002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C12M",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C12M000",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 16
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "40",
@@ -1046,19 +2374,43 @@
        "children": [
         {
          "name": "A61K",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 1
+          },
+          {
+           "name": "A61K004",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G01N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N003",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 3
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "58-03",
@@ -1068,67 +2420,167 @@
        "children": [
         {
          "name": "C10L",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C10L001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01J",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "H01J004",
+           "size": 1
+          },
+          {
+           "name": "H01J003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C09K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "B81C",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "B81C000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 4
+          }
+         ]
         },
         {
          "name": "H01L",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "H01L003",
+           "size": 1
+          },
+          {
+           "name": "H01L002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C08K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C08K000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G01F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C30B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C30B000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G01N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 3
+          }
+         ]
         },
         {
          "name": "A61B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H01M",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C01F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C01F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G01R",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G09B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G09B001",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 15
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "45-02",
@@ -1138,27 +2590,59 @@
        "children": [
         {
          "name": "C02F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "G01N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C12Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C12Q000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C09D",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C09D000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A21D",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A21D000",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 5
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "43-01",
@@ -1168,11 +2652,19 @@
        "children": [
         {
          "name": "G01T",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01T000",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "57-03",
@@ -1182,15 +2674,29 @@
        "children": [
         {
          "name": "A61K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K003",
+           "size": 2
+          }
+         ]
         },
         {
          "name": "C22B",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C22B002",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 2
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "49-03",
@@ -1200,15 +2706,29 @@
        "children": [
         {
          "name": "C08F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C08F001",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C07C",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C07C004",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 2
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "43-02",
@@ -1218,11 +2738,19 @@
        "children": [
         {
          "name": "A61N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "53-01",
@@ -1232,11 +2760,19 @@
        "children": [
         {
          "name": "G01R",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "47-02",
@@ -1246,13 +2782,22 @@
        "children": [
         {
          "name": "A61N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     }
-   ]
+   ],
+   "size": 10
   },
   {
    "name": "DEG",
@@ -1265,11 +2810,19 @@
        "children": [
         {
          "name": "G06Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q005",
+           "size": 2
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "04",
@@ -1279,11 +2832,19 @@
        "children": [
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F002",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "05",
@@ -1293,13 +2854,22 @@
        "children": [
         {
          "name": "H04N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "H04N001",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     }
-   ]
+   ],
+   "size": 3
   },
   {
    "name": "LSH-1",
@@ -1312,27 +2882,63 @@
        "children": [
         {
          "name": "G06T",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06T000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "C12R",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C12R000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06N",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06N000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "H04L",
-         "size": 2
+         "size": 2,
+         "children": [
+          {
+           "name": "H04L001",
+           "size": 1
+          },
+          {
+           "name": "H04L000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06Q",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q001",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 5
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "22",
@@ -1342,11 +2948,19 @@
        "children": [
         {
          "name": "B60L",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "B60L001",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "10",
@@ -1356,15 +2970,29 @@
        "children": [
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F000",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "A61K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 2
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "07",
@@ -1374,11 +3002,19 @@
        "children": [
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "21",
@@ -1388,15 +3024,29 @@
        "children": [
         {
          "name": "B62D",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "B62D005",
+           "size": 1
+          }
+         ]
         },
         {
          "name": "G06F",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F002",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 2
       }
-     ]
+     ],
+     "size": 1
     },
     {
      "name": "16",
@@ -1406,13 +3056,23 @@
        "children": [
         {
          "name": "C07K",
-         "size": 1
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 1
+          }
+         ]
         }
-       ]
+       ],
+       "size": 1
       }
-     ]
+     ],
+     "size": 1
     }
-   ]
+   ],
+   "size": 6
   }
- ]
+ ],
+ "size": 5
 }
