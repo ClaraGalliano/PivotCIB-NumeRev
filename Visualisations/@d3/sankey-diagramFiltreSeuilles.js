@@ -130,7 +130,7 @@ d3.json("GraphDisciplineCIB-800.json")
 805
 )});
   main.variable(observer("height")).define("height", function(){return(
-700
+2700
 )});
   main.variable(observer("d3")).define("d3", ["require"], function(require){return(
 require("d3@5", "d3-sankey@0.12")

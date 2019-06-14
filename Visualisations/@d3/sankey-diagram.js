@@ -127,13 +127,13 @@ Object.assign(html`<select>
 }
 );
   main.variable(observer("data")).define("data", ["d3"], function(d3){return(
-d3.json("GraphDisciplineCIB-1000.json")
+d3.json("JSON/GraphDisciplineCIBJolis-1200.json")
 )});
   main.variable(observer("width")).define("width", function(){return(
 975
 )});
   main.variable(observer("height")).define("height", function(){return(
-600
+2600
 )});
   main.variable(observer("d3")).define("d3", ["require"], function(require){return(
 require("d3@5", "d3-sankey@0.12")

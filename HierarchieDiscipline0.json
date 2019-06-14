@@ -1,0 +1,208 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "Sciences",
+   "children": [
+    {
+     "name": "31",
+     "children": [
+      {
+       "name": "Chimie théorique",
+       "children": [
+        {
+         "name": "A01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01N002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 3
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "60",
+     "children": [
+      {
+       "name": "Mécanique",
+       "children": [
+        {
+         "name": "A61B",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "28",
+     "children": [
+      {
+       "name": "Milieux denses et matériaux",
+       "children": [
+        {
+         "name": "C09K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "TRANSVERSE",
+   "children": [
+    {
+     "name": "100",
+     "children": [
+      {
+       "name": "Science",
+       "children": [
+        {
+         "name": "B23K",
+         "size": 1,
+         "children": [
+          {
+           "name": "B23K002",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "101",
+     "children": [
+      {
+       "name": "Sciences Agronomiques",
+       "children": [
+        {
+         "name": "B09C",
+         "size": 1,
+         "children": [
+          {
+           "name": "B09C000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01H",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01H000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 2
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "103",
+     "children": [
+      {
+       "name": "Ingéniérie",
+       "children": [
+        {
+         "name": "C09K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "DEG",
+   "children": [
+    {
+     "name": "05",
+     "children": [
+      {
+       "name": "Sciences économiques",
+       "children": [
+        {
+         "name": "B01L",
+         "size": 1,
+         "children": [
+          {
+           "name": "B01L000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  }
+ ],
+ "size": 3
+}

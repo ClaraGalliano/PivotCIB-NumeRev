@@ -1,0 +1,6242 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "TRANSVERSE",
+   "children": [
+    {
+     "name": "100",
+     "children": [
+      {
+       "name": "Science",
+       "children": [
+        {
+         "name": "B23K",
+         "size": 1,
+         "children": [
+          {
+           "name": "B23K002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01L",
+         "size": 2,
+         "children": [
+          {
+           "name": "H01L002",
+           "size": 3
+          },
+          {
+           "name": "H01L005",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E21B",
+         "size": 1,
+         "children": [
+          {
+           "name": "E21B002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08J",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08J000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E21C",
+         "size": 1,
+         "children": [
+          {
+           "name": "E21C002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 20
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "G03G",
+         "size": 2,
+         "children": [
+          {
+           "name": "G03G001",
+           "size": 1
+          },
+          {
+           "name": "G03G000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C22C",
+         "size": 1,
+         "children": [
+          {
+           "name": "C22C003",
+           "size": 4
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 3,
+         "children": [
+          {
+           "name": "G06Q003",
+           "size": 3
+          },
+          {
+           "name": "G06Q004",
+           "size": 1
+          },
+          {
+           "name": "G06Q001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C25D",
+         "size": 1,
+         "children": [
+          {
+           "name": "C25D000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F04D",
+         "size": 1,
+         "children": [
+          {
+           "name": "F04D002",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C08F",
+         "size": 2,
+         "children": [
+          {
+           "name": "C08F000",
+           "size": 1
+          },
+          {
+           "name": "C08F001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 4,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 6
+          },
+          {
+           "name": "A61K005",
+           "size": 1
+          },
+          {
+           "name": "A61K003",
+           "size": 2
+          },
+          {
+           "name": "A61K004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F24D",
+         "size": 1,
+         "children": [
+          {
+           "name": "F24D001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B60R",
+         "size": 2,
+         "children": [
+          {
+           "name": "B60R001",
+           "size": 1
+          },
+          {
+           "name": "B60R002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C04B",
+         "size": 2,
+         "children": [
+          {
+           "name": "C04B003",
+           "size": 4
+          },
+          {
+           "name": "C04B002",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "B01J",
+         "size": 3,
+         "children": [
+          {
+           "name": "B01J002",
+           "size": 2
+          },
+          {
+           "name": "B01J003",
+           "size": 2
+          },
+          {
+           "name": "B01J001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C03C",
+         "size": 2,
+         "children": [
+          {
+           "name": "C03C001",
+           "size": 1
+          },
+          {
+           "name": "C03C000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "size": 2,
+         "children": [
+          {
+           "name": "A61B001",
+           "size": 1
+          },
+          {
+           "name": "A61B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E02B",
+         "size": 1,
+         "children": [
+          {
+           "name": "E02B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B01D",
+         "size": 2,
+         "children": [
+          {
+           "name": "B01D006",
+           "size": 2
+          },
+          {
+           "name": "B01D005",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F28G",
+         "size": 1,
+         "children": [
+          {
+           "name": "F28G000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01F",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 4
+          }
+         ]
+        },
+        {
+         "name": "C07K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 4
+          }
+         ]
+        },
+        {
+         "name": "F02B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F02B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01J",
+         "size": 2,
+         "children": [
+          {
+           "name": "H01J004",
+           "size": 1
+          },
+          {
+           "name": "H01J003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08G",
+         "size": 2,
+         "children": [
+          {
+           "name": "C08G007",
+           "size": 1
+          },
+          {
+           "name": "C08G006",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01V",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01V001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07C",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07C005",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 3,
+         "children": [
+          {
+           "name": "G01N001",
+           "size": 2
+          },
+          {
+           "name": "G01N002",
+           "size": 1
+          },
+          {
+           "name": "G01N003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "F01N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07F",
+         "size": 2,
+         "children": [
+          {
+           "name": "C07F000",
+           "size": 1
+          },
+          {
+           "name": "C07F001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "G07F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G07F001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B63B",
+         "size": 1,
+         "children": [
+          {
+           "name": "B63B003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01R",
+         "size": 2,
+         "children": [
+          {
+           "name": "G01R001",
+           "size": 1
+          },
+          {
+           "name": "G01R003",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C01B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C01B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07D",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07D040",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E06B",
+         "size": 1,
+         "children": [
+          {
+           "name": "E06B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12Q000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "H04L",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04L001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01K006",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B01L",
+         "size": 1,
+         "children": [
+          {
+           "name": "B01L000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61Q001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G21C",
+         "size": 2,
+         "children": [
+          {
+           "name": "G21C001",
+           "size": 1
+          },
+          {
+           "name": "G21C000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01Q002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C22B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C22B006",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B09C",
+         "size": 1,
+         "children": [
+          {
+           "name": "B09C000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H02J",
+         "size": 1,
+         "children": [
+          {
+           "name": "H02J000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12M",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12M000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G02F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H04B",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E04H",
+         "size": 1,
+         "children": [
+          {
+           "name": "E04H000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12N001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H04N",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04N002",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 58
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "101",
+     "children": [
+      {
+       "name": "Sciences Agronomiques",
+       "children": [
+        {
+         "name": "A01H",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01H000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H04N",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04N001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G10L",
+         "size": 1,
+         "children": [
+          {
+           "name": "G10L002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E03F",
+         "size": 1,
+         "children": [
+          {
+           "name": "E03F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01K",
+         "size": 2,
+         "children": [
+          {
+           "name": "A01K006",
+           "size": 2
+          },
+          {
+           "name": "A01K003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 7
+          }
+         ]
+        },
+        {
+         "name": "B09C",
+         "size": 1,
+         "children": [
+          {
+           "name": "B09C000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "B60R",
+         "size": 1,
+         "children": [
+          {
+           "name": "B60R001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E04D",
+         "size": 1,
+         "children": [
+          {
+           "name": "E04D001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 4
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 3,
+         "children": [
+          {
+           "name": "A61K003",
+           "size": 1
+          },
+          {
+           "name": "A61K005",
+           "size": 1
+          },
+          {
+           "name": "A61K000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "E21B",
+         "size": 1,
+         "children": [
+          {
+           "name": "E21B004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C22B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C22B006",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "size": 2,
+         "children": [
+          {
+           "name": "C12N000",
+           "size": 3
+          },
+          {
+           "name": "C12N001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 2,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 2
+          },
+          {
+           "name": "G01N003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G03F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G03F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G16H",
+         "size": 1,
+         "children": [
+          {
+           "name": "G16H001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E02B",
+         "size": 1,
+         "children": [
+          {
+           "name": "E02B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C09K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 2,
+         "children": [
+          {
+           "name": "G06Q001",
+           "size": 1
+          },
+          {
+           "name": "G06Q003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12P",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12P000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12Q000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01G",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01G000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "A61M",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61M001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C11D",
+         "size": 1,
+         "children": [
+          {
+           "name": "C11D000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A23L",
+         "size": 1,
+         "children": [
+          {
+           "name": "A23L002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G09B",
+         "size": 1,
+         "children": [
+          {
+           "name": "G09B001",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "H04W",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04W000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01V",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01V009",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01J",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01J004",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 32
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "103",
+     "children": [
+      {
+       "name": "Ingéniérie",
+       "children": [
+        {
+         "name": "C09K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 7
+          }
+         ]
+        },
+        {
+         "name": "F24D",
+         "size": 1,
+         "children": [
+          {
+           "name": "F24D000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H04N",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04N002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F28D",
+         "size": 1,
+         "children": [
+          {
+           "name": "F28D001",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "B60T",
+         "size": 1,
+         "children": [
+          {
+           "name": "B60T000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C04B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C04B002",
+           "size": 6
+          }
+         ]
+        },
+        {
+         "name": "C08L",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08L009",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01L",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01L005",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 2,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 2
+          },
+          {
+           "name": "G01N001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F25B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F25B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B01D",
+         "size": 1,
+         "children": [
+          {
+           "name": "B01D005",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12Q000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "E02F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H04W",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04W007",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01R",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E02B",
+         "size": 1,
+         "children": [
+          {
+           "name": "E02B000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 22
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "102",
+     "children": [
+      {
+       "name": "Géoscience",
+       "children": [
+        {
+         "name": "H04W",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04W001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E21B",
+         "size": 1,
+         "children": [
+          {
+           "name": "E21B004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07C",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07C004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01V",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01V009",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B60R",
+         "size": 1,
+         "children": [
+          {
+           "name": "B60R001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08J",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08J000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G08G",
+         "size": 1,
+         "children": [
+          {
+           "name": "G08G000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 14
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "104",
+     "children": [
+      {
+       "name": "Traitement",
+       "children": [
+        {
+         "name": "G06Q",
+         "size": 2,
+         "children": [
+          {
+           "name": "G06Q001",
+           "size": 1
+          },
+          {
+           "name": "G06Q003",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N003",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "G02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G02F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B60R",
+         "size": 1,
+         "children": [
+          {
+           "name": "B60R001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01K006",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E01F",
+         "size": 1,
+         "children": [
+          {
+           "name": "E01F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01S",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01S001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C01B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C01B002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08J",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08J000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "G01R",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "A61N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61Q001",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "E04H",
+         "size": 1,
+         "children": [
+          {
+           "name": "E04H000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12Q000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 18
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "106",
+     "children": [
+      {
+       "name": "Hydrologie",
+       "children": [
+        {
+         "name": "H04B",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H04W",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04W007",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06T",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06T000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 5
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "105",
+     "children": [
+      {
+       "name": "Pétrologie",
+       "children": [
+        {
+         "name": "H01M",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 7
+  },
+  {
+   "name": "Sciences",
+   "children": [
+    {
+     "name": "31",
+     "children": [
+      {
+       "name": "Chimie théorique",
+       "children": [
+        {
+         "name": "A61K",
+         "size": 3,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 13
+          },
+          {
+           "name": "A61K003",
+           "size": 4
+          },
+          {
+           "name": "A61K005",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B01J",
+         "size": 3,
+         "children": [
+          {
+           "name": "B01J002",
+           "size": 8
+          },
+          {
+           "name": "B01J003",
+           "size": 6
+          },
+          {
+           "name": "B01J001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "G02B",
+         "size": 1,
+         "children": [
+          {
+           "name": "G02B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01J",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01J004",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 3,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 8
+          },
+          {
+           "name": "G01N001",
+           "size": 1
+          },
+          {
+           "name": "G01N003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 2,
+         "children": [
+          {
+           "name": "G06Q003",
+           "size": 6
+          },
+          {
+           "name": "G06Q001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61Q001",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "H01L",
+         "size": 3,
+         "children": [
+          {
+           "name": "H01L003",
+           "size": 1
+          },
+          {
+           "name": "H01L005",
+           "size": 4
+          },
+          {
+           "name": "H01L002",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 4
+          }
+         ]
+        },
+        {
+         "name": "B05D",
+         "size": 1,
+         "children": [
+          {
+           "name": "B05D000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07F",
+         "size": 2,
+         "children": [
+          {
+           "name": "C07F000",
+           "size": 4
+          },
+          {
+           "name": "C07F001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C07C",
+         "size": 5,
+         "children": [
+          {
+           "name": "C07C005",
+           "size": 4
+          },
+          {
+           "name": "C07C027",
+           "size": 1
+          },
+          {
+           "name": "C07C001",
+           "size": 1
+          },
+          {
+           "name": "C07C004",
+           "size": 1
+          },
+          {
+           "name": "C07C000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 8
+          }
+         ]
+        },
+        {
+         "name": "B01D",
+         "size": 3,
+         "children": [
+          {
+           "name": "B01D005",
+           "size": 4
+          },
+          {
+           "name": "B01D001",
+           "size": 1
+          },
+          {
+           "name": "B01D006",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "A61N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07D",
+         "size": 3,
+         "children": [
+          {
+           "name": "C07D047",
+           "size": 2
+          },
+          {
+           "name": "C07D048",
+           "size": 1
+          },
+          {
+           "name": "C07D033",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F25B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F25B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C22B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C22B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B41M",
+         "size": 1,
+         "children": [
+          {
+           "name": "B41M000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01R",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12Q000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G21F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G21F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A62D",
+         "size": 1,
+         "children": [
+          {
+           "name": "A62D000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "size": 2,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 4
+          },
+          {
+           "name": "H01M001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B82Y",
+         "size": 1,
+         "children": [
+          {
+           "name": "B82Y003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08B003",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C22C",
+         "size": 2,
+         "children": [
+          {
+           "name": "C22C000",
+           "size": 1
+          },
+          {
+           "name": "C22C003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G10K",
+         "size": 1,
+         "children": [
+          {
+           "name": "G10K001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C01G",
+         "size": 2,
+         "children": [
+          {
+           "name": "C01G003",
+           "size": 1
+          },
+          {
+           "name": "C01G004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B32B",
+         "size": 2,
+         "children": [
+          {
+           "name": "B32B001",
+           "size": 1
+          },
+          {
+           "name": "B32B002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G02F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C23C",
+         "size": 1,
+         "children": [
+          {
+           "name": "C23C002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12N000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "G03F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G03F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C25C",
+         "size": 1,
+         "children": [
+          {
+           "name": "C25C000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C09K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08F",
+         "size": 2,
+         "children": [
+          {
+           "name": "C08F000",
+           "size": 3
+          },
+          {
+           "name": "C08F021",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C25B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C25B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C01B",
+         "size": 2,
+         "children": [
+          {
+           "name": "C01B001",
+           "size": 1
+          },
+          {
+           "name": "C01B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C11D",
+         "size": 2,
+         "children": [
+          {
+           "name": "C11D001",
+           "size": 1
+          },
+          {
+           "name": "C11D000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C21B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C21B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F42B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F42B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08G",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08G007",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B29C",
+         "size": 1,
+         "children": [
+          {
+           "name": "B29C004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01S",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01S000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C10G",
+         "size": 1,
+         "children": [
+          {
+           "name": "C10G000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61F",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61F001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "size": 2,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 1
+          },
+          {
+           "name": "A61B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C04B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C04B003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06T",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06T000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01G",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01G000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C09D",
+         "size": 1,
+         "children": [
+          {
+           "name": "C09D000",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "C10B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C10B005",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G09B",
+         "size": 1,
+         "children": [
+          {
+           "name": "G09B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08J",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08J000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 56
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "60",
+     "children": [
+      {
+       "name": "Mécanique",
+       "children": [
+        {
+         "name": "A61B",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 8
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 2,
+         "children": [
+          {
+           "name": "G06Q001",
+           "size": 2
+          },
+          {
+           "name": "G06Q003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01F",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01V",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01V000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "H01L",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01L002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B29C",
+         "size": 1,
+         "children": [
+          {
+           "name": "B29C004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01S",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01S000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12M",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12M000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01J",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01J004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 13
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "28",
+     "children": [
+      {
+       "name": "Milieux denses et matériaux",
+       "children": [
+        {
+         "name": "C09K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C30B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C30B002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 2,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 2
+          },
+          {
+           "name": "A61K003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C10L",
+         "size": 1,
+         "children": [
+          {
+           "name": "C10L000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 2,
+         "children": [
+          {
+           "name": "G06Q003",
+           "size": 1
+          },
+          {
+           "name": "G06Q001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "size": 2,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 5
+          },
+          {
+           "name": "H01M001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08G",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08G007",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "C01G",
+         "size": 1,
+         "children": [
+          {
+           "name": "C01G004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 3,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 3
+          },
+          {
+           "name": "G01N003",
+           "size": 1
+          },
+          {
+           "name": "G01N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H04J",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04J001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B01J",
+         "size": 1,
+         "children": [
+          {
+           "name": "B01J002",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C04B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C04B003",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C07D",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07D030",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G09B",
+         "size": 1,
+         "children": [
+          {
+           "name": "G09B001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C22B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C22B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B82Y",
+         "size": 1,
+         "children": [
+          {
+           "name": "B82Y003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "C22F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C22F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01S",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01S000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01G",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01G000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01L",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01L005",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C22C",
+         "size": 1,
+         "children": [
+          {
+           "name": "C22C003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B01L",
+         "size": 1,
+         "children": [
+          {
+           "name": "B01L000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C23C",
+         "size": 1,
+         "children": [
+          {
+           "name": "C23C001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 26
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "67",
+     "children": [
+      {
+       "name": "Biologie des populations et écologie",
+       "children": [
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 11
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "A01G",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01G002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01K006",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "size": 2,
+         "children": [
+          {
+           "name": "C12N001",
+           "size": 3
+          },
+          {
+           "name": "C12N000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 6
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "25",
+     "children": [
+      {
+       "name": "Mathématiques",
+       "children": [
+        {
+         "name": "F01M",
+         "size": 1,
+         "children": [
+          {
+           "name": "F01M001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 6
+          }
+         ]
+        },
+        {
+         "name": "E21B",
+         "size": 1,
+         "children": [
+          {
+           "name": "E21B004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01R",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 4
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "32",
+     "children": [
+      {
+       "name": "Chimie organique",
+       "children": [
+        {
+         "name": "A61K",
+         "size": 2,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 2
+          },
+          {
+           "name": "A61K003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B01J",
+         "size": 1,
+         "children": [
+          {
+           "name": "B01J003",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "C25B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C25B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08B003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61Q001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "F01N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H04L",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04L002",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 11
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "37",
+     "children": [
+      {
+       "name": "Météorologie",
+       "children": [
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 5
+          }
+         ]
+        },
+        {
+         "name": "H01J",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01J003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B01D",
+         "size": 1,
+         "children": [
+          {
+           "name": "B01D005",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E02B",
+         "size": 1,
+         "children": [
+          {
+           "name": "E02B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C01F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C01F001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K004",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 6
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "62",
+     "children": [
+      {
+       "name": "Énergétique",
+       "children": [
+        {
+         "name": "B01D",
+         "size": 3,
+         "children": [
+          {
+           "name": "B01D001",
+           "size": 1
+          },
+          {
+           "name": "B01D006",
+           "size": 8
+          },
+          {
+           "name": "B01D005",
+           "size": 4
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 2,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 2
+          },
+          {
+           "name": "G06F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 28
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G21C",
+         "size": 1,
+         "children": [
+          {
+           "name": "G21C000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "D21C",
+         "size": 1,
+         "children": [
+          {
+           "name": "D21C000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C09K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F25B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F25B002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F03G",
+         "size": 1,
+         "children": [
+          {
+           "name": "F03G000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01V",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01V009",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G03F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G03F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01S",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01S000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12M",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12M000",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "C10G",
+         "size": 2,
+         "children": [
+          {
+           "name": "C10G001",
+           "size": 1
+          },
+          {
+           "name": "C10G000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H02J",
+         "size": 1,
+         "children": [
+          {
+           "name": "H02J005",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "F01N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B01F",
+         "size": 1,
+         "children": [
+          {
+           "name": "B01F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C22B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C22B000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "B09C",
+         "size": 1,
+         "children": [
+          {
+           "name": "B09C000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "G11B",
+         "size": 1,
+         "children": [
+          {
+           "name": "G11B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07C",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07C000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07D",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07D048",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C10L",
+         "size": 1,
+         "children": [
+          {
+           "name": "C10L000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C01B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C01B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G02B",
+         "size": 1,
+         "children": [
+          {
+           "name": "G02B002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "D01D",
+         "size": 1,
+         "children": [
+          {
+           "name": "D01D000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C10M",
+         "size": 1,
+         "children": [
+          {
+           "name": "C10M016",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F01M",
+         "size": 1,
+         "children": [
+          {
+           "name": "F01M001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 31
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "30",
+     "children": [
+      {
+       "name": "Milieux dilués et optique",
+       "children": [
+        {
+         "name": "C01B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C01B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61F",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61F000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "F04C",
+         "size": 1,
+         "children": [
+          {
+           "name": "F04C001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01J",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01J004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F22B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F22B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01V",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01V000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F42B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F42B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01S",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01S001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 11
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "65",
+     "children": [
+      {
+       "name": "Biologie cellulaire",
+       "children": [
+        {
+         "name": "G01N",
+         "size": 2,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 2
+          },
+          {
+           "name": "G01N003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "size": 2,
+         "children": [
+          {
+           "name": "C12N001",
+           "size": 14
+          },
+          {
+           "name": "C12N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01H",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01H000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07D",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07D048",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12P",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12P001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "G01R",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01K006",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "A61N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 13
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "68",
+     "children": [
+      {
+       "name": "Biologie des organismes",
+       "children": [
+        {
+         "name": "A61K",
+         "size": 2,
+         "children": [
+          {
+           "name": "A61K003",
+           "size": 1
+          },
+          {
+           "name": "A61K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01N006",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12N001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 6
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "29",
+     "children": [
+      {
+       "name": "Constituants élémentaires",
+       "children": [
+        {
+         "name": "A61N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B29C",
+         "size": 1,
+         "children": [
+          {
+           "name": "B29C004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C10G",
+         "size": 1,
+         "children": [
+          {
+           "name": "C10G000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01G",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01G000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A23L",
+         "size": 1,
+         "children": [
+          {
+           "name": "A23L001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B01J",
+         "size": 1,
+         "children": [
+          {
+           "name": "B01J003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B82Y",
+         "size": 1,
+         "children": [
+          {
+           "name": "B82Y002",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 8
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "34",
+     "children": [
+      {
+       "name": "Astronomie",
+       "children": [
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A47J",
+         "size": 1,
+         "children": [
+          {
+           "name": "A47J003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B64G",
+         "size": 1,
+         "children": [
+          {
+           "name": "B64G000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 3
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "63",
+     "children": [
+      {
+       "name": "Électronique",
+       "children": [
+        {
+         "name": "H01L",
+         "size": 2,
+         "children": [
+          {
+           "name": "H01L002",
+           "size": 2
+          },
+          {
+           "name": "H01L005",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F04B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F04B004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "B06B",
+         "size": 1,
+         "children": [
+          {
+           "name": "B06B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01S",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01S001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C09K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01Q000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 8
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "35",
+     "children": [
+      {
+       "name": "Structure et évolution de la Terre et des autres planètes",
+       "children": [
+        {
+         "name": "G01V",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01V009",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 2
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "33",
+     "children": [
+      {
+       "name": "Chimie des matériaux",
+       "children": [
+        {
+         "name": "B01D",
+         "size": 2,
+         "children": [
+          {
+           "name": "B01D006",
+           "size": 3
+          },
+          {
+           "name": "B01D007",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61H",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61H000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C25B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C25B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 2
+          }
+         ]
+        }
+       ],
+       "size": 6
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "64",
+     "children": [
+      {
+       "name": "Biochimie et biologie moléculaire",
+       "children": [
+        {
+         "name": "C07K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "61",
+     "children": [
+      {
+       "name": "Génie informatique",
+       "children": [
+        {
+         "name": "G01R",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 3
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "66",
+     "children": [
+      {
+       "name": "Physiologie",
+       "children": [
+        {
+         "name": "G06Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "36",
+     "children": [
+      {
+       "name": "Terre solide",
+       "children": [
+        {
+         "name": "G06Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B09C",
+         "size": 1,
+         "children": [
+          {
+           "name": "B09C000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E02B",
+         "size": 1,
+         "children": [
+          {
+           "name": "E02B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01V",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01V009",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G03F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G03F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 6
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "27",
+     "children": [
+      {
+       "name": "Informatique",
+       "children": [
+        {
+         "name": "C09K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01S",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01S001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "B01L",
+         "size": 1,
+         "children": [
+          {
+           "name": "B01L000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H04W",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04W008",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 5
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "69",
+     "children": [
+      {
+       "name": "Neurosciences",
+       "children": [
+        {
+         "name": "A61K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01R",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 2
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 22
+  },
+  {
+   "name": "Autres",
+   "children": [
+    {
+     "name": "1000",
+     "children": [
+      {
+       "name": "?",
+       "children": [
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "Pharmacie",
+   "children": [
+    {
+     "name": "41",
+     "children": [
+      {
+       "name": "Sciences biologiques",
+       "children": [
+        {
+         "name": "C30B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C30B002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 3,
+         "children": [
+          {
+           "name": "G01N003",
+           "size": 2
+          },
+          {
+           "name": "G01N002",
+           "size": 8
+          },
+          {
+           "name": "G01N001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "size": 2,
+         "children": [
+          {
+           "name": "C12N001",
+           "size": 6
+          },
+          {
+           "name": "C12N000",
+           "size": 5
+          }
+         ]
+        },
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 13
+          }
+         ]
+        },
+        {
+         "name": "C12M",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12M000",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "A01K",
+         "size": 2,
+         "children": [
+          {
+           "name": "A01K006",
+           "size": 3
+          },
+          {
+           "name": "A01K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01G",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01G000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C05F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C05F001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01N000",
+           "size": 4
+          }
+         ]
+        },
+        {
+         "name": "C07K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 7
+          }
+         ]
+        },
+        {
+         "name": "A01H",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01H000",
+           "size": 4
+          }
+         ]
+        },
+        {
+         "name": "E02B",
+         "size": 1,
+         "children": [
+          {
+           "name": "E02B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q003",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "B61L",
+         "size": 1,
+         "children": [
+          {
+           "name": "B61L002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61Q001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07C",
+         "size": 2,
+         "children": [
+          {
+           "name": "C07C004",
+           "size": 1
+          },
+          {
+           "name": "C07C000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A23L",
+         "size": 1,
+         "children": [
+          {
+           "name": "A23L002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 2,
+         "children": [
+          {
+           "name": "A61K003",
+           "size": 3
+          },
+          {
+           "name": "A61K000",
+           "size": 3
+          }
+         ]
+        },
+        {
+         "name": "H05B",
+         "size": 1,
+         "children": [
+          {
+           "name": "H05B003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12P",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12P002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "size": 2,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 2
+          },
+          {
+           "name": "A61B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01L",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01L002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61D",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61D001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B01J",
+         "size": 1,
+         "children": [
+          {
+           "name": "B01J002",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 26
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "45-02",
+     "children": [
+      {
+       "name": "Parasitologie et mycologie",
+       "children": [
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 9
+          }
+         ]
+        },
+        {
+         "name": "C12M",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12M000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C12Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12Q000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "A01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12N",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12N000",
+           "size": 6
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C09D",
+         "size": 1,
+         "children": [
+          {
+           "name": "C09D000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A21D",
+         "size": 1,
+         "children": [
+          {
+           "name": "A21D000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 9
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "40",
+     "children": [
+      {
+       "name": "Sciences du médicament",
+       "children": [
+        {
+         "name": "A61K",
+         "size": 2,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 2
+          },
+          {
+           "name": "A61K004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08B003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N003",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 6
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "58-03",
+     "children": [
+      {
+       "name": "Sciences anatomiques et physiologiques",
+       "children": [
+        {
+         "name": "C10L",
+         "size": 1,
+         "children": [
+          {
+           "name": "C10L001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 4
+          }
+         ]
+        },
+        {
+         "name": "H01J",
+         "size": 2,
+         "children": [
+          {
+           "name": "H01J004",
+           "size": 1
+          },
+          {
+           "name": "H01J003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C09K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C09K001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B81C",
+         "size": 1,
+         "children": [
+          {
+           "name": "B81C000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B82Y",
+         "size": 1,
+         "children": [
+          {
+           "name": "B82Y003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 4
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 2,
+         "children": [
+          {
+           "name": "G01N002",
+           "size": 9
+          },
+          {
+           "name": "G01N001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 7
+          }
+         ]
+        },
+        {
+         "name": "H01L",
+         "size": 3,
+         "children": [
+          {
+           "name": "H01L003",
+           "size": 1
+          },
+          {
+           "name": "H01L005",
+           "size": 1
+          },
+          {
+           "name": "H01L002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C08K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G21C",
+         "size": 1,
+         "children": [
+          {
+           "name": "G21C000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B01L",
+         "size": 1,
+         "children": [
+          {
+           "name": "B01L000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01S",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01S000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A47J",
+         "size": 1,
+         "children": [
+          {
+           "name": "A47J004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C30B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C30B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06T",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06T001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H01M",
+         "size": 1,
+         "children": [
+          {
+           "name": "H01M000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01T",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01T000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C01F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C01F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G21K",
+         "size": 1,
+         "children": [
+          {
+           "name": "G21K000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01B",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01R",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G09B",
+         "size": 1,
+         "children": [
+          {
+           "name": "G09B001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 27
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "46-01",
+     "children": [
+      {
+       "name": "Épidémiologie",
+       "children": [
+        {
+         "name": "C02F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C02F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61B",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61B000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 3
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "48-03",
+     "children": [
+      {
+       "name": "Pharmacologie fondamentale",
+       "children": [
+        {
+         "name": "A61Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61Q001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 2
+          }
+         ]
+        }
+       ],
+       "size": 2
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "39",
+     "children": [
+      {
+       "name": "Sciences physico-chimiques et technologies pharmaceutiques",
+       "children": [
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "43-02",
+     "children": [
+      {
+       "name": "Radiologie et imagerie médicale",
+       "children": [
+        {
+         "name": "A61N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "G01R",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 2
+          }
+         ]
+        }
+       ],
+       "size": 2
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "54-03",
+     "children": [
+      {
+       "name": "Gynécologie-obstétrique",
+       "children": [
+        {
+         "name": "G01R",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 3
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "43-01",
+     "children": [
+      {
+       "name": "Biophysique et médecine nucléaire",
+       "children": [
+        {
+         "name": "G01T",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01T000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "57-03",
+     "children": [
+      {
+       "name": "biochimie",
+       "children": [
+        {
+         "name": "C12N",
+         "size": 2,
+         "children": [
+          {
+           "name": "C12N000",
+           "size": 1
+          },
+          {
+           "name": "C12N001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 3,
+         "children": [
+          {
+           "name": "A61K003",
+           "size": 2
+          },
+          {
+           "name": "A61K000",
+           "size": 2
+          },
+          {
+           "name": "A61K004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C22B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C22B002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12Q000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 4
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "49-03",
+     "children": [
+      {
+       "name": "Psychiatrie d'adultes",
+       "children": [
+        {
+         "name": "C08F",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08F001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C07C",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07C004",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 2
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "57-02",
+     "children": [
+      {
+       "name": "Chirurgie buccale",
+       "children": [
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "53-01",
+     "children": [
+      {
+       "name": "Médecine interne",
+       "children": [
+        {
+         "name": "G01R",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01R003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 2
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "45-03",
+     "children": [
+      {
+       "name": "Maladies infectieuses",
+       "children": [
+        {
+         "name": "A01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01N006",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "47-02",
+     "children": [
+      {
+       "name": "Cancérologie",
+       "children": [
+        {
+         "name": "A61N",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61N000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 16
+  },
+  {
+   "name": "DEG",
+   "children": [
+    {
+     "name": "02",
+     "children": [
+      {
+       "name": "Droit public",
+       "children": [
+        {
+         "name": "G06Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q005",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "C07K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 2
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "05",
+     "children": [
+      {
+       "name": "Sciences économiques",
+       "children": [
+        {
+         "name": "H04W",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04W007",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 2,
+         "children": [
+          {
+           "name": "G06Q003",
+           "size": 2
+          },
+          {
+           "name": "G06Q004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H04N",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04N001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 3
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "06",
+     "children": [
+      {
+       "name": "Sciences de gestion",
+       "children": [
+        {
+         "name": "G06Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q003",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "01",
+     "children": [
+      {
+       "name": "Droit privé et sciences criminelles",
+       "children": [
+        {
+         "name": "G06Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q005",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "04",
+     "children": [
+      {
+       "name": "Science politique",
+       "children": [
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F002",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 5
+  },
+  {
+   "name": "LSH-1",
+   "children": [
+    {
+     "name": "14",
+     "children": [
+      {
+       "name": "Langues et littératures romanes",
+       "children": [
+        {
+         "name": "A61H",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61H003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H04N",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04N000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 2
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "23",
+     "children": [
+      {
+       "name": "Géographie physique",
+       "children": [
+        {
+         "name": "G06T",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06T000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G01N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G01N003",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 2
+          }
+         ]
+        },
+        {
+         "name": "F25C",
+         "size": 1,
+         "children": [
+          {
+           "name": "F25C000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "C12R",
+         "size": 1,
+         "children": [
+          {
+           "name": "C12R000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06N",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06N000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 2,
+         "children": [
+          {
+           "name": "G06Q005",
+           "size": 1
+          },
+          {
+           "name": "G06Q001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "E02B",
+         "size": 1,
+         "children": [
+          {
+           "name": "E02B000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "H04L",
+         "size": 2,
+         "children": [
+          {
+           "name": "H04L001",
+           "size": 1
+          },
+          {
+           "name": "H04L000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A47J",
+         "size": 1,
+         "children": [
+          {
+           "name": "A47J003",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 10
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "21",
+     "children": [
+      {
+       "name": "Histoire et civilisations anciennes",
+       "children": [
+        {
+         "name": "F03B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "B62D",
+         "size": 1,
+         "children": [
+          {
+           "name": "B62D005",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F002",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 4
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "17",
+     "children": [
+      {
+       "name": "Philosophie",
+       "children": [
+        {
+         "name": "C08G",
+         "size": 1,
+         "children": [
+          {
+           "name": "C08G001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "22",
+     "children": [
+      {
+       "name": "Histoire et civilisations",
+       "children": [
+        {
+         "name": "B60L",
+         "size": 1,
+         "children": [
+          {
+           "name": "B60L001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "F03B",
+         "size": 1,
+         "children": [
+          {
+           "name": "F03B001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 2
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "10",
+     "children": [
+      {
+       "name": "Littératures comparées",
+       "children": [
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F000",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A61K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A61K000",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 2
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "07",
+     "children": [
+      {
+       "name": "Sciences du langage",
+       "children": [
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G09B",
+         "size": 2,
+         "children": [
+          {
+           "name": "G09B000",
+           "size": 1
+          },
+          {
+           "name": "G09B001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 2
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "19",
+     "children": [
+      {
+       "name": "Sociologie",
+       "children": [
+        {
+         "name": "C40B",
+         "size": 1,
+         "children": [
+          {
+           "name": "C40B004",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "G06Q",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06Q005",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 2
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "18",
+     "children": [
+      {
+       "name": "Architecture et Arts",
+       "children": [
+        {
+         "name": "H04L",
+         "size": 1,
+         "children": [
+          {
+           "name": "H04L002",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "20",
+     "children": [
+      {
+       "name": "Anthropologie biologique",
+       "children": [
+        {
+         "name": "G06F",
+         "size": 1,
+         "children": [
+          {
+           "name": "G06F001",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A23L",
+         "size": 1,
+         "children": [
+          {
+           "name": "A23L002",
+           "size": 1
+          }
+         ]
+        },
+        {
+         "name": "A01K",
+         "size": 1,
+         "children": [
+          {
+           "name": "A01K006",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 3
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "16",
+     "children": [
+      {
+       "name": "Psychologie",
+       "children": [
+        {
+         "name": "C07K",
+         "size": 1,
+         "children": [
+          {
+           "name": "C07K001",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 11
+  },
+  {
+   "name": "LSH-2",
+   "children": [
+    {
+     "name": "72",
+     "children": [
+      {
+       "name": "Épistémologie",
+       "children": [
+        {
+         "name": "C22C",
+         "size": 1,
+         "children": [
+          {
+           "name": "C22C003",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  }
+ ],
+ "size": 7
+}

@@ -1,0 +1,204 @@
+{
+ "nodes": [
+  {
+   "name": "Sciences"
+  },
+  {
+   "name": "31"
+  },
+  {
+   "name": "Chimie théorique"
+  },
+  {
+   "name": "A01N"
+  },
+  {
+   "name": "TRANSVERSE"
+  },
+  {
+   "name": "100"
+  },
+  {
+   "name": "Science"
+  },
+  {
+   "name": "B23K"
+  },
+  {
+   "name": "101"
+  },
+  {
+   "name": "Sciences Agronomiques"
+  },
+  {
+   "name": "B09C"
+  },
+  {
+   "name": "A61K"
+  },
+  {
+   "name": "60"
+  },
+  {
+   "name": "Mécanique"
+  },
+  {
+   "name": "A61B"
+  },
+  {
+   "name": "A01H"
+  },
+  {
+   "name": "G01N"
+  },
+  {
+   "name": "28"
+  },
+  {
+   "name": "Milieux denses et matériaux"
+  },
+  {
+   "name": "C09K"
+  },
+  {
+   "name": "DEG"
+  },
+  {
+   "name": "05"
+  },
+  {
+   "name": "Sciences économiques"
+  },
+  {
+   "name": "B01L"
+  },
+  {
+   "name": "103"
+  },
+  {
+   "name": "Ingéniérie"
+  }
+ ],
+ "links": [
+  {
+   "source": 0,
+   "target": 1,
+   "value": 3
+  },
+  {
+   "source": 1,
+   "target": 2,
+   "value": 3
+  },
+  {
+   "source": 2,
+   "target": 3,
+   "value": 1
+  },
+  {
+   "source": 4,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 5,
+   "target": 6,
+   "value": 1
+  },
+  {
+   "source": 6,
+   "target": 7,
+   "value": 1
+  },
+  {
+   "source": 4,
+   "target": 8,
+   "value": 2
+  },
+  {
+   "source": 8,
+   "target": 9,
+   "value": 2
+  },
+  {
+   "source": 9,
+   "target": 10,
+   "value": 1
+  },
+  {
+   "source": 2,
+   "target": 11,
+   "value": 1
+  },
+  {
+   "source": 0,
+   "target": 12,
+   "value": 1
+  },
+  {
+   "source": 12,
+   "target": 13,
+   "value": 1
+  },
+  {
+   "source": 13,
+   "target": 14,
+   "value": 1
+  },
+  {
+   "source": 9,
+   "target": 15,
+   "value": 1
+  },
+  {
+   "source": 2,
+   "target": 16,
+   "value": 1
+  },
+  {
+   "source": 0,
+   "target": 17,
+   "value": 1
+  },
+  {
+   "source": 17,
+   "target": 18,
+   "value": 1
+  },
+  {
+   "source": 18,
+   "target": 19,
+   "value": 1
+  },
+  {
+   "source": 20,
+   "target": 21,
+   "value": 1
+  },
+  {
+   "source": 21,
+   "target": 22,
+   "value": 1
+  },
+  {
+   "source": 22,
+   "target": 23,
+   "value": 1
+  },
+  {
+   "source": 4,
+   "target": 24,
+   "value": 1
+  },
+  {
+   "source": 24,
+   "target": 25,
+   "value": 1
+  },
+  {
+   "source": 25,
+   "target": 19,
+   "value": 1
+  }
+ ]
+}
