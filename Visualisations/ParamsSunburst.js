@@ -21,7 +21,7 @@ const partition = data => {
 
 const {require} = new observablehq.Library;
 
-require()('./HierarchieDiscipline800.json').then(data => {
+require()('./HierarchieDiscipline1000Titres.json').then(data => {
     console.log(data);
     const root = partition(data);
     const color = d3.scaleOrdinal().range(d3.quantize(d3.interpolateRainbow, data.children.length + 1));

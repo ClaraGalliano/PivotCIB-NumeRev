@@ -95,7 +95,7 @@ Click to zoom in or out.`
       name: "data",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json("./HierarchieDiscipline1200Titre.json")
+d3.json("./JSON/HierarchieDiscipline-1200Titre.json")
 )})
     },
     {
