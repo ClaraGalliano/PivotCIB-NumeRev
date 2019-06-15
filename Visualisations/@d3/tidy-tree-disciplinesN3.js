@@ -78,7 +78,7 @@ D3’s [tree layout](https://github.com/d3/d3-hierarchy/blob/master/README.md#tr
       name: "data",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json("HierarchieDiscipline1200Titre.json")
+d3.json("./JSON/HierarchieDiscipline-1200Titre.json")
 )})
     },
     {
