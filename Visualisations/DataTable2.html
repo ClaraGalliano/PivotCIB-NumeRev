@@ -12,13 +12,13 @@
 $(document).ready(function() {
    $('#example').DataTable( {
         ajax:  {
-			url: 'DataThese.json',
+			url: './JSON/DataThese.json',
 			dataSrc: ''
 			},
 			"scrollX": true,
 			"scrollY": '80vh',
         scrollCollapse: true,
-        paging:         false,
+        paging:         true,
   
 		columns: [
 		{"data":"id"}, //0 
@@ -33,32 +33,35 @@ $(document).ready(function() {
 		{"data":"etabSoutenancePpn"}, //9
         {"data":"dateSoutenance"}, //10
 		{"data":"discipline"}, //11
-		{"data":"num"}, //12
-		{"data":"langueThese"}, //13 
-		{"data":"personne"}, //14
-        {"data":"ppn"}, //15
-		{"data":"oaiSetSpec"},//16 
-		{"data":"directeurThesePpn"},//17 
-		{"data":"directeurTheseNP"},  //18
-        {"data":"directeurThese"}, //19
-		{"data":"etablissement"}, //20
-		{"data":"abstract"}, //21
-		{"data":"Date"}, //22
-		{"data":"langue"},  //23
-        {"data":"IPC1"}, //24
-		{"data":"ScoreIPC1"},//25 
-		{"data":"IPC2"}, //26
-		{"data":"ScoreIPC2"},//27 
-		{"data":"IPC3"}, //28
-		{"data":"ScoreIPC3"},//29 
-		{"data":"IPC4"}, //30
-		{"data":"ScoreIPC4"},//31 
-		{"data":"IPC5"}, //32
-		{"data":"ScoreIPC5"}//33
+		{"data":"Domaine"}, //12
+		{"data":"Section"}, //13
+		{"data":"DiscipNorm"}, //14
+		{"data":"num"}, //15
+		{"data":"langueThese"}, //16
+		{"data":"personne"}, //17
+        {"data":"ppn"}, //18
+		{"data":"oaiSetSpec"},//19
+		{"data":"directeurThesePpn"},//20
+		{"data":"directeurTheseNP"},  //21
+        {"data":"directeurThese"}, //22
+		{"data":"etablissement"}, //23
+		{"data":"abstract"}, //24
+		{"data":"Date"}, //25
+		{"data":"langue"},  //26
+        {"data":"IPC1"}, //27
+		{"data":"ScoreIPC1"},//28
+		{"data":"IPC2"}, //29
+		{"data":"ScoreIPC2"},//30
+		{"data":"IPC3"}, //31
+		{"data":"ScoreIPC3"},//32
+		{"data":"IPC4"}, //33
+		{"data":"ScoreIPC4"},//34
+		{"data":"IPC5"}, //35
+		{"data":"ScoreIPC5"}//36
 		],
 		"columnDefs": [
             {
-                "targets": [1, 2,6,7,8,9,10,12,14,15,16,17,19,20,21,22,23],
+                "targets": [1, 2,6,7,8,9,10,15,16,17,18,19,20,21,22,23,24],
                 "visible": false,
                 "searchable": false
             } 
@@ -89,13 +92,16 @@ $(document).ready(function() {
 						<th style="width: 2%;">dateMaj</th>
 						<th style="width: 2%;">status</th>
 						<th style="width: 2%;">accessible</th>
-						<th style="width: 20%;">titre</th>
+						<th style="width: 15%;">titre</th>
 						<th style="width: 2%;">auteurPpn</th>
 						<th style="width: 2%;">auteur</th>
 						<th style="width: 2%;">etabSoutenance</th>
 						<th style="width: 2%;">etabSoutenancePpn</th>
 						<th style="width: 2%;">dateSoutenance</th>
-						<th style="width: 5%;">discipline</th>
+						<th style="width: 2%;">discipline</th>
+						<th style="width: 2%;">Domaine</th>
+						<th style="width: 2%;">Section CNU</th>
+						<th style="width: 2%;">discipline norm</th>
 						<th style="width: 2%;">num</th>
 						<th style="width: 2%;">langueThese</th>
 						<th style="width: 2%;">personne</th>

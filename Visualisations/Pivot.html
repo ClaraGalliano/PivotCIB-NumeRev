@@ -51,7 +51,7 @@ $(function(){
             $.pivotUtilities.export_renderers
              );
  
-        $.getJSON("PivotThese.json", function(mps) {
+        $.getJSON("./JSON/PivotThese.json", function(mps) {
             $("#output").pivotUI(mps, {
                 renderers: renderers,
                 "derivedAttributes": {},

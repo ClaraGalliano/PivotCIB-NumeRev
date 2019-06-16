@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<head>
-  <script src="http://d3js.org/d3.v5.js"></script>
-  <style>body { margin: 0 }</style>
-</head>
+<title>Nested Treemap</title>
+<link rel="stylesheet" type="text/css" href="./inspector.css">
 <body>
-
 <script type="module">
-  // Load the Observable runtime and inspector.
-  import {Runtime, Inspector} from "https://unpkg.com/@observablehq/notebook-runtime?module";
+import {Runtime, Inspector} from "./runtime.js";
+import define from "./@d3/nested-treemap.js";
 
-  // Or, your notebook, downloaded locally.
-  import notebook from "./nested-treemap.js";
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
 
-  // Load the notebook, observing its cells with a default Inspector
-  // that simply renders the value of each cell into the provided DOM node.
-  Runtime.load(notebook, Inspector.into(document.body)); //
 </script>
+
 </body>
 </html>

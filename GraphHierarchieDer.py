@@ -7,7 +7,8 @@ Created on Tue May 21 11:07:18 2019
 
 
 import json
-from Utils import GetIPCDefinition
+from Utils import GetIPCDefinition, strip_accents
+
 with open('DonneeThzEtendues.json', 'r', encoding='utf8') as ficSrc:
     donnees = json.load (ficSrc)
     
@@ -29,6 +30,7 @@ for Titres in [True, False]:
         FichierJsonGrapheSeuille = 'GraphDisciplineCIB-' + str(seuilScore)+Titres*'Titre'
         FichierJsonHierarchie = "HierarchieDiscipline-" + str(seuilScore)+Titres*'Titre'
         FichierJsonJoli = "GraphDisciplineCIBJolis-" + str(seuilScore)+Titres*'Titre'
+        FichierJsonHierarchieValuee = "ValHierarchieDiscipline-" + str(seuilScore)+Titres*'Titre'
         LstThz2 = []
         evites = 0 # compteur des entrées ignorée (consistance ou seuillage)
         for Thz in LstThz:
@@ -126,6 +128,7 @@ for Titres in [True, False]:
                                 tempotempotempoDict=dict()
                                 tempotempotempoDict['name'] = IPC7 
                                 tempotempotempoDict['children'] = []
+                                tempotempotempoDict['size'] = len(IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3][IPC7])
                                 for titre in IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3][IPC7]:
                                     TitretempotempotempoDict =dict()
                                     TitretempotempotempoDict['name'] = titre
@@ -147,10 +150,74 @@ for Titres in [True, False]:
                 
             HierarchieJsonFin['children'].append(HierarchieJsonFinDom)
         DumpHierarchie = json.dumps(HierarchieJsonFin, ensure_ascii=False, indent=1)
+        
+        
         with open(RepertoireDestination+FichierJsonHierarchie +'.json', 'wb') as ficRes:
             ficRes.write(DumpHierarchie.encode('utf8'))    
         
-        print(" Fichier de Hierachie ", FichierJsonHierarchie +'.json correctement écrit' )                     
+        print(" Fichier de Hierachie valué", FichierJsonHierarchie +'.json correctement écrit' )   
+
+     #fin des hierarchies au format comme précédent mais values (NestedTreemap)
+        HierarchieJsonFin = dict()
+        HierarchieJsonFin['name'] ="Eau"
+        
+        HierarchieJsonFin ['children'] = []
+        
+#        HierarchieJsonFin ['value'] = len(IPC7IPC3DiscipSectionDom.keys())
+        for dom in IPC7IPC3DiscipSectionDom.keys():
+            HierarchieJsonFinDom = dict()
+            HierarchieJsonFinDom['name'] = dom
+            HierarchieJsonFinDom['children'] = []
+#            HierarchieJsonFinDom['value'] = len(IPC7IPC3DiscipSectionDom[dom].keys())
+            for section in IPC7IPC3DiscipSectionDom[dom].keys():
+                tempoDict=dict()
+                tempoDict['name'] = section
+                tempoDict['children'] = []
+#                tempoDict['value'] = len(IPC7IPC3DiscipSectionDom[dom][section].keys())
+                for discip in IPC7IPC3DiscipSectionDom[dom][section].keys():
+                    tempoDiscipDict=dict()
+                    tempoDiscipDict['name'] = strip_accents(discip.title().replace(' ', ''))
+                    tempoDiscipDict['children'] = []
+#                    tempoDiscipDict['value'] = len(IPC7IPC3DiscipSectionDom[dom][section][discip].keys())
+                    for IPC3 in IPC7IPC3DiscipSectionDom[dom][section][discip].keys():
+                        tempotempoDict=dict()
+                        tempotempoDict['name'] = IPC3             
+#                        tempotempoDict['value'] = len(IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3].keys())
+                        tempotempoDict['children'] = []  
+                        if Titres:
+                            for IPC7 in IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3].keys():
+                                tempotempotempoDict=dict()
+                                tempotempotempoDict['name'] = IPC7 
+                                tempotempotempoDict['children'] = []
+#                                tempotempotempoDict['value'] = len(IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3][IPC7])
+                                for titre in IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3][IPC7]:
+                                    TitretempotempotempoDict =dict()
+                                    TitretempotempotempoDict['name'] = titre
+                                    TitretempotempotempoDict['value'] = 1
+                                    tempotempotempoDict['children'].append(TitretempotempotempoDict)
+                                tempotempoDict['children'].append(tempotempotempoDict)
+                        else:
+                            for IPC7 in IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3].keys():
+                                tempotempotempoDict=dict()
+                                tempotempotempoDict['name'] = IPC7 
+                                tempotempotempoDict['value'] = len(IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3][IPC7])
+                                tempotempoDict['children'].append(tempotempotempoDict)
+                            #tempotempoDict['value'] = len([IPC7 for IPC7 in IPC7IPC3DiscipSectionDom[dom][section][discip][IPC3].keys()])
+                        if len(tempotempoDict['children']) ==0:
+                                tempotempoDict.pop('children')
+                        tempoDiscipDict['children'].append(tempotempoDict)
+                    tempoDict['children'].append(tempoDiscipDict)
+                HierarchieJsonFinDom['children'].append(tempoDict)
+                
+            HierarchieJsonFin['children'].append(HierarchieJsonFinDom)
+        DumpHierarchie = json.dumps(HierarchieJsonFin, ensure_ascii=False, indent=1)
+        
+        
+        with open(RepertoireDestination+FichierJsonHierarchieValuee +'.json', 'wb') as ficRes:
+            ficRes.write(DumpHierarchie.encode('utf8'))    
+        
+        print(" Fichier de Hierachie ", FichierJsonHierarchie +'.json correctement écrit' )   
+        #fin des hierarchies au format comme précédent mais values (NestedTreemap)
         #" création des graphes et des index de noeuds
             
         Nodes = dict()
