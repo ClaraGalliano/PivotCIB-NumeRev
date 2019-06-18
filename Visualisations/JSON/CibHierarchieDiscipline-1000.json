@@ -1,0 +1,7470 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "B23K",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "A61K",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 18
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "68",
+       "children": [
+        {
+         "name": "Biologie des organismes",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "33",
+       "children": [
+        {
+         "name": "Chimie des matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "37",
+       "children": [
+        {
+         "name": "Météorologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "69",
+       "children": [
+        {
+         "name": "Neurosciences",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 8
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "40",
+       "children": [
+        {
+         "name": "Sciences du médicament",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 6
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "57-03",
+       "children": [
+        {
+         "name": "biochimie",
+         "size": 5
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "45-02",
+       "children": [
+        {
+         "name": "Parasitologie et mycologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "48-03",
+       "children": [
+        {
+         "name": "Pharmacologie fondamentale",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 6
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 10
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "10",
+       "children": [
+        {
+         "name": "Littératures comparées",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 4
+  },
+  {
+   "name": "A61B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "61",
+       "children": [
+        {
+         "name": "Génie informatique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "63",
+       "children": [
+        {
+         "name": "Électronique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "Milieux dilués et optique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 6
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "46-01",
+       "children": [
+        {
+         "name": "Épidémiologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "A01H",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 4
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "C09K",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "27",
+       "children": [
+        {
+         "name": "Informatique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "63",
+       "children": [
+        {
+         "name": "Électronique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 5
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "H04N",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "14",
+       "children": [
+        {
+         "name": "Langues et littératures romanes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "DEG",
+     "children": [
+      {
+       "name": "05",
+       "children": [
+        {
+         "name": "Sciences économiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "B01J",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 16
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "29",
+       "children": [
+        {
+         "name": "Constituants élémentaires",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 5
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "C02F",
+   "children": [
+    {
+     "name": "Autres",
+     "children": [
+      {
+       "name": "1000",
+       "children": [
+        {
+         "name": "?",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "67",
+       "children": [
+        {
+         "name": "Biologie des populations et écologie",
+         "size": 11
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "37",
+       "children": [
+        {
+         "name": "Météorologie",
+         "size": 5
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 28
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "35",
+       "children": [
+        {
+         "name": "Structure et évolution de la Terre et des autres planètes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 7
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 20
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 7
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 7
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "106",
+       "children": [
+        {
+         "name": "Hydrologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 5
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "45-02",
+       "children": [
+        {
+         "name": "Parasitologie et mycologie",
+         "size": 9
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 13
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "46-01",
+       "children": [
+        {
+         "name": "Épidémiologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    }
+   ],
+   "size": 4
+  },
+  {
+   "name": "C30B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "H01L",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 7
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "63",
+       "children": [
+        {
+         "name": "Électronique",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "G10L",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "E03F",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "H04W",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "106",
+       "children": [
+        {
+         "name": "Hydrologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "DEG",
+     "children": [
+      {
+       "name": "05",
+       "children": [
+        {
+         "name": "Sciences économiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "27",
+       "children": [
+        {
+         "name": "Informatique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "G02B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "E21B",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "25",
+       "children": [
+        {
+         "name": "Mathématiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "G06Q",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 6
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "DEG",
+     "children": [
+      {
+       "name": "02",
+       "children": [
+        {
+         "name": "Droit public",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "06",
+       "children": [
+        {
+         "name": "Sciences de gestion",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "01",
+       "children": [
+        {
+         "name": "Droit privé et sciences criminelles",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "05",
+       "children": [
+        {
+         "name": "Sciences économiques",
+         "size": 3
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 7
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "66",
+       "children": [
+        {
+         "name": "Physiologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "36",
+       "children": [
+        {
+         "name": "Terre solide",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 7
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "40",
+       "children": [
+        {
+         "name": "Sciences du médicament",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "21",
+       "children": [
+        {
+         "name": "Histoire et civilisations anciennes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "23",
+       "children": [
+        {
+         "name": "Géographie physique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "19",
+       "children": [
+        {
+         "name": "Sociologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    }
+   ],
+   "size": 5
+  },
+  {
+   "name": "H01J",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "37",
+       "children": [
+        {
+         "name": "Météorologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "Milieux dilués et optique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "G06F",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 8
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 8
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "34",
+       "children": [
+        {
+         "name": "Astronomie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "67",
+       "children": [
+        {
+         "name": "Biologie des populations et écologie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "25",
+       "children": [
+        {
+         "name": "Mathématiques",
+         "size": 6
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "Milieux dilués et optique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "27",
+       "children": [
+        {
+         "name": "Informatique",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "68",
+       "children": [
+        {
+         "name": "Biologie des organismes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 11
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "57-02",
+       "children": [
+        {
+         "name": "Chirurgie buccale",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "10",
+       "children": [
+        {
+         "name": "Littératures comparées",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "07",
+       "children": [
+        {
+         "name": "Sciences du langage",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "20",
+       "children": [
+        {
+         "name": "Anthropologie biologique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "21",
+       "children": [
+        {
+         "name": "Histoire et civilisations anciennes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "DEG",
+     "children": [
+      {
+       "name": "04",
+       "children": [
+        {
+         "name": "Science politique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 5
+  },
+  {
+   "name": "G01N",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 10
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 5
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "61",
+       "children": [
+        {
+         "name": "Génie informatique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "Milieux dilués et optique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "68",
+       "children": [
+        {
+         "name": "Biologie des organismes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "63",
+       "children": [
+        {
+         "name": "Électronique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 10
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 11
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "39",
+       "children": [
+        {
+         "name": "Sciences physico-chimiques et technologies pharmaceutiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 10
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "45-02",
+       "children": [
+        {
+         "name": "Parasitologie et mycologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "40",
+       "children": [
+        {
+         "name": "Sciences du médicament",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "46-01",
+       "children": [
+        {
+         "name": "Épidémiologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 6
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "23",
+       "children": [
+        {
+         "name": "Géographie physique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 5
+    }
+   ],
+   "size": 4
+  },
+  {
+   "name": "C08J",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "F03B",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "106",
+       "children": [
+        {
+         "name": "Hydrologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "67",
+       "children": [
+        {
+         "name": "Biologie des populations et écologie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "36",
+       "children": [
+        {
+         "name": "Terre solide",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "21",
+       "children": [
+        {
+         "name": "Histoire et civilisations anciennes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "23",
+       "children": [
+        {
+         "name": "Géographie physique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "22",
+       "children": [
+        {
+         "name": "Histoire et civilisations",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    }
+   ],
+   "size": 4
+  },
+  {
+   "name": "C12N",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 11
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "57-03",
+       "children": [
+        {
+         "name": "biochimie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "45-02",
+       "children": [
+        {
+         "name": "Parasitologie et mycologie",
+         "size": 6
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 15
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "67",
+       "children": [
+        {
+         "name": "Biologie des populations et écologie",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "68",
+       "children": [
+        {
+         "name": "Biologie des organismes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 5
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 5
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "E21C",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "F24D",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G03G",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C22C",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 4
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "LSH-2",
+     "children": [
+      {
+       "name": "72",
+       "children": [
+        {
+         "name": "Épistémologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "F01M",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "25",
+       "children": [
+        {
+         "name": "Mathématiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C10L",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "A61H",
+   "children": [
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "14",
+       "children": [
+        {
+         "name": "Langues et littératures romanes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "33",
+       "children": [
+        {
+         "name": "Chimie des matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "A61Q",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "48-03",
+       "children": [
+        {
+         "name": "Pharmacologie fondamentale",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 3
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "A01K",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 4
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "67",
+       "children": [
+        {
+         "name": "Biologie des populations et écologie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "20",
+       "children": [
+        {
+         "name": "Anthropologie biologique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 4
+  },
+  {
+   "name": "C07K",
+   "children": [
+    {
+     "name": "DEG",
+     "children": [
+      {
+       "name": "02",
+       "children": [
+        {
+         "name": "Droit public",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 7
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "64",
+       "children": [
+        {
+         "name": "Biochimie et biologie moléculaire",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "68",
+       "children": [
+        {
+         "name": "Biologie des organismes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "16",
+       "children": [
+        {
+         "name": "Psychologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 5
+  },
+  {
+   "name": "B05D",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C25D",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "B09C",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "36",
+       "children": [
+        {
+         "name": "Terre solide",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "H01M",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "105",
+       "children": [
+        {
+         "name": "Pétrologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 5
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 6
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 5
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "33",
+       "children": [
+        {
+         "name": "Chimie des matériaux",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "29",
+       "children": [
+        {
+         "name": "Constituants élémentaires",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 6
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "B01D",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 13
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 8
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "37",
+       "children": [
+        {
+         "name": "Météorologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "33",
+       "children": [
+        {
+         "name": "Chimie des matériaux",
+         "size": 4
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "F04D",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C07F",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 6
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "C12M",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "45-02",
+       "children": [
+        {
+         "name": "Parasitologie et mycologie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "C08F",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "49-03",
+       "children": [
+        {
+         "name": "Psychiatrie d'adultes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 4
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "F28D",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 3
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G06T",
+   "children": [
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "23",
+       "children": [
+        {
+         "name": "Géographie physique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "106",
+       "children": [
+        {
+         "name": "Hydrologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 4
+  },
+  {
+   "name": "C07C",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 8
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "49-03",
+       "children": [
+        {
+         "name": "Psychiatrie d'adultes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "B60R",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "A61N",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "29",
+       "children": [
+        {
+         "name": "Constituants élémentaires",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "40",
+       "children": [
+        {
+         "name": "Sciences du médicament",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "43-02",
+       "children": [
+        {
+         "name": "Radiologie et imagerie médicale",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 7
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "53-01",
+       "children": [
+        {
+         "name": "Médecine interne",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "47-02",
+       "children": [
+        {
+         "name": "Cancérologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 5
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "C01B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "Milieux dilués et optique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "C25B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "33",
+       "children": [
+        {
+         "name": "Chimie des matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "A01G",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "67",
+       "children": [
+        {
+         "name": "Biologie des populations et écologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "C04B",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 6
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 6
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "B60T",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "E04D",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C05F",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C08B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "40",
+       "children": [
+        {
+         "name": "Sciences du médicament",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "C08G",
+   "children": [
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "17",
+       "children": [
+        {
+         "name": "Philosophie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "C07D",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "F25B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "C22B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "57-03",
+       "children": [
+        {
+         "name": "biochimie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "B41M",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "B60L",
+   "children": [
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "22",
+       "children": [
+        {
+         "name": "Histoire et civilisations",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G01R",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "61",
+       "children": [
+        {
+         "name": "Génie informatique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "25",
+       "children": [
+        {
+         "name": "Mathématiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "69",
+       "children": [
+        {
+         "name": "Neurosciences",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 5
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "54-03",
+       "children": [
+        {
+         "name": "Gynécologie-obstétrique",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "43-02",
+       "children": [
+        {
+         "name": "Radiologie et imagerie médicale",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "53-01",
+       "children": [
+        {
+         "name": "Médecine interne",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "C12Q",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "45-02",
+       "children": [
+        {
+         "name": "Parasitologie et mycologie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "57-03",
+       "children": [
+        {
+         "name": "biochimie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "F25C",
+   "children": [
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "23",
+       "children": [
+        {
+         "name": "Géographie physique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C08L",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C03C",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 3
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "A01N",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "40",
+       "children": [
+        {
+         "name": "Sciences du médicament",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "45-02",
+       "children": [
+        {
+         "name": "Parasitologie et mycologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "45-03",
+       "children": [
+        {
+         "name": "Maladies infectieuses",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "68",
+       "children": [
+        {
+         "name": "Biologie des organismes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "G21C",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "G21F",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "H04B",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "106",
+       "children": [
+        {
+         "name": "Hydrologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "E02B",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "37",
+       "children": [
+        {
+         "name": "Météorologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "36",
+       "children": [
+        {
+         "name": "Terre solide",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "23",
+       "children": [
+        {
+         "name": "Géographie physique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 4
+  },
+  {
+   "name": "A62D",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "F28G",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G02F",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "C12R",
+   "children": [
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "23",
+       "children": [
+        {
+         "name": "Géographie physique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "H01F",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "B82Y",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "29",
+       "children": [
+        {
+         "name": "Constituants élémentaires",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "B81C",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "D21C",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C01G",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "F02B",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "B61L",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "B29C",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "29",
+       "children": [
+        {
+         "name": "Constituants élémentaires",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G01V",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "35",
+       "children": [
+        {
+         "name": "Structure et évolution de la Terre et des autres planètes",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "Milieux dilués et optique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "36",
+       "children": [
+        {
+         "name": "Terre solide",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 5
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "G10K",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G01T",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "43-01",
+       "children": [
+        {
+         "name": "Biophysique et médecine nucléaire",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "B32B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "A23L",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "20",
+       "children": [
+        {
+         "name": "Anthropologie biologique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "29",
+       "children": [
+        {
+         "name": "Constituants élémentaires",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 4
+  },
+  {
+   "name": "H04J",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G06N",
+   "children": [
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "23",
+       "children": [
+        {
+         "name": "Géographie physique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "F01N",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "C08K",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "33",
+       "children": [
+        {
+         "name": "Chimie des matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "F03G",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G07F",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C23C",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G03F",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "36",
+       "children": [
+        {
+         "name": "Terre solide",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "F04B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "63",
+       "children": [
+        {
+         "name": "Électronique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "A61F",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "Milieux dilués et optique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G16H",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "B63B",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "B62D",
+   "children": [
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "21",
+       "children": [
+        {
+         "name": "Histoire et civilisations anciennes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C40B",
+   "children": [
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "19",
+       "children": [
+        {
+         "name": "Sociologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "H05B",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G01F",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C25C",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "E01F",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G09B",
+   "children": [
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "07",
+       "children": [
+        {
+         "name": "Sciences du langage",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 3
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 4
+  },
+  {
+   "name": "E06B",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C01F",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "37",
+       "children": [
+        {
+         "name": "Météorologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "F04C",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "Milieux dilués et optique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "B01L",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "27",
+       "children": [
+        {
+         "name": "Informatique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "C10G",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "29",
+       "children": [
+        {
+         "name": "Constituants élémentaires",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C12P",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "H04L",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "18",
+       "children": [
+        {
+         "name": "Architecture et Arts",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "23",
+       "children": [
+        {
+         "name": "Géographie physique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "G01S",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "27",
+       "children": [
+        {
+         "name": "Informatique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "63",
+       "children": [
+        {
+         "name": "Électronique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "Milieux dilués et optique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "G08G",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C22F",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C11D",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "H01S",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "C21B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "F42B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "Milieux dilués et optique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "A61M",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "A47J",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "34",
+       "children": [
+        {
+         "name": "Astronomie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "23",
+       "children": [
+        {
+         "name": "Géographie physique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 3
+  },
+  {
+   "name": "B06B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "63",
+       "children": [
+        {
+         "name": "Électronique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "H02J",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "F22B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "Milieux dilués et optique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "B01F",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "A61D",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "H01G",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "29",
+       "children": [
+        {
+         "name": "Constituants élémentaires",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "H01Q",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "63",
+       "children": [
+        {
+         "name": "Électronique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "G11B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C09D",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "45-02",
+       "children": [
+        {
+         "name": "Parasitologie et mycologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 3
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  },
+  {
+   "name": "E02F",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C10B",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "A21D",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "45-02",
+       "children": [
+        {
+         "name": "Parasitologie et mycologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "D01D",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "C10M",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G21K",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "G01B",
+   "children": [
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "E04H",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 1
+  },
+  {
+   "name": "B64G",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "34",
+       "children": [
+        {
+         "name": "Astronomie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 1
+  }
+ ],
+ "size": 140
+}

@@ -12,13 +12,13 @@
 
   <script>
     const color = d3.scaleOrdinal(d3.schemePaired);
-    d3.json('./JSON/HierarchieDiscipline-800.json').then(data => {
+    d3.json('./JSON/CIBValHierarchieDiscipline-800.json').then(data => {
       Sunburst()
 	  .data(data)
         .label('name')
-        .size('size')
+        .size('value')
         .color((d, parent) => color(parent ? parent.data.name : null))
-        .tooltipContent((d, node) => `Size: <i>${node.size}</i>`)
+        .tooltipContent((d, node) => `Size: <i>${node.value}</i>`)
         (document.getElementById('chart'));
     });
   </script>

@@ -1,0 +1,2750 @@
+{
+ "nodes": [
+  {
+   "name": "B23K"
+  },
+  {
+   "name": "TRANSVERSE"
+  },
+  {
+   "name": "100"
+  },
+  {
+   "name": "Science"
+  },
+  {
+   "name": "A61K"
+  },
+  {
+   "name": "Sciences"
+  },
+  {
+   "name": "31"
+  },
+  {
+   "name": "Chimie théorique"
+  },
+  {
+   "name": "A61B"
+  },
+  {
+   "name": "60"
+  },
+  {
+   "name": "Mécanique"
+  },
+  {
+   "name": "A01H"
+  },
+  {
+   "name": "101"
+  },
+  {
+   "name": "Sciences Agronomiques"
+  },
+  {
+   "name": "C09K"
+  },
+  {
+   "name": "28"
+  },
+  {
+   "name": "Milieux denses et matériaux"
+  },
+  {
+   "name": "103"
+  },
+  {
+   "name": "Ingéniérie"
+  },
+  {
+   "name": "H04N"
+  },
+  {
+   "name": "B01J"
+  },
+  {
+   "name": "C02F"
+  },
+  {
+   "name": "Autres"
+  },
+  {
+   "name": "1000"
+  },
+  {
+   "name": "?"
+  },
+  {
+   "name": "C30B"
+  },
+  {
+   "name": "H01L"
+  },
+  {
+   "name": "G10L"
+  },
+  {
+   "name": "E03F"
+  },
+  {
+   "name": "H04W"
+  },
+  {
+   "name": "102"
+  },
+  {
+   "name": "Géoscience"
+  },
+  {
+   "name": "G02B"
+  },
+  {
+   "name": "E21B"
+  },
+  {
+   "name": "G06Q"
+  },
+  {
+   "name": "104"
+  },
+  {
+   "name": "Traitement"
+  },
+  {
+   "name": "H01J"
+  },
+  {
+   "name": "G06F"
+  },
+  {
+   "name": "Pharmacie"
+  },
+  {
+   "name": "41"
+  },
+  {
+   "name": "Sciences biologiques"
+  },
+  {
+   "name": "G01N"
+  },
+  {
+   "name": "C08J"
+  },
+  {
+   "name": "F03B"
+  },
+  {
+   "name": "C12N"
+  },
+  {
+   "name": "DEG"
+  },
+  {
+   "name": "02"
+  },
+  {
+   "name": "Droit public"
+  },
+  {
+   "name": "67"
+  },
+  {
+   "name": "Biologie des populations et écologie"
+  },
+  {
+   "name": "05"
+  },
+  {
+   "name": "Sciences économiques"
+  },
+  {
+   "name": "E21C"
+  },
+  {
+   "name": "F24D"
+  },
+  {
+   "name": "G03G"
+  },
+  {
+   "name": "C22C"
+  },
+  {
+   "name": "F01M"
+  },
+  {
+   "name": "25"
+  },
+  {
+   "name": "Mathématiques"
+  },
+  {
+   "name": "45-02"
+  },
+  {
+   "name": "Parasitologie et mycologie"
+  },
+  {
+   "name": "C10L"
+  },
+  {
+   "name": "A61H"
+  },
+  {
+   "name": "LSH-1"
+  },
+  {
+   "name": "14"
+  },
+  {
+   "name": "Langues et littératures romanes"
+  },
+  {
+   "name": "A61Q"
+  },
+  {
+   "name": "A01K"
+  },
+  {
+   "name": "C07K"
+  },
+  {
+   "name": "B05D"
+  },
+  {
+   "name": "32"
+  },
+  {
+   "name": "Chimie organique"
+  },
+  {
+   "name": "40"
+  },
+  {
+   "name": "Sciences du médicament"
+  },
+  {
+   "name": "C25D"
+  },
+  {
+   "name": "B09C"
+  },
+  {
+   "name": "58-03"
+  },
+  {
+   "name": "Sciences anatomiques et physiologiques"
+  },
+  {
+   "name": "H01M"
+  },
+  {
+   "name": "37"
+  },
+  {
+   "name": "Météorologie"
+  },
+  {
+   "name": "B01D"
+  },
+  {
+   "name": "62"
+  },
+  {
+   "name": "Énergétique"
+  },
+  {
+   "name": "F04D"
+  },
+  {
+   "name": "C07F"
+  },
+  {
+   "name": "C12M"
+  },
+  {
+   "name": "C08F"
+  },
+  {
+   "name": "F28D"
+  },
+  {
+   "name": "G06T"
+  },
+  {
+   "name": "23"
+  },
+  {
+   "name": "Géographie physique"
+  },
+  {
+   "name": "C07C"
+  },
+  {
+   "name": "21"
+  },
+  {
+   "name": "Histoire et civilisations anciennes"
+  },
+  {
+   "name": "B60R"
+  },
+  {
+   "name": "46-01"
+  },
+  {
+   "name": "Épidémiologie"
+  },
+  {
+   "name": "A61N"
+  },
+  {
+   "name": "C01B"
+  },
+  {
+   "name": "30"
+  },
+  {
+   "name": "Milieux dilués et optique"
+  },
+  {
+   "name": "65"
+  },
+  {
+   "name": "Biologie cellulaire"
+  },
+  {
+   "name": "C25B"
+  },
+  {
+   "name": "68"
+  },
+  {
+   "name": "Biologie des organismes"
+  },
+  {
+   "name": "06"
+  },
+  {
+   "name": "Sciences de gestion"
+  },
+  {
+   "name": "A01G"
+  },
+  {
+   "name": "C04B"
+  },
+  {
+   "name": "B60T"
+  },
+  {
+   "name": "E04D"
+  },
+  {
+   "name": "C05F"
+  },
+  {
+   "name": "C08B"
+  },
+  {
+   "name": "C08G"
+  },
+  {
+   "name": "17"
+  },
+  {
+   "name": "Philosophie"
+  },
+  {
+   "name": "C07D"
+  },
+  {
+   "name": "F25B"
+  },
+  {
+   "name": "C22B"
+  },
+  {
+   "name": "B41M"
+  },
+  {
+   "name": "B60L"
+  },
+  {
+   "name": "22"
+  },
+  {
+   "name": "Histoire et civilisations"
+  },
+  {
+   "name": "G01R"
+  },
+  {
+   "name": "48-03"
+  },
+  {
+   "name": "Pharmacologie fondamentale"
+  },
+  {
+   "name": "C12Q"
+  },
+  {
+   "name": "F25C"
+  },
+  {
+   "name": "C08L"
+  },
+  {
+   "name": "C03C"
+  },
+  {
+   "name": "A01N"
+  },
+  {
+   "name": "G21C"
+  },
+  {
+   "name": "G21F"
+  },
+  {
+   "name": "H04B"
+  },
+  {
+   "name": "106"
+  },
+  {
+   "name": "Hydrologie"
+  },
+  {
+   "name": "E02B"
+  },
+  {
+   "name": "A62D"
+  },
+  {
+   "name": "F28G"
+  },
+  {
+   "name": "39"
+  },
+  {
+   "name": "Sciences physico-chimiques et technologies pharmaceutiques"
+  },
+  {
+   "name": "G02F"
+  },
+  {
+   "name": "C12R"
+  },
+  {
+   "name": "H01F"
+  },
+  {
+   "name": "B82Y"
+  },
+  {
+   "name": "B81C"
+  },
+  {
+   "name": "43-02"
+  },
+  {
+   "name": "Radiologie et imagerie médicale"
+  },
+  {
+   "name": "D21C"
+  },
+  {
+   "name": "29"
+  },
+  {
+   "name": "Constituants élémentaires"
+  },
+  {
+   "name": "54-03"
+  },
+  {
+   "name": "Gynécologie-obstétrique"
+  },
+  {
+   "name": "C01G"
+  },
+  {
+   "name": "34"
+  },
+  {
+   "name": "Astronomie"
+  },
+  {
+   "name": "F02B"
+  },
+  {
+   "name": "B61L"
+  },
+  {
+   "name": "10"
+  },
+  {
+   "name": "Littératures comparées"
+  },
+  {
+   "name": "105"
+  },
+  {
+   "name": "Pétrologie"
+  },
+  {
+   "name": "63"
+  },
+  {
+   "name": "Électronique"
+  },
+  {
+   "name": "B29C"
+  },
+  {
+   "name": "G01V"
+  },
+  {
+   "name": "35"
+  },
+  {
+   "name": "Structure et évolution de la Terre et des autres planètes"
+  },
+  {
+   "name": "G10K"
+  },
+  {
+   "name": "01"
+  },
+  {
+   "name": "Droit privé et sciences criminelles"
+  },
+  {
+   "name": "33"
+  },
+  {
+   "name": "Chimie des matériaux"
+  },
+  {
+   "name": "G01T"
+  },
+  {
+   "name": "43-01"
+  },
+  {
+   "name": "Biophysique et médecine nucléaire"
+  },
+  {
+   "name": "B32B"
+  },
+  {
+   "name": "07"
+  },
+  {
+   "name": "Sciences du langage"
+  },
+  {
+   "name": "A23L"
+  },
+  {
+   "name": "H04J"
+  },
+  {
+   "name": "G06N"
+  },
+  {
+   "name": "F01N"
+  },
+  {
+   "name": "64"
+  },
+  {
+   "name": "Biochimie et biologie moléculaire"
+  },
+  {
+   "name": "57-03"
+  },
+  {
+   "name": "biochimie"
+  },
+  {
+   "name": "61"
+  },
+  {
+   "name": "Génie informatique"
+  },
+  {
+   "name": "C08K"
+  },
+  {
+   "name": "F03G"
+  },
+  {
+   "name": "G07F"
+  },
+  {
+   "name": "66"
+  },
+  {
+   "name": "Physiologie"
+  },
+  {
+   "name": "C23C"
+  },
+  {
+   "name": "G03F"
+  },
+  {
+   "name": "F04B"
+  },
+  {
+   "name": "A61F"
+  },
+  {
+   "name": "G16H"
+  },
+  {
+   "name": "B63B"
+  },
+  {
+   "name": "B62D"
+  },
+  {
+   "name": "C40B"
+  },
+  {
+   "name": "19"
+  },
+  {
+   "name": "Sociologie"
+  },
+  {
+   "name": "36"
+  },
+  {
+   "name": "Terre solide"
+  },
+  {
+   "name": "H05B"
+  },
+  {
+   "name": "G01F"
+  },
+  {
+   "name": "C25C"
+  },
+  {
+   "name": "E01F"
+  },
+  {
+   "name": "G09B"
+  },
+  {
+   "name": "E06B"
+  },
+  {
+   "name": "49-03"
+  },
+  {
+   "name": "Psychiatrie d'adultes"
+  },
+  {
+   "name": "C01F"
+  },
+  {
+   "name": "F04C"
+  },
+  {
+   "name": "B01L"
+  },
+  {
+   "name": "27"
+  },
+  {
+   "name": "Informatique"
+  },
+  {
+   "name": "C10G"
+  },
+  {
+   "name": "C12P"
+  },
+  {
+   "name": "H04L"
+  },
+  {
+   "name": "G01S"
+  },
+  {
+   "name": "G08G"
+  },
+  {
+   "name": "C22F"
+  },
+  {
+   "name": "C11D"
+  },
+  {
+   "name": "04"
+  },
+  {
+   "name": "Science politique"
+  },
+  {
+   "name": "H01S"
+  },
+  {
+   "name": "57-02"
+  },
+  {
+   "name": "Chirurgie buccale"
+  },
+  {
+   "name": "C21B"
+  },
+  {
+   "name": "F42B"
+  },
+  {
+   "name": "18"
+  },
+  {
+   "name": "Architecture et Arts"
+  },
+  {
+   "name": "A61M"
+  },
+  {
+   "name": "A47J"
+  },
+  {
+   "name": "20"
+  },
+  {
+   "name": "Anthropologie biologique"
+  },
+  {
+   "name": "B06B"
+  },
+  {
+   "name": "H02J"
+  },
+  {
+   "name": "LSH-2"
+  },
+  {
+   "name": "72"
+  },
+  {
+   "name": "Épistémologie"
+  },
+  {
+   "name": "16"
+  },
+  {
+   "name": "Psychologie"
+  },
+  {
+   "name": "F22B"
+  },
+  {
+   "name": "B01F"
+  },
+  {
+   "name": "A61D"
+  },
+  {
+   "name": "H01G"
+  },
+  {
+   "name": "H01Q"
+  },
+  {
+   "name": "G11B"
+  },
+  {
+   "name": "69"
+  },
+  {
+   "name": "Neurosciences"
+  },
+  {
+   "name": "C09D"
+  },
+  {
+   "name": "E02F"
+  },
+  {
+   "name": "53-01"
+  },
+  {
+   "name": "Médecine interne"
+  },
+  {
+   "name": "C10B"
+  },
+  {
+   "name": "A21D"
+  },
+  {
+   "name": "D01D"
+  },
+  {
+   "name": "45-03"
+  },
+  {
+   "name": "Maladies infectieuses"
+  },
+  {
+   "name": "C10M"
+  },
+  {
+   "name": "G21K"
+  },
+  {
+   "name": "G01B"
+  },
+  {
+   "name": "E04H"
+  },
+  {
+   "name": "B64G"
+  },
+  {
+   "name": "47-02"
+  },
+  {
+   "name": "Cancérologie"
+  }
+ ],
+ "links": [
+  {
+   "source": 0,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 1,
+   "target": 2,
+   "value": 134
+  },
+  {
+   "source": 2,
+   "target": 3,
+   "value": 134
+  },
+  {
+   "source": 4,
+   "target": 5,
+   "value": 31
+  },
+  {
+   "source": 5,
+   "target": 6,
+   "value": 162
+  },
+  {
+   "source": 6,
+   "target": 7,
+   "value": 162
+  },
+  {
+   "source": 8,
+   "target": 5,
+   "value": 7
+  },
+  {
+   "source": 5,
+   "target": 9,
+   "value": 23
+  },
+  {
+   "source": 9,
+   "target": 10,
+   "value": 23
+  },
+  {
+   "source": 11,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 1,
+   "target": 12,
+   "value": 57
+  },
+  {
+   "source": 12,
+   "target": 13,
+   "value": 57
+  },
+  {
+   "source": 14,
+   "target": 5,
+   "value": 5
+  },
+  {
+   "source": 5,
+   "target": 15,
+   "value": 45
+  },
+  {
+   "source": 15,
+   "target": 16,
+   "value": 45
+  },
+  {
+   "source": 14,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 1,
+   "target": 17,
+   "value": 39
+  },
+  {
+   "source": 17,
+   "target": 18,
+   "value": 39
+  },
+  {
+   "source": 19,
+   "target": 1,
+   "value": 3
+  },
+  {
+   "source": 20,
+   "target": 5,
+   "value": 22
+  },
+  {
+   "source": 21,
+   "target": 22,
+   "value": 1
+  },
+  {
+   "source": 22,
+   "target": 23,
+   "value": 1
+  },
+  {
+   "source": 23,
+   "target": 24,
+   "value": 1
+  },
+  {
+   "source": 25,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 26,
+   "target": 1,
+   "value": 5
+  },
+  {
+   "source": 27,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 28,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 29,
+   "target": 1,
+   "value": 4
+  },
+  {
+   "source": 1,
+   "target": 30,
+   "value": 14
+  },
+  {
+   "source": 30,
+   "target": 31,
+   "value": 14
+  },
+  {
+   "source": 32,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 33,
+   "target": 1,
+   "value": 3
+  },
+  {
+   "source": 34,
+   "target": 1,
+   "value": 12
+  },
+  {
+   "source": 1,
+   "target": 35,
+   "value": 27
+  },
+  {
+   "source": 35,
+   "target": 36,
+   "value": 27
+  },
+  {
+   "source": 37,
+   "target": 5,
+   "value": 5
+  },
+  {
+   "source": 38,
+   "target": 5,
+   "value": 36
+  },
+  {
+   "source": 25,
+   "target": 39,
+   "value": 2
+  },
+  {
+   "source": 39,
+   "target": 40,
+   "value": 85
+  },
+  {
+   "source": 40,
+   "target": 41,
+   "value": 85
+  },
+  {
+   "source": 42,
+   "target": 5,
+   "value": 27
+  },
+  {
+   "source": 42,
+   "target": 39,
+   "value": 25
+  },
+  {
+   "source": 43,
+   "target": 1,
+   "value": 4
+  },
+  {
+   "source": 44,
+   "target": 39,
+   "value": 2
+  },
+  {
+   "source": 45,
+   "target": 39,
+   "value": 19
+  },
+  {
+   "source": 34,
+   "target": 46,
+   "value": 7
+  },
+  {
+   "source": 46,
+   "target": 47,
+   "value": 3
+  },
+  {
+   "source": 47,
+   "target": 48,
+   "value": 3
+  },
+  {
+   "source": 21,
+   "target": 5,
+   "value": 52
+  },
+  {
+   "source": 5,
+   "target": 49,
+   "value": 22
+  },
+  {
+   "source": 49,
+   "target": 50,
+   "value": 22
+  },
+  {
+   "source": 29,
+   "target": 46,
+   "value": 1
+  },
+  {
+   "source": 46,
+   "target": 51,
+   "value": 5
+  },
+  {
+   "source": 51,
+   "target": 52,
+   "value": 5
+  },
+  {
+   "source": 53,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 21,
+   "target": 1,
+   "value": 36
+  },
+  {
+   "source": 44,
+   "target": 1,
+   "value": 5
+  },
+  {
+   "source": 54,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 34,
+   "target": 5,
+   "value": 16
+  },
+  {
+   "source": 55,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 56,
+   "target": 1,
+   "value": 4
+  },
+  {
+   "source": 57,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 5,
+   "target": 58,
+   "value": 9
+  },
+  {
+   "source": 58,
+   "target": 59,
+   "value": 9
+  },
+  {
+   "source": 21,
+   "target": 39,
+   "value": 23
+  },
+  {
+   "source": 39,
+   "target": 60,
+   "value": 24
+  },
+  {
+   "source": 60,
+   "target": 61,
+   "value": 24
+  },
+  {
+   "source": 62,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 63,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 64,
+   "target": 65,
+   "value": 2
+  },
+  {
+   "source": 65,
+   "target": 66,
+   "value": 2
+  },
+  {
+   "source": 67,
+   "target": 5,
+   "value": 4
+  },
+  {
+   "source": 26,
+   "target": 5,
+   "value": 12
+  },
+  {
+   "source": 68,
+   "target": 1,
+   "value": 5
+  },
+  {
+   "source": 69,
+   "target": 46,
+   "value": 1
+  },
+  {
+   "source": 70,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 5,
+   "target": 71,
+   "value": 15
+  },
+  {
+   "source": 71,
+   "target": 72,
+   "value": 15
+  },
+  {
+   "source": 4,
+   "target": 39,
+   "value": 21
+  },
+  {
+   "source": 39,
+   "target": 73,
+   "value": 8
+  },
+  {
+   "source": 73,
+   "target": 74,
+   "value": 8
+  },
+  {
+   "source": 75,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 76,
+   "target": 1,
+   "value": 3
+  },
+  {
+   "source": 62,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 39,
+   "target": 77,
+   "value": 51
+  },
+  {
+   "source": 77,
+   "target": 78,
+   "value": 51
+  },
+  {
+   "source": 79,
+   "target": 1,
+   "value": 6
+  },
+  {
+   "source": 5,
+   "target": 80,
+   "value": 10
+  },
+  {
+   "source": 80,
+   "target": 81,
+   "value": 10
+  },
+  {
+   "source": 82,
+   "target": 5,
+   "value": 26
+  },
+  {
+   "source": 5,
+   "target": 83,
+   "value": 79
+  },
+  {
+   "source": 83,
+   "target": 84,
+   "value": 79
+  },
+  {
+   "source": 85,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 86,
+   "target": 5,
+   "value": 6
+  },
+  {
+   "source": 87,
+   "target": 39,
+   "value": 5
+  },
+  {
+   "source": 88,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 89,
+   "target": 1,
+   "value": 3
+  },
+  {
+   "source": 90,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 64,
+   "target": 91,
+   "value": 13
+  },
+  {
+   "source": 91,
+   "target": 92,
+   "value": 13
+  },
+  {
+   "source": 4,
+   "target": 1,
+   "value": 16
+  },
+  {
+   "source": 44,
+   "target": 5,
+   "value": 5
+  },
+  {
+   "source": 38,
+   "target": 1,
+   "value": 8
+  },
+  {
+   "source": 68,
+   "target": 39,
+   "value": 4
+  },
+  {
+   "source": 93,
+   "target": 5,
+   "value": 9
+  },
+  {
+   "source": 44,
+   "target": 64,
+   "value": 4
+  },
+  {
+   "source": 64,
+   "target": 94,
+   "value": 4
+  },
+  {
+   "source": 94,
+   "target": 95,
+   "value": 4
+  },
+  {
+   "source": 96,
+   "target": 1,
+   "value": 5
+  },
+  {
+   "source": 39,
+   "target": 97,
+   "value": 3
+  },
+  {
+   "source": 97,
+   "target": 98,
+   "value": 3
+  },
+  {
+   "source": 42,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 38,
+   "target": 39,
+   "value": 6
+  },
+  {
+   "source": 99,
+   "target": 5,
+   "value": 6
+  },
+  {
+   "source": 100,
+   "target": 5,
+   "value": 4
+  },
+  {
+   "source": 5,
+   "target": 101,
+   "value": 14
+  },
+  {
+   "source": 101,
+   "target": 102,
+   "value": 14
+  },
+  {
+   "source": 5,
+   "target": 103,
+   "value": 32
+  },
+  {
+   "source": 103,
+   "target": 104,
+   "value": 32
+  },
+  {
+   "source": 105,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 5,
+   "target": 106,
+   "value": 7
+  },
+  {
+   "source": 106,
+   "target": 107,
+   "value": 7
+  },
+  {
+   "source": 46,
+   "target": 108,
+   "value": 1
+  },
+  {
+   "source": 108,
+   "target": 109,
+   "value": 1
+  },
+  {
+   "source": 99,
+   "target": 1,
+   "value": 3
+  },
+  {
+   "source": 110,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 111,
+   "target": 1,
+   "value": 12
+  },
+  {
+   "source": 20,
+   "target": 1,
+   "value": 5
+  },
+  {
+   "source": 110,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 112,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 113,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 114,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 115,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 116,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 64,
+   "target": 117,
+   "value": 1
+  },
+  {
+   "source": 117,
+   "target": 118,
+   "value": 1
+  },
+  {
+   "source": 69,
+   "target": 1,
+   "value": 10
+  },
+  {
+   "source": 119,
+   "target": 5,
+   "value": 7
+  },
+  {
+   "source": 120,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 121,
+   "target": 5,
+   "value": 4
+  },
+  {
+   "source": 122,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 123,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 64,
+   "target": 124,
+   "value": 2
+  },
+  {
+   "source": 124,
+   "target": 125,
+   "value": 2
+  },
+  {
+   "source": 126,
+   "target": 5,
+   "value": 5
+  },
+  {
+   "source": 79,
+   "target": 5,
+   "value": 16
+  },
+  {
+   "source": 67,
+   "target": 39,
+   "value": 3
+  },
+  {
+   "source": 39,
+   "target": 127,
+   "value": 4
+  },
+  {
+   "source": 127,
+   "target": 128,
+   "value": 4
+  },
+  {
+   "source": 129,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 130,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 45,
+   "target": 5,
+   "value": 23
+  },
+  {
+   "source": 131,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 37,
+   "target": 39,
+   "value": 2
+  },
+  {
+   "source": 132,
+   "target": 1,
+   "value": 3
+  },
+  {
+   "source": 129,
+   "target": 39,
+   "value": 3
+  },
+  {
+   "source": 133,
+   "target": 39,
+   "value": 7
+  },
+  {
+   "source": 14,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 134,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 135,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 136,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 1,
+   "target": 137,
+   "value": 5
+  },
+  {
+   "source": 137,
+   "target": 138,
+   "value": 5
+  },
+  {
+   "source": 8,
+   "target": 1,
+   "value": 5
+  },
+  {
+   "source": 121,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 11,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 93,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 42,
+   "target": 1,
+   "value": 14
+  },
+  {
+   "source": 139,
+   "target": 1,
+   "value": 3
+  },
+  {
+   "source": 99,
+   "target": 39,
+   "value": 12
+  },
+  {
+   "source": 82,
+   "target": 1,
+   "value": 4
+  },
+  {
+   "source": 140,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 141,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 116,
+   "target": 5,
+   "value": 4
+  },
+  {
+   "source": 39,
+   "target": 142,
+   "value": 1
+  },
+  {
+   "source": 142,
+   "target": 143,
+   "value": 1
+  },
+  {
+   "source": 144,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 69,
+   "target": 39,
+   "value": 7
+  },
+  {
+   "source": 45,
+   "target": 1,
+   "value": 7
+  },
+  {
+   "source": 145,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 146,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 147,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 148,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 39,
+   "target": 149,
+   "value": 4
+  },
+  {
+   "source": 149,
+   "target": 150,
+   "value": 4
+  },
+  {
+   "source": 151,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 147,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 5,
+   "target": 152,
+   "value": 8
+  },
+  {
+   "source": 152,
+   "target": 153,
+   "value": 8
+  },
+  {
+   "source": 126,
+   "target": 39,
+   "value": 7
+  },
+  {
+   "source": 39,
+   "target": 154,
+   "value": 3
+  },
+  {
+   "source": 154,
+   "target": 155,
+   "value": 3
+  },
+  {
+   "source": 156,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 5,
+   "target": 157,
+   "value": 3
+  },
+  {
+   "source": 157,
+   "target": 158,
+   "value": 3
+  },
+  {
+   "source": 56,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 11,
+   "target": 39,
+   "value": 4
+  },
+  {
+   "source": 68,
+   "target": 5,
+   "value": 4
+  },
+  {
+   "source": 159,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 139,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 34,
+   "target": 39,
+   "value": 4
+  },
+  {
+   "source": 160,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 34,
+   "target": 64,
+   "value": 4
+  },
+  {
+   "source": 38,
+   "target": 64,
+   "value": 4
+  },
+  {
+   "source": 64,
+   "target": 161,
+   "value": 2
+  },
+  {
+   "source": 161,
+   "target": 162,
+   "value": 2
+  },
+  {
+   "source": 90,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 1,
+   "target": 163,
+   "value": 1
+  },
+  {
+   "source": 163,
+   "target": 164,
+   "value": 1
+  },
+  {
+   "source": 5,
+   "target": 165,
+   "value": 11
+  },
+  {
+   "source": 165,
+   "target": 166,
+   "value": 11
+  },
+  {
+   "source": 167,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 168,
+   "target": 5,
+   "value": 6
+  },
+  {
+   "source": 5,
+   "target": 169,
+   "value": 3
+  },
+  {
+   "source": 169,
+   "target": 170,
+   "value": 3
+  },
+  {
+   "source": 171,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 69,
+   "target": 5,
+   "value": 5
+  },
+  {
+   "source": 46,
+   "target": 172,
+   "value": 1
+  },
+  {
+   "source": 172,
+   "target": 173,
+   "value": 1
+  },
+  {
+   "source": 37,
+   "target": 1,
+   "value": 3
+  },
+  {
+   "source": 5,
+   "target": 174,
+   "value": 10
+  },
+  {
+   "source": 174,
+   "target": 175,
+   "value": 10
+  },
+  {
+   "source": 176,
+   "target": 39,
+   "value": 2
+  },
+  {
+   "source": 39,
+   "target": 177,
+   "value": 1
+  },
+  {
+   "source": 177,
+   "target": 178,
+   "value": 1
+  },
+  {
+   "source": 115,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 116,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 93,
+   "target": 39,
+   "value": 3
+  },
+  {
+   "source": 168,
+   "target": 1,
+   "value": 3
+  },
+  {
+   "source": 179,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 64,
+   "target": 180,
+   "value": 3
+  },
+  {
+   "source": 180,
+   "target": 181,
+   "value": 3
+  },
+  {
+   "source": 182,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 183,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 184,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 185,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 144,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 86,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 139,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 5,
+   "target": 186,
+   "value": 1
+  },
+  {
+   "source": 186,
+   "target": 187,
+   "value": 1
+  },
+  {
+   "source": 39,
+   "target": 188,
+   "value": 9
+  },
+  {
+   "source": 188,
+   "target": 189,
+   "value": 9
+  },
+  {
+   "source": 146,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 5,
+   "target": 190,
+   "value": 3
+  },
+  {
+   "source": 190,
+   "target": 191,
+   "value": 3
+  },
+  {
+   "source": 192,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 193,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 194,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 5,
+   "target": 195,
+   "value": 1
+  },
+  {
+   "source": 195,
+   "target": 196,
+   "value": 1
+  },
+  {
+   "source": 197,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 198,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 133,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 199,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 200,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 201,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 202,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 203,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 198,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 204,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 64,
+   "target": 205,
+   "value": 2
+  },
+  {
+   "source": 205,
+   "target": 206,
+   "value": 2
+  },
+  {
+   "source": 111,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 5,
+   "target": 207,
+   "value": 6
+  },
+  {
+   "source": 207,
+   "target": 208,
+   "value": 6
+  },
+  {
+   "source": 26,
+   "target": 39,
+   "value": 4
+  },
+  {
+   "source": 192,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 126,
+   "target": 1,
+   "value": 6
+  },
+  {
+   "source": 209,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 210,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 100,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 211,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 134,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 212,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 213,
+   "target": 64,
+   "value": 2
+  },
+  {
+   "source": 119,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 63,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 214,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 88,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 39,
+   "target": 215,
+   "value": 2
+  },
+  {
+   "source": 215,
+   "target": 216,
+   "value": 2
+  },
+  {
+   "source": 217,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 218,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 219,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 88,
+   "target": 5,
+   "value": 4
+  },
+  {
+   "source": 129,
+   "target": 1,
+   "value": 5
+  },
+  {
+   "source": 5,
+   "target": 220,
+   "value": 7
+  },
+  {
+   "source": 220,
+   "target": 221,
+   "value": 7
+  },
+  {
+   "source": 213,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 222,
+   "target": 5,
+   "value": 4
+  },
+  {
+   "source": 76,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 139,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 223,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 224,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 225,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 223,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 226,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 227,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 110,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 228,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 38,
+   "target": 46,
+   "value": 1
+  },
+  {
+   "source": 46,
+   "target": 229,
+   "value": 1
+  },
+  {
+   "source": 229,
+   "target": 230,
+   "value": 1
+  },
+  {
+   "source": 219,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 231,
+   "target": 5,
+   "value": 4
+  },
+  {
+   "source": 39,
+   "target": 232,
+   "value": 1
+  },
+  {
+   "source": 232,
+   "target": 233,
+   "value": 1
+  },
+  {
+   "source": 8,
+   "target": 39,
+   "value": 5
+  },
+  {
+   "source": 225,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 231,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 87,
+   "target": 5,
+   "value": 4
+  },
+  {
+   "source": 234,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 235,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 224,
+   "target": 64,
+   "value": 3
+  },
+  {
+   "source": 64,
+   "target": 236,
+   "value": 1
+  },
+  {
+   "source": 236,
+   "target": 237,
+   "value": 1
+  },
+  {
+   "source": 238,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 239,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 64,
+   "target": 240,
+   "value": 3
+  },
+  {
+   "source": 240,
+   "target": 241,
+   "value": 3
+  },
+  {
+   "source": 242,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 33,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 243,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 223,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 228,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 56,
+   "target": 244,
+   "value": 1
+  },
+  {
+   "source": 244,
+   "target": 245,
+   "value": 1
+  },
+  {
+   "source": 245,
+   "target": 246,
+   "value": 1
+  },
+  {
+   "source": 69,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 64,
+   "target": 247,
+   "value": 1
+  },
+  {
+   "source": 247,
+   "target": 248,
+   "value": 1
+  },
+  {
+   "source": 67,
+   "target": 1,
+   "value": 4
+  },
+  {
+   "source": 185,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 249,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 182,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 250,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 182,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 251,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 252,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 134,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 120,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 90,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 19,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 213,
+   "target": 1,
+   "value": 3
+  },
+  {
+   "source": 253,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 90,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 254,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 219,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 20,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 5,
+   "target": 255,
+   "value": 2
+  },
+  {
+   "source": 255,
+   "target": 256,
+   "value": 2
+  },
+  {
+   "source": 257,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 239,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 258,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 257,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 243,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 29,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 121,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 39,
+   "target": 259,
+   "value": 2
+  },
+  {
+   "source": 259,
+   "target": 260,
+   "value": 2
+  },
+  {
+   "source": 68,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 261,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 262,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 87,
+   "target": 1,
+   "value": 1
+  },
+  {
+   "source": 19,
+   "target": 46,
+   "value": 1
+  },
+  {
+   "source": 43,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 239,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 4,
+   "target": 64,
+   "value": 1
+  },
+  {
+   "source": 263,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 79,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 39,
+   "target": 264,
+   "value": 1
+  },
+  {
+   "source": 264,
+   "target": 265,
+   "value": 1
+  },
+  {
+   "source": 266,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 217,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 267,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 182,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 268,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 213,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 269,
+   "target": 1,
+   "value": 2
+  },
+  {
+   "source": 224,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 270,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 253,
+   "target": 5,
+   "value": 1
+  },
+  {
+   "source": 39,
+   "target": 271,
+   "value": 1
+  },
+  {
+   "source": 271,
+   "target": 272,
+   "value": 1
+  }
+ ]
+}
