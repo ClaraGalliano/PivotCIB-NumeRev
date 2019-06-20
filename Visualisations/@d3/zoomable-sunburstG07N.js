@@ -23,7 +23,7 @@
     };
 
 const {require} = new observablehq.Library;
-d3.json('./JSON/CIBValHierarchieDiscipline-1200Titre.json').then(data => {
+d3.json('./JSON/G06FCIBValHierarchieDiscipline-1200Titre.json').then(data => {
 
         console.log(data);
         const root = partition(data);

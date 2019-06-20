@@ -1,0 +1,361 @@
+{
+ "nodes": [
+  {
+   "name": "B01D"
+  },
+  {
+   "name": "TRANSVERSE"
+  },
+  {
+   "name": "101"
+  },
+  {
+   "name": "Sciences Agronomiques"
+  },
+  {
+   "name": "Sciences"
+  },
+  {
+   "name": "31"
+  },
+  {
+   "name": "Chimie théorique"
+  },
+  {
+   "name": "62"
+  },
+  {
+   "name": "Énergétique"
+  },
+  {
+   "name": "Pharmacie"
+  },
+  {
+   "name": "41"
+  },
+  {
+   "name": "Sciences biologiques"
+  },
+  {
+   "name": "35"
+  },
+  {
+   "name": "Structure et évolution de la Terre et des autres planètes"
+  },
+  {
+   "name": "29"
+  },
+  {
+   "name": "Constituants élémentaires"
+  },
+  {
+   "name": "32"
+  },
+  {
+   "name": "Chimie organique"
+  },
+  {
+   "name": "46-01"
+  },
+  {
+   "name": "Épidémiologie"
+  },
+  {
+   "name": "100"
+  },
+  {
+   "name": "Science"
+  },
+  {
+   "name": "60"
+  },
+  {
+   "name": "Mécanique"
+  },
+  {
+   "name": "103"
+  },
+  {
+   "name": "Ingéniérie"
+  },
+  {
+   "name": "58-03"
+  },
+  {
+   "name": "Sciences anatomiques et physiologiques"
+  },
+  {
+   "name": "33"
+  },
+  {
+   "name": "Chimie des matériaux"
+  },
+  {
+   "name": "37"
+  },
+  {
+   "name": "Météorologie"
+  },
+  {
+   "name": "45-02"
+  },
+  {
+   "name": "Parasitologie et mycologie"
+  },
+  {
+   "name": "28"
+  },
+  {
+   "name": "Milieux denses et matériaux"
+  },
+  {
+   "name": "102"
+  },
+  {
+   "name": "Géoscience"
+  },
+  {
+   "name": "65"
+  },
+  {
+   "name": "Biologie cellulaire"
+  },
+  {
+   "name": "104"
+  },
+  {
+   "name": "Traitement"
+  },
+  {
+   "name": "LSH-2"
+  },
+  {
+   "name": "72"
+  },
+  {
+   "name": "Épistémologie"
+  }
+ ],
+ "links": [
+  {
+   "source": 0,
+   "target": 1,
+   "value": 35
+  },
+  {
+   "source": 1,
+   "target": 2,
+   "value": 3
+  },
+  {
+   "source": 2,
+   "target": 3,
+   "value": 3
+  },
+  {
+   "source": 0,
+   "target": 4,
+   "value": 115
+  },
+  {
+   "source": 4,
+   "target": 5,
+   "value": 31
+  },
+  {
+   "source": 5,
+   "target": 6,
+   "value": 31
+  },
+  {
+   "source": 4,
+   "target": 7,
+   "value": 47
+  },
+  {
+   "source": 7,
+   "target": 8,
+   "value": 47
+  },
+  {
+   "source": 0,
+   "target": 9,
+   "value": 16
+  },
+  {
+   "source": 9,
+   "target": 10,
+   "value": 4
+  },
+  {
+   "source": 10,
+   "target": 11,
+   "value": 4
+  },
+  {
+   "source": 4,
+   "target": 12,
+   "value": 2
+  },
+  {
+   "source": 12,
+   "target": 13,
+   "value": 2
+  },
+  {
+   "source": 4,
+   "target": 14,
+   "value": 5
+  },
+  {
+   "source": 14,
+   "target": 15,
+   "value": 5
+  },
+  {
+   "source": 4,
+   "target": 16,
+   "value": 2
+  },
+  {
+   "source": 16,
+   "target": 17,
+   "value": 2
+  },
+  {
+   "source": 9,
+   "target": 18,
+   "value": 1
+  },
+  {
+   "source": 18,
+   "target": 19,
+   "value": 1
+  },
+  {
+   "source": 1,
+   "target": 20,
+   "value": 17
+  },
+  {
+   "source": 20,
+   "target": 21,
+   "value": 17
+  },
+  {
+   "source": 4,
+   "target": 22,
+   "value": 7
+  },
+  {
+   "source": 22,
+   "target": 23,
+   "value": 7
+  },
+  {
+   "source": 1,
+   "target": 24,
+   "value": 11
+  },
+  {
+   "source": 24,
+   "target": 25,
+   "value": 11
+  },
+  {
+   "source": 9,
+   "target": 26,
+   "value": 6
+  },
+  {
+   "source": 26,
+   "target": 27,
+   "value": 6
+  },
+  {
+   "source": 4,
+   "target": 28,
+   "value": 14
+  },
+  {
+   "source": 28,
+   "target": 29,
+   "value": 14
+  },
+  {
+   "source": 4,
+   "target": 30,
+   "value": 2
+  },
+  {
+   "source": 30,
+   "target": 31,
+   "value": 2
+  },
+  {
+   "source": 9,
+   "target": 32,
+   "value": 5
+  },
+  {
+   "source": 32,
+   "target": 33,
+   "value": 5
+  },
+  {
+   "source": 4,
+   "target": 34,
+   "value": 4
+  },
+  {
+   "source": 34,
+   "target": 35,
+   "value": 4
+  },
+  {
+   "source": 1,
+   "target": 36,
+   "value": 2
+  },
+  {
+   "source": 36,
+   "target": 37,
+   "value": 2
+  },
+  {
+   "source": 4,
+   "target": 38,
+   "value": 1
+  },
+  {
+   "source": 38,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 1,
+   "target": 40,
+   "value": 2
+  },
+  {
+   "source": 40,
+   "target": 41,
+   "value": 2
+  },
+  {
+   "source": 0,
+   "target": 42,
+   "value": 1
+  },
+  {
+   "source": 42,
+   "target": 43,
+   "value": 1
+  },
+  {
+   "source": 43,
+   "target": 44,
+   "value": 1
+  }
+ ]
+}

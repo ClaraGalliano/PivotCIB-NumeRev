@@ -1,0 +1,417 @@
+{
+ "nodes": [
+  {
+   "name": "G06F"
+  },
+  {
+   "name": "Sciences"
+  },
+  {
+   "name": "60"
+  },
+  {
+   "name": "Mécanique"
+  },
+  {
+   "name": "62"
+  },
+  {
+   "name": "Énergétique"
+  },
+  {
+   "name": "TRANSVERSE"
+  },
+  {
+   "name": "103"
+  },
+  {
+   "name": "Ingéniérie"
+  },
+  {
+   "name": "31"
+  },
+  {
+   "name": "Chimie théorique"
+  },
+  {
+   "name": "Pharmacie"
+  },
+  {
+   "name": "41"
+  },
+  {
+   "name": "Sciences biologiques"
+  },
+  {
+   "name": "58-03"
+  },
+  {
+   "name": "Sciences anatomiques et physiologiques"
+  },
+  {
+   "name": "100"
+  },
+  {
+   "name": "Science"
+  },
+  {
+   "name": "34"
+  },
+  {
+   "name": "Astronomie"
+  },
+  {
+   "name": "67"
+  },
+  {
+   "name": "Biologie des populations et écologie"
+  },
+  {
+   "name": "LSH-1"
+  },
+  {
+   "name": "10"
+  },
+  {
+   "name": "Littératures comparées"
+  },
+  {
+   "name": "104"
+  },
+  {
+   "name": "Traitement"
+  },
+  {
+   "name": "102"
+  },
+  {
+   "name": "Géoscience"
+  },
+  {
+   "name": "07"
+  },
+  {
+   "name": "Sciences du langage"
+  },
+  {
+   "name": "25"
+  },
+  {
+   "name": "Mathématiques"
+  },
+  {
+   "name": "30"
+  },
+  {
+   "name": "Milieux dilués et optique"
+  },
+  {
+   "name": "DEG"
+  },
+  {
+   "name": "04"
+  },
+  {
+   "name": "Science politique"
+  },
+  {
+   "name": "57-02"
+  },
+  {
+   "name": "Chirurgie buccale"
+  },
+  {
+   "name": "20"
+  },
+  {
+   "name": "Anthropologie biologique"
+  },
+  {
+   "name": "27"
+  },
+  {
+   "name": "Informatique"
+  },
+  {
+   "name": "65"
+  },
+  {
+   "name": "Biologie cellulaire"
+  },
+  {
+   "name": "28"
+  },
+  {
+   "name": "Milieux denses et matériaux"
+  },
+  {
+   "name": "21"
+  },
+  {
+   "name": "Histoire et civilisations anciennes"
+  },
+  {
+   "name": "68"
+  },
+  {
+   "name": "Biologie des organismes"
+  }
+ ],
+ "links": [
+  {
+   "source": 0,
+   "target": 1,
+   "value": 36
+  },
+  {
+   "source": 1,
+   "target": 2,
+   "value": 8
+  },
+  {
+   "source": 2,
+   "target": 3,
+   "value": 8
+  },
+  {
+   "source": 1,
+   "target": 4,
+   "value": 3
+  },
+  {
+   "source": 4,
+   "target": 5,
+   "value": 3
+  },
+  {
+   "source": 0,
+   "target": 6,
+   "value": 8
+  },
+  {
+   "source": 6,
+   "target": 7,
+   "value": 2
+  },
+  {
+   "source": 7,
+   "target": 8,
+   "value": 2
+  },
+  {
+   "source": 1,
+   "target": 9,
+   "value": 8
+  },
+  {
+   "source": 9,
+   "target": 10,
+   "value": 8
+  },
+  {
+   "source": 0,
+   "target": 11,
+   "value": 6
+  },
+  {
+   "source": 11,
+   "target": 12,
+   "value": 1
+  },
+  {
+   "source": 12,
+   "target": 13,
+   "value": 1
+  },
+  {
+   "source": 11,
+   "target": 14,
+   "value": 4
+  },
+  {
+   "source": 14,
+   "target": 15,
+   "value": 4
+  },
+  {
+   "source": 6,
+   "target": 16,
+   "value": 4
+  },
+  {
+   "source": 16,
+   "target": 17,
+   "value": 4
+  },
+  {
+   "source": 1,
+   "target": 18,
+   "value": 1
+  },
+  {
+   "source": 18,
+   "target": 19,
+   "value": 1
+  },
+  {
+   "source": 1,
+   "target": 20,
+   "value": 2
+  },
+  {
+   "source": 20,
+   "target": 21,
+   "value": 2
+  },
+  {
+   "source": 0,
+   "target": 22,
+   "value": 4
+  },
+  {
+   "source": 22,
+   "target": 23,
+   "value": 1
+  },
+  {
+   "source": 23,
+   "target": 24,
+   "value": 1
+  },
+  {
+   "source": 6,
+   "target": 25,
+   "value": 1
+  },
+  {
+   "source": 25,
+   "target": 26,
+   "value": 1
+  },
+  {
+   "source": 6,
+   "target": 27,
+   "value": 1
+  },
+  {
+   "source": 27,
+   "target": 28,
+   "value": 1
+  },
+  {
+   "source": 22,
+   "target": 29,
+   "value": 1
+  },
+  {
+   "source": 29,
+   "target": 30,
+   "value": 1
+  },
+  {
+   "source": 1,
+   "target": 31,
+   "value": 6
+  },
+  {
+   "source": 31,
+   "target": 32,
+   "value": 6
+  },
+  {
+   "source": 1,
+   "target": 33,
+   "value": 2
+  },
+  {
+   "source": 33,
+   "target": 34,
+   "value": 2
+  },
+  {
+   "source": 0,
+   "target": 35,
+   "value": 1
+  },
+  {
+   "source": 35,
+   "target": 36,
+   "value": 1
+  },
+  {
+   "source": 36,
+   "target": 37,
+   "value": 1
+  },
+  {
+   "source": 11,
+   "target": 38,
+   "value": 1
+  },
+  {
+   "source": 38,
+   "target": 39,
+   "value": 1
+  },
+  {
+   "source": 22,
+   "target": 40,
+   "value": 1
+  },
+  {
+   "source": 40,
+   "target": 41,
+   "value": 1
+  },
+  {
+   "source": 1,
+   "target": 42,
+   "value": 3
+  },
+  {
+   "source": 42,
+   "target": 43,
+   "value": 3
+  },
+  {
+   "source": 1,
+   "target": 44,
+   "value": 1
+  },
+  {
+   "source": 44,
+   "target": 45,
+   "value": 1
+  },
+  {
+   "source": 1,
+   "target": 46,
+   "value": 1
+  },
+  {
+   "source": 46,
+   "target": 47,
+   "value": 1
+  },
+  {
+   "source": 22,
+   "target": 48,
+   "value": 1
+  },
+  {
+   "source": 48,
+   "target": 49,
+   "value": 1
+  },
+  {
+   "source": 1,
+   "target": 50,
+   "value": 1
+  },
+  {
+   "source": 50,
+   "target": 51,
+   "value": 1
+  }
+ ]
+}

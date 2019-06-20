@@ -1,0 +1,84 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "B01D",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "ChimieTheorique",
+         "value": 3,
+         "children": [
+          {
+           "name": "Conductivite protonique dans les hydrates",
+           "value": 1
+          },
+          {
+           "name": "Simulation par ordinateur de l'extraction liquide-liquide des cations alcalins par des ionophores de type calixarene-couronne et valinomycine",
+           "value": 1
+          },
+          {
+           "name": "Elimination des nitrates des eaux polluées par les procédés à membranes échangeuses d'ions",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "33",
+       "children": [
+        {
+         "name": "ChimieDesMateriaux",
+         "value": 1,
+         "children": [
+          {
+           "name": "Réacteur catalytique membranaire pour le traitement de l'eau par ozonation",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      }
+     ],
+     "value": 2
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "value": 2,
+         "children": [
+          {
+           "name": "Pervaporation de jus alimentaires et industriels avec rétention de volatils",
+           "value": 1
+          },
+          {
+           "name": "Elimination catalytique de polluants sulfures (h#2s, cos, cs#2) des effluents gazeux. Effet et modelisation de la sulfatation",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      }
+     ],
+     "value": 1
+    }
+   ],
+   "value": 2
+  }
+ ],
+ "value": 1
+}

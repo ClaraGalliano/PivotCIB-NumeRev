@@ -1,0 +1,272 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "G06F",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 8
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 8
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "34",
+       "children": [
+        {
+         "name": "Astronomie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "67",
+       "children": [
+        {
+         "name": "Biologie des populations et écologie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "25",
+       "children": [
+        {
+         "name": "Mathématiques",
+         "size": 6
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "Milieux dilués et optique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "27",
+       "children": [
+        {
+         "name": "Informatique",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "68",
+       "children": [
+        {
+         "name": "Biologie des organismes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 11
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "57-02",
+       "children": [
+        {
+         "name": "Chirurgie buccale",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "10",
+       "children": [
+        {
+         "name": "Littératures comparées",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "07",
+       "children": [
+        {
+         "name": "Sciences du langage",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "20",
+       "children": [
+        {
+         "name": "Anthropologie biologique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "21",
+       "children": [
+        {
+         "name": "Histoire et civilisations anciennes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "DEG",
+     "children": [
+      {
+       "name": "04",
+       "children": [
+        {
+         "name": "Science politique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 5
+  }
+ ],
+ "size": 1
+}

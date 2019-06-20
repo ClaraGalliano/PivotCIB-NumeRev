@@ -24,13 +24,16 @@ seuilScore = 1200
 
 Titres = True #présence des titres dans les graphes (à n'utiliser qu'après avoir beaucoup seuillé ^_^)
 
+SelectIPC = 'B01D' # si différent de False permet de filtrer le corpus initial sur le critère IPC3
+                    # doit contenir dans ce cas une valeur de CIB à 4 digits 
+                    #qui si elle n'est pas 
 IPCDef = GetIPCDefinition()
 for Titres in [True, False]:
     for seuilScore in [0, 600, 800, 1000, 1200]: #étapes arbitraires 
-        FichierJsonGrapheSeuille = 'CIBDiscipline-' + str(seuilScore)+Titres*'Titre'
-        FichierJsonHierarchie = "CibHierarchieDiscipline-" + str(seuilScore)+Titres*'Titre'
-        FichierJsonJoli = "CIBDisciplineJolis-" + str(seuilScore)+Titres*'Titre'
-        FichierJsonHierarchieValuee = "CIBValHierarchieDiscipline-" + str(seuilScore)+Titres*'Titre'
+        FichierJsonGrapheSeuille = (SelectIPC not in [False])*SelectIPC +'CIBDiscipline-' + str(seuilScore)+Titres*'Titre'
+        FichierJsonHierarchie =  (SelectIPC not in [False])*SelectIPC + "CibHierarchieDiscipline-" + str(seuilScore)+Titres*'Titre'
+        FichierJsonJoli =  (SelectIPC not in [False])*SelectIPC + "CIBDisciplineJolis-" + str(seuilScore)+Titres*'Titre'
+        FichierJsonHierarchieValuee =  (SelectIPC not in [False])*SelectIPC + "CIBValHierarchieDiscipline-" + str(seuilScore)+Titres*'Titre'
         LstThz2 = []
         evites = 0 # compteur des entrées ignorée (consistance ou seuillage)
         for Thz in LstThz:
@@ -65,7 +68,9 @@ for Titres in [True, False]:
         
 
         discipDomSectionDiscip = dict()
+        if SelectIPC:
         
+            LstThz2 = [thz for thz in LstThz2 if thz['IPC3'] == SelectIPC]
         for thz in LstThz2:
             if thz['IPC3'] in discipDomSectionDiscip.keys():
                 if thz['Domaine'] in discipDomSectionDiscip[thz['IPC3']].keys():

@@ -2,9 +2,7 @@
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["md"], function(md){return(
-md`# Collapsible Tree
 
-Click a black node to expand or collapse [the tree](/@mbostock/d3-tidy-tree).`
 )});
   main.variable(observer("chart")).define("chart", ["d3","data","dy","margin","width","dx","tree","diagonal"], function(d3,data,dy,margin,width,dx,tree,diagonal)
 {
@@ -137,7 +135,6 @@ d3.linkHorizontal().x(d => d.y).y(d => d.x)
 d3.tree().nodeSize([dx, dy])
 )});
   main.variable(observer("data")).define("data", ["d3"], function(d3){return(
-d3.json("JSON/HierarchieDiscipline.json")
 )});
   main.variable(observer("dx")).define("dx", function(){return(
 10

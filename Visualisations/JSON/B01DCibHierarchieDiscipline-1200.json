@@ -1,0 +1,54 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "B01D",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "33",
+       "children": [
+        {
+         "name": "Chimie des matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 2
+  }
+ ],
+ "size": 1
+}

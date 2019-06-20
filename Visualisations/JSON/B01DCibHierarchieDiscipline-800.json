@@ -1,0 +1,236 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "B01D",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 17
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 11
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 5
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 31
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 47
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "35",
+       "children": [
+        {
+         "name": "Structure et évolution de la Terre et des autres planètes",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "29",
+       "children": [
+        {
+         "name": "Constituants élémentaires",
+         "size": 5
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 7
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "33",
+       "children": [
+        {
+         "name": "Chimie des matériaux",
+         "size": 14
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "37",
+       "children": [
+        {
+         "name": "Météorologie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 10
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "46-01",
+       "children": [
+        {
+         "name": "Épidémiologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 6
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "45-02",
+       "children": [
+        {
+         "name": "Parasitologie et mycologie",
+         "size": 5
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "LSH-2",
+     "children": [
+      {
+       "name": "72",
+       "children": [
+        {
+         "name": "Épistémologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 4
+  }
+ ],
+ "size": 1
+}

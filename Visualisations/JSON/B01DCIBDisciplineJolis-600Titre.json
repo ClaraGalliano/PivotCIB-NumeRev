@@ -1,0 +1,497 @@
+{
+ "nodes": [
+  {
+   "name": "B01D"
+  },
+  {
+   "name": "TRANSVERSE"
+  },
+  {
+   "name": "101"
+  },
+  {
+   "name": "Sciences Agronomiques"
+  },
+  {
+   "name": "Sciences"
+  },
+  {
+   "name": "31"
+  },
+  {
+   "name": "Chimie théorique"
+  },
+  {
+   "name": "62"
+  },
+  {
+   "name": "Énergétique"
+  },
+  {
+   "name": "Pharmacie"
+  },
+  {
+   "name": "41"
+  },
+  {
+   "name": "Sciences biologiques"
+  },
+  {
+   "name": "35"
+  },
+  {
+   "name": "Structure et évolution de la Terre et des autres planètes"
+  },
+  {
+   "name": "104"
+  },
+  {
+   "name": "Traitement"
+  },
+  {
+   "name": "29"
+  },
+  {
+   "name": "Constituants élémentaires"
+  },
+  {
+   "name": "LSH-2"
+  },
+  {
+   "name": "72"
+  },
+  {
+   "name": "Épistémologie"
+  },
+  {
+   "name": "32"
+  },
+  {
+   "name": "Chimie organique"
+  },
+  {
+   "name": "46-01"
+  },
+  {
+   "name": "Épidémiologie"
+  },
+  {
+   "name": "100"
+  },
+  {
+   "name": "Science"
+  },
+  {
+   "name": "60"
+  },
+  {
+   "name": "Mécanique"
+  },
+  {
+   "name": "57-01"
+  },
+  {
+   "name": "Parodontologie"
+  },
+  {
+   "name": "103"
+  },
+  {
+   "name": "Ingéniérie"
+  },
+  {
+   "name": "58-03"
+  },
+  {
+   "name": "Sciences anatomiques et physiologiques"
+  },
+  {
+   "name": "28"
+  },
+  {
+   "name": "Milieux denses et matériaux"
+  },
+  {
+   "name": "33"
+  },
+  {
+   "name": "Chimie des matériaux"
+  },
+  {
+   "name": "57-03"
+  },
+  {
+   "name": "biochimie"
+  },
+  {
+   "name": "102"
+  },
+  {
+   "name": "Géoscience"
+  },
+  {
+   "name": "37"
+  },
+  {
+   "name": "Météorologie"
+  },
+  {
+   "name": "67"
+  },
+  {
+   "name": "Biologie des populations et écologie"
+  },
+  {
+   "name": "45-02"
+  },
+  {
+   "name": "Parasitologie et mycologie"
+  },
+  {
+   "name": "65"
+  },
+  {
+   "name": "Biologie cellulaire"
+  },
+  {
+   "name": "63"
+  },
+  {
+   "name": "Électronique"
+  },
+  {
+   "name": "106"
+  },
+  {
+   "name": "Hydrologie"
+  },
+  {
+   "name": "LSH-1"
+  },
+  {
+   "name": "18"
+  },
+  {
+   "name": "Architecture et Arts"
+  },
+  {
+   "name": "30"
+  },
+  {
+   "name": "Milieux dilués et optique"
+  },
+  {
+   "name": "20"
+  },
+  {
+   "name": "Anthropologie biologique"
+  }
+ ],
+ "links": [
+  {
+   "source": 0,
+   "target": 1,
+   "value": 95
+  },
+  {
+   "source": 1,
+   "target": 2,
+   "value": 15
+  },
+  {
+   "source": 2,
+   "target": 3,
+   "value": 15
+  },
+  {
+   "source": 0,
+   "target": 4,
+   "value": 305
+  },
+  {
+   "source": 4,
+   "target": 5,
+   "value": 81
+  },
+  {
+   "source": 5,
+   "target": 6,
+   "value": 81
+  },
+  {
+   "source": 4,
+   "target": 7,
+   "value": 141
+  },
+  {
+   "source": 7,
+   "target": 8,
+   "value": 141
+  },
+  {
+   "source": 0,
+   "target": 9,
+   "value": 32
+  },
+  {
+   "source": 9,
+   "target": 10,
+   "value": 10
+  },
+  {
+   "source": 10,
+   "target": 11,
+   "value": 10
+  },
+  {
+   "source": 4,
+   "target": 12,
+   "value": 5
+  },
+  {
+   "source": 12,
+   "target": 13,
+   "value": 5
+  },
+  {
+   "source": 1,
+   "target": 14,
+   "value": 8
+  },
+  {
+   "source": 14,
+   "target": 15,
+   "value": 8
+  },
+  {
+   "source": 4,
+   "target": 16,
+   "value": 8
+  },
+  {
+   "source": 16,
+   "target": 17,
+   "value": 8
+  },
+  {
+   "source": 0,
+   "target": 18,
+   "value": 5
+  },
+  {
+   "source": 18,
+   "target": 19,
+   "value": 5
+  },
+  {
+   "source": 19,
+   "target": 20,
+   "value": 5
+  },
+  {
+   "source": 4,
+   "target": 21,
+   "value": 3
+  },
+  {
+   "source": 21,
+   "target": 22,
+   "value": 3
+  },
+  {
+   "source": 9,
+   "target": 23,
+   "value": 1
+  },
+  {
+   "source": 23,
+   "target": 24,
+   "value": 1
+  },
+  {
+   "source": 1,
+   "target": 25,
+   "value": 39
+  },
+  {
+   "source": 25,
+   "target": 26,
+   "value": 39
+  },
+  {
+   "source": 4,
+   "target": 27,
+   "value": 14
+  },
+  {
+   "source": 27,
+   "target": 28,
+   "value": 14
+  },
+  {
+   "source": 9,
+   "target": 29,
+   "value": 1
+  },
+  {
+   "source": 29,
+   "target": 30,
+   "value": 1
+  },
+  {
+   "source": 1,
+   "target": 31,
+   "value": 22
+  },
+  {
+   "source": 31,
+   "target": 32,
+   "value": 22
+  },
+  {
+   "source": 9,
+   "target": 33,
+   "value": 12
+  },
+  {
+   "source": 33,
+   "target": 34,
+   "value": 12
+  },
+  {
+   "source": 4,
+   "target": 35,
+   "value": 13
+  },
+  {
+   "source": 35,
+   "target": 36,
+   "value": 13
+  },
+  {
+   "source": 4,
+   "target": 37,
+   "value": 28
+  },
+  {
+   "source": 37,
+   "target": 38,
+   "value": 28
+  },
+  {
+   "source": 9,
+   "target": 39,
+   "value": 2
+  },
+  {
+   "source": 39,
+   "target": 40,
+   "value": 2
+  },
+  {
+   "source": 1,
+   "target": 41,
+   "value": 7
+  },
+  {
+   "source": 41,
+   "target": 42,
+   "value": 7
+  },
+  {
+   "source": 4,
+   "target": 43,
+   "value": 4
+  },
+  {
+   "source": 43,
+   "target": 44,
+   "value": 4
+  },
+  {
+   "source": 4,
+   "target": 45,
+   "value": 2
+  },
+  {
+   "source": 45,
+   "target": 46,
+   "value": 2
+  },
+  {
+   "source": 9,
+   "target": 47,
+   "value": 6
+  },
+  {
+   "source": 47,
+   "target": 48,
+   "value": 6
+  },
+  {
+   "source": 4,
+   "target": 49,
+   "value": 4
+  },
+  {
+   "source": 49,
+   "target": 50,
+   "value": 4
+  },
+  {
+   "source": 4,
+   "target": 51,
+   "value": 1
+  },
+  {
+   "source": 51,
+   "target": 52,
+   "value": 1
+  },
+  {
+   "source": 1,
+   "target": 53,
+   "value": 4
+  },
+  {
+   "source": 53,
+   "target": 54,
+   "value": 4
+  },
+  {
+   "source": 0,
+   "target": 55,
+   "value": 3
+  },
+  {
+   "source": 55,
+   "target": 56,
+   "value": 1
+  },
+  {
+   "source": 56,
+   "target": 57,
+   "value": 1
+  },
+  {
+   "source": 4,
+   "target": 58,
+   "value": 1
+  },
+  {
+   "source": 58,
+   "target": 59,
+   "value": 1
+  },
+  {
+   "source": 55,
+   "target": 60,
+   "value": 2
+  },
+  {
+   "source": 60,
+   "target": 61,
+   "value": 2
+  }
+ ]
+}

@@ -1,0 +1,544 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "G06F",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 40
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 12
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 24
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 37
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "29",
+       "children": [
+        {
+         "name": "Constituants élémentaires",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "25",
+       "children": [
+        {
+         "name": "Mathématiques",
+         "size": 26
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "63",
+       "children": [
+        {
+         "name": "Électronique",
+         "size": 6
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "37",
+       "children": [
+        {
+         "name": "Météorologie",
+         "size": 5
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "Milieux dilués et optique",
+         "size": 9
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "27",
+       "children": [
+        {
+         "name": "Informatique",
+         "size": 12
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "33",
+       "children": [
+        {
+         "name": "Chimie des matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "34",
+       "children": [
+        {
+         "name": "Astronomie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "67",
+       "children": [
+        {
+         "name": "Biologie des populations et écologie",
+         "size": 15
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "36",
+       "children": [
+        {
+         "name": "Terre solide",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "35",
+       "children": [
+        {
+         "name": "Structure et évolution de la Terre et des autres planètes",
+         "size": 6
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "68",
+       "children": [
+        {
+         "name": "Biologie des organismes",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "69",
+       "children": [
+        {
+         "name": "Neurosciences",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "26",
+       "children": [
+        {
+         "name": "Mathématiques appliquées et applications des mathématiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "66",
+       "children": [
+        {
+         "name": "Physiologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 21
+    },
+    {
+     "name": "DEG",
+     "children": [
+      {
+       "name": "02",
+       "children": [
+        {
+         "name": "Droit public",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "06",
+       "children": [
+        {
+         "name": "Sciences de gestion",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "04",
+       "children": [
+        {
+         "name": "Science politique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 27
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 12
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 27
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "106",
+       "children": [
+        {
+         "name": "Hydrologie",
+         "size": 6
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 8
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 6
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 9
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 24
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "40",
+       "children": [
+        {
+         "name": "Sciences du médicament",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "45-02",
+       "children": [
+        {
+         "name": "Parasitologie et mycologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "57-02",
+       "children": [
+        {
+         "name": "Chirurgie buccale",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "39",
+       "children": [
+        {
+         "name": "Sciences physico-chimiques et technologies pharmaceutiques",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "45-03",
+       "children": [
+        {
+         "name": "Maladies infectieuses",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 7
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "23",
+       "children": [
+        {
+         "name": "Géographie physique",
+         "size": 6
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "10",
+       "children": [
+        {
+         "name": "Littératures comparées",
+         "size": 7
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "24",
+       "children": [
+        {
+         "name": "Aménagement de l'espace",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "14",
+       "children": [
+        {
+         "name": "Langues et littératures romanes",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "07",
+       "children": [
+        {
+         "name": "Sciences du langage",
+         "size": 5
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "09",
+       "children": [
+        {
+         "name": "Langue et littérature françaises",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "21",
+       "children": [
+        {
+         "name": "Histoire et civilisations anciennes",
+         "size": 5
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "20",
+       "children": [
+        {
+         "name": "Anthropologie biologique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "22",
+       "children": [
+        {
+         "name": "Histoire et civilisations",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "19",
+       "children": [
+        {
+         "name": "Sociologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 10
+    },
+    {
+     "name": "LSH-2",
+     "children": [
+      {
+       "name": "72",
+       "children": [
+        {
+         "name": "Épistémologie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    },
+    {
+     "name": "Autres",
+     "children": [
+      {
+       "name": "1000",
+       "children": [
+        {
+         "name": "?",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 7
+  }
+ ],
+ "size": 1
+}

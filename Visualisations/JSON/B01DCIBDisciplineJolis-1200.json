@@ -1,0 +1,73 @@
+{
+ "nodes": [
+  {
+   "name": "B01D"
+  },
+  {
+   "name": "Sciences"
+  },
+  {
+   "name": "31"
+  },
+  {
+   "name": "Chimie théorique"
+  },
+  {
+   "name": "TRANSVERSE"
+  },
+  {
+   "name": "100"
+  },
+  {
+   "name": "Science"
+  },
+  {
+   "name": "33"
+  },
+  {
+   "name": "Chimie des matériaux"
+  }
+ ],
+ "links": [
+  {
+   "source": 0,
+   "target": 1,
+   "value": 4
+  },
+  {
+   "source": 1,
+   "target": 2,
+   "value": 3
+  },
+  {
+   "source": 2,
+   "target": 3,
+   "value": 3
+  },
+  {
+   "source": 0,
+   "target": 4,
+   "value": 2
+  },
+  {
+   "source": 4,
+   "target": 5,
+   "value": 2
+  },
+  {
+   "source": 5,
+   "target": 6,
+   "value": 2
+  },
+  {
+   "source": 1,
+   "target": 7,
+   "value": 1
+  },
+  {
+   "source": 7,
+   "target": 8,
+   "value": 1
+  }
+ ]
+}

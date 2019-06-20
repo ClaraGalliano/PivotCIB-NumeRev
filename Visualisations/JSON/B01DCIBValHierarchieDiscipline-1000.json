@@ -1,0 +1,216 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "B01D",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Energetique",
+         "value": 13,
+         "children": [
+          {
+           "name": "Déstabilisation des émulsions pétrolières par des polymères triblocs siliconés : relation structure - propriétés interfaciales",
+           "value": 1
+          },
+          {
+           "name": "Déshydratation des alcools par pervaporation sur membranes hydrophiles : relation entre la nature et la structure des matériaux membranaires et le pouvoir séparateur des films",
+           "value": 1
+          },
+          {
+           "name": "Transfert de matière en pervaporation application à la deshydratation de mélanges complexes",
+           "value": 1
+          },
+          {
+           "name": "Etude de la distillation membranaire sous vide pour le dessalement d'eau de mer : de l'analyse des mécanismes de transfert à l'optimisation énergétique du procédé",
+           "value": 1
+          },
+          {
+           "name": "Procédés hybrides à membranes pour le prétraitement d'eau de mer avant dessalement par osmose inverse",
+           "value": 1
+          },
+          {
+           "name": "Elaboration de membranes polymères superhydrophiles/superoléophobes pour la filtration deffluents huileux",
+           "value": 1
+          },
+          {
+           "name": "Conception et réalisation de fibres creuses industrielles d'ultrafiltration en poly(fluorure de vinylidène) (PvDF) contenant des copolymères à blocs",
+           "value": 1
+          },
+          {
+           "name": "Étude d'un procédé d'adsorption TSA (Temperature Swing Adsorption) à chauffage et refroidissement indirects",
+           "value": 1
+          },
+          {
+           "name": "Etude du captage post-combustion du CO2 grâce à un procédé TSA (Temperature Swing Adsorption) à chauffage et refroidissements indirects",
+           "value": 1
+          },
+          {
+           "name": "Mise au point de nouvelles membranes de pervaporation pour extraire sélectivement le bioéthanol d’un réacteur de fermentation : étude du procédé",
+           "value": 1
+          },
+          {
+           "name": "Préparation et étude de Membranes Asymétriques Polyalcoxyétherimides (PEI) pour la séparation de composés organiques de l'eau",
+           "value": 1
+          },
+          {
+           "name": "Aspects thermodynamiques du captage des gaz acides à partir du gaz naturel",
+           "value": 1
+          },
+          {
+           "name": "Captage du CO2 par procédé membranaire : application au transport routier",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "ChimieTheorique",
+         "value": 8,
+         "children": [
+          {
+           "name": "Conductivite protonique dans les hydrates",
+           "value": 1
+          },
+          {
+           "name": "Simulation par ordinateur de l'extraction liquide-liquide des cations alcalins par des ionophores de type calixarene-couronne et valinomycine",
+           "value": 1
+          },
+          {
+           "name": "Dissociation de l'eau par les procédés électromembranaires : applications aux solutions de sulfate de sodium et d'hydrogénosulfite de sodium",
+           "value": 1
+          },
+          {
+           "name": "Elimination des nitrates des eaux polluées par les procédés à membranes échangeuses d'ions",
+           "value": 1
+          },
+          {
+           "name": "Layer-by-Layer modification of nanofiltration membranes : development of a regenerable separation layer",
+           "value": 1
+          },
+          {
+           "name": "Etude thermodynamique de la dissolution du dioxyde de carbone dans des solutions aqueuses d'alcanolamines",
+           "value": 1
+          },
+          {
+           "name": "Decomposition catalytique du protoxyde d'azote sur des catalyseurs a base de zeolithe",
+           "value": 1
+          },
+          {
+           "name": "Palladium et palladium modifié substituts des catalyseurs à base de rhodium dans la post-combustion automobile (moteurs à essence)",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "37",
+       "children": [
+        {
+         "name": "Meteorologie",
+         "value": 1,
+         "children": [
+          {
+           "name": "Étude de l'hydrodynamique et des transferts en cuve agitée par microjets",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "33",
+       "children": [
+        {
+         "name": "ChimieDesMateriaux",
+         "value": 4,
+         "children": [
+          {
+           "name": "Synthèse et caractérisation d'une membrane de nanofiltration en polyphosphazène",
+           "value": 1
+          },
+          {
+           "name": "Réacteur catalytique membranaire pour le traitement de l'eau par ozonation",
+           "value": 1
+          },
+          {
+           "name": "Elaboration de membranes polymères composites par électrodéposition cataphorétique : Application à la séparation par pervaporation",
+           "value": 1
+          },
+          {
+           "name": "Elaboration de membranes à partir d’assemblages nano-organisés de particules polymères",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      }
+     ],
+     "value": 4
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "value": 3,
+         "children": [
+          {
+           "name": "Pervaporation de jus alimentaires et industriels avec rétention de volatils",
+           "value": 1
+          },
+          {
+           "name": "Elimination catalytique de polluants sulfures (h#2s, cos, cs#2) des effluents gazeux. Effet et modelisation de la sulfatation",
+           "value": 1
+          },
+          {
+           "name": "Phénomènes électrocinétiques et transferts ioniques dans les membranes poreuses à faibles seuils de coupure : application au traitement des eaux saumâtres",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingenierie",
+         "value": 1,
+         "children": [
+          {
+           "name": "Etude expérimentale et théorique du piégeage et de la réduction des oxydes d'azote des échappements des moteurs automobiles à mélange pauvre par les catalyseurs de type piège à NOx",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      }
+     ],
+     "value": 2
+    }
+   ],
+   "value": 2
+  }
+ ],
+ "value": 1
+}

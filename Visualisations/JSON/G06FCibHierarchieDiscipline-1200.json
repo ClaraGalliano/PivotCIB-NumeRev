@@ -1,0 +1,176 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "G06F",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 4
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "34",
+       "children": [
+        {
+         "name": "Astronomie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "67",
+       "children": [
+        {
+         "name": "Biologie des populations et écologie",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "27",
+       "children": [
+        {
+         "name": "Informatique",
+         "size": 2
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 8
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "10",
+       "children": [
+        {
+         "name": "Littératures comparées",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "07",
+       "children": [
+        {
+         "name": "Sciences du langage",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "21",
+       "children": [
+        {
+         "name": "Histoire et civilisations anciennes",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 3
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    },
+    {
+     "name": "DEG",
+     "children": [
+      {
+       "name": "04",
+       "children": [
+        {
+         "name": "Science politique",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 4
+  }
+ ],
+ "size": 1
+}

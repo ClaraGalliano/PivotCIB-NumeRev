@@ -1,0 +1,84 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "B01D",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 13
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 8
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "37",
+       "children": [
+        {
+         "name": "Météorologie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "33",
+       "children": [
+        {
+         "name": "Chimie des matériaux",
+         "size": 4
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 3
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 1
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 2
+    }
+   ],
+   "size": 2
+  }
+ ],
+ "size": 1
+}

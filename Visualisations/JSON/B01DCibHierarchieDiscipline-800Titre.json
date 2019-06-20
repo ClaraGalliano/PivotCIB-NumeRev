@@ -1,0 +1,944 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "B01D",
+   "children": [
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "101",
+       "children": [
+        {
+         "name": "Sciences Agronomiques",
+         "size": 3,
+         "children": [
+          {
+           "name": "Les isotopes stables (**(18)o, **(2)h) de l'eau dans le continuum sol-plante-atmosphere : consequence pour la vapeur d'eau atmospherique",
+           "size": 1
+          },
+          {
+           "name": "Etude des propriétés perméamétriques à la vapeur d'eau et aux gaz dans deux films : le polyimide 6FDA-m PDA et la polyoléfine TPX®. Approches théoriques",
+           "size": 1
+          },
+          {
+           "name": "Fractionnement isotopique des elements legers au cours de la formation du systeme solaire",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "size": 17,
+         "children": [
+          {
+           "name": "Nouvelle approche du traitement des eaux de piscines : ultrafiltration couplée à une rétention sur résine",
+           "size": 1
+          },
+          {
+           "name": "Nouveaux matériaux filmogènes : les polyorganophosphazenes - caractérisations et propriétés de transport de films denses de polybisphenoxyphosphazene",
+           "size": 1
+          },
+          {
+           "name": "Conception et etude de nouveaux separateurs lamellaires hydrocarbures-eau de type \"spiraloil\"",
+           "size": 1
+          },
+          {
+           "name": "Pervaporation de jus alimentaires et industriels avec rétention de volatils",
+           "size": 1
+          },
+          {
+           "name": "Analyses théorique et expérimentale des cycles Joule-Brayton direct et inversé modifiés par l'utilisation de l'air humide",
+           "size": 1
+          },
+          {
+           "name": "Approche des mecanismes physiques de formation des membranes polymeres asymetriques. Rmn et video-microscopie",
+           "size": 1
+          },
+          {
+           "name": "Elimination catalytique de polluants sulfures (h#2s, cos, cs#2) des effluents gazeux. Effet et modelisation de la sulfatation",
+           "size": 1
+          },
+          {
+           "name": "Etude et mise au point d'un procede utilisant des techniques membranaires pour l'epuration d'effluents liquides acides contenant des traces de metaux lourds",
+           "size": 1
+          },
+          {
+           "name": "Séparation des mélanges eau-amine aliphatique par des procédés à membrane : application à la déshydratation des amines ou à leur extraction",
+           "size": 1
+          },
+          {
+           "name": "Synthèse et caractérisation de catalyseurs à base d'oxyde d'étain et de gallium",
+           "size": 1
+          },
+          {
+           "name": "Interactions polymeres hydrosolubles/particules : role dans le phenomene de colmatage de membranes d'ultrafiltration utilisees pour la production d'eau potable",
+           "size": 1
+          },
+          {
+           "name": "Adsorption de molybdate VI sur billes de gel de chitosane : Application au traitement d'effluents molybdigères",
+           "size": 1
+          },
+          {
+           "name": "Nature et mecanisme du colmatage des membranes d'ultrafiltration en production d'eau potable, application aux techniques de regeneration",
+           "size": 1
+          },
+          {
+           "name": "Etude de systemes energetiques a adsorption modules en temperature : application a la refrigeration",
+           "size": 1
+          },
+          {
+           "name": "Utilisation de la pulvérisation cathodique magnétron pour la mise en oeuvre de la promotion électrochimique de la catalyse appliqué à la réduction catalytique sélective du monoxyde d’azote et à la combustion du propène",
+           "size": 1
+          },
+          {
+           "name": "Etude des proprietes de polymeres organiques impregnes de 7-(4-ethyl-1-methyloctyl)-8-hydroxyquinoleine (kelex 100(s)), utilisables en hydrometallurgie",
+           "size": 1
+          },
+          {
+           "name": "Phénomènes électrocinétiques et transferts ioniques dans les membranes poreuses à faibles seuils de coupure : application au traitement des eaux saumâtres",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingéniérie",
+         "size": 11,
+         "children": [
+          {
+           "name": "Contribution à l'étude du colmatage irréversible en ultrafiltration appliquée au traitement d'eau potable",
+           "size": 1
+          },
+          {
+           "name": "Approche expérimentale par analyse de similitude et modélisation des processus d'échanges entre les couches de glace profonde et les océans liquides dans les corps riches en eau",
+           "size": 1
+          },
+          {
+           "name": "Epuration des eaux résiduaires de l'industrie pétrolière par hydrocyclonage : Mise au point d'un nouveau hydrocyclone triphasique",
+           "size": 1
+          },
+          {
+           "name": "Membranes enduites de polymères hydrophiles : préparation et caractérisation",
+           "size": 1
+          },
+          {
+           "name": "Nouvelle méthodologie dans le traitement des huiles de coupe par ultrafiltration",
+           "size": 1
+          },
+          {
+           "name": "Pervaporation et stripping dans des contacteurs à fibres creuses : Elimination des micropolluants des eaux",
+           "size": 1
+          },
+          {
+           "name": "Séparation de solutions peptidiques modèles par électrodialyse avec membranes d'ultrafiltration",
+           "size": 1
+          },
+          {
+           "name": "Influence de la formulation physico-chimique et des propriétés interfaciales sur la stabilité des émulsions asphaltènes-eau-huile : application à la deshydratation du pétrole.",
+           "size": 1
+          },
+          {
+           "name": "Etude expérimentale et théorique du piégeage et de la réduction des oxydes d'azote des échappements des moteurs automobiles à mélange pauvre par les catalyseurs de type piège à NOx",
+           "size": 1
+          },
+          {
+           "name": "Contribution à l'étude des éléments du groupe du platine en milieu urbain et péri-urbain",
+           "size": 1
+          },
+          {
+           "name": "Étude expérimentale et simulée d'une installation de thermofrigopompe pour la production de froid et le dessalement",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Géoscience",
+         "size": 2,
+         "children": [
+          {
+           "name": "Hydrothermalisme océanique et isotopes du plomb. Implication sur le cycle du Pb lors des échanges océan-lithosphère. Cas de trois sites dans l'océan Pacifique (Bassin nord-fidjien, microplaque de l'Ile de Pâques et puits ODP 504B)",
+           "size": 1
+          },
+          {
+           "name": "Traçage isotopique et chronologie des processus d'altération et de sédimentation par l'étude des déséquilibres U & Th : application aux systèmes lacustres de Magadi (Kenya) et Manyara (Tanzanie)",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "size": 2,
+         "children": [
+          {
+           "name": "Application des fluides supercritiques à l'extraction de composes organochlorés dans des matrices de type sol",
+           "size": 1
+          },
+          {
+           "name": "Etude expérimentale des réactions de carbonatation minérale du C02 dans les roches basiques et ultrabasiques",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 5
+    },
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "Chimie théorique",
+         "size": 31,
+         "children": [
+          {
+           "name": "Proprietes physicochimiques du nitrate d'ethylammonium fondu et de ses melanges avec l'eau a 298 k : comportement des electrolytes dilues dans ces milieux",
+           "size": 1
+          },
+          {
+           "name": "Contribution à l'étude de l'élimination des ions nitrates par nanofiltration",
+           "size": 1
+          },
+          {
+           "name": "La chromatographie en phase supercritique avec le dioxyde de carbone",
+           "size": 1
+          },
+          {
+           "name": "Conductivite protonique dans les hydrates",
+           "size": 1
+          },
+          {
+           "name": "Simulation par ordinateur de l'extraction liquide-liquide des cations alcalins par des ionophores de type calixarene-couronne et valinomycine",
+           "size": 1
+          },
+          {
+           "name": "Etude thermodynamique de la complexation des cations lanthanide trivalents par les anions nitrate en solution aqueuse",
+           "size": 1
+          },
+          {
+           "name": "Destruction catalytique de composes organiques volatils (c. O. V. ) chlores sur oxydes mixtes",
+           "size": 1
+          },
+          {
+           "name": "Electrotransport de l'acide chlorhydrique dans des membranes échangeuses d'ions : reconcentration de cet acide par électrodialyse",
+           "size": 1
+          },
+          {
+           "name": "Équilibres de phases à basse température de systèmes complexes CO2 - hydrocarbures légers - méthanol - eau : mesures et modélisation",
+           "size": 1
+          },
+          {
+           "name": "Molecular simulations of reverse osmosis membranes",
+           "size": 1
+          },
+          {
+           "name": "Absorption sélective de gaz par des liquides ioniques basés sur des anions carboxylates ou des anions tris (pentafluoroethyl) trifluorophosphates",
+           "size": 1
+          },
+          {
+           "name": "Dissociation de l'eau par les procédés électromembranaires : applications aux solutions de sulfate de sodium et d'hydrogénosulfite de sodium",
+           "size": 1
+          },
+          {
+           "name": "Modélisation moléculaire du transport de solutions d'électrolytes à travers des membranes nanoporeuses",
+           "size": 1
+          },
+          {
+           "name": "Elimination des nitrates des eaux polluées par les procédés à membranes échangeuses d'ions",
+           "size": 1
+          },
+          {
+           "name": "Préparation et caractérisation de nouvelles membranes de zéolithe : application à la séparation gazeuse",
+           "size": 1
+          },
+          {
+           "name": "Etude et caractérisation de membranes synthétiques organiques immergées de microfiltration (MF) et d'ultrafiltration (UF) employées pour la production d'eau destinée à la consommation humaine : intensification des opérations de déconditionnement et de nettoyage",
+           "size": 1
+          },
+          {
+           "name": "Mesure et modélisation des conditions de dissociation d'hydrates de gaz stabilisés en vue de l'application au captage du CO2",
+           "size": 1
+          },
+          {
+           "name": "Elaboration et étude structurale de membranes ionomères perfluorées obtenues à partir de solutions",
+           "size": 1
+          },
+          {
+           "name": "Contribution à l'étude des propriétés physico-chimiques des émulsions de bitume",
+           "size": 1
+          },
+          {
+           "name": "Modélisation moléculaire du transfert membranaire",
+           "size": 1
+          },
+          {
+           "name": "Layer-by-Layer modification of nanofiltration membranes : development of a regenerable separation layer",
+           "size": 1
+          },
+          {
+           "name": "Etude thermodynamique de la dissolution du dioxyde de carbone dans des solutions aqueuses d'alcanolamines",
+           "size": 1
+          },
+          {
+           "name": "Membranes modifiees superficiellement par traitement plasma",
+           "size": 1
+          },
+          {
+           "name": "Etude des mecanismes de la coalescence partielle d'une goutte a une interface liquide-liquide",
+           "size": 1
+          },
+          {
+           "name": "Réduction des NOx par le méthane : études des espèces réactives et design du catalyseur",
+           "size": 1
+          },
+          {
+           "name": "Traitement par oxydation catalytique de composés organiques volatils (COV) présents dans l'air de ventilation de fosses à déchets",
+           "size": 1
+          },
+          {
+           "name": "Decomposition catalytique du protoxyde d'azote sur des catalyseurs a base de zeolithe",
+           "size": 1
+          },
+          {
+           "name": "Palladium et palladium modifié substituts des catalyseurs à base de rhodium dans la post-combustion automobile (moteurs à essence)",
+           "size": 1
+          },
+          {
+           "name": "Réduction catalytique sélective des NOx par les hydrocarbures : approches Haut-Débit et microcinétique expérimentale",
+           "size": 1
+          },
+          {
+           "name": "Synthesis of Metal-Organic Framework nanoparticles and mixed-matrix membrane preparation for gas separation and CO2 capture",
+           "size": 1
+          },
+          {
+           "name": "Réduction des NOx par le propène sur des catalyseurs obtenus par incorporation directe de H3PW12O40 et Pt dans des silices mésoporeuses de type MSU et SBA-15",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Énergétique",
+         "size": 47,
+         "children": [
+          {
+           "name": "Déshydratation d'alcools à l'aide de membranes hydrophyles : modélisation du transfert de matière",
+           "size": 1
+          },
+          {
+           "name": "Etude du mécanisme de désémulsification des émulsions de type eau dans pétrole brut par des polymers siliconés",
+           "size": 1
+          },
+          {
+           "name": "Déstabilisation des émulsions pétrolières par des polymères triblocs siliconés : relation structure - propriétés interfaciales",
+           "size": 1
+          },
+          {
+           "name": "Déshydratation des alcools par pervaporation sur membranes hydrophiles : relation entre la nature et la structure des matériaux membranaires et le pouvoir séparateur des films",
+           "size": 1
+          },
+          {
+           "name": "Elimination de composes organohalogenes volatils a l'etat de traces dans l'eau par distillation membranaire sous vide",
+           "size": 1
+          },
+          {
+           "name": "Analyse des transferts en pervaporation : application à la séparation du mélange eau-éthanol",
+           "size": 1
+          },
+          {
+           "name": "Modelisation par reseaux de neurones et conduite d'un pilote d'ultrafiltration pour la production d'eau potable",
+           "size": 1
+          },
+          {
+           "name": "Potabilisation d'une eau de surface par filtration tangentielle sur membranes minérales : étude de traitements physico-chimiques associés",
+           "size": 1
+          },
+          {
+           "name": "Absorption physique de Composés Organiques Volatils par pulvérisation d'émulsion d'huile dans l'eau. Etude thermodynamique et hydrodynamique : Application au calcul des efficacités d'abattement de COV sur effluents synthétiques et réels",
+           "size": 1
+          },
+          {
+           "name": "Déplacement d'une réaction équilibrée par pervaporation : études expérimentales, modélisation et mise au point de membranes catalytiques et séparatrices",
+           "size": 1
+          },
+          {
+           "name": "Etude des mécanismes de formation de \"membranes vertes\" à partir d'un système PVA/eau par une méthode d'inversion de phase originale : LCST-TIPS",
+           "size": 1
+          },
+          {
+           "name": "Transfert de matière en pervaporation application à la deshydratation de mélanges complexes",
+           "size": 1
+          },
+          {
+           "name": "Etude de la distillation membranaire sous vide pour le dessalement d'eau de mer : de l'analyse des mécanismes de transfert à l'optimisation énergétique du procédé",
+           "size": 1
+          },
+          {
+           "name": "Traitement des eaux de rejet des distilleries d'huiles essentielles en vue d'une vamorisation et purification par une technique membranaire : la pervaporation",
+           "size": 1
+          },
+          {
+           "name": "Modélisation multiparamètre du phénomène d'adsorption : détermination du temps de percée des cartouches de masques à gaz",
+           "size": 1
+          },
+          {
+           "name": "Fractionnement par pervaporation de mélanges liquides hydro-organiques partiellement miscibles : mise en évidence du rôle de la structure cristalline des membranes denses sur leurs propriétés de transport",
+           "size": 1
+          },
+          {
+           "name": "Procédés hybrides à membranes pour le prétraitement d'eau de mer avant dessalement par osmose inverse",
+           "size": 1
+          },
+          {
+           "name": "Modélisation moléculaire de la couche active des membranes dosmose inverse et des interactions développées avec des polluants organiques : contribution à la compréhension des transferts dans les membranes denses.",
+           "size": 1
+          },
+          {
+           "name": "Etude des rétrolavages assistés par l'air et contrôle du colmatage résiduel : application à la production d'eau potable en filtration frontale",
+           "size": 1
+          },
+          {
+           "name": "Elaboration de membranes polymères superhydrophiles/superoléophobes pour la filtration deffluents huileux",
+           "size": 1
+          },
+          {
+           "name": "Couplage echange d'ions et ultrafiltration dans un reacteur a membrane pour l'elimination de metaux de l'eau. Modelisation et simulation",
+           "size": 1
+          },
+          {
+           "name": "Transport d'un tensio-actif et d'une émulsion à l'interface d'une membrane d'ultrafiltration",
+           "size": 1
+          },
+          {
+           "name": "Conception et réalisation de fibres creuses industrielles d'ultrafiltration en poly(fluorure de vinylidène) (PvDF) contenant des copolymères à blocs",
+           "size": 1
+          },
+          {
+           "name": "Etude l'évolution des propriétés de surface d'un matériau minéral à porosité contrôlée lors de sa mise en oeuvre dans des tests d'ultrafiltration et de nanofiltration",
+           "size": 1
+          },
+          {
+           "name": "Étude d'un procédé d'adsorption TSA (Temperature Swing Adsorption) à chauffage et refroidissement indirects",
+           "size": 1
+          },
+          {
+           "name": "Étude de la faisabilité d'un procédé d’adsorption gaz-solide pour le traitement des NOx et CO en présence d'eau : application aux émissions de moteurs diesel en espaces confinés",
+           "size": 1
+          },
+          {
+           "name": "Procédés membranaires pour l'élimination des métaux lourds : application de la distillation membranaire à l'élimination de l'Arsenic contenu dans les eaux",
+           "size": 1
+          },
+          {
+           "name": "Procédés de traitement de l'eau de mer en conchyliculture pour la sauvegarde et le maintien de la qualité des mollusques bivalves",
+           "size": 1
+          },
+          {
+           "name": "Etude du captage post-combustion du CO2 grâce à un procédé TSA (Temperature Swing Adsorption) à chauffage et refroidissements indirects",
+           "size": 1
+          },
+          {
+           "name": "Extraction par pervaporation d'esters de solutions aqueuses à l'aide de films denses en polyéther-bloc-amide : influence de la composition du copolymère sur les propriétés de transport",
+           "size": 1
+          },
+          {
+           "name": "Cristallisation discontinue et semi-continue de la glycine : Etude de l’influence d’un anti-solvant",
+           "size": 1
+          },
+          {
+           "name": "Traitement et recuperation de composes organiques volatils (cov) faiblement concentres, contenus dans un effluent gazeux",
+           "size": 1
+          },
+          {
+           "name": "Epuration d'eaux usées par bioréacteur aéré à membranes immergées : intéraction suspension floculée / membrane",
+           "size": 1
+          },
+          {
+           "name": "Etude du couplage de la nanofiltration et de l'électrophorèse",
+           "size": 1
+          },
+          {
+           "name": "Mise au point de nouvelles membranes de pervaporation pour extraire sélectivement le bioéthanol d’un réacteur de fermentation : étude du procédé",
+           "size": 1
+          },
+          {
+           "name": "Préparation et étude de Membranes Asymétriques Polyalcoxyétherimides (PEI) pour la séparation de composés organiques de l'eau",
+           "size": 1
+          },
+          {
+           "name": "Aspects thermodynamiques du captage des gaz acides à partir du gaz naturel",
+           "size": 1
+          },
+          {
+           "name": "Etude des mécanismes de consolidation et d'abrasion du dépôt à l'interface membrane/suspension dans le cas d'une filtration tangentielle de milieux complexes",
+           "size": 1
+          },
+          {
+           "name": "Captage du CO2 par procédé membranaire : application au transport routier",
+           "size": 1
+          },
+          {
+           "name": "Échange d'ions pour la production d'eau très pure : étude des limitations cinétiques par la méthode des micro-colonnes : extension à l'électrodéionisation",
+           "size": 1
+          },
+          {
+           "name": "Nanofiltration de milieux complexes concentrés : applications industrielles et modélisation",
+           "size": 1
+          },
+          {
+           "name": "Caractérisation dynamique et modélisation des transferts de matière au cours du procédé de séparation de phase induite par absorption de vapeurs d'eau",
+           "size": 1
+          },
+          {
+           "name": "Traitement d'effluents industriels par filtration membranaire dynamique à fort cisaillement",
+           "size": 1
+          },
+          {
+           "name": "Maîtrise du niveau d'inclusions lors de la cristallisation d'un produit organique",
+           "size": 1
+          },
+          {
+           "name": "Potentialités de la pervaporation dans les procédés hybrides de séparation",
+           "size": 1
+          },
+          {
+           "name": "Intégration de la pervaporation dans un procédé d'estérification en vue de la réduction des coûts énergétiques",
+           "size": 1
+          },
+          {
+           "name": "Traitement par biofiltration de gaz malodorants issus du co-compostage de déchets verts/boues",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "35",
+       "children": [
+        {
+         "name": "Structure et évolution de la Terre et des autres planètes",
+         "size": 2,
+         "children": [
+          {
+           "name": "Les isotopes stables à l'eau : applications à l'étude du cycle de l'eau et des variations du climat",
+           "size": 1
+          },
+          {
+           "name": "Étude hydrogéologique et hydrochimique du bassin d'Ad-Daww (Syrie)",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "29",
+       "children": [
+        {
+         "name": "Constituants élémentaires",
+         "size": 5,
+         "children": [
+          {
+           "name": "Les émulsions doubles : coalescence et mûrissement de composition",
+           "size": 1
+          },
+          {
+           "name": "Oxydation totale du trichloroéthylène par procédé catalyse post-plasma",
+           "size": 1
+          },
+          {
+           "name": "Modélisation de la structure et de la réactivité de la pérovskite LaFeO3 dopée",
+           "size": 1
+          },
+          {
+           "name": "Relation entre structure et texture de matériaux poreux et l'évaluation de leurs propriétés de piégeage du CO2",
+           "size": 1
+          },
+          {
+           "name": "Réduction catalytique de NOx par les hydrocarbures sur des catalyseurs à base de perovskite : application à la dépollution de moteurs Diesel",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "32",
+       "children": [
+        {
+         "name": "Chimie organique",
+         "size": 2,
+         "children": [
+          {
+           "name": "Microémulsions oxydantes polyphasiques : synthèse et utilisation de catalyseurs amphiphiles optimaux",
+           "size": 1
+          },
+          {
+           "name": "Impact of biological pre-treatment on membrane fouling and micropollutant rejection in water recycling",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mécanique",
+         "size": 7,
+         "children": [
+          {
+           "name": "Caractérisation par capteur optique de l'évolution spatio temporelle du dépôt formé lors de la filtration sur fibre creuse",
+           "size": 1
+          },
+          {
+           "name": "Mécanismes de transport et de rupture des gouttes dans une colonne Kuhni : influence du transfert de matière et application à la simulation de son fonctionnement",
+           "size": 1
+          },
+          {
+           "name": "Formation et résistance au transfert d'un dépôt de colloi͏̈des sur une membrane d'ultrafiltration",
+           "size": 1
+          },
+          {
+           "name": "Étude expérimentale du champ hydrodynamique dans un tube poreux avec transfert de masse pariétal : application à la production d'eau potable par ultrafiltration tangentielle dans les fibres creuses",
+           "size": 1
+          },
+          {
+           "name": "Influence de la coalescence sur l'évolution granulométrique des dispersions liquide-liquide dans les écoulements turbulents en conduite",
+           "size": 1
+          },
+          {
+           "name": "Étude expérimentale d'écoulements diphasiques en fracture",
+           "size": 1
+          },
+          {
+           "name": "Extraction d'acide malique par l'alcool amylique : étude du fonctionnement d'une colonne pulsée",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "33",
+       "children": [
+        {
+         "name": "Chimie des matériaux",
+         "size": 14,
+         "children": [
+          {
+           "name": "Traitement de surfaces polymères à base de copolyester par plasma froid de gaz polymérisables et non polymérisables : Application à la biocompatibilité, la biodégradabilité et à la pervaporation",
+           "size": 1
+          },
+          {
+           "name": "Systèmes moléculaires et matériaux structurés pour la conduction ionique et le transport d’eau",
+           "size": 1
+          },
+          {
+           "name": "Synthèse et caractérisation d'une membrane de nanofiltration en polyphosphazène",
+           "size": 1
+          },
+          {
+           "name": "Membranes Nanostructurées à partir de Copolymères Fluorés",
+           "size": 1
+          },
+          {
+           "name": "Étude des dépôts par polymérisation par plasma d'allylamine : applications à l'optimisation de la déshydratation de l'éthanol par des membranes composites PVA-PAN et à l'endothélialisation du silastic",
+           "size": 1
+          },
+          {
+           "name": "Modification de surface de copolymères P(HB-CO-HV) par polymérisation par plasma de monomères fluorés. Application à la biodégradation et à la déshydratation de l'éthanol par pervaporation",
+           "size": 1
+          },
+          {
+           "name": "Développement de membranes d'osmose inverse incorporant des systèmes de canaux d'eau artificiels",
+           "size": 1
+          },
+          {
+           "name": "Preparation of poly(vinylidene fluoride) (PVDF) membrane by nonsolvent-induced phase separation and investigation into its formation mechanism",
+           "size": 1
+          },
+          {
+           "name": "Réacteur catalytique membranaire pour le traitement de l'eau par ozonation",
+           "size": 1
+          },
+          {
+           "name": "Modifications de surface de membranes polymères par greffage de nouveaux récepteurs induit par plasma : application au transport de métaux",
+           "size": 1
+          },
+          {
+           "name": "Elaboration de membranes polymères composites par électrodéposition cataphorétique : Application à la séparation par pervaporation",
+           "size": 1
+          },
+          {
+           "name": "Elaboration de membranes à partir d’assemblages nano-organisés de particules polymères",
+           "size": 1
+          },
+          {
+           "name": "Étude d’un catalyseur commercial de NH3-SCR à base de zéolithe échangée au cuivre : activité catalytique, sélectivité, stabilité hydrothermale",
+           "size": 1
+          },
+          {
+           "name": "Développement de nouvelles membranes céramiques et hybrides de non oxydes pour la séparation de l'hydrogène",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "37",
+       "children": [
+        {
+         "name": "Météorologie",
+         "size": 2,
+         "children": [
+          {
+           "name": "Étude de l'hydrodynamique et des transferts en cuve agitée par microjets",
+           "size": 1
+          },
+          {
+           "name": "Étude expérimentale et modélisation de l'absorption de dioxyde de soufre en milieu dispersé liquide",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "Milieux denses et matériaux",
+         "size": 4,
+         "children": [
+          {
+           "name": "Préparation des membranes à base de poly(étherimide) fonctionnalisées et à taille de pores contrôlée : application à la séparation sélective des ions et des acides aminés",
+           "size": 1
+          },
+          {
+           "name": "Synthèse, comportement thermique et réactivité de la solution solide gypse-brushite (1-x) CaSO4, 2H2O-xCaHPO4, 2 H2O (x<0,2) et de ses produits de déshydratation",
+           "size": 1
+          },
+          {
+           "name": "Procédé de séparation continu d'hydrates de carbone par chromatographie liquide en simulation de lit mobile",
+           "size": 1
+          },
+          {
+           "name": "Étude du vieillissement en milieu chloré de membranes fibres creuses en poly(fluorure de vinylidène) utilisées dans le traitement de l'eau",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "Biologie cellulaire",
+         "size": 1,
+         "children": [
+          {
+           "name": "Evolution de la biodiversité benthique des vasières subtidales de l’estuaire de la Seine en réponse à la dynamique sédimentaire. De l’approche descriptive à l’approche fonctionnelle",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 10
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "Sciences biologiques",
+         "size": 4,
+         "children": [
+          {
+           "name": "Apprehension des mecanismes de transfert d'eau lors du sechage par atomisation de bases proteiques laitieres et lors de leur rehydratation. Effet de l'environnement glucidique et mineral",
+           "size": 1
+          },
+          {
+           "name": "Les isotopes stables de l'eau (#1#8o, #2h) et la transpiration des plantes aeriennes",
+           "size": 1
+          },
+          {
+           "name": "Les isotopes stables de l'eau (#1#8o, #2h) et la transpiration des plantes aeriennes",
+           "size": 1
+          },
+          {
+           "name": "Extraction de composes d'arome par pervaporation. Relation entre les proprietes physico-chimiques des substances d'arome et leurs transferts a travers des membranes a base de polydimethylsiloxane",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "46-01",
+       "children": [
+        {
+         "name": "Épidémiologie",
+         "size": 1,
+         "children": [
+          {
+           "name": "Etude expérimentale de la bioaccumulation des dérivés du mercure chez une larve d'insecte intra-sédimentaire -hexagenia rigida Ephemeroptera- : incidence de différents facteurs écotoxicologiques",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "Sciences anatomiques et physiologiques",
+         "size": 6,
+         "children": [
+          {
+           "name": "Mesure et représentation des équilibres de phases sous pression de mélanges d'eau, de paraffines et dioxyde de carbone",
+           "size": 1
+          },
+          {
+           "name": "Relaxation magnétique nucléaire dans les solutions ternaires de polyacrylonitrile ou de polyacrylonitrile-co-méthallylsulfonate de sodium : détermination et caractérisation du diagramme de phases",
+           "size": 1
+          },
+          {
+           "name": "Flows in foams : The role of particles, interfaces and slowing down in microgravity",
+           "size": 1
+          },
+          {
+           "name": "Approches expérimentales des mécanismes de formation de membranes de perméation",
+           "size": 1
+          },
+          {
+           "name": "Etude theorique du dihydrate protonne h#5o#2#+ et des deux sous-systemes h#2o et h#3o#+ : proprietes electriques et interactions intermoleculaires pour les etats fondamentaux et les premiers etats excites",
+           "size": 1
+          },
+          {
+           "name": "Canaux ioniques ultimes pour létude du transport ionique",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      },
+      {
+       "name": "45-02",
+       "children": [
+        {
+         "name": "Parasitologie et mycologie",
+         "size": 5,
+         "children": [
+          {
+           "name": "Absorption en colonne garnie et en tour à atomisation : application au traitement de composés organiques volatils",
+           "size": 1
+          },
+          {
+           "name": "Echauffement des lits de charbon actif lors de l'adsorption de composés organiques volatils : étude expérimentale et modélisation",
+           "size": 1
+          },
+          {
+           "name": "Suivi et caractérisation du colmatage par les matières organiques des membranes de microfiltration et d'ultrafiltration : application à la production d'eau potable",
+           "size": 1
+          },
+          {
+           "name": "Étude et modélisation du colmatage de membrane d'ultrafiltration par des suspensions de matières organiques et de particules minérales",
+           "size": 1
+          },
+          {
+           "name": "Elimination par nanofiltration des composés organiques d'une eau de surface prétraitée : caractérisation du carbone organique dissous avant et après nanofiltration",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 4
+    },
+    {
+     "name": "LSH-2",
+     "children": [
+      {
+       "name": "72",
+       "children": [
+        {
+         "name": "Épistémologie",
+         "size": 1,
+         "children": [
+          {
+           "name": "Les decharges electriques continues et transitoires, induites par streamer, sous pression atmospherique, pour la destruction des composes organiques volatils (cov)",
+           "size": 1
+          }
+         ]
+        }
+       ],
+       "size": 1
+      }
+     ],
+     "size": 1
+    }
+   ],
+   "size": 4
+  }
+ ],
+ "size": 1
+}

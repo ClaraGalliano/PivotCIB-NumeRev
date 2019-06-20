@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <script src="http://d3js.org/d3.v5.js"></script>
+  <script src="http://unpkg.com/sunburst-chart"></script>
+  <!--<script src="../../dist/sunburst-chart.js"></script>
+	<script src="DonneesHierarchieDiscipline.js"></script>-->
+  <style>body { margin: 0 }</style>
+</head>
+<body>
+  <div id="chart"></div>
+
+  <script>
+    const color = d3.scaleOrdinal(d3.schemePaired);
+    d3.json('./JSON/B01DCIBValHierarchieDiscipline-800.json').then(data => {
+      Sunburst()
+	  .data(data)
+        .label('name')
+        .size('value')
+        .color((d, parent) => color(parent ? parent.data.name : null))
+        .tooltipContent((d, node) => `Size: <i>${node.value}</i>`)
+        (document.getElementById('chart'));
+    });
+  </script>
+</body>

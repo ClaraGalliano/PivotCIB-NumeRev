@@ -1,0 +1,538 @@
+{
+ "name": "Eau",
+ "children": [
+  {
+   "name": "G06F",
+   "children": [
+    {
+     "name": "Sciences",
+     "children": [
+      {
+       "name": "60",
+       "children": [
+        {
+         "name": "Mecanique",
+         "value": 8,
+         "children": [
+          {
+           "name": "Étude de l'écoulement vertical ascendant à trois fluides en conduite vertical",
+           "value": 1
+          },
+          {
+           "name": "Modélisation de lentraînement dair dans la méthode SPH",
+           "value": 1
+          },
+          {
+           "name": "Développements et applications de la méthode SPH aux écoulements visqueux à surface libre",
+           "value": 1
+          },
+          {
+           "name": "Modélisation globale de l'alimentation d'une emprise lubrifiée par émulsion : simulation numérique directe et analyse physique des phénomènes",
+           "value": 1
+          },
+          {
+           "name": "Toward a numerical predictive method based on fatigue analysis for droplet impingement erosion",
+           "value": 1
+          },
+          {
+           "name": "Modélisation et simulation numérique des écoulements tridimensionnels de chasse de sédiments dans les réservoirs",
+           "value": 1
+          },
+          {
+           "name": "Modélisation numérique et physique de la chaîne de récupération de l'énergie de la houle par un dispositif bord à quai",
+           "value": 1
+          },
+          {
+           "name": "Couplage fluide-structure pour la simulation et le diagnostic de la stabilité des ouvrages hydrauliques de protection",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "62",
+       "children": [
+        {
+         "name": "Energetique",
+         "value": 3,
+         "children": [
+          {
+           "name": "Modélisation d'opérations unitaires et méthodes numériques de calcul d'équilibre liquide-vapeur",
+           "value": 1
+          },
+          {
+           "name": "Étude climatologique, hydrogéologique et géophysique du Sahel Côtier des Doukkala (Maroc). Apport de l'analyse statistique et de l'inversion des données géoélectriques à l'étude du biseau salé de la lagune de Sidi Moussa",
+           "value": 1
+          },
+          {
+           "name": "Développement de modèles QSPR pour la prédiction et la compréhension des propriétés amphiphiles des tensioactifs dérivés de sucre",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "31",
+       "children": [
+        {
+         "name": "ChimieTheorique",
+         "value": 8,
+         "children": [
+          {
+           "name": "Simulations par dynamique moléculaire d’ions hydrophobes aux interfaces liquide - liquide : Le cas des anions dicarbollides comme agents de synergie et celui des liquides ioniques comme milieu extractant",
+           "value": 1
+          },
+          {
+           "name": "Simulation par dynamique moleculaire d'ions libres et complexes par des recepteurs macrocycliques en solution. Influence du solvant sur la conformation des recepteurs, la selectivite de complexation et la nature des paires d'ions",
+           "value": 1
+          },
+          {
+           "name": "Simulations de dynamique moléculaire ab initio at metadinamique pour la réactivité électrochimique dinterfaces oxydes/eau liquide dintérêt pour la décomposition de l'eau",
+           "value": 1
+          },
+          {
+           "name": "Caractérisation structurale et thermodynamique de l'échange anionique dans des hydroxydes doubles lamellaires",
+           "value": 1
+          },
+          {
+           "name": "Complexation du cuivre(II) avec les acides salicylique, anthranilique et 3,5-diisopropylsalicylique dans les conditions physiologiques et implications pour le rôle anti-inflammatoire du cuivre dans les associations correspondantes",
+           "value": 1
+          },
+          {
+           "name": "Simulations AIMD dinterfaces oxydes daluminium/eau liquide pour des applications en catalyse hétérogène (ANR SLIMCAT)",
+           "value": 1
+          },
+          {
+           "name": "Property-enriched fragment descriptors for adaptive QSAR",
+           "value": 1
+          },
+          {
+           "name": "Etude théorique de la solvatation d'acides aminés avec un modèle minimaliste",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "34",
+       "children": [
+        {
+         "name": "Astronomie",
+         "value": 1,
+         "children": [
+          {
+           "name": "Nano-structuration de matériaux optiques par lasers ultra-brefs",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "67",
+       "children": [
+        {
+         "name": "BiologieDesPopulationsEtEcologie",
+         "value": 2,
+         "children": [
+          {
+           "name": "Production primaire et fonctionnement écologique en milieu estuarien turbide : cas de l’estuaire de la Gironde (France)",
+           "value": 1
+          },
+          {
+           "name": "Analyse comparative des tactiques déployées lors de la migration de colonisation des bassins versants par les poissons migrateurs amphihalins thalassotoques",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "25",
+       "children": [
+        {
+         "name": "Mathematiques",
+         "value": 6,
+         "children": [
+          {
+           "name": "Couplage et réduction de modèles hydro-écologiques pour la simulation décosystèmes aquatiques deau douce",
+           "value": 1
+          },
+          {
+           "name": "Modélisation mathématique et simulation numérique de l'hydrodynamie : cas des inondations en aval du barrage de Diama",
+           "value": 1
+          },
+          {
+           "name": "Étude d'une alternative aux équations de Saint-Venant par une méthode à frontière libre rapprochée par peu de couches",
+           "value": 1
+          },
+          {
+           "name": "Modélisation numérique de modèles thermomécaniques polyphasiques : puits-milieux poreux",
+           "value": 1
+          },
+          {
+           "name": "Modélisation et simulation numériques de l'érosion par méthode DDFV",
+           "value": 1
+          },
+          {
+           "name": "Application des techniques de bases réduites à la simulation des écoulements en milieux poreux",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "30",
+       "children": [
+        {
+         "name": "MilieuxDiluesEtOptique",
+         "value": 2,
+         "children": [
+          {
+           "name": "Modélisation hydrodynamique d'une torche à plasma couplée inductivement",
+           "value": 1
+          },
+          {
+           "name": "Analyse expérimentale et modélisation du transfert de matière et du mélange dans une couche cisaillée à bulles",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "27",
+       "children": [
+        {
+         "name": "Informatique",
+         "value": 3,
+         "children": [
+          {
+           "name": "Enrichissement de requêtes et visualisation sémantique dans une coopération de systèmes d'information : méthodes et outils d'aide à la recherche d'information",
+           "value": 1
+          },
+          {
+           "name": "Distributional models of multiword expression compositionality prediction",
+           "value": 1
+          },
+          {
+           "name": "Filtrage, stockage et raisonnement sur de grands volumes de triplets RDF ordonnancés",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "65",
+       "children": [
+        {
+         "name": "BiologieCellulaire",
+         "value": 1,
+         "children": [
+          {
+           "name": "Les structures différenciées des cellules cancéreuses pancréatiques humaines Capan-1 et leurs relations avec le échanges ioniques : [Thèse en partie soutenue sur un ensemble de travaux]",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "28",
+       "children": [
+        {
+         "name": "MilieuxDensesEtMateriaux",
+         "value": 1,
+         "children": [
+          {
+           "name": "Optimisation des interfaces fibre-matrice de composites à renfort naturel",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "68",
+       "children": [
+        {
+         "name": "BiologieDesOrganismes",
+         "value": 1,
+         "children": [
+          {
+           "name": "Etude de la toxicité des PCBs sur modèles dulcicoles (Daphnia magna et Pseudokirchneriella subcapitata) et marin (Haliotis tuberculata) : approches in vivo, in vitro et in silico",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      }
+     ],
+     "value": 11
+    },
+    {
+     "name": "TRANSVERSE",
+     "children": [
+      {
+       "name": "103",
+       "children": [
+        {
+         "name": "Ingenierie",
+         "value": 2,
+         "children": [
+          {
+           "name": "Caractérisation du béton d'enrobage par technique radar : exploitation de l'onde directe émetteur-récepteur",
+           "value": 1
+          },
+          {
+           "name": "Contribution à l'étude d'un écoulement d'eau sur un coursier en marches d'escalier",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "100",
+       "children": [
+        {
+         "name": "Science",
+         "value": 4,
+         "children": [
+          {
+           "name": "Modélisation mathématique du système aquifère multicouche oligocène-éocène du bassin Nord-Aquitain (Gironde)",
+           "value": 1
+          },
+          {
+           "name": "Cinétiques de transfert le long d'une chaîne trophique d'eau douce des principaux radionucléides rejetés par les centrales nucléaires en fonctionnement normal (137 Cs, 60 Co, 110M Ag, 54 Mn). Application au site de Civaux sur la Vienne",
+           "value": 1
+          },
+          {
+           "name": "Physique du cycle du combustible : évaluation des méthodes, incertitudes et estimation du bilan matières pour les combustibles UO2 et UO2-PuO2",
+           "value": 1
+          },
+          {
+           "name": "Développement d'un modèle pour la prédiction des constantes de couplage hyperfin des nitroxydes",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "104",
+       "children": [
+        {
+         "name": "Traitement",
+         "value": 1,
+         "children": [
+          {
+           "name": "Présence et sources des hydrocarbures aromatiques polycycliques dans le Bassin d'Arcachon",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "102",
+       "children": [
+        {
+         "name": "Geoscience",
+         "value": 1,
+         "children": [
+          {
+           "name": "Un champ de force polarisable pour l'étude des argiles à l'échelle moléculaire",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      }
+     ],
+     "value": 4
+    },
+    {
+     "name": "Pharmacie",
+     "children": [
+      {
+       "name": "41",
+       "children": [
+        {
+         "name": "SciencesBiologiques",
+         "value": 1,
+         "children": [
+          {
+           "name": "Etude theorique d'une proteine membranaire : la bacteriorhodopsine",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "58-03",
+       "children": [
+        {
+         "name": "SciencesAnatomiquesEtPhysiologiques",
+         "value": 4,
+         "children": [
+          {
+           "name": "Etude des propriétés physico-chimiques des magmas hydratés par dynamique moléculaire",
+           "value": 1
+          },
+          {
+           "name": "Les Metropolis Algorithmes Factorisés pour Systèmes Coulombiques Réalistes: d'Eau à Protéine",
+           "value": 1
+          },
+          {
+           "name": "Rayonnement de structures metalliques fractales dans le domaine des micro-ondes",
+           "value": 1
+          },
+          {
+           "name": "Fonctionnelle de la densité des liquides moléculaires : application à la solvatation dans des solvants polaires",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "57-02",
+       "children": [
+        {
+         "name": "ChirurgieBuccale",
+         "value": 1,
+         "children": [
+          {
+           "name": "Anatomie des Lépospondyles et origine des Lissamphibiens",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      }
+     ],
+     "value": 3
+    },
+    {
+     "name": "LSH-1",
+     "children": [
+      {
+       "name": "10",
+       "children": [
+        {
+         "name": "LitteraturesComparees",
+         "value": 1,
+         "children": [
+          {
+           "name": "Nouveaux traitements de surface respectueux de l’environnement par des gels polymères réticulables : application à la préparation des surfaces d’usage dans le secteur aéronautique",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "07",
+       "children": [
+        {
+         "name": "SciencesDuLangage",
+         "value": 1,
+         "children": [
+          {
+           "name": "L'interprétation sémiographique des phonogrammes : les voyelles du français : ai, ain, au, eau, ei, ein",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "20",
+       "children": [
+        {
+         "name": "AnthropologieBiologique",
+         "value": 1,
+         "children": [
+          {
+           "name": "Les images de Tlaloc et de Chac dans le monde maya \"classique\" (250-900 ap. J. -C. ) : Antécédents et postérité",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      },
+      {
+       "name": "21",
+       "children": [
+        {
+         "name": "HistoireEtCivilisationsAnciennes",
+         "value": 1,
+         "children": [
+          {
+           "name": "Des dommages et des hommes : les économies du malheur dans les Alpes (XVIIIe-XIXe siècles)",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      }
+     ],
+     "value": 4
+    },
+    {
+     "name": "DEG",
+     "children": [
+      {
+       "name": "04",
+       "children": [
+        {
+         "name": "SciencePolitique",
+         "value": 1,
+         "children": [
+          {
+           "name": "La politique de la Russie en Asie Centrale sous le président Vladimir Poutine (2000-2008)",
+           "value": 1
+          }
+         ]
+        }
+       ],
+       "value": 1
+      }
+     ],
+     "value": 1
+    }
+   ],
+   "value": 5
+  }
+ ],
+ "value": 1
+}
