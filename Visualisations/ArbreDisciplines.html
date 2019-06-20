@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<title>Arborescences des Domaines diciplinaires, sections et disciplines normalisées et disciplines collectées</title>
+<link rel="stylesheet" type="text/css" href="./inspector.css">
+<body>
+<script type="module">
+
+import {Runtime, Inspector} from "./runtime.js";
+import define from "./@d3/collapsible-treeDisciplines.js";
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
+</script>
+
+</html>
