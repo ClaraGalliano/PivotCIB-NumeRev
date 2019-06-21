@@ -2,9 +2,11 @@
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["md"], function(md){return(
-md`# Nested Treemap
+md`# Carte proportionnelle imbriquée
 
-This treemap variant applies padding to label internal nodes, better revealing the hierarchical structure. It is, however, less compact than a [standard treemap](/@d3/treemap). Compare to [cascaded treemaps](/@d3/cascaded-treemap) and [circle packing](/@d3/circle-packing).`
+Révèle la représentation des domaines, sections et disciplines ("normalisées") dans le corpus d'étude.
+
+Seuil score CIB par IPC-CAT : 1000`
 )});
   main.variable(observer("chart")).define("chart", ["treemap","data","d3","width","height","DOM","format","color"], function(treemap,data,d3,width,height,DOM,format,color)
 {
