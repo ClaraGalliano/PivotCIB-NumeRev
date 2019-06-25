@@ -55,7 +55,8 @@ Les outils d'explorations incluent :
 de la vue (fichier HTML) qui inmporte un fichier javascript 'runtime.js' pour lire le js correspondant à la visualisation correspondante (répertoire Visualisations/@d3/). 
 Ce dernier importe le fichier JSON au format compatible pour cette visualisation (répertoire '/Visusalisation/JSON'
 Note: seuls certains fichiers JSON sont utilisés
-
+Le fichier *CorrespondanceFichierJson.csv* recence les dépendances entre les fichiers JSON et la visualisation (via le fichier js) associée.
+Les fichiers js sont dans le dossier *js*
 
 # Pour nous citer...
 Cf. le ppt de notre présentation mais aussi le fichier RGQ-Numerev.bib (bibtex importable par les gestionnaires de référence dignes de ce nom)
