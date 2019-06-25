@@ -1,4 +1,4 @@
-# ProjetNumeRev
+# PivotCIB-NumeRev
 Faire dialoguer les disciplines via l'indexation des connaissances
 
 **Objectif** : tester l'utilisation de la classification internationnale des brevets comme pivot de lecture de l'interdisciplinarité
