@@ -66,7 +66,7 @@ def MatchSection(ch):
     # même sur la chaine nettoyée de tout sauf lettre ANSI puis la 
     # même indépendante de la position de mots et la même partielle
     # çà matche bien sur le jeu de de données... plus c'est grand plus c'est proche... dist (X, X) = 400
-    # biais potentiel : la chaine nettooyée qui est vide ou guère mieux...
+    # biais potentiel : la chaine nettoyée qui est vide ou guère mieux...
     distFonct = lambda x: { cle: max([fuzz.ratio( x, mot) for mot in Section[cle]])+\
                            max([fuzz.ratio( Nettoie(x, True), Nettoie(mot, True)) for mot in Section[cle]])+
                            max([fuzz.token_set_ratio( Nettoie(x, True), Nettoie(mot, True)) for mot in Section[cle]])+\
@@ -103,20 +103,7 @@ def MatchSection(ch):
             print ('autres -->', ch)
             return ('Autres', '1000', ch)
         
-        
-# =============================================================================
-#             tempoCand = [candi for candi in LstCandidat if int(candi.split('-')[0])<100]
-#             if len(set(tempoCand)) ==1:
-#                 if isinstance(Section[tempoCand[0]], list):
-#                     disc = Discip [ Section[tempoCand[0]][0]]
-#                     return (disc[0], disc[1], Section[tempoCand[0]][0])
-#                 else:
-#                     disc = Discip [ Section[tempoCand[0]]]
-#                     return (disc[0], disc[1], Section[tempoCand[0]])
-# =============================================================================
-        
-#        print (LstCandidat[0] + '--> ', ch)
-
+       
 
 for thz in LstThz:
     Classe = MatchSection(thz['discipline'])
