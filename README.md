@@ -39,10 +39,10 @@ Export des données pour datable et pivotable.
 2. GraphHierarchie.py 
 Pour chaque these sélectionne la valeur du score maximal et le numéro CIB associé (si présent). Les scores nuls sont ignorés.
 Trois types de fichier json sont produits :
-HierarchieDiscipline-score-Titre
-data : {'name' : 'Eau', 'children' = [les domaines récursivement jusqu'aux CIB associés ou Titre]}}
-ValHierarchieDiscipline-score-Titre (même que précédemment mais valué par le nombre d'enfants de chaque niveau de branche
-GraphHierarchie-score-Titre avec la liste des noeuds et des liens associés
+	1. HierarchieDiscipline-score-Titre
+	data : {'name' : 'Eau', 'children' = [les domaines récursivement jusqu'aux CIB associés ou Titre]}}
+	2. ValHierarchieDiscipline-score-Titre (même que précédemment mais valué par le nombre d'enfants de chaque niveau de branche
+	3. GraphHierarchie-score-Titre avec la liste des noeuds et des liens associés
 
 # L'exploration des résultats
 
