@@ -1,5 +1,5 @@
 # ProjetNumeRev
-Faire dialoguer les disciplines via l'indexation des connaissances : thèse en ligne, réservoir et P2N
+Faire dialoguer les disciplines via l'indexation des connaissances
 
 **Objectif** : tester l'utilisation de la classification internationnale des brevets comme pivot de lecture de l'interdisciplinarité
 **Sous objectif** : proposer des instruments de lecture et d'exploration des données collectées
