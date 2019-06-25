@@ -10,6 +10,7 @@ import time
 import json
 
 requete='eau'
+fichierRes = 'ListeThese.json'
 Res = ''
 time.sleep(3)
 param = 0
@@ -33,5 +34,5 @@ else:
     print ("vous devriez changer la requête")
 
 
-with open('ListeThese.json', 'w') as ficRes:
+with open(fichierRes, 'w') as ficRes:
     json.dump(docs, ficRes)

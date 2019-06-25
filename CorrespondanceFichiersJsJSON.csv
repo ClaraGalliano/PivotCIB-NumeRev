@@ -1,9 +1,13 @@
-nested-treemap.js;DonneesHierarchieDiscipline.json
-ParamsSunburst.js;DonneesHierarchieDiscipline.json
-sankey-diagram.js;
-tidy-tree-disciplines.js;HierarchieDiscipline2.json
-tidy-tree-disciplinesN3.js;HierarchieDiscipline3.json
-tidy-tree.js;DonneesHierarchieDiscipline.json
-treemap.js;DonneesHierarchieDiscipline.json
-zoomable-circle-packing.js;DonneesHierarchieDiscipline.json
-zoomable-sunburst.js;DonneesHierarchieDiscipline.json
+nested-treemap.js;ValHierarchieDiscipline.json;;;Nœuds valués par nombre d'enfants (de niveau 1)
+ParamsSunburst.js;HierarchieDiscipline.json;;;
+sankey-diagram.js;GraphDisciplineCIBJolis-1200;;;
+CollapsibleTree;HierarchieDiscipline;;;
+tidy-tree-disciplines.js;HierarchieDiscipline.json;;;
+sankey-CIB-DIS.js;CIBDisciplineJolis-1200;;;
+tidy-tree.js;HierarchieDiscipline.json;;;
+treemap.js;HierarchieDiscipline.json;;;
+zoomable-circle-packing.js;HierarchieDiscipline.json;;;
+zoomable-sunburst.js;HierarchieDiscipline.json;;;
+Datatable;Datathese.json;;;
+Pivot;Pivotthese.json;;;
+SUNBURST.html;HierarchieDiscipline.json;;;Note: pas de Js associé directement dans le htmls

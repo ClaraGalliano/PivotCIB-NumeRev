@@ -17,6 +17,7 @@ import codecs
 with open('ScrapThese.json', 'r') as ficSrc:
     donnees = json.load(ficSrc)
   
+FicRes = 'DonneesThese.json'
 urlBase = 'http://www.theses.fr/'
 
 cpt = 0 # nb de données de thz
@@ -24,16 +25,12 @@ cpt2 = 0 # thz traitées
 inconsist = 0 #inconsistance des donnees bibli
 Seuil = 0
 LstTZ = []
-#with codecs.open("DonneesThese2.csv", "w", 'utf8') as SavFic:
-#    #ecriture de l'entête du csv
-#    SavFic.write('Id;Discipline;Date;Langue;Titre;Résumé;IPC1;ScoreIPC1;IPC2;ScoreIPC2;IPC3;ScoreIPC3;IPC4;ScoreIPC4;IPC5;ScoreIPC5;\n')
-with codecs.open("DonneesThese3.json", "w", "utf8") as SavFic:
-    print()
-with codecs.open("DonneesThese3.json", "a", "utf8") as SavFic:
+
+with codecs.open(FicRes, "a", "utf8") as SavFic:
     SavFic.write('[\n')
     for thz in donnees:
         cpt +=1
-        time.sleep(3) # l'ABES ils sont pas très fairs sur ce plan. En dessous çà plante et là je ne suis pas sûr
+        time.sleep(3) # l'ABES est strict : délai minimal à respecter
         urlThz = urlBase + thz['num']+ '.xml'
         page = requests.get(urlThz)                
         THZ = dict()
@@ -97,33 +94,7 @@ with codecs.open("DonneesThese3.json", "a", "utf8") as SavFic:
                             for idx in range(5):
                                 thz['CatIPC'] [idx] = ['', 0]
         
-                        #ligneCsv = thz['num'] + ';' + thz['discipline'] + ';' + Date + ';'  + langue  + ';' + Titre  + ';' +resume  +';'   
-#                        if Predict is not None:
-#                            for predict in Predict:
-#                                ligneCsv += predict['category']+';' + predict['score'] + ';'
-#                        else:
-#                             ligneCsv += 'Néant;0;;;;;;;;;'   
-#                        ligneCsv += '\n'
-#                        SavFic.write(ligneCsv)
-                        #creation d'un dico pour export Json
-                       
-#                        THZ['Id'] =thz['num']
-#                        THZ['Titre'] = Titre
-#                        THZ['Resumé'] = resume
-#                        THZ['Langue'] =langue
-#                        THZ['Date'] =  Date
-#                        THZ ['Discipline'] = thz['discipline']
-#                        for predict in Predict:
-#                            THZ[predict['category']] = predict['score']#predict['score']}
-#                            if predict['rank'] == 1:
-#                                THZ['FirstCatIPC'] = predict['category']
-#                            else: 
-#                                print(predict['rank'])
-#                        #THZ['Predict'] = [(predict['category'], predict['score']) for predict in Predict]
-#                        LstTZ.append(THZ)
-                        
-                    #   'dcterms:language', 'dcterms:abstract', 'dc:subject', 'dcterms:subject', 'marcrel:aut', 'marcrel:ths', 'marcrel:dgg'])
-                    else:
+                     else:
                         inconsist +=1
                 else:
                         inconsist +=1
