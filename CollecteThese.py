@@ -33,6 +33,5 @@ if page.ok:
 else:
     print ("vous devriez changer la requête")
 
-
 with open(fichierRes, 'w') as ficRes:
     json.dump(docs, ficRes)
