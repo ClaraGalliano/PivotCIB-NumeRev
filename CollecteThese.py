@@ -14,7 +14,7 @@ fichierRes = 'ListeThese.json'
 Res = ''
 time.sleep(3)
 param = 0
-url = "http://theses.fr/fr/?q=&zone1=abstracts&val1=eau&op1=AND&zone2=auteurs&val2=&op2=AND&zone3=etabSoutenances&val3=&op3=AND&zone4=dateSoutenance&val4a=&val4b=&start="+str(param)+"&format=json"
+url = "http://theses.fr/fr/?q=&zone1=abstracts&val1="+requete+"&op1=AND&zone2=auteurs&val2=&op2=AND&zone3=etabSoutenances&val3=&op3=AND&zone4=dateSoutenance&val4a=&val4b=&start="+str(param)+"&format=json"
 page = requests.get(url)
 
 if page.ok:
@@ -22,7 +22,7 @@ if page.ok:
     if reponse['response']['numFound']>1000:
         docs = reponse['response']['docs']
         for param in range(10, reponse['response']['numFound'], 10):
-            url = "http://theses.fr/fr/?q=&zone1=abstracts&val1=eau&op1=AND&zone2=auteurs&val2=&op2=AND&zone3=etabSoutenances&val3=&op3=AND&zone4=dateSoutenance&val4a=&val4b=&start="+str(param)+"&format=json"
+            url = "http://theses.fr/fr/?q=&zone1=abstracts&val1="+requete+"&op1=AND&zone2=auteurs&val2=&op2=AND&zone3=etabSoutenances&val3=&op3=AND&zone4=dateSoutenance&val4a=&val4b=&start="+str(param)+"&format=json"
             page = requests.get(url)
             if page.ok:
                 reponse = page.json()
