@@ -59,10 +59,8 @@ Le fichier *CorrespondanceFichierJson.csv* recence les dépendances entre les fi
 Les fichiers js sont dans le dossier *js*
 
 # Pour nous citer...
-Cf. le ppt de notre présentation mais aussi le fichier RGQ-Numerev.bib (bibtex importable par les gestionnaires de référence dignes de ce nom)
-ou :
 
-Reymond, D., Galliano, C., & Quoniam, L. (2019). La CIB comme pivot de classement interdisciplinaire. Faire dialoguer les disciplines via l’indexation des connaissances: la recherche interdisciplinaire en débats. _Présenté à Colloque international NumeRev_, Montpellier, France. Consulté à l’adresse http://numerev.com/programme-colloque-numerev.html
+Reymond, D., Galliano, C. & Quoniam, L. (2019). "La CIB comme pivot de classement interdisciplinaire. La CIB au profit de l'interdisciplinarité". Colloque international NumeRev, Montpellier, France. https://hal.science/hal-02289063v1
 
 
  
